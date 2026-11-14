@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "source": "runs/routed_followup_cold/1-openroad-detailedrouting/drt_iter42.odb",
+  "input": "inputs/diagnostic_cold_iter42.odb",
+  "sha256": "4572b42676c79eb1c601f8cf08a50ddc2c796181a9fc6ba04e4cd4e19f2b21c7",
+  "native_completed_iteration": 42,
+  "native_drc": 17,
+  "scope": "Immutable diagnostic copy, not a selected or accepted result."
+}

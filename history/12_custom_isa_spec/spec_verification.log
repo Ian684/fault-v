@@ -1,0 +1,10 @@
+PASS directed semantics: 14
+PASS independent random oracle: 16384 cases
+PASS encoding/decoding: 131072 register combinations
+PASS legal/illegal function and opcode enumeration: 1152 cases
+PASS architectural source/destination aliases and x0: 28 cases
+PASS benchmark mathematical equivalence: DOT64, FIR8+QNT8, FIR16, SATADD64
+DOT64 expected: 60256
+FIR8 expected: [-129, 45, -549, -119, -457, 741, -109, -191, 495, -99, 75, -519, -89, -427, 771, -79]
+FIR8 quantized: [-17, 5, -69, -15, -58, 92, -14, -24, 61, -13, 9, -65, -12, -54, 96, -10]
+ALL 148779 SPECIFICATION CHECKS PASSED

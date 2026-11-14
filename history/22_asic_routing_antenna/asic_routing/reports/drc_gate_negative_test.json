@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "test": "Known bad original snapshot supplied as selected result; real DRC2 must reject acceptance",
+  "expected_exit_code": 1,
+  "calibration_raw": 32,
+  "selected_raw": 32,
+  "confirmed_partition_artifacts": 30,
+  "unresolved_real_met1_shorts": 2,
+  "both_shorts_persisted_in_centered_context": true,
+  "accepted_receipt_created": false,
+  "source_odb_sha256": "d76e62334708948ae6ef721082b11bf4f929c410084d83032dae5e828cf155a7",
+  "native_checker_sha256": "4f150b8fbe52a31b21fa225ae42d62d77425bc5b12e8cfaaa2de2ac6ed6d64fa",
+  "image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302",
+  "openroad_commit": "dcf36133a369abc8f3c5e5738cd4d82e4903c0e0"
+}

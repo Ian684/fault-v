@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "scope": "Saved pre-route insertion only; not final physical/antenna/timing acceptance",
+  "inserted_diodes": 7251,
+  "unchanged_existing_cells": 68982,
+  "changed_existing_cells": [],
+  "unconnected_or_wrong_PG_pins": [],
+  "connected_diode_PG_pins": {
+    "GROUND": 14502,
+    "POWER": 14502
+  },
+  "input_sha256": "c2ecdfb465d9cad3f25c28fb2d891e27687223f6c4d2252daff0cf317e63b957",
+  "native_placement_and_PG_check_pass": true,
+  "native_physical_log_sha256": "ea75377d8d27babe3eb40ae1b9e9e2132064c46abb84bb8095b858ff9956cac2"
+}

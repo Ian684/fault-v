@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_corner_tight_20261028_180156",
+  "iteration": 15,
+  "native_DRC": 16,
+  "source": "inputs/antenna_tight16.odb",
+  "source_sha256": "9502163b5f44dcf6dc24b869f95240a1c3fb7c845578c80b57b337a06effb28e",
+  "stop_reason": "1200-second native routing time budget; not identified as OOM"
+}

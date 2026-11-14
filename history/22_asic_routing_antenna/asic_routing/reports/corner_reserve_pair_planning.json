@@ -1,0 +1,169 @@
+{
+  "accepted": false,
+  "source_report": "runs/routed_shuffled/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-47.rpt",
+  "global_guide": "runs/global_corner_reserve/1-openroad-globalrouting/after_grt.guide",
+  "planning_changed_for_all_10_old_short_pairs": true,
+  "pairs": [
+    {
+      "nets": [
+        "net3116",
+        "net3183"
+      ],
+      "layer": "met1",
+      "center_dbu": [
+        1584955.0,
+        638690.0
+      ],
+      "new_guide_covers_old_point": {
+        "net3116": false,
+        "net3183": false
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net3183",
+        "net4947"
+      ],
+      "layer": "met1",
+      "center_dbu": [
+        1584955.0,
+        638349.9999999999
+      ],
+      "new_guide_covers_old_point": {
+        "net3183": false,
+        "net4947": true
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net3183",
+        "net3227"
+      ],
+      "layer": "met1",
+      "center_dbu": [
+        1585389.9999999998,
+        639710.0
+      ],
+      "new_guide_covers_old_point": {
+        "net3183": false,
+        "net3227": true
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net4469",
+        "net4749"
+      ],
+      "layer": "met1",
+      "center_dbu": [
+        1583090.0000000002,
+        635970.0
+      ],
+      "new_guide_covers_old_point": {
+        "net4469": false,
+        "net4749": true
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net4936",
+        "net6342"
+      ],
+      "layer": "met1",
+      "center_dbu": [
+        1586310.0,
+        638010.0
+      ],
+      "new_guide_covers_old_point": {
+        "net4936": true,
+        "net6342": false
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net3179",
+        "net3653"
+      ],
+      "layer": "met2",
+      "center_dbu": [
+        1586310.0,
+        637670.0000000001
+      ],
+      "new_guide_covers_old_point": {
+        "net3179": false,
+        "net3653": false
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net3179",
+        "net5465"
+      ],
+      "layer": "met2",
+      "center_dbu": [
+        1586310.0,
+        637329.9999999999
+      ],
+      "new_guide_covers_old_point": {
+        "net3179": false,
+        "net5465": false
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "_10753_",
+        "net3181"
+      ],
+      "layer": "met3",
+      "center_dbu": [
+        1583090.0000000002,
+        639540.0
+      ],
+      "new_guide_covers_old_point": {
+        "_10753_": false,
+        "net3181": false
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net3212",
+        "net6081"
+      ],
+      "layer": "met4",
+      "center_dbu": [
+        1583090.0000000002,
+        638860.0
+      ],
+      "new_guide_covers_old_point": {
+        "net3212": false,
+        "net6081": false
+      },
+      "at_least_one_guide_changed": true
+    },
+    {
+      "nets": [
+        "net6081",
+        "net6231"
+      ],
+      "layer": "met4",
+      "center_dbu": [
+        1583090.0000000002,
+        639540.0
+      ],
+      "new_guide_covers_old_point": {
+        "net6081": false,
+        "net6231": false
+      },
+      "at_least_one_guide_changed": true
+    }
+  ],
+  "scope": "Guide planning evidence, not physical closure. Rebuild affected16signal nets, then require fresh native+independent0DRC and extracted timing."
+}

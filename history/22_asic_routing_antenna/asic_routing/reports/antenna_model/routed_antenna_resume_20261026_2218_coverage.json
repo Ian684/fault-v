@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "source_odb_sha256": "a36387aab08dade549414e11769a7d95056157cb93daf6b21b30e6de6f2c6f43",
+  "counts": {
+    "active_input_pins": 97597,
+    "modeled_active_input_pins": 97597
+  },
+  "missing_active_input_models": [],
+  "macro_instances": 18,
+  "macro_gate_models_per_instance": 59,
+  "macro_diffusion_models_per_instance": 64,
+  "all_macro_values_equal_GDS_SPICE_verified_receipt": true
+}

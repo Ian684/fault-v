@@ -1,0 +1,115 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/alu.sv" into library work
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/a_stream_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/branch_compare.sv" into library work
+INFO: [VRFC 10-311] analyzing module branch_compare
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/control_fsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/custom_exec.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec
+INFO: [VRFC 10-311] analyzing module fault_v_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_accelerator.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_accelerator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_dma.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dma
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_dot_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dot_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_io.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_io
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_job_regs.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_job_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_memory.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_mem_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_mem_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_soc.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/imm_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/load_extract.sv" into library work
+INFO: [VRFC 10-311] analyzing module load_extract
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/pc_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/regfile.sv" into library work
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/store_align.sv" into library work
+INFO: [VRFC 10-311] analyzing module store_align
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/uart_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/board/fault_v_reset.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_reset
+WARNING: [VRFC 10-8426] non-net output port 'rst' cannot be initialized at declaration in SystemVerilog mode [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/board/fault_v_reset.sv:3]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/board/fault_v_payload.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_payload_impl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/verify/tb_payload.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_payload
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_payload -s tb_payload --debug typical --mt off 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.fault_v_pkg
+Compiling package work.fault_v_stream_pkg
+Compiling module work.fault_v_reset
+Compiling module work.fault_v_mem_arbiter
+Compiling module work.fault_v_job_regs
+Compiling module work.fault_v_dma
+Compiling module work.fault_v_job_regs(BASE=32'b010000...
+Compiling module work.fault_v_mul16
+Compiling module work.fault_v_dot_pipeline_default
+Compiling module work.fault_v_accelerator
+Compiling module work.decoder
+Compiling module work.control_fsm
+Compiling module work.custom_exec_default
+Compiling module work.regfile
+Compiling module work.imm_gen
+Compiling module work.alu
+Compiling module work.pc_reg
+Compiling module work.branch_compare
+Compiling module work.load_extract
+Compiling module work.store_align
+Compiling module work.fault_v_cpu
+Compiling module work.fault_v_memory(BASE_ADDR=32'b0,R...
+Compiling module work.fault_v_memory(WITH_STATUS=1'b1)
+Compiling module work.fault_v_memory(BASE_ADDR=32'b010...
+Compiling module work.uart_tx(CLKS_PER_BIT=434)
+Compiling module work.fault_v_io(UART_CLKS_PER_BIT=434...
+Compiling module work.fault_v_soc(IMEM_FILE="stream_de...
+Compiling module work.fault_v_payload_impl
+Compiling module work.tb_payload
+Built simulation snapshot tb_payload
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_payload/xsim_script.tcl
+# xsim {tb_payload} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Fatal: Payload timeout
+Time: 120 ms  Iteration: 0  Process: /tb_payload/Initial43_60  Scope: tb_payload  File: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/verify/tb_payload.sv Line: 43
+$finish called at time : 120 ms
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:29 . Memory (MB): peak = 239.270 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 12924 KB (Peak: 12924 KB), Simulation CPU Usage: 28296 ms
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 22:28:54 2026...
+Payload verification failed
+At <HOME>\Documents\Codex\2026-09-28\https-chatgpt-com-share-6aba66e3-8910\outputs\extension_c\run_payload.ps1:20 
+char:88
++ ... ns('ALL 3 PAYLOAD RUNS PASSED')){throw 'Payload verification failed'}
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Payload verification failed:String) [], RuntimeException
+    + FullyQualifiedErrorId : Payload verification failed
+ 

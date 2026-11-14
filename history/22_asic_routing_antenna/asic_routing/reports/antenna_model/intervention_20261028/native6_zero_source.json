@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "source": "inputs/antenna_native6_zero.odb",
+  "source_sha256": "e5a155efe5e19c8276968063c47a6b918cce2c58058006255a2ee665fbe21426",
+  "native_DRC": 6,
+  "antenna_nets": 0,
+  "run": "routed_antenna_4319_20261028_184919",
+  "pair_proof": "runs/routed_antenna_4319_20261028_184919/1-openroad-detailedrouting/intervention_pair.json"
+}

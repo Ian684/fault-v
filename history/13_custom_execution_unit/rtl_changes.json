@@ -1,0 +1,38 @@
+{
+  "baseline": "network_bridge/rtl",
+  "changed": [
+    {
+      "file": "control_fsm.sv",
+      "change": "modified"
+    },
+    {
+      "file": "custom_exec.sv",
+      "change": "new"
+    },
+    {
+      "file": "decoder.sv",
+      "change": "modified"
+    },
+    {
+      "file": "fault_v_cpu.sv",
+      "change": "modified"
+    },
+    {
+      "file": "fault_v_pkg.sv",
+      "change": "modified"
+    }
+  ],
+  "unchanged": [
+    "alu.sv",
+    "branch_compare.sv",
+    "fault_v_io.sv",
+    "fault_v_memory.sv",
+    "fault_v_soc.sv",
+    "imm_gen.sv",
+    "load_extract.sv",
+    "pc_reg.sv",
+    "regfile.sv",
+    "store_align.sv",
+    "uart_tx.sv"
+  ]
+}

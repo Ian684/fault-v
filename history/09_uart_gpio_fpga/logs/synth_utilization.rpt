@@ -1,0 +1,44 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Sun Oct 11 19:56:14 2026
+| Host         : <host> running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file logs/synth_utilization.rpt
+| Design       : fault_v_fpga_top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------+--------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|       Instance       |             Module             | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------------+--------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| fault_v_fpga_top     |                          (top) |       1688 |       1688 |       0 |    0 | 1420 |      7 |      1 |          0 |
+|   (fault_v_fpga_top) |                          (top) |          0 |          0 |       0 |    0 |    4 |      0 |      0 |          0 |
+|   u_clock            |                  fault_v_clock |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   u_reset            |                  fault_v_reset |          8 |          8 |       0 |    0 |   25 |      0 |      0 |          0 |
+|   u_soc              |                    fault_v_soc |       1680 |       1680 |       0 |    0 | 1391 |      7 |      1 |          0 |
+|     (u_soc)          |                    fault_v_soc |          2 |          2 |       0 |    0 |    2 |      0 |      0 |          0 |
+|     u_cpu            |                    fault_v_cpu |       1469 |       1469 |       0 |    0 | 1220 |      0 |      0 |          0 |
+|       (u_cpu)        |                    fault_v_cpu |        612 |        612 |       0 |    0 |  191 |      0 |      0 |          0 |
+|       u_control      |                    control_fsm |        160 |        160 |       0 |    0 |    5 |      0 |      0 |          0 |
+|       u_imm          |                        imm_gen |         13 |         13 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       u_pc           |                         pc_reg |         15 |         15 |       0 |    0 |   32 |      0 |      0 |          0 |
+|       u_regfile      |                        regfile |        669 |        669 |       0 |    0 |  992 |      0 |      0 |          0 |
+|     u_dmem           | fault_v_memory__parameterized0 |        102 |        102 |       0 |    0 |  100 |      4 |      0 |          0 |
+|     u_imem           |                 fault_v_memory |         83 |         83 |       0 |    0 |   36 |      3 |      1 |          0 |
+|     u_io             |                     fault_v_io |         24 |         24 |       0 |    0 |   33 |      0 |      0 |          0 |
+|       (u_io)         |                     fault_v_io |          2 |          2 |       0 |    0 |   10 |      0 |      0 |          0 |
+|       u_tx           |                        uart_tx |         22 |         22 |       0 |    0 |   23 |      0 |      0 |          0 |
++----------------------+--------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+

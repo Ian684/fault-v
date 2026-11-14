@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_opposite5_20261028_194000",
+  "intentional_stop": true,
+  "reason": "Total DRC stayed5 since iteration13 and a SRAM-edge spacing marker remains persistent. Replacement strict pin/PG-free corner has real zero-overflow guides.",
+  "last_complete_native_DRC": 5,
+  "antenna_result_not_committed": true,
+  "best_coherent_source_preserved": "inputs/antenna_native6_zero.odb",
+  "replacement_input_sha256": "feb526d32a6259e09b27289ba673158f877444702bf530c7cab7474009a4a0ba",
+  "observed_utc": "2026-10-28T12:24:34.608242+00:00"
+}

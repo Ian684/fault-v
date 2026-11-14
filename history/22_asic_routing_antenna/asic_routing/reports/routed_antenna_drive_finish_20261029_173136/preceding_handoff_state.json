@@ -1,0 +1,29 @@
+{
+  "odb": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/odb/fault_v_asic_top.odb",
+  "def": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/def/fault_v_asic_top.def",
+  "nl": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/vh/fault_v_asic_top.vh",
+  "spef": {
+    "nom_*": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/spef/nom/fault_v_asic_top.nom.spef",
+    "min_*": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/spef/min/fault_v_asic_top.min.spef",
+    "max_*": "/work/routing/runs/routed_desktop_residual_four_20261026_174504/final/spef/max/fault_v_asic_top.max.spef"
+  },
+  "metrics": {
+    "timing__setup__ws": 6.9895344823623855,
+    "timing__hold__ws": 0.09519296731425607,
+    "timing__setup__tns": 0,
+    "timing__hold__tns": 0,
+    "timing__setup_vio__count": 0,
+    "timing__hold_vio__count": 0,
+    "design__max_slew_violation__count": 0,
+    "design__max_cap_violation__count": 0,
+    "clock__skew__worst_setup": 1.094414145840455,
+    "clock__skew__worst_hold": -1.2185846010507817,
+    "route__drc_errors": 0,
+    "design__power_grid_violation__count": 0,
+    "route__antenna_violation__count": 2428
+  }
+}

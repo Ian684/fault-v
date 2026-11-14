@@ -1,0 +1,2639 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_residual_20261027_133836",
+  "observed_utc": "2026-10-28T05:58:20.546197+00:00",
+  "current_cycle": 3,
+  "cycle_summary": [
+    {
+      "cycle": 0,
+      "complete_iterations": 60,
+      "first_DRC": 337,
+      "best_DRC": 17,
+      "last_DRC": 17,
+      "elapsed_sec_logged": 26076,
+      "cpu_sec_logged": 116702,
+      "raw_cpu_to_elapsed_ratio": 4.475456358337168,
+      "elapsed_sec_without_new_best": 9298,
+      "cpu_sec_without_new_best": 29749,
+      "consecutive_complete_iterations_without_new_best": 1,
+      "time_scope": "Native wall time includes deliberate Docker pauses. Do not infer CPU underuse or a stall timeout from wall time or the raw ratio alone.",
+      "longest_iterations": [
+        {
+          "cycle": 0,
+          "iteration": 63,
+          "phase": "stubborn tiles iteration",
+          "DRC": 17,
+          "cpu_sec": 42303,
+          "elapsed_sec": 7133
+        },
+        {
+          "cycle": 0,
+          "iteration": 60,
+          "phase": "stubborn tiles iteration",
+          "DRC": 21,
+          "cpu_sec": 38128,
+          "elapsed_sec": 6964
+        },
+        {
+          "cycle": 0,
+          "iteration": 53,
+          "phase": "stubborn tiles iteration",
+          "DRC": 22,
+          "cpu_sec": 15089,
+          "elapsed_sec": 2845
+        }
+      ]
+    },
+    {
+      "cycle": 1,
+      "complete_iterations": 65,
+      "first_DRC": 6899,
+      "best_DRC": 26,
+      "last_DRC": 26,
+      "elapsed_sec_logged": 31566,
+      "cpu_sec_logged": 104155,
+      "raw_cpu_to_elapsed_ratio": 3.2995945004118354,
+      "elapsed_sec_without_new_best": 11450,
+      "cpu_sec_without_new_best": 11570,
+      "consecutive_complete_iterations_without_new_best": 0,
+      "time_scope": "Native wall time includes deliberate Docker pauses. Do not infer CPU underuse or a stall timeout from wall time or the raw ratio alone.",
+      "longest_iterations": [
+        {
+          "cycle": 1,
+          "iteration": 64,
+          "phase": "stubborn tiles iteration",
+          "DRC": 26,
+          "cpu_sec": 24360,
+          "elapsed_sec": 3705
+        },
+        {
+          "cycle": 1,
+          "iteration": 62,
+          "phase": "stubborn tiles iteration",
+          "DRC": 29,
+          "cpu_sec": 19738,
+          "elapsed_sec": 3547
+        },
+        {
+          "cycle": 1,
+          "iteration": 60,
+          "phase": "stubborn tiles iteration",
+          "DRC": 32,
+          "cpu_sec": 19776,
+          "elapsed_sec": 3544
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "complete_iterations": 62,
+      "first_DRC": 2612,
+      "best_DRC": 31,
+      "last_DRC": 31,
+      "elapsed_sec_logged": 16968,
+      "cpu_sec_logged": 80520,
+      "raw_cpu_to_elapsed_ratio": 4.745403111739745,
+      "elapsed_sec_without_new_best": 9116,
+      "cpu_sec_without_new_best": 39944,
+      "consecutive_complete_iterations_without_new_best": 2,
+      "time_scope": "Native wall time includes deliberate Docker pauses. Do not infer CPU underuse or a stall timeout from wall time or the raw ratio alone.",
+      "longest_iterations": [
+        {
+          "cycle": 2,
+          "iteration": 60,
+          "phase": "stubborn tiles iteration",
+          "DRC": 31,
+          "cpu_sec": 24277,
+          "elapsed_sec": 3885
+        },
+        {
+          "cycle": 2,
+          "iteration": 62,
+          "phase": "stubborn tiles iteration",
+          "DRC": 31,
+          "cpu_sec": 23924,
+          "elapsed_sec": 3812
+        },
+        {
+          "cycle": 2,
+          "iteration": 55,
+          "phase": "stubborn tiles iteration",
+          "DRC": 34,
+          "cpu_sec": 8999,
+          "elapsed_sec": 1416
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "complete_iterations": 52,
+      "first_DRC": 1259,
+      "best_DRC": 36,
+      "last_DRC": 36,
+      "elapsed_sec_logged": 10615,
+      "cpu_sec_logged": 23144,
+      "raw_cpu_to_elapsed_ratio": 2.1803108808290155,
+      "elapsed_sec_without_new_best": 7500,
+      "cpu_sec_without_new_best": 18388,
+      "consecutive_complete_iterations_without_new_best": 30,
+      "time_scope": "Native wall time includes deliberate Docker pauses. Do not infer CPU underuse or a stall timeout from wall time or the raw ratio alone.",
+      "longest_iterations": [
+        {
+          "cycle": 3,
+          "iteration": 50,
+          "phase": "guides tiles iteration",
+          "DRC": 36,
+          "cpu_sec": 110,
+          "elapsed_sec": 1852
+        },
+        {
+          "cycle": 3,
+          "iteration": 13,
+          "phase": "guides tiles iteration",
+          "DRC": 80,
+          "cpu_sec": 114,
+          "elapsed_sec": 1730
+        },
+        {
+          "cycle": 3,
+          "iteration": 53,
+          "phase": "stubborn tiles iteration",
+          "DRC": 36,
+          "cpu_sec": 8468,
+          "elapsed_sec": 1351
+        }
+      ]
+    }
+  ],
+  "iterations": [
+    {
+      "cycle": 0,
+      "iteration": 0,
+      "phase": "optimization iteration",
+      "DRC": 337,
+      "cpu_sec": 148,
+      "elapsed_sec": 24
+    },
+    {
+      "cycle": 0,
+      "iteration": 1,
+      "phase": "optimization iteration",
+      "DRC": 171,
+      "cpu_sec": 137,
+      "elapsed_sec": 21
+    },
+    {
+      "cycle": 0,
+      "iteration": 2,
+      "phase": "optimization iteration",
+      "DRC": 165,
+      "cpu_sec": 12,
+      "elapsed_sec": 4
+    },
+    {
+      "cycle": 0,
+      "iteration": 3,
+      "phase": "optimization iteration",
+      "DRC": 163,
+      "cpu_sec": 95,
+      "elapsed_sec": 67
+    },
+    {
+      "cycle": 0,
+      "iteration": 4,
+      "phase": "optimization iteration",
+      "DRC": 163,
+      "cpu_sec": 104,
+      "elapsed_sec": 74
+    },
+    {
+      "cycle": 0,
+      "iteration": 5,
+      "phase": "optimization iteration",
+      "DRC": 163,
+      "cpu_sec": 97,
+      "elapsed_sec": 63
+    },
+    {
+      "cycle": 0,
+      "iteration": 6,
+      "phase": "optimization iteration",
+      "DRC": 159,
+      "cpu_sec": 95,
+      "elapsed_sec": 72
+    },
+    {
+      "cycle": 0,
+      "iteration": 7,
+      "phase": "optimization iteration",
+      "DRC": 159,
+      "cpu_sec": 117,
+      "elapsed_sec": 84
+    },
+    {
+      "cycle": 0,
+      "iteration": 8,
+      "phase": "optimization iteration",
+      "DRC": 157,
+      "cpu_sec": 86,
+      "elapsed_sec": 78
+    },
+    {
+      "cycle": 0,
+      "iteration": 9,
+      "phase": "optimization iteration",
+      "DRC": 157,
+      "cpu_sec": 140,
+      "elapsed_sec": 110
+    },
+    {
+      "cycle": 0,
+      "iteration": 10,
+      "phase": "optimization iteration",
+      "DRC": 156,
+      "cpu_sec": 167,
+      "elapsed_sec": 161
+    },
+    {
+      "cycle": 0,
+      "iteration": 11,
+      "phase": "optimization iteration",
+      "DRC": 156,
+      "cpu_sec": 227,
+      "elapsed_sec": 225
+    },
+    {
+      "cycle": 0,
+      "iteration": 12,
+      "phase": "optimization iteration",
+      "DRC": 156,
+      "cpu_sec": 163,
+      "elapsed_sec": 159
+    },
+    {
+      "cycle": 0,
+      "iteration": 13,
+      "phase": "optimization iteration",
+      "DRC": 149,
+      "cpu_sec": 343,
+      "elapsed_sec": 339
+    },
+    {
+      "cycle": 0,
+      "iteration": 14,
+      "phase": "optimization iteration",
+      "DRC": 149,
+      "cpu_sec": 378,
+      "elapsed_sec": 374
+    },
+    {
+      "cycle": 0,
+      "iteration": 15,
+      "phase": "optimization iteration",
+      "DRC": 147,
+      "cpu_sec": 410,
+      "elapsed_sec": 407
+    },
+    {
+      "cycle": 0,
+      "iteration": 16,
+      "phase": "optimization iteration",
+      "DRC": 147,
+      "cpu_sec": 514,
+      "elapsed_sec": 511
+    },
+    {
+      "cycle": 0,
+      "iteration": 17,
+      "phase": "optimization iteration",
+      "DRC": 537,
+      "cpu_sec": 86,
+      "elapsed_sec": 80
+    },
+    {
+      "cycle": 0,
+      "iteration": 18,
+      "phase": "optimization iteration",
+      "DRC": 253,
+      "cpu_sec": 594,
+      "elapsed_sec": 591
+    },
+    {
+      "cycle": 0,
+      "iteration": 19,
+      "phase": "optimization iteration",
+      "DRC": 118,
+      "cpu_sec": 355,
+      "elapsed_sec": 354
+    },
+    {
+      "cycle": 0,
+      "iteration": 20,
+      "phase": "optimization iteration",
+      "DRC": 80,
+      "cpu_sec": 62,
+      "elapsed_sec": 57
+    },
+    {
+      "cycle": 0,
+      "iteration": 21,
+      "phase": "guides tiles iteration",
+      "DRC": 75,
+      "cpu_sec": 58,
+      "elapsed_sec": 52
+    },
+    {
+      "cycle": 0,
+      "iteration": 22,
+      "phase": "guides tiles iteration",
+      "DRC": 75,
+      "cpu_sec": 53,
+      "elapsed_sec": 48
+    },
+    {
+      "cycle": 0,
+      "iteration": 23,
+      "phase": "guides tiles iteration",
+      "DRC": 75,
+      "cpu_sec": 175,
+      "elapsed_sec": 166
+    },
+    {
+      "cycle": 0,
+      "iteration": 24,
+      "phase": "guides tiles iteration",
+      "DRC": 75,
+      "cpu_sec": 49,
+      "elapsed_sec": 44
+    },
+    {
+      "cycle": 0,
+      "iteration": 25,
+      "phase": "optimization iteration",
+      "DRC": 75,
+      "cpu_sec": 23,
+      "elapsed_sec": 19
+    },
+    {
+      "cycle": 0,
+      "iteration": 26,
+      "phase": "guides tiles iteration",
+      "DRC": 75,
+      "cpu_sec": 78,
+      "elapsed_sec": 71
+    },
+    {
+      "cycle": 0,
+      "iteration": 27,
+      "phase": "stubborn tiles iteration",
+      "DRC": 41,
+      "cpu_sec": 699,
+      "elapsed_sec": 121
+    },
+    {
+      "cycle": 0,
+      "iteration": 28,
+      "phase": "guides tiles iteration",
+      "DRC": 41,
+      "cpu_sec": 21,
+      "elapsed_sec": 12
+    },
+    {
+      "cycle": 0,
+      "iteration": 29,
+      "phase": "stubborn tiles iteration",
+      "DRC": 37,
+      "cpu_sec": 721,
+      "elapsed_sec": 138
+    },
+    {
+      "cycle": 0,
+      "iteration": 30,
+      "phase": "guides tiles iteration",
+      "DRC": 37,
+      "cpu_sec": 37,
+      "elapsed_sec": 24
+    },
+    {
+      "cycle": 0,
+      "iteration": 31,
+      "phase": "guides tiles iteration",
+      "DRC": 37,
+      "cpu_sec": 19,
+      "elapsed_sec": 10
+    },
+    {
+      "cycle": 0,
+      "iteration": 32,
+      "phase": "stubborn tiles iteration",
+      "DRC": 34,
+      "cpu_sec": 598,
+      "elapsed_sec": 110
+    },
+    {
+      "cycle": 0,
+      "iteration": 33,
+      "phase": "optimization iteration",
+      "DRC": 34,
+      "cpu_sec": 23,
+      "elapsed_sec": 15
+    },
+    {
+      "cycle": 0,
+      "iteration": 34,
+      "phase": "guides tiles iteration",
+      "DRC": 33,
+      "cpu_sec": 24,
+      "elapsed_sec": 20
+    },
+    {
+      "cycle": 0,
+      "iteration": 35,
+      "phase": "guides tiles iteration",
+      "DRC": 33,
+      "cpu_sec": 24,
+      "elapsed_sec": 21
+    },
+    {
+      "cycle": 0,
+      "iteration": 36,
+      "phase": "stubborn tiles iteration",
+      "DRC": 23,
+      "cpu_sec": 1087,
+      "elapsed_sec": 186
+    },
+    {
+      "cycle": 0,
+      "iteration": 37,
+      "phase": "guides tiles iteration",
+      "DRC": 23,
+      "cpu_sec": 32,
+      "elapsed_sec": 29
+    },
+    {
+      "cycle": 0,
+      "iteration": 38,
+      "phase": "guides tiles iteration",
+      "DRC": 23,
+      "cpu_sec": 17,
+      "elapsed_sec": 15
+    },
+    {
+      "cycle": 0,
+      "iteration": 39,
+      "phase": "stubborn tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 1133,
+      "elapsed_sec": 183
+    },
+    {
+      "cycle": 0,
+      "iteration": 40,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 17,
+      "elapsed_sec": 14
+    },
+    {
+      "cycle": 0,
+      "iteration": 41,
+      "phase": "optimization iteration",
+      "DRC": 22,
+      "cpu_sec": 24,
+      "elapsed_sec": 18
+    },
+    {
+      "cycle": 0,
+      "iteration": 42,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 44,
+      "elapsed_sec": 42
+    },
+    {
+      "cycle": 0,
+      "iteration": 43,
+      "phase": "stubborn tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 4411,
+      "elapsed_sec": 747
+    },
+    {
+      "cycle": 0,
+      "iteration": 44,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 90,
+      "elapsed_sec": 87
+    },
+    {
+      "cycle": 0,
+      "iteration": 45,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 44,
+      "elapsed_sec": 41
+    },
+    {
+      "cycle": 0,
+      "iteration": 46,
+      "phase": "stubborn tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 5089,
+      "elapsed_sec": 819
+    },
+    {
+      "cycle": 0,
+      "iteration": 49,
+      "phase": "optimization iteration",
+      "DRC": 22,
+      "cpu_sec": 19,
+      "elapsed_sec": 14
+    },
+    {
+      "cycle": 0,
+      "iteration": 50,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 115,
+      "elapsed_sec": 114
+    },
+    {
+      "cycle": 0,
+      "iteration": 51,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 273,
+      "elapsed_sec": 271
+    },
+    {
+      "cycle": 0,
+      "iteration": 52,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 116,
+      "elapsed_sec": 113
+    },
+    {
+      "cycle": 0,
+      "iteration": 53,
+      "phase": "stubborn tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 15089,
+      "elapsed_sec": 2845
+    },
+    {
+      "cycle": 0,
+      "iteration": 57,
+      "phase": "optimization iteration",
+      "DRC": 22,
+      "cpu_sec": 19,
+      "elapsed_sec": 13
+    },
+    {
+      "cycle": 0,
+      "iteration": 58,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 613,
+      "elapsed_sec": 610
+    },
+    {
+      "cycle": 0,
+      "iteration": 59,
+      "phase": "guides tiles iteration",
+      "DRC": 22,
+      "cpu_sec": 313,
+      "elapsed_sec": 310
+    },
+    {
+      "cycle": 0,
+      "iteration": 60,
+      "phase": "stubborn tiles iteration",
+      "DRC": 21,
+      "cpu_sec": 38128,
+      "elapsed_sec": 6964
+    },
+    {
+      "cycle": 0,
+      "iteration": 61,
+      "phase": "guides tiles iteration",
+      "DRC": 19,
+      "cpu_sec": 292,
+      "elapsed_sec": 287
+    },
+    {
+      "cycle": 0,
+      "iteration": 62,
+      "phase": "guides tiles iteration",
+      "DRC": 19,
+      "cpu_sec": 240,
+      "elapsed_sec": 237
+    },
+    {
+      "cycle": 0,
+      "iteration": 63,
+      "phase": "stubborn tiles iteration",
+      "DRC": 17,
+      "cpu_sec": 42303,
+      "elapsed_sec": 7133
+    },
+    {
+      "cycle": 0,
+      "iteration": 64,
+      "phase": "guides tiles iteration",
+      "DRC": 17,
+      "cpu_sec": 262,
+      "elapsed_sec": 258
+    },
+    {
+      "cycle": 1,
+      "iteration": 0,
+      "phase": "optimization iteration",
+      "DRC": 6899,
+      "cpu_sec": 279,
+      "elapsed_sec": 51
+    },
+    {
+      "cycle": 1,
+      "iteration": 1,
+      "phase": "optimization iteration",
+      "DRC": 1663,
+      "cpu_sec": 198,
+      "elapsed_sec": 37
+    },
+    {
+      "cycle": 1,
+      "iteration": 2,
+      "phase": "optimization iteration",
+      "DRC": 1402,
+      "cpu_sec": 78,
+      "elapsed_sec": 19
+    },
+    {
+      "cycle": 1,
+      "iteration": 3,
+      "phase": "optimization iteration",
+      "DRC": 951,
+      "cpu_sec": 295,
+      "elapsed_sec": 93
+    },
+    {
+      "cycle": 1,
+      "iteration": 4,
+      "phase": "optimization iteration",
+      "DRC": 873,
+      "cpu_sec": 188,
+      "elapsed_sec": 70
+    },
+    {
+      "cycle": 1,
+      "iteration": 5,
+      "phase": "optimization iteration",
+      "DRC": 843,
+      "cpu_sec": 196,
+      "elapsed_sec": 101
+    },
+    {
+      "cycle": 1,
+      "iteration": 6,
+      "phase": "optimization iteration",
+      "DRC": 830,
+      "cpu_sec": 194,
+      "elapsed_sec": 84
+    },
+    {
+      "cycle": 1,
+      "iteration": 7,
+      "phase": "optimization iteration",
+      "DRC": 793,
+      "cpu_sec": 194,
+      "elapsed_sec": 79
+    },
+    {
+      "cycle": 1,
+      "iteration": 8,
+      "phase": "optimization iteration",
+      "DRC": 766,
+      "cpu_sec": 291,
+      "elapsed_sec": 224
+    },
+    {
+      "cycle": 1,
+      "iteration": 9,
+      "phase": "optimization iteration",
+      "DRC": 756,
+      "cpu_sec": 242,
+      "elapsed_sec": 163
+    },
+    {
+      "cycle": 1,
+      "iteration": 10,
+      "phase": "optimization iteration",
+      "DRC": 505,
+      "cpu_sec": 239,
+      "elapsed_sec": 211
+    },
+    {
+      "cycle": 1,
+      "iteration": 11,
+      "phase": "optimization iteration",
+      "DRC": 345,
+      "cpu_sec": 282,
+      "elapsed_sec": 275
+    },
+    {
+      "cycle": 1,
+      "iteration": 12,
+      "phase": "optimization iteration",
+      "DRC": 302,
+      "cpu_sec": 227,
+      "elapsed_sec": 221
+    },
+    {
+      "cycle": 1,
+      "iteration": 13,
+      "phase": "optimization iteration",
+      "DRC": 222,
+      "cpu_sec": 488,
+      "elapsed_sec": 484
+    },
+    {
+      "cycle": 1,
+      "iteration": 14,
+      "phase": "optimization iteration",
+      "DRC": 222,
+      "cpu_sec": 405,
+      "elapsed_sec": 403
+    },
+    {
+      "cycle": 1,
+      "iteration": 15,
+      "phase": "optimization iteration",
+      "DRC": 222,
+      "cpu_sec": 768,
+      "elapsed_sec": 766
+    },
+    {
+      "cycle": 1,
+      "iteration": 16,
+      "phase": "optimization iteration",
+      "DRC": 222,
+      "cpu_sec": 807,
+      "elapsed_sec": 803
+    },
+    {
+      "cycle": 1,
+      "iteration": 17,
+      "phase": "optimization iteration",
+      "DRC": 526,
+      "cpu_sec": 78,
+      "elapsed_sec": 71
+    },
+    {
+      "cycle": 1,
+      "iteration": 18,
+      "phase": "optimization iteration",
+      "DRC": 221,
+      "cpu_sec": 454,
+      "elapsed_sec": 453
+    },
+    {
+      "cycle": 1,
+      "iteration": 19,
+      "phase": "optimization iteration",
+      "DRC": 159,
+      "cpu_sec": 281,
+      "elapsed_sec": 277
+    },
+    {
+      "cycle": 1,
+      "iteration": 20,
+      "phase": "optimization iteration",
+      "DRC": 109,
+      "cpu_sec": 70,
+      "elapsed_sec": 68
+    },
+    {
+      "cycle": 1,
+      "iteration": 21,
+      "phase": "optimization iteration",
+      "DRC": 108,
+      "cpu_sec": 56,
+      "elapsed_sec": 53
+    },
+    {
+      "cycle": 1,
+      "iteration": 22,
+      "phase": "optimization iteration",
+      "DRC": 108,
+      "cpu_sec": 182,
+      "elapsed_sec": 180
+    },
+    {
+      "cycle": 1,
+      "iteration": 23,
+      "phase": "optimization iteration",
+      "DRC": 108,
+      "cpu_sec": 474,
+      "elapsed_sec": 468
+    },
+    {
+      "cycle": 1,
+      "iteration": 24,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 108,
+      "elapsed_sec": 103
+    },
+    {
+      "cycle": 1,
+      "iteration": 25,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 45,
+      "elapsed_sec": 32
+    },
+    {
+      "cycle": 1,
+      "iteration": 26,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 304,
+      "elapsed_sec": 304
+    },
+    {
+      "cycle": 1,
+      "iteration": 27,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 280,
+      "elapsed_sec": 277
+    },
+    {
+      "cycle": 1,
+      "iteration": 28,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 244,
+      "elapsed_sec": 243
+    },
+    {
+      "cycle": 1,
+      "iteration": 29,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 207,
+      "elapsed_sec": 205
+    },
+    {
+      "cycle": 1,
+      "iteration": 30,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 591,
+      "elapsed_sec": 589
+    },
+    {
+      "cycle": 1,
+      "iteration": 31,
+      "phase": "optimization iteration",
+      "DRC": 106,
+      "cpu_sec": 143,
+      "elapsed_sec": 142
+    },
+    {
+      "cycle": 1,
+      "iteration": 32,
+      "phase": "optimization iteration",
+      "DRC": 103,
+      "cpu_sec": 143,
+      "elapsed_sec": 137
+    },
+    {
+      "cycle": 1,
+      "iteration": 33,
+      "phase": "optimization iteration",
+      "DRC": 103,
+      "cpu_sec": 21,
+      "elapsed_sec": 9
+    },
+    {
+      "cycle": 1,
+      "iteration": 34,
+      "phase": "optimization iteration",
+      "DRC": 103,
+      "cpu_sec": 210,
+      "elapsed_sec": 209
+    },
+    {
+      "cycle": 1,
+      "iteration": 35,
+      "phase": "optimization iteration",
+      "DRC": 103,
+      "cpu_sec": 158,
+      "elapsed_sec": 157
+    },
+    {
+      "cycle": 1,
+      "iteration": 36,
+      "phase": "optimization iteration",
+      "DRC": 103,
+      "cpu_sec": 225,
+      "elapsed_sec": 223
+    },
+    {
+      "cycle": 1,
+      "iteration": 37,
+      "phase": "optimization iteration",
+      "DRC": 103,
+      "cpu_sec": 347,
+      "elapsed_sec": 346
+    },
+    {
+      "cycle": 1,
+      "iteration": 38,
+      "phase": "optimization iteration",
+      "DRC": 102,
+      "cpu_sec": 1373,
+      "elapsed_sec": 1369
+    },
+    {
+      "cycle": 1,
+      "iteration": 39,
+      "phase": "optimization iteration",
+      "DRC": 100,
+      "cpu_sec": 732,
+      "elapsed_sec": 729
+    },
+    {
+      "cycle": 1,
+      "iteration": 40,
+      "phase": "guides tiles iteration",
+      "DRC": 100,
+      "cpu_sec": 55,
+      "elapsed_sec": 52
+    },
+    {
+      "cycle": 1,
+      "iteration": 41,
+      "phase": "optimization iteration",
+      "DRC": 100,
+      "cpu_sec": 23,
+      "elapsed_sec": 15
+    },
+    {
+      "cycle": 1,
+      "iteration": 42,
+      "phase": "guides tiles iteration",
+      "DRC": 100,
+      "cpu_sec": 151,
+      "elapsed_sec": 147
+    },
+    {
+      "cycle": 1,
+      "iteration": 43,
+      "phase": "stubborn tiles iteration",
+      "DRC": 57,
+      "cpu_sec": 3199,
+      "elapsed_sec": 577
+    },
+    {
+      "cycle": 1,
+      "iteration": 44,
+      "phase": "guides tiles iteration",
+      "DRC": 57,
+      "cpu_sec": 270,
+      "elapsed_sec": 267
+    },
+    {
+      "cycle": 1,
+      "iteration": 45,
+      "phase": "guides tiles iteration",
+      "DRC": 57,
+      "cpu_sec": 129,
+      "elapsed_sec": 126
+    },
+    {
+      "cycle": 1,
+      "iteration": 46,
+      "phase": "stubborn tiles iteration",
+      "DRC": 54,
+      "cpu_sec": 2234,
+      "elapsed_sec": 377
+    },
+    {
+      "cycle": 1,
+      "iteration": 47,
+      "phase": "guides tiles iteration",
+      "DRC": 54,
+      "cpu_sec": 115,
+      "elapsed_sec": 112
+    },
+    {
+      "cycle": 1,
+      "iteration": 48,
+      "phase": "stubborn tiles iteration",
+      "DRC": 45,
+      "cpu_sec": 2027,
+      "elapsed_sec": 338
+    },
+    {
+      "cycle": 1,
+      "iteration": 49,
+      "phase": "optimization iteration",
+      "DRC": 45,
+      "cpu_sec": 18,
+      "elapsed_sec": 14
+    },
+    {
+      "cycle": 1,
+      "iteration": 50,
+      "phase": "guides tiles iteration",
+      "DRC": 45,
+      "cpu_sec": 356,
+      "elapsed_sec": 354
+    },
+    {
+      "cycle": 1,
+      "iteration": 51,
+      "phase": "guides tiles iteration",
+      "DRC": 45,
+      "cpu_sec": 701,
+      "elapsed_sec": 698
+    },
+    {
+      "cycle": 1,
+      "iteration": 52,
+      "phase": "guides tiles iteration",
+      "DRC": 45,
+      "cpu_sec": 355,
+      "elapsed_sec": 352
+    },
+    {
+      "cycle": 1,
+      "iteration": 53,
+      "phase": "stubborn tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 7224,
+      "elapsed_sec": 1359
+    },
+    {
+      "cycle": 1,
+      "iteration": 54,
+      "phase": "guides tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 419,
+      "elapsed_sec": 417
+    },
+    {
+      "cycle": 1,
+      "iteration": 55,
+      "phase": "stubborn tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 7419,
+      "elapsed_sec": 1368
+    },
+    {
+      "cycle": 1,
+      "iteration": 56,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 390,
+      "elapsed_sec": 387
+    },
+    {
+      "cycle": 1,
+      "iteration": 57,
+      "phase": "optimization iteration",
+      "DRC": 35,
+      "cpu_sec": 19,
+      "elapsed_sec": 14
+    },
+    {
+      "cycle": 1,
+      "iteration": 58,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 1398,
+      "elapsed_sec": 1395
+    },
+    {
+      "cycle": 1,
+      "iteration": 59,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 1089,
+      "elapsed_sec": 1086
+    },
+    {
+      "cycle": 1,
+      "iteration": 60,
+      "phase": "stubborn tiles iteration",
+      "DRC": 32,
+      "cpu_sec": 19776,
+      "elapsed_sec": 3544
+    },
+    {
+      "cycle": 1,
+      "iteration": 61,
+      "phase": "guides tiles iteration",
+      "DRC": 32,
+      "cpu_sec": 285,
+      "elapsed_sec": 282
+    },
+    {
+      "cycle": 1,
+      "iteration": 62,
+      "phase": "stubborn tiles iteration",
+      "DRC": 29,
+      "cpu_sec": 19738,
+      "elapsed_sec": 3547
+    },
+    {
+      "cycle": 1,
+      "iteration": 63,
+      "phase": "guides tiles iteration",
+      "DRC": 29,
+      "cpu_sec": 308,
+      "elapsed_sec": 305
+    },
+    {
+      "cycle": 1,
+      "iteration": 64,
+      "phase": "stubborn tiles iteration",
+      "DRC": 26,
+      "cpu_sec": 24360,
+      "elapsed_sec": 3705
+    },
+    {
+      "cycle": 2,
+      "iteration": 0,
+      "phase": "optimization iteration",
+      "DRC": 2612,
+      "cpu_sec": 190,
+      "elapsed_sec": 30
+    },
+    {
+      "cycle": 2,
+      "iteration": 1,
+      "phase": "optimization iteration",
+      "DRC": 743,
+      "cpu_sec": 160,
+      "elapsed_sec": 26
+    },
+    {
+      "cycle": 2,
+      "iteration": 2,
+      "phase": "optimization iteration",
+      "DRC": 594,
+      "cpu_sec": 40,
+      "elapsed_sec": 9
+    },
+    {
+      "cycle": 2,
+      "iteration": 3,
+      "phase": "optimization iteration",
+      "DRC": 376,
+      "cpu_sec": 194,
+      "elapsed_sec": 85
+    },
+    {
+      "cycle": 2,
+      "iteration": 4,
+      "phase": "optimization iteration",
+      "DRC": 341,
+      "cpu_sec": 181,
+      "elapsed_sec": 98
+    },
+    {
+      "cycle": 2,
+      "iteration": 5,
+      "phase": "optimization iteration",
+      "DRC": 325,
+      "cpu_sec": 173,
+      "elapsed_sec": 107
+    },
+    {
+      "cycle": 2,
+      "iteration": 6,
+      "phase": "optimization iteration",
+      "DRC": 324,
+      "cpu_sec": 157,
+      "elapsed_sec": 81
+    },
+    {
+      "cycle": 2,
+      "iteration": 7,
+      "phase": "optimization iteration",
+      "DRC": 291,
+      "cpu_sec": 103,
+      "elapsed_sec": 66
+    },
+    {
+      "cycle": 2,
+      "iteration": 8,
+      "phase": "optimization iteration",
+      "DRC": 291,
+      "cpu_sec": 197,
+      "elapsed_sec": 123
+    },
+    {
+      "cycle": 2,
+      "iteration": 9,
+      "phase": "optimization iteration",
+      "DRC": 274,
+      "cpu_sec": 233,
+      "elapsed_sec": 192
+    },
+    {
+      "cycle": 2,
+      "iteration": 10,
+      "phase": "optimization iteration",
+      "DRC": 176,
+      "cpu_sec": 129,
+      "elapsed_sec": 122
+    },
+    {
+      "cycle": 2,
+      "iteration": 11,
+      "phase": "optimization iteration",
+      "DRC": 151,
+      "cpu_sec": 243,
+      "elapsed_sec": 238
+    },
+    {
+      "cycle": 2,
+      "iteration": 12,
+      "phase": "optimization iteration",
+      "DRC": 132,
+      "cpu_sec": 139,
+      "elapsed_sec": 134
+    },
+    {
+      "cycle": 2,
+      "iteration": 13,
+      "phase": "optimization iteration",
+      "DRC": 132,
+      "cpu_sec": 154,
+      "elapsed_sec": 152
+    },
+    {
+      "cycle": 2,
+      "iteration": 14,
+      "phase": "optimization iteration",
+      "DRC": 132,
+      "cpu_sec": 100,
+      "elapsed_sec": 99
+    },
+    {
+      "cycle": 2,
+      "iteration": 15,
+      "phase": "optimization iteration",
+      "DRC": 125,
+      "cpu_sec": 533,
+      "elapsed_sec": 529
+    },
+    {
+      "cycle": 2,
+      "iteration": 16,
+      "phase": "optimization iteration",
+      "DRC": 125,
+      "cpu_sec": 230,
+      "elapsed_sec": 227
+    },
+    {
+      "cycle": 2,
+      "iteration": 17,
+      "phase": "optimization iteration",
+      "DRC": 125,
+      "cpu_sec": 43,
+      "elapsed_sec": 40
+    },
+    {
+      "cycle": 2,
+      "iteration": 18,
+      "phase": "optimization iteration",
+      "DRC": 56,
+      "cpu_sec": 66,
+      "elapsed_sec": 64
+    },
+    {
+      "cycle": 2,
+      "iteration": 19,
+      "phase": "guides tiles iteration",
+      "DRC": 56,
+      "cpu_sec": 17,
+      "elapsed_sec": 13
+    },
+    {
+      "cycle": 2,
+      "iteration": 20,
+      "phase": "guides tiles iteration",
+      "DRC": 56,
+      "cpu_sec": 26,
+      "elapsed_sec": 21
+    },
+    {
+      "cycle": 2,
+      "iteration": 21,
+      "phase": "stubborn tiles iteration",
+      "DRC": 43,
+      "cpu_sec": 609,
+      "elapsed_sec": 93
+    },
+    {
+      "cycle": 2,
+      "iteration": 22,
+      "phase": "guides tiles iteration",
+      "DRC": 43,
+      "cpu_sec": 22,
+      "elapsed_sec": 18
+    },
+    {
+      "cycle": 2,
+      "iteration": 23,
+      "phase": "guides tiles iteration",
+      "DRC": 43,
+      "cpu_sec": 77,
+      "elapsed_sec": 72
+    },
+    {
+      "cycle": 2,
+      "iteration": 24,
+      "phase": "guides tiles iteration",
+      "DRC": 43,
+      "cpu_sec": 22,
+      "elapsed_sec": 20
+    },
+    {
+      "cycle": 2,
+      "iteration": 25,
+      "phase": "optimization iteration",
+      "DRC": 43,
+      "cpu_sec": 14,
+      "elapsed_sec": 11
+    },
+    {
+      "cycle": 2,
+      "iteration": 26,
+      "phase": "guides tiles iteration",
+      "DRC": 43,
+      "cpu_sec": 16,
+      "elapsed_sec": 13
+    },
+    {
+      "cycle": 2,
+      "iteration": 27,
+      "phase": "stubborn tiles iteration",
+      "DRC": 40,
+      "cpu_sec": 549,
+      "elapsed_sec": 94
+    },
+    {
+      "cycle": 2,
+      "iteration": 28,
+      "phase": "guides tiles iteration",
+      "DRC": 40,
+      "cpu_sec": 20,
+      "elapsed_sec": 17
+    },
+    {
+      "cycle": 2,
+      "iteration": 29,
+      "phase": "stubborn tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 600,
+      "elapsed_sec": 102
+    },
+    {
+      "cycle": 2,
+      "iteration": 30,
+      "phase": "guides tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 73,
+      "elapsed_sec": 69
+    },
+    {
+      "cycle": 2,
+      "iteration": 31,
+      "phase": "guides tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 40,
+      "elapsed_sec": 36
+    },
+    {
+      "cycle": 2,
+      "iteration": 32,
+      "phase": "stubborn tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 554,
+      "elapsed_sec": 93
+    },
+    {
+      "cycle": 2,
+      "iteration": 33,
+      "phase": "optimization iteration",
+      "DRC": 39,
+      "cpu_sec": 13,
+      "elapsed_sec": 7
+    },
+    {
+      "cycle": 2,
+      "iteration": 34,
+      "phase": "guides tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 15,
+      "elapsed_sec": 13
+    },
+    {
+      "cycle": 2,
+      "iteration": 35,
+      "phase": "stubborn tiles iteration",
+      "DRC": 38,
+      "cpu_sec": 651,
+      "elapsed_sec": 104
+    },
+    {
+      "cycle": 2,
+      "iteration": 36,
+      "phase": "guides tiles iteration",
+      "DRC": 38,
+      "cpu_sec": 13,
+      "elapsed_sec": 10
+    },
+    {
+      "cycle": 2,
+      "iteration": 37,
+      "phase": "guides tiles iteration",
+      "DRC": 38,
+      "cpu_sec": 69,
+      "elapsed_sec": 66
+    },
+    {
+      "cycle": 2,
+      "iteration": 38,
+      "phase": "guides tiles iteration",
+      "DRC": 38,
+      "cpu_sec": 13,
+      "elapsed_sec": 11
+    },
+    {
+      "cycle": 2,
+      "iteration": 39,
+      "phase": "stubborn tiles iteration",
+      "DRC": 38,
+      "cpu_sec": 510,
+      "elapsed_sec": 83
+    },
+    {
+      "cycle": 2,
+      "iteration": 40,
+      "phase": "guides tiles iteration",
+      "DRC": 38,
+      "cpu_sec": 29,
+      "elapsed_sec": 26
+    },
+    {
+      "cycle": 2,
+      "iteration": 41,
+      "phase": "optimization iteration",
+      "DRC": 38,
+      "cpu_sec": 15,
+      "elapsed_sec": 11
+    },
+    {
+      "cycle": 2,
+      "iteration": 42,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 54,
+      "elapsed_sec": 52
+    },
+    {
+      "cycle": 2,
+      "iteration": 43,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 40,
+      "elapsed_sec": 36
+    },
+    {
+      "cycle": 2,
+      "iteration": 44,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 130,
+      "elapsed_sec": 129
+    },
+    {
+      "cycle": 2,
+      "iteration": 45,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 40,
+      "elapsed_sec": 36
+    },
+    {
+      "cycle": 2,
+      "iteration": 46,
+      "phase": "stubborn tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 2278,
+      "elapsed_sec": 337
+    },
+    {
+      "cycle": 2,
+      "iteration": 47,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 17,
+      "elapsed_sec": 14
+    },
+    {
+      "cycle": 2,
+      "iteration": 48,
+      "phase": "stubborn tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 2448,
+      "elapsed_sec": 380
+    },
+    {
+      "cycle": 2,
+      "iteration": 49,
+      "phase": "optimization iteration",
+      "DRC": 35,
+      "cpu_sec": 7,
+      "elapsed_sec": 6
+    },
+    {
+      "cycle": 2,
+      "iteration": 50,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 129,
+      "elapsed_sec": 126
+    },
+    {
+      "cycle": 2,
+      "iteration": 51,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 316,
+      "elapsed_sec": 314
+    },
+    {
+      "cycle": 2,
+      "iteration": 52,
+      "phase": "guides tiles iteration",
+      "DRC": 35,
+      "cpu_sec": 129,
+      "elapsed_sec": 126
+    },
+    {
+      "cycle": 2,
+      "iteration": 53,
+      "phase": "stubborn tiles iteration",
+      "DRC": 34,
+      "cpu_sec": 9017,
+      "elapsed_sec": 1404
+    },
+    {
+      "cycle": 2,
+      "iteration": 54,
+      "phase": "guides tiles iteration",
+      "DRC": 34,
+      "cpu_sec": 118,
+      "elapsed_sec": 116
+    },
+    {
+      "cycle": 2,
+      "iteration": 55,
+      "phase": "stubborn tiles iteration",
+      "DRC": 34,
+      "cpu_sec": 8999,
+      "elapsed_sec": 1416
+    },
+    {
+      "cycle": 2,
+      "iteration": 57,
+      "phase": "optimization iteration",
+      "DRC": 34,
+      "cpu_sec": 3,
+      "elapsed_sec": 1
+    },
+    {
+      "cycle": 2,
+      "iteration": 58,
+      "phase": "guides tiles iteration",
+      "DRC": 34,
+      "cpu_sec": 664,
+      "elapsed_sec": 661
+    },
+    {
+      "cycle": 2,
+      "iteration": 59,
+      "phase": "guides tiles iteration",
+      "DRC": 34,
+      "cpu_sec": 360,
+      "elapsed_sec": 357
+    },
+    {
+      "cycle": 2,
+      "iteration": 60,
+      "phase": "stubborn tiles iteration",
+      "DRC": 31,
+      "cpu_sec": 24277,
+      "elapsed_sec": 3885
+    },
+    {
+      "cycle": 2,
+      "iteration": 61,
+      "phase": "guides tiles iteration",
+      "DRC": 31,
+      "cpu_sec": 338,
+      "elapsed_sec": 335
+    },
+    {
+      "cycle": 2,
+      "iteration": 62,
+      "phase": "stubborn tiles iteration",
+      "DRC": 31,
+      "cpu_sec": 23924,
+      "elapsed_sec": 3812
+    },
+    {
+      "cycle": 3,
+      "iteration": 0,
+      "phase": "optimization iteration",
+      "DRC": 1259,
+      "cpu_sec": 166,
+      "elapsed_sec": 26
+    },
+    {
+      "cycle": 3,
+      "iteration": 1,
+      "phase": "optimization iteration",
+      "DRC": 403,
+      "cpu_sec": 143,
+      "elapsed_sec": 22
+    },
+    {
+      "cycle": 3,
+      "iteration": 2,
+      "phase": "optimization iteration",
+      "DRC": 303,
+      "cpu_sec": 24,
+      "elapsed_sec": 6
+    },
+    {
+      "cycle": 3,
+      "iteration": 3,
+      "phase": "optimization iteration",
+      "DRC": 252,
+      "cpu_sec": 146,
+      "elapsed_sec": 63
+    },
+    {
+      "cycle": 3,
+      "iteration": 4,
+      "phase": "optimization iteration",
+      "DRC": 208,
+      "cpu_sec": 97,
+      "elapsed_sec": 48
+    },
+    {
+      "cycle": 3,
+      "iteration": 5,
+      "phase": "optimization iteration",
+      "DRC": 192,
+      "cpu_sec": 164,
+      "elapsed_sec": 126
+    },
+    {
+      "cycle": 3,
+      "iteration": 6,
+      "phase": "optimization iteration",
+      "DRC": 192,
+      "cpu_sec": 194,
+      "elapsed_sec": 115
+    },
+    {
+      "cycle": 3,
+      "iteration": 7,
+      "phase": "optimization iteration",
+      "DRC": 192,
+      "cpu_sec": 157,
+      "elapsed_sec": 78
+    },
+    {
+      "cycle": 3,
+      "iteration": 8,
+      "phase": "optimization iteration",
+      "DRC": 166,
+      "cpu_sec": 195,
+      "elapsed_sec": 159
+    },
+    {
+      "cycle": 3,
+      "iteration": 9,
+      "phase": "optimization iteration",
+      "DRC": 142,
+      "cpu_sec": 139,
+      "elapsed_sec": 125
+    },
+    {
+      "cycle": 3,
+      "iteration": 10,
+      "phase": "optimization iteration",
+      "DRC": 140,
+      "cpu_sec": 218,
+      "elapsed_sec": 160
+    },
+    {
+      "cycle": 3,
+      "iteration": 11,
+      "phase": "optimization iteration",
+      "DRC": 140,
+      "cpu_sec": 396,
+      "elapsed_sec": 365
+    },
+    {
+      "cycle": 3,
+      "iteration": 12,
+      "phase": "optimization iteration",
+      "DRC": 91,
+      "cpu_sec": 218,
+      "elapsed_sec": 201
+    },
+    {
+      "cycle": 3,
+      "iteration": 13,
+      "phase": "guides tiles iteration",
+      "DRC": 80,
+      "cpu_sec": 114,
+      "elapsed_sec": 1730
+    },
+    {
+      "cycle": 3,
+      "iteration": 14,
+      "phase": "guides tiles iteration",
+      "DRC": 80,
+      "cpu_sec": 112,
+      "elapsed_sec": 95
+    },
+    {
+      "cycle": 3,
+      "iteration": 15,
+      "phase": "guides tiles iteration",
+      "DRC": 80,
+      "cpu_sec": 68,
+      "elapsed_sec": 52
+    },
+    {
+      "cycle": 3,
+      "iteration": 16,
+      "phase": "stubborn tiles iteration",
+      "DRC": 39,
+      "cpu_sec": 2288,
+      "elapsed_sec": 319
+    },
+    {
+      "cycle": 3,
+      "iteration": 17,
+      "phase": "optimization iteration",
+      "DRC": 39,
+      "cpu_sec": 57,
+      "elapsed_sec": 54
+    },
+    {
+      "cycle": 3,
+      "iteration": 18,
+      "phase": "guides tiles iteration",
+      "DRC": 37,
+      "cpu_sec": 7,
+      "elapsed_sec": 1
+    },
+    {
+      "cycle": 3,
+      "iteration": 19,
+      "phase": "guides tiles iteration",
+      "DRC": 37,
+      "cpu_sec": 6,
+      "elapsed_sec": 2
+    },
+    {
+      "cycle": 3,
+      "iteration": 20,
+      "phase": "guides tiles iteration",
+      "DRC": 37,
+      "cpu_sec": 6,
+      "elapsed_sec": 2
+    },
+    {
+      "cycle": 3,
+      "iteration": 21,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 837,
+      "elapsed_sec": 129
+    },
+    {
+      "cycle": 3,
+      "iteration": 22,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 5,
+      "elapsed_sec": 2
+    },
+    {
+      "cycle": 3,
+      "iteration": 23,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 34,
+      "elapsed_sec": 30
+    },
+    {
+      "cycle": 3,
+      "iteration": 24,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 5,
+      "elapsed_sec": 2
+    },
+    {
+      "cycle": 3,
+      "iteration": 25,
+      "phase": "optimization iteration",
+      "DRC": 36,
+      "cpu_sec": 9,
+      "elapsed_sec": 7
+    },
+    {
+      "cycle": 3,
+      "iteration": 26,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 9,
+      "elapsed_sec": 7
+    },
+    {
+      "cycle": 3,
+      "iteration": 27,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 587,
+      "elapsed_sec": 90
+    },
+    {
+      "cycle": 3,
+      "iteration": 30,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 37,
+      "elapsed_sec": 34
+    },
+    {
+      "cycle": 3,
+      "iteration": 31,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 10,
+      "elapsed_sec": 7
+    },
+    {
+      "cycle": 3,
+      "iteration": 32,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 546,
+      "elapsed_sec": 90
+    },
+    {
+      "cycle": 3,
+      "iteration": 33,
+      "phase": "optimization iteration",
+      "DRC": 36,
+      "cpu_sec": 2,
+      "elapsed_sec": 1
+    },
+    {
+      "cycle": 3,
+      "iteration": 34,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 8,
+      "elapsed_sec": 4
+    },
+    {
+      "cycle": 3,
+      "iteration": 35,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 626,
+      "elapsed_sec": 98
+    },
+    {
+      "cycle": 3,
+      "iteration": 37,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 36,
+      "elapsed_sec": 35
+    },
+    {
+      "cycle": 3,
+      "iteration": 38,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 13,
+      "elapsed_sec": 11
+    },
+    {
+      "cycle": 3,
+      "iteration": 39,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 604,
+      "elapsed_sec": 109
+    },
+    {
+      "cycle": 3,
+      "iteration": 40,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 13,
+      "elapsed_sec": 9
+    },
+    {
+      "cycle": 3,
+      "iteration": 41,
+      "phase": "optimization iteration",
+      "DRC": 36,
+      "cpu_sec": 10,
+      "elapsed_sec": 9
+    },
+    {
+      "cycle": 3,
+      "iteration": 42,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 26,
+      "elapsed_sec": 23
+    },
+    {
+      "cycle": 3,
+      "iteration": 43,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 2355,
+      "elapsed_sec": 368
+    },
+    {
+      "cycle": 3,
+      "iteration": 44,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 121,
+      "elapsed_sec": 118
+    },
+    {
+      "cycle": 3,
+      "iteration": 45,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 26,
+      "elapsed_sec": 23
+    },
+    {
+      "cycle": 3,
+      "iteration": 46,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 2350,
+      "elapsed_sec": 1088
+    },
+    {
+      "cycle": 3,
+      "iteration": 49,
+      "phase": "optimization iteration",
+      "DRC": 36,
+      "cpu_sec": 8,
+      "elapsed_sec": 6
+    },
+    {
+      "cycle": 3,
+      "iteration": 50,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 110,
+      "elapsed_sec": 1852
+    },
+    {
+      "cycle": 3,
+      "iteration": 51,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 301,
+      "elapsed_sec": 299
+    },
+    {
+      "cycle": 3,
+      "iteration": 52,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 107,
+      "elapsed_sec": 105
+    },
+    {
+      "cycle": 3,
+      "iteration": 53,
+      "phase": "stubborn tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 8468,
+      "elapsed_sec": 1351
+    },
+    {
+      "cycle": 3,
+      "iteration": 57,
+      "phase": "optimization iteration",
+      "DRC": 36,
+      "cpu_sec": 3,
+      "elapsed_sec": 1
+    },
+    {
+      "cycle": 3,
+      "iteration": 58,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 621,
+      "elapsed_sec": 619
+    },
+    {
+      "cycle": 3,
+      "iteration": 59,
+      "phase": "guides tiles iteration",
+      "DRC": 36,
+      "cpu_sec": 342,
+      "elapsed_sec": 339
+    }
+  ],
+  "frozen_checkpoint": "reports/antenna_model/runtime_20261028_055817/checkpoint.odb",
+  "frozen_checkpoint_sha256": "bb593156cef1ced3094ea1bad9231f8821e3ed54bc9af6103b0b9472dec47a77",
+  "frozen_checkpoint_native_DRC": 36,
+  "frozen_checkpoint_iteration": 59,
+  "frozen_report_sha256": "073e4eb0a180082a2852573ce24b6f5efbb920a2c299a1c37e0cbad19ebc2c60",
+  "DRC_by_type": {
+    "Short": 23,
+    "Metal Spacing": 13
+  },
+  "DRC_by_layer": {
+    "met1": 15,
+    "met2": 20,
+    "met4": 1
+  },
+  "top_10um_tiles": [
+    {
+      "origin_um": [
+        1580,
+        640
+      ],
+      "DRC": 18
+    },
+    {
+      "origin_um": [
+        1580,
+        630
+      ],
+      "DRC": 13
+    },
+    {
+      "origin_um": [
+        1620,
+        620
+      ],
+      "DRC": 2
+    },
+    {
+      "origin_um": [
+        1600,
+        630
+      ],
+      "DRC": 1
+    },
+    {
+      "origin_um": [
+        1570,
+        620
+      ],
+      "DRC": 1
+    },
+    {
+      "origin_um": [
+        1610,
+        630
+      ],
+      "DRC": 1
+    }
+  ],
+  "same_exact_markers_across_last_reports": 31,
+  "compared_reports": 3,
+  "latest_markers": [
+    {
+      "type": "Short",
+      "nets": [
+        "net4932",
+        "net4985"
+      ],
+      "box_um": [
+        1600.5,
+        637.26,
+        1600.64,
+        637.4
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4977",
+        "net6173"
+      ],
+      "box_um": [
+        1583.94,
+        638.96,
+        1584.08,
+        639.1
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3470",
+        "net6173"
+      ],
+      "box_um": [
+        1583.94,
+        638.62,
+        1584.08,
+        638.76
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4319",
+        "net4959"
+      ],
+      "box_um": [
+        1583.02,
+        639.98,
+        1583.16,
+        640.12
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4959",
+        "net6342"
+      ],
+      "box_um": [
+        1583.485,
+        639.98,
+        1583.625,
+        640.12
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net6038",
+        "net662"
+      ],
+      "box_um": [
+        1584.86,
+        633.52,
+        1585.0,
+        633.66
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3116",
+        "net5465"
+      ],
+      "box_um": [
+        1582.56,
+        640.15,
+        1582.7,
+        640.29
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3116",
+        "net3653"
+      ],
+      "box_um": [
+        1582.56,
+        639.64,
+        1582.7,
+        639.78
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3185",
+        "net5465"
+      ],
+      "box_um": [
+        1583.02,
+        640.15,
+        1583.16,
+        640.29
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3185",
+        "net3653"
+      ],
+      "box_um": [
+        1583.02,
+        639.64,
+        1583.16,
+        639.78
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4749",
+        "net6166"
+      ],
+      "box_um": [
+        1579.8,
+        627.06,
+        1579.94,
+        627.2
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net6038",
+        "net6634"
+      ],
+      "box_um": [
+        1585.78,
+        637.94,
+        1585.92,
+        638.08
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net6503",
+        "net8680"
+      ],
+      "box_um": [
+        1626.72,
+        629.395,
+        1626.86,
+        629.625
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net6503",
+        "net8680"
+      ],
+      "box_um": [
+        1626.72,
+        629.44,
+        1626.86,
+        629.58
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "_09252_",
+        "net6503"
+      ],
+      "box_um": [
+        1611.08,
+        630.63,
+        1611.22,
+        630.77
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "_09267_",
+        "net4932"
+      ],
+      "box_um": [
+        1586.7,
+        637.26,
+        1586.84,
+        637.4
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3179",
+        "net4959"
+      ],
+      "box_um": [
+        1585.26,
+        638.62,
+        1585.4,
+        638.76
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net6881",
+        "net8601"
+      ],
+      "box_um": [
+        1583.48,
+        638.96,
+        1583.62,
+        639.1
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net6881",
+        "net8601"
+      ],
+      "box_um": [
+        1583.39,
+        638.96,
+        1583.71,
+        639.1
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4818",
+        "net6898"
+      ],
+      "box_um": [
+        1583.02,
+        639.47,
+        1583.16,
+        639.61
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net3317",
+        "net5732"
+      ],
+      "box_um": [
+        1586.39,
+        633.27,
+        1586.69,
+        633.57
+      ],
+      "layer": "met4"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4818",
+        "net6881"
+      ],
+      "box_um": [
+        1583.025,
+        639.98,
+        1583.16,
+        640.12
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "nets": [
+        "net4818",
+        "net6881"
+      ],
+      "box_um": [
+        1583.02,
+        639.98,
+        1583.16,
+        640.12
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        641.68,
+        1582.56,
+        641.82
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        640.62,
+        1582.56,
+        641.82
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net4319"
+      ],
+      "box_um": [
+        1582.48,
+        640.46,
+        1582.56,
+        640.62
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3311",
+        "net6881"
+      ],
+      "box_um": [
+        1583.44,
+        639.3,
+        1583.48,
+        639.44
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        640.46,
+        1582.56,
+        640.62
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net4319"
+      ],
+      "box_um": [
+        1582.48,
+        640.46,
+        1582.56,
+        640.62
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        640.62,
+        1582.56,
+        640.8
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        640.66,
+        1582.56,
+        640.8
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116",
+        "net4818"
+      ],
+      "box_um": [
+        1582.56,
+        640.12,
+        1582.7,
+        640.15
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net4319"
+      ],
+      "box_um": [
+        1582.48,
+        640.46,
+        1582.56,
+        640.62
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        640.62,
+        1582.56,
+        640.8
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116"
+      ],
+      "box_um": [
+        1582.48,
+        640.66,
+        1582.56,
+        640.8
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "nets": [
+        "net3116",
+        "net4818"
+      ],
+      "box_um": [
+        1582.56,
+        640.12,
+        1582.7,
+        640.15
+      ],
+      "layer": "met2"
+    }
+  ],
+  "scope": "Native log/report diagnostic only, not independent DRC or acceptance. Reports are matched to their actual repair cycle to avoid stale overwritten snapshot labels."
+}

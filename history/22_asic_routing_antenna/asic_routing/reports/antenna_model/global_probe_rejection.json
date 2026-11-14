@@ -1,0 +1,7 @@
+{
+  "accepted": false,
+  "status": "rejected_capacity_statistics",
+  "reason": "Bounded guide-capacity reservation produced adjusted capacities above original capacity; do not promote or use as routing acceptance. Original native antenna repair remains active.",
+  "observed_utc": "2026-10-26T11:47:16.543759+00:00",
+  "probe_run": "global_antenna_corner_probe"
+}

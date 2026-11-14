@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "source": "inputs/antenna_residual3.odb",
+  "source_odb_sha256": "181ecc2be207e3677e94bd283288b8b2a7fc0f0cf7cef540ad1389003a400587",
+  "original_cells_master_orientation_location_unchanged": 68982,
+  "original_endpoint_graph_unchanged": true,
+  "original_PG_geometry_unchanged": true,
+  "added_passive_diodes": 7551,
+  "native_placement_pass": true,
+  "in_memory_overlap_negative_control_detected": true,
+  "source_file_unchanged": true,
+  "scope": "Early structural and native placement audit only. Physical signal connectivity, extracted RC/TT and independent DRC still required."
+}

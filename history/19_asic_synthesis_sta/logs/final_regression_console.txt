@@ -1,0 +1,359 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/a_stream_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/alu.sv" into library work
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/branch_compare.sv" into library work
+INFO: [VRFC 10-311] analyzing module branch_compare
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/control_fsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/custom_exec.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec
+INFO: [VRFC 10-311] analyzing module fault_v_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_accelerator.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_accelerator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_asic_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_asic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_dma.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dma
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_dot_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dot_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_io.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_io
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_job_regs.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_job_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_loader.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_loader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_memory.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_mem_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_mem_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_soc.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_uart_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/imm_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/load_extract.sv" into library work
+INFO: [VRFC 10-311] analyzing module load_extract
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/pc_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/regfile.sv" into library work
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/store_align.sv" into library work
+INFO: [VRFC 10-311] analyzing module store_align
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/uart_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/model.v" into library work
+INFO: [VRFC 10-311] analyzing module sky130_sram_2kbyte_1rw1r_32x512_8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_asic_streams.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_asic_streams
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_asic_streams -s tb_asic_streams --debug typical --mt off 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.fault_v_pkg
+Compiling package work.fault_v_stream_pkg
+Compiling module work.fault_v_mem_arbiter
+Compiling module work.fault_v_job_regs
+Compiling module work.fault_v_dma
+Compiling module work.fault_v_job_regs(BASE=32'b010000...
+Compiling module work.fault_v_mul16
+Compiling module work.fault_v_dot_pipeline_default
+Compiling module work.fault_v_accelerator
+Compiling module work.decoder
+Compiling module work.control_fsm
+Compiling module work.custom_exec_default
+Compiling module work.regfile
+Compiling module work.imm_gen
+Compiling module work.alu
+Compiling module work.pc_reg
+Compiling module work.branch_compare
+Compiling module work.load_extract
+Compiling module work.store_align
+Compiling module work.fault_v_cpu
+Compiling module work.sky130_sram_2kbyte_1rw1r_32x512_...
+Compiling module work.fault_v_memory(BASE_ADDR=32'b0,R...
+Compiling module work.fault_v_memory(WITH_STATUS=1'b1)
+Compiling module work.fault_v_memory(BASE_ADDR=32'b010...
+Compiling module work.uart_tx(CLKS_PER_BIT=8)
+Compiling module work.fault_v_io(UART_CLKS_PER_BIT=8)
+Compiling module work.fault_v_soc(UART_CLKS_PER_BIT=8)
+Compiling module work.fault_v_soc(IMEM_DELAY=4,DMEM_DE...
+Compiling module work.tb_asic_streams
+Built simulation snapshot tb_asic_streams
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_asic_streams/xsim_script.tcl
+# xsim {tb_asic_streams} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS STREAM mode=0 case=0 COPY_main_sp_CPU_1 cycles=104
+PASS STREAM mode=1 case=0 COPY_main_sp_CPU_1 cycles=170
+PASS STREAM mode=0 case=1 COPY_main_sp_DMA_1 cycles=206
+PASS STREAM mode=1 case=1 COPY_main_sp_DMA_1 cycles=308
+PASS STREAM mode=0 case=2 COPY_sp_main_CPU_1 cycles=104
+PASS STREAM mode=1 case=2 COPY_sp_main_CPU_1 cycles=170
+PASS STREAM mode=0 case=3 COPY_sp_main_DMA_1 cycles=206
+PASS STREAM mode=1 case=3 COPY_sp_main_DMA_1 cycles=308
+PASS STREAM mode=0 case=4 COPY_main_main_CPU_1 cycles=104
+PASS STREAM mode=1 case=4 COPY_main_main_CPU_1 cycles=170
+PASS STREAM mode=0 case=5 COPY_main_main_DMA_1 cycles=206
+PASS STREAM mode=1 case=5 COPY_main_main_DMA_1 cycles=308
+PASS STREAM mode=0 case=6 DOT_main_CPU_1 cycles=141
+PASS STREAM mode=1 case=6 DOT_main_CPU_1 cycles=228
+PASS STREAM mode=0 case=7 DOT_main_ACC_1 cycles=212
+PASS STREAM mode=1 case=7 DOT_main_ACC_1 cycles=347
+PASS STREAM mode=0 case=8 DOT_scratch_CPU_1 cycles=141
+PASS STREAM mode=1 case=8 DOT_scratch_CPU_1 cycles=228
+PASS STREAM mode=0 case=9 DOT_scratch_ACC_1 cycles=212
+PASS STREAM mode=1 case=9 DOT_scratch_ACC_1 cycles=347
+PASS STREAM mode=0 case=10 CHAIN_CPU_1 cycles=214
+PASS STREAM mode=1 case=10 CHAIN_CPU_1 cycles=346
+PASS STREAM mode=0 case=11 CHAIN_DMA_ACC_1 cycles=387
+PASS STREAM mode=1 case=11 CHAIN_DMA_ACC_1 cycles=603
+PASS STREAM mode=0 case=12 COPY_main_sp_CPU_4 cycles=233
+PASS STREAM mode=1 case=12 COPY_main_sp_CPU_4 cycles=389
+PASS STREAM mode=0 case=13 COPY_main_sp_DMA_4 cycles=227
+PASS STREAM mode=1 case=13 COPY_main_sp_DMA_4 cycles=368
+PASS STREAM mode=0 case=14 COPY_sp_main_CPU_4 cycles=233
+PASS STREAM mode=1 case=14 COPY_sp_main_CPU_4 cycles=389
+PASS STREAM mode=0 case=15 COPY_sp_main_DMA_4 cycles=227
+PASS STREAM mode=1 case=15 COPY_sp_main_DMA_4 cycles=368
+PASS STREAM mode=0 case=16 COPY_main_main_CPU_4 cycles=233
+PASS STREAM mode=1 case=16 COPY_main_main_CPU_4 cycles=389
+PASS STREAM mode=0 case=17 COPY_main_main_DMA_4 cycles=227
+PASS STREAM mode=1 case=17 COPY_main_main_DMA_4 cycles=368
+PASS STREAM mode=0 case=18 DOT_main_CPU_4 cycles=300
+PASS STREAM mode=1 case=18 DOT_main_CPU_4 cycles=486
+PASS STREAM mode=0 case=19 DOT_main_ACC_4 cycles=233
+PASS STREAM mode=1 case=19 DOT_main_ACC_4 cycles=377
+PASS STREAM mode=0 case=20 DOT_scratch_CPU_4 cycles=300
+PASS STREAM mode=1 case=20 DOT_scratch_CPU_4 cycles=486
+PASS STREAM mode=0 case=21 DOT_scratch_ACC_4 cycles=233
+PASS STREAM mode=1 case=21 DOT_scratch_ACC_4 cycles=377
+PASS STREAM mode=0 case=22 CHAIN_CPU_4 cycles=502
+PASS STREAM mode=1 case=22 CHAIN_CPU_4 cycles=823
+PASS STREAM mode=0 case=23 CHAIN_DMA_ACC_4 cycles=429
+PASS STREAM mode=1 case=23 CHAIN_DMA_ACC_4 cycles=693
+PASS STREAM mode=0 case=24 COPY_main_sp_CPU_16 cycles=749
+PASS STREAM mode=1 case=24 COPY_main_sp_CPU_16 cycles=1265
+PASS STREAM mode=0 case=25 COPY_main_sp_DMA_16 cycles=290
+PASS STREAM mode=1 case=25 COPY_main_sp_DMA_16 cycles=578
+PASS STREAM mode=0 case=26 COPY_sp_main_CPU_16 cycles=749
+PASS STREAM mode=1 case=26 COPY_sp_main_CPU_16 cycles=1265
+PASS STREAM mode=0 case=27 COPY_sp_main_DMA_16 cycles=290
+PASS STREAM mode=1 case=27 COPY_sp_main_DMA_16 cycles=578
+PASS STREAM mode=0 case=28 COPY_main_main_CPU_16 cycles=749
+PASS STREAM mode=1 case=28 COPY_main_main_CPU_16 cycles=1265
+PASS STREAM mode=0 case=29 COPY_main_main_DMA_16 cycles=290
+PASS STREAM mode=0 case=30 DOT_main_CPU_16 cycles=936
+PASS STREAM mode=1 case=29 COPY_main_main_DMA_16 cycles=578
+PASS STREAM mode=0 case=31 DOT_main_ACC_16 cycles=317
+PASS STREAM mode=1 case=30 DOT_main_CPU_16 cycles=1518
+PASS STREAM mode=0 case=32 DOT_scratch_CPU_16 cycles=936
+PASS STREAM mode=1 case=31 DOT_main_ACC_16 cycles=617
+PASS STREAM mode=0 case=33 DOT_scratch_ACC_16 cycles=317
+PASS STREAM mode=1 case=32 DOT_scratch_CPU_16 cycles=1518
+PASS STREAM mode=0 case=34 CHAIN_CPU_16 cycles=1654
+PASS STREAM mode=1 case=33 DOT_scratch_ACC_16 cycles=617
+PASS STREAM mode=0 case=35 CHAIN_DMA_ACC_16 cycles=576
+PASS STREAM mode=1 case=34 CHAIN_CPU_16 cycles=2731
+PASS STREAM mode=0 case=36 COPY_main_sp_CPU_64 cycles=2813
+PASS STREAM mode=1 case=35 CHAIN_DMA_ACC_16 cycles=1143
+PASS STREAM mode=0 case=37 COPY_main_sp_DMA_64 cycles=584
+PASS STREAM mode=1 case=36 COPY_main_sp_CPU_64 cycles=4769
+PASS STREAM mode=0 case=38 COPY_sp_main_CPU_64 cycles=2813
+PASS STREAM mode=1 case=37 COPY_main_sp_DMA_64 cycles=1448
+PASS STREAM mode=0 case=39 COPY_sp_main_DMA_64 cycles=584
+PASS STREAM mode=1 case=38 COPY_sp_main_CPU_64 cycles=4769
+PASS STREAM mode=0 case=40 COPY_main_main_CPU_64 cycles=2813
+PASS STREAM mode=0 case=41 COPY_main_main_DMA_64 cycles=584
+PASS STREAM mode=1 case=39 COPY_sp_main_DMA_64 cycles=1448
+PASS STREAM mode=0 case=42 DOT_main_CPU_64 cycles=3480
+PASS STREAM mode=1 case=40 COPY_main_main_CPU_64 cycles=4769
+PASS STREAM mode=0 case=43 DOT_main_ACC_64 cycles=653
+PASS STREAM mode=1 case=41 COPY_main_main_DMA_64 cycles=1448
+PASS STREAM mode=0 case=44 DOT_scratch_CPU_64 cycles=3480
+PASS STREAM mode=1 case=42 DOT_main_CPU_64 cycles=5646
+PASS STREAM mode=0 case=45 DOT_scratch_ACC_64 cycles=653
+PASS STREAM mode=1 case=43 DOT_main_ACC_64 cycles=1517
+PASS STREAM mode=0 case=46 CHAIN_CPU_64 cycles=6262
+PASS STREAM mode=1 case=44 DOT_scratch_CPU_64 cycles=5646
+PASS STREAM mode=0 case=47 CHAIN_DMA_ACC_64 cycles=1206
+PASS STREAM mode=1 case=45 DOT_scratch_ACC_64 cycles=1517
+PASS STREAM mode=0 case=48 COPY_main_sp_CPU_256 cycles=11069
+PASS STREAM mode=1 case=46 CHAIN_CPU_64 cycles=10363
+PASS STREAM mode=0 case=49 COPY_main_sp_DMA_256 cycles=1739
+PASS STREAM mode=1 case=47 CHAIN_DMA_ACC_64 cycles=2913
+PASS STREAM mode=0 case=50 COPY_sp_main_CPU_256 cycles=11069
+PASS STREAM mode=1 case=48 COPY_main_sp_CPU_256 cycles=18785
+PASS STREAM mode=0 case=51 COPY_sp_main_DMA_256 cycles=1739
+PASS STREAM mode=0 case=52 COPY_main_main_CPU_256 cycles=11069
+PASS STREAM mode=1 case=49 COPY_main_sp_DMA_256 cycles=4898
+PASS STREAM mode=0 case=53 COPY_main_main_DMA_256 cycles=1739
+PASS STREAM mode=1 case=50 COPY_sp_main_CPU_256 cycles=18785
+PASS STREAM mode=0 case=54 DOT_main_CPU_256 cycles=13656
+PASS STREAM mode=0 case=55 DOT_main_ACC_256 cycles=1997
+PASS STREAM mode=1 case=51 COPY_sp_main_DMA_256 cycles=4898
+PASS STREAM mode=0 case=56 DOT_scratch_CPU_256 cycles=13656
+PASS STREAM mode=1 case=52 COPY_main_main_CPU_256 cycles=18785
+PASS STREAM mode=0 case=57 DOT_scratch_ACC_256 cycles=1997
+PASS STREAM mode=1 case=53 COPY_main_main_DMA_256 cycles=4898
+PASS STREAM mode=0 case=58 CHAIN_CPU_256 cycles=24694
+PASS STREAM mode=1 case=54 DOT_main_CPU_256 cycles=22158
+PASS STREAM mode=0 case=59 CHAIN_DMA_ACC_256 cycles=3705
+PASS STREAM mode=1 case=55 DOT_main_ACC_256 cycles=5177
+PASS STREAM mode=0 case=60 COPY_main_sp_CPU_512 cycles=22077
+PASS STREAM mode=1 case=56 DOT_scratch_CPU_256 cycles=22158
+PASS STREAM mode=0 case=61 COPY_main_sp_DMA_512 cycles=3272
+PASS STREAM mode=1 case=57 DOT_scratch_ACC_256 cycles=5177
+PASS STREAM mode=0 case=62 COPY_sp_main_CPU_512 cycles=22077
+PASS STREAM mode=1 case=58 CHAIN_CPU_256 cycles=40891
+PASS STREAM mode=0 case=63 COPY_sp_main_DMA_512 cycles=3272
+PASS STREAM mode=0 case=64 COPY_main_main_CPU_512 cycles=22077
+PASS STREAM mode=1 case=59 CHAIN_DMA_ACC_256 cycles=10023
+PASS STREAM mode=0 case=65 COPY_main_main_DMA_512 cycles=3272
+PASS STREAM mode=0 case=66 DOT_main_CPU_512 cycles=27224
+PASS STREAM mode=1 case=60 COPY_main_sp_CPU_512 cycles=37473
+PASS STREAM mode=0 case=67 DOT_main_ACC_512 cycles=3803
+PASS STREAM mode=1 case=61 COPY_main_sp_DMA_512 cycles=9518
+PASS STREAM mode=0 case=68 DOT_scratch_CPU_512 cycles=27224
+PASS STREAM mode=1 case=62 COPY_sp_main_CPU_512 cycles=37473
+PASS STREAM mode=0 case=69 DOT_scratch_ACC_512 cycles=3803
+PASS STREAM mode=0 case=70 CHAIN_CPU_512 cycles=49270
+PASS STREAM mode=1 case=63 COPY_sp_main_DMA_512 cycles=9518
+PASS STREAM mode=1 case=64 COPY_main_main_CPU_512 cycles=37473
+PASS STREAM mode=0 case=71 CHAIN_DMA_ACC_512 cycles=7044
+PASS STREAM mode=1 case=65 COPY_main_main_DMA_512 cycles=9518
+PASS STREAM mode=0 case=72 COPY_main_sp_CPU_1024 cycles=44093
+PASS STREAM mode=1 case=66 DOT_main_CPU_512 cycles=44174
+PASS STREAM mode=0 case=73 COPY_main_sp_DMA_1024 cycles=6338
+PASS STREAM mode=0 case=74 COPY_sp_main_CPU_1024 cycles=44093
+PASS STREAM mode=1 case=67 DOT_main_ACC_512 cycles=10037
+PASS STREAM mode=1 case=68 DOT_scratch_CPU_512 cycles=44174
+PASS STREAM mode=0 case=75 COPY_sp_main_DMA_1024 cycles=6338
+PASS STREAM mode=0 case=76 COPY_main_main_CPU_1024 cycles=44093
+PASS STREAM mode=1 case=69 DOT_scratch_ACC_512 cycles=10037
+PASS STREAM mode=0 case=77 COPY_main_main_DMA_1024 cycles=6338
+PASS STREAM mode=1 case=70 CHAIN_CPU_512 cycles=81595
+PASS STREAM mode=0 case=78 DOT_main_CPU_1024 cycles=54360
+PASS STREAM mode=0 case=79 DOT_main_ACC_1024 cycles=7373
+PASS STREAM mode=1 case=71 CHAIN_DMA_ACC_512 cycles=19503
+PASS STREAM mode=0 case=80 DOT_scratch_CPU_1024 cycles=54360
+PASS STREAM mode=1 case=72 COPY_main_sp_CPU_1024 cycles=74849
+PASS STREAM mode=0 case=81 DOT_scratch_ACC_1024 cycles=7373
+PASS STREAM mode=1 case=73 COPY_main_sp_DMA_1024 cycles=18728
+PASS STREAM mode=0 case=82 CHAIN_CPU_1024 cycles=98422
+PASS STREAM mode=1 case=74 COPY_sp_main_CPU_1024 cycles=74849
+PASS STREAM mode=0 case=83 CHAIN_DMA_ACC_1024 cycles=13680
+PASS STREAM mode=0 case=84 DOT_ALIAS_BOUND_80808080 cycles=7373
+PASS STREAM mode=1 case=75 COPY_sp_main_DMA_1024 cycles=18728
+PASS STREAM mode=0 case=85 DOT_ALIAS_BOUND_7f7f7f7f cycles=7373
+PASS STREAM mode=0 case=86 DOT_ALIAS_BOUND_807f807f cycles=7373
+PASS STREAM mode=0 case=87 DMA_INVALID_zero cycles=212
+PASS STREAM mode=0 case=88 DMA_INVALID_too_many cycles=212
+PASS STREAM mode=0 case=89 DMA_INVALID_src_align cycles=212
+PASS STREAM mode=1 case=76 COPY_main_main_CPU_1024 cycles=74849
+PASS STREAM mode=0 case=90 DMA_INVALID_dst_align cycles=212
+PASS STREAM mode=0 case=91 DMA_INVALID_imem cycles=206
+PASS STREAM mode=0 case=92 DMA_INVALID_mmio cycles=212
+PASS STREAM mode=0 case=93 DMA_INVALID_end_cross cycles=212
+PASS STREAM mode=0 case=94 DMA_INVALID_wrap cycles=206
+PASS STREAM mode=0 case=95 DMA_INVALID_overlap cycles=212
+PASS STREAM mode=0 case=96 ACC_INVALID_zero cycles=212
+PASS STREAM mode=0 case=97 ACC_INVALID_too_many cycles=212
+PASS STREAM mode=0 case=98 ACC_INVALID_src_align cycles=212
+PASS STREAM mode=0 case=99 ACC_INVALID_dst_align cycles=212
+PASS STREAM mode=0 case=100 ACC_INVALID_imem cycles=206
+PASS STREAM mode=1 case=77 COPY_main_main_DMA_1024 cycles=18728
+PASS STREAM mode=0 case=101 ACC_INVALID_mmio cycles=212
+PASS STREAM mode=0 case=102 ACC_INVALID_end_cross cycles=212
+PASS STREAM mode=0 case=103 ACC_INVALID_wrap cycles=206
+PASS STREAM mode=0 case=104 ACC_INVALID_overlap cycles=212
+PASS STREAM mode=0 case=105 CONCURRENT cycles=4020
+PASS STREAM mode=0 case=106 CONFLICT_DMA_FIRST cycles=6339
+PASS STREAM mode=0 case=107 CONFLICT_ACC_FIRST cycles=1992
+PASS STREAM mode=1 case=78 DOT_main_CPU_1024 cycles=88206
+PASS STREAM mode=0 case=108 CPU_LOCK_dma_src_read cycles=1683
+PASS STREAM mode=0 case=109 CPU_LOCK_dma_dst_byte cycles=1683
+PASS STREAM mode=0 case=110 CPU_LOCK_acc_result_read cycles=1945
+PASS STREAM mode=0 case=111 CPU_LOCK_busy_count cycles=1683
+PASS STREAM mode=0 case=112 CPU_LOCK_busy_start cycles=1683
+PASS STREAM mode=0 case=113 CPU_LOCK_busy_clear cycles=1945
+PASS STREAM mode=0 case=114 DMA_BAD_MMIO_readonly cycles=26
+PASS STREAM mode=0 case=115 DMA_BAD_MMIO_narrow cycles=24
+PASS STREAM mode=0 case=116 ACC_BAD_MMIO_readonly cycles=26
+PASS STREAM mode=0 case=117 ACC_BAD_MMIO_narrow cycles=24
+PASS STREAM mode=0 case=118 FAULT_INJECTION_1 cycles=212
+PASS STREAM mode=1 case=79 DOT_main_ACC_1024 cycles=19757
+PASS STREAM mode=0 case=119 FAULT_INJECTION_2 cycles=212
+PASS STREAM mode=0 case=120 FAULT_INJECTION_3 cycles=212
+PASS STREAM mode=0 case=121 FAULT_INJECTION_4 cycles=212
+PASS STREAM mode=0 case=122 FAULT_INJECTION_5 cycles=233
+PASS STREAM mode=0 case=123 FAULT_INJECTION_6 cycles=212
+STREAM MODE 0 COMPLETE runs=372 resets=46
+PASS STREAM mode=1 case=80 DOT_scratch_CPU_1024 cycles=88206
+PASS STREAM mode=1 case=81 DOT_scratch_ACC_1024 cycles=19757
+PASS STREAM mode=1 case=82 CHAIN_CPU_1024 cycles=163003
+PASS STREAM mode=1 case=83 CHAIN_DMA_ACC_1024 cycles=38433
+PASS STREAM mode=1 case=84 DOT_ALIAS_BOUND_80808080 cycles=19757
+PASS STREAM mode=1 case=85 DOT_ALIAS_BOUND_7f7f7f7f cycles=19757
+PASS STREAM mode=1 case=86 DOT_ALIAS_BOUND_807f807f cycles=19757
+PASS STREAM mode=1 case=87 DMA_INVALID_zero cycles=317
+PASS STREAM mode=1 case=88 DMA_INVALID_too_many cycles=317
+PASS STREAM mode=1 case=89 DMA_INVALID_src_align cycles=317
+PASS STREAM mode=1 case=90 DMA_INVALID_dst_align cycles=317
+PASS STREAM mode=1 case=91 DMA_INVALID_imem cycles=308
+PASS STREAM mode=1 case=92 DMA_INVALID_mmio cycles=317
+PASS STREAM mode=1 case=93 DMA_INVALID_end_cross cycles=317
+PASS STREAM mode=1 case=94 DMA_INVALID_wrap cycles=308
+PASS STREAM mode=1 case=95 DMA_INVALID_overlap cycles=317
+PASS STREAM mode=1 case=96 ACC_INVALID_zero cycles=317
+PASS STREAM mode=1 case=97 ACC_INVALID_too_many cycles=317
+PASS STREAM mode=1 case=98 ACC_INVALID_src_align cycles=317
+PASS STREAM mode=1 case=99 ACC_INVALID_dst_align cycles=317
+PASS STREAM mode=1 case=100 ACC_INVALID_imem cycles=308
+PASS STREAM mode=1 case=101 ACC_INVALID_mmio cycles=317
+PASS STREAM mode=1 case=102 ACC_INVALID_end_cross cycles=317
+PASS STREAM mode=1 case=103 ACC_INVALID_wrap cycles=308
+PASS STREAM mode=1 case=104 ACC_INVALID_overlap cycles=317
+PASS STREAM mode=1 case=105 CONCURRENT cycles=6124
+PASS STREAM mode=1 case=106 CONFLICT_DMA_FIRST cycles=18735
+PASS STREAM mode=1 case=107 CONFLICT_ACC_FIRST cycles=5175
+PASS STREAM mode=1 case=108 CPU_LOCK_dma_src_read cycles=4824
+PASS STREAM mode=1 case=109 CPU_LOCK_dma_dst_byte cycles=4824
+PASS STREAM mode=1 case=110 CPU_LOCK_acc_result_read cycles=5092
+PASS STREAM mode=1 case=111 CPU_LOCK_busy_count cycles=4824
+PASS STREAM mode=1 case=112 CPU_LOCK_busy_start cycles=4824
+PASS STREAM mode=1 case=113 CPU_LOCK_busy_clear cycles=5092
+PASS STREAM mode=1 case=114 DMA_BAD_MMIO_readonly cycles=38
+PASS STREAM mode=1 case=115 DMA_BAD_MMIO_narrow cycles=36
+PASS STREAM mode=1 case=116 ACC_BAD_MMIO_readonly cycles=38
+PASS STREAM mode=1 case=117 ACC_BAD_MMIO_narrow cycles=36
+PASS STREAM mode=1 case=118 FAULT_INJECTION_1 cycles=317
+PASS STREAM mode=1 case=119 FAULT_INJECTION_2 cycles=317
+PASS STREAM mode=1 case=120 FAULT_INJECTION_3 cycles=317
+PASS STREAM mode=1 case=121 FAULT_INJECTION_4 cycles=317
+PASS STREAM mode=1 case=122 FAULT_INJECTION_5 cycles=377
+PASS STREAM mode=1 case=123 FAULT_INJECTION_6 cycles=317
+STREAM MODE 1 COMPLETE runs=372 resets=46
+ALL STREAM SCENARIO RUNS PASSED; inspect per-mode run and reset totals
+$finish called at time : 61891926 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_asic_streams.sv" Line 135
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:06:08 . Memory (MB): peak = 272.684 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 295584 KB (Peak: 295584 KB), Simulation CPU Usage: 348390 ms
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 14:40:45 2026...

@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "source": "inputs/direct_rc_partial.odb",
+  "source_sha256": "d455234f12f3a8ca3d18cf676c1cc3bd035828eb48f6f714d2a15004a868d608",
+  "global_source": "runs/global_direct_rc2/final/odb/fault_v_asic_top.odb",
+  "global_source_sha256": "b8b4f448918055744fd415f6060264824a1aee151610bf342e37c71285d13b97",
+  "derived": "inputs/direct_rc_reguide.odb",
+  "derived_sha256": "5feb04b890b94ba646cf39495feb6657e36d3287e3d1b84e0d7369d8fe76abfc",
+  "guides_copied": 373162,
+  "retained_wire_count": 40932,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_and_logical_graph_unchanged": true,
+  "guides_match_actual_zero_overflow_global": true,
+  "scope": "Only native guides copied from a verified same-cell/same-graph route-free copy. All retained original native wires unchanged exactly. Fresh pin access and native detailed routing still required; no route solution splicing."
+}

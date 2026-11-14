@@ -1,0 +1,7 @@
+{
+  "nl": "/work/placement_cts/runs/placement_release/final/nl/fault_v_asic_top.nl.v",
+  "spef": {
+    "nom_tt_025C_1v80": "/work/placement_cts/runs/placement_release/2-openroad-stamidpnr/estimated.spef"
+  },
+  "metrics": {}
+}

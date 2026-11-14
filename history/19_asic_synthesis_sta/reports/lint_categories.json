@@ -1,0 +1,44 @@
+{
+  "tt_initial": {
+    "PINCONNECTEMPTY": 9,
+    "TIMESCALEMOD": 446,
+    "WIDTHEXPAND": 4,
+    "UNUSEDSIGNAL": 21,
+    "UNUSEDPARAM": 1,
+    "UNDRIVEN": 2,
+    "UNSIGNED": 2,
+    "UNOPTFLAT": 1
+  },
+  "tt_optimized": {
+    "PINCONNECTEMPTY": 9,
+    "TIMESCALEMOD": 446,
+    "UNUSEDSIGNAL": 21,
+    "UNUSEDPARAM": 1,
+    "UNDRIVEN": 2,
+    "UNSIGNED": 2
+  },
+  "tt_final": {
+    "PINCONNECTEMPTY": 9,
+    "TIMESCALEMOD": 446,
+    "UNUSEDSIGNAL": 21,
+    "UNUSEDPARAM": 1,
+    "UNDRIVEN": 2,
+    "UNSIGNED": 2
+  },
+  "tt_release": {
+    "PINCONNECTEMPTY": 9,
+    "TIMESCALEMOD": 446,
+    "UNUSEDSIGNAL": 21,
+    "UNUSEDPARAM": 1,
+    "UNDRIVEN": 2,
+    "UNSIGNED": 2
+  },
+  "tt_delivery": {
+    "PINCONNECTEMPTY": 9,
+    "TIMESCALEMOD": 446,
+    "UNUSEDSIGNAL": 21,
+    "UNUSEDPARAM": 1,
+    "UNDRIVEN": 2,
+    "UNSIGNED": 2
+  }
+}

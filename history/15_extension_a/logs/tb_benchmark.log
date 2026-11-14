@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 14 20:50:50 2026
+# Process ID: 13056
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/sim
+# Command line: xsim.exe -log tb_benchmark.log -mode tcl -source {xsim.dir/tb_benchmark/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/sim/tb_benchmark.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_benchmark/xsim_script.tcl
+# xsim {tb_benchmark} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+BENCH_RESULT mode=0 id=0 repeat=0 cycles=21671 instructions=3526 custom=0 loads=128 stores=1 outputs=1 extra=0
+BENCH_RESULT mode=1 id=0 repeat=0 cycles=33023 instructions=3526 custom=0 loads=128 stores=1 outputs=1 extra=0
+BENCH_RESULT mode=0 id=0 repeat=1 cycles=21671 instructions=3526 custom=0 loads=128 stores=1 outputs=1 extra=0
+BENCH_RESULT mode=0 id=1 repeat=0 cycles=985 instructions=137 custom=16 loads=32 stores=1 outputs=1 extra=32
+BENCH_RESULT mode=0 id=1 repeat=1 cycles=985 instructions=137 custom=16 loads=32 stores=1 outputs=1 extra=32
+BENCH_RESULT mode=0 id=2 repeat=0 cycles=20206 instructions=3269 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=0 repeat=1 cycles=33023 instructions=3526 custom=0 loads=128 stores=1 outputs=1 extra=0
+BENCH_RESULT mode=1 id=1 repeat=0 cycles=1594 instructions=137 custom=16 loads=32 stores=1 outputs=1 extra=32
+BENCH_RESULT mode=1 id=1 repeat=1 cycles=1594 instructions=137 custom=16 loads=32 stores=1 outputs=1 extra=32
+BENCH_RESULT mode=0 id=2 repeat=1 cycles=20206 instructions=3269 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=3 repeat=0 cycles=3950 instructions=553 custom=32 loads=130 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=0 id=3 repeat=1 cycles=3950 instructions=553 custom=32 loads=130 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=1 id=2 repeat=0 cycles=30925 instructions=3269 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=4 repeat=0 cycles=20782 instructions=3429 custom=0 loads=40 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=2 repeat=1 cycles=30925 instructions=3269 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=4 repeat=1 cycles=20782 instructions=3429 custom=0 loads=40 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=5 repeat=0 cycles=1454 instructions=201 custom=32 loads=34 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=1 id=3 repeat=0 cycles=6485 instructions=553 custom=32 loads=130 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=0 id=5 repeat=1 cycles=1454 instructions=201 custom=32 loads=34 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=1 id=3 repeat=1 cycles=6485 instructions=553 custom=32 loads=130 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=1 id=4 repeat=0 cycles=31405 instructions=3429 custom=0 loads=40 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=6 repeat=0 cycles=50518 instructions=8321 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=4 repeat=1 cycles=31405 instructions=3429 custom=0 loads=40 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=5 repeat=0 cycles=2357 instructions=201 custom=32 loads=34 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=1 id=5 repeat=1 cycles=2357 instructions=201 custom=32 loads=34 stores=16 outputs=16 extra=64
+BENCH_RESULT mode=0 id=6 repeat=1 cycles=50518 instructions=8321 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=7 repeat=0 cycles=3818 instructions=495 custom=128 loads=136 stores=16 outputs=16 extra=256
+BENCH_RESULT mode=0 id=7 repeat=1 cycles=3818 instructions=495 custom=128 loads=136 stores=16 outputs=16 extra=256
+BENCH_RESULT mode=0 id=8 repeat=0 cycles=1216 instructions=184 custom=0 loads=16 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=8 repeat=1 cycles=1216 instructions=184 custom=0 loads=16 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=9 repeat=0 cycles=864 instructions=120 custom=16 loads=16 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=9 repeat=1 cycles=864 instructions=120 custom=16 loads=16 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=10 repeat=0 cycles=6614 instructions=985 custom=0 loads=128 stores=64 outputs=64 extra=0
+BENCH_RESULT mode=0 id=10 repeat=1 cycles=6614 instructions=985 custom=0 loads=128 stores=64 outputs=64 extra=0
+BENCH_RESULT mode=0 id=11 repeat=0 cycles=4342 instructions=585 custom=64 loads=128 stores=64 outputs=64 extra=128
+BENCH_RESULT mode=0 id=11 repeat=1 cycles=4342 instructions=585 custom=64 loads=128 stores=64 outputs=64 extra=128
+BENCH_RESULT mode=1 id=6 repeat=0 cycles=76393 instructions=8321 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=12 repeat=0 cycles=21534 instructions=3549 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=12 repeat=1 cycles=21534 instructions=3549 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=13 repeat=0 cycles=1410 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=0 id=13 repeat=1 cycles=1410 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=0 id=14 repeat=0 cycles=11544 instructions=1884 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=14 repeat=1 cycles=11544 instructions=1884 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=15 repeat=0 cycles=1410 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=0 id=15 repeat=1 cycles=1410 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=0 id=16 repeat=0 cycles=5762 instructions=931 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=16 repeat=1 cycles=5762 instructions=931 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=17 repeat=0 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=17 repeat=1 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=6 repeat=1 cycles=76393 instructions=8321 custom=0 loads=136 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=18 repeat=0 cycles=5726 instructions=925 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=18 repeat=1 cycles=5726 instructions=925 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=7 repeat=0 cycles=6215 instructions=495 custom=128 loads=136 stores=16 outputs=16 extra=256
+BENCH_RESULT mode=0 id=19 repeat=0 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=19 repeat=1 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=7 repeat=1 cycles=6215 instructions=495 custom=128 loads=136 stores=16 outputs=16 extra=256
+BENCH_RESULT mode=1 id=8 repeat=0 cycles=1960 instructions=184 custom=0 loads=16 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=20 repeat=0 cycles=6308 instructions=1022 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=8 repeat=1 cycles=1960 instructions=184 custom=0 loads=16 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=9 repeat=0 cycles=1416 instructions=120 custom=16 loads=16 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=9 repeat=1 cycles=1416 instructions=120 custom=16 loads=16 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=20 repeat=1 cycles=6308 instructions=1022 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=21 repeat=0 cycles=1154 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=0 id=21 repeat=1 cycles=1154 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=10 repeat=0 cycles=10721 instructions=985 custom=0 loads=128 stores=64 outputs=64 extra=0
+BENCH_RESULT mode=1 id=10 repeat=1 cycles=10721 instructions=985 custom=0 loads=128 stores=64 outputs=64 extra=0
+BENCH_RESULT mode=0 id=22 repeat=0 cycles=22448 instructions=3712 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=11 repeat=0 cycles=7249 instructions=585 custom=64 loads=128 stores=64 outputs=64 extra=128
+BENCH_RESULT mode=1 id=11 repeat=1 cycles=7249 instructions=585 custom=64 loads=128 stores=64 outputs=64 extra=128
+BENCH_RESULT mode=0 id=22 repeat=1 cycles=22448 instructions=3712 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=23 repeat=0 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=23 repeat=1 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=12 repeat=0 cycles=32565 instructions=3549 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=24 repeat=0 cycles=24194 instructions=4003 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=24 repeat=1 cycles=24194 instructions=4003 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=25 repeat=0 cycles=1154 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=12 repeat=1 cycles=32565 instructions=3549 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=25 repeat=1 cycles=1154 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=13 repeat=0 cycles=2355 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=13 repeat=1 cycles=2355 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=14 repeat=0 cycles=17580 instructions=1884 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=26 repeat=0 cycles=23846 instructions=3945 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=14 repeat=1 cycles=17580 instructions=1884 custom=0 loads=48 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=15 repeat=0 cycles=2355 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=15 repeat=1 cycles=2355 instructions=187 custom=16 loads=48 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=0 id=26 repeat=1 cycles=23846 instructions=3945 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=0 id=27 repeat=0 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=0 id=27 repeat=1 cycles=1138 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=16 repeat=0 cycles=8843 instructions=931 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=16 repeat=1 cycles=8843 instructions=931 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=17 repeat=0 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=17 repeat=1 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=18 repeat=0 cycles=8789 instructions=925 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=18 repeat=1 cycles=8789 instructions=925 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=19 repeat=0 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=19 repeat=1 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=20 repeat=0 cycles=9662 instructions=1022 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=20 repeat=1 cycles=9662 instructions=1022 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=21 repeat=0 cycles=1907 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=21 repeat=1 cycles=1907 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=22 repeat=0 cycles=33872 instructions=3712 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=22 repeat=1 cycles=33872 instructions=3712 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=23 repeat=0 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=23 repeat=1 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=24 repeat=0 cycles=36491 instructions=4003 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=24 repeat=1 cycles=36491 instructions=4003 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=25 repeat=0 cycles=1907 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=25 repeat=1 cycles=1907 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=48
+BENCH_RESULT mode=1 id=26 repeat=0 cycles=35969 instructions=3945 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=26 repeat=1 cycles=35969 instructions=3945 custom=0 loads=32 stores=16 outputs=16 extra=0
+BENCH_RESULT mode=1 id=27 repeat=0 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+BENCH_RESULT mode=1 id=27 repeat=1 cycles=1891 instructions=155 custom=16 loads=32 stores=16 outputs=16 extra=32
+ALL 112 BENCHMARK RUNS PASSED; OUTPUTS AND REPEATED COUNTS VERIFIED
+$finish called at time : 16450011 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/verify/tb_benchmark.sv" Line 90
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 239.293 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 20:50:59 2026...

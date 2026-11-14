@@ -1,0 +1,35 @@
+[08:19:57] INFO     Loading the design configuration file has      config.py:740
+                    generated the following warnings:                           
+[08:19:57] WARNING  Key 'SIGNOFF_SDC_FILE' provided is unused by   config.py:744
+                    the current flow.                                           
+[08:19:58] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag                                     
+                    'global_desktop_electrical_sta310'.                         
+[08:19:58] INFO     Starting…                                  sequential.py:339
+─────────────────────── Static Timing Analysis (Pre-PnR) ───────────────────────
+[08:19:58] VERBOSE  Running 'OpenROAD.STAPrePNR' at                 step.py:1138
+                    'runs/global_desktop_electrical_sta310/1-openro             
+                    ad-staprepnr'…                                              
+[08:19:58] INFO     Starting STA for the nom_tt_025C_1v80 timing openroad.py:749
+                    corner…                                                     
+[08:19:58] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/global_desktop_electrical_sta310/1-openro             
+                    ad-staprepnr/nom_tt_025C_1v80/sta.log'…                     
+[08:20:10] INFO     Finished STA for the nom_tt_025C_1v80 timing openroad.py:764
+                    corner.                                                     
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━┳━━━━┳━━━━┳━━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┓
+┃                      ┃    ┃    ┃    ┃    ┃ of ┃   ┃    ┃   ┃    ┃ … ┃    ┃   ┃
+┃                      ┃    ┃ R… ┃    ┃    ┃ w… ┃   ┃ R… ┃   ┃    ┃ … ┃    ┃   ┃
+┃                      ┃ H… ┃ to ┃    ┃ H… ┃ r… ┃ … ┃ to ┃   ┃ S… ┃ … ┃ M… ┃ … ┃
+┃                      ┃ W… ┃ R… ┃ H… ┃ V… ┃ to ┃ … ┃ R… ┃ … ┃ V… ┃ … ┃ C… ┃ … ┃
+┃ Corner/Group         ┃ S… ┃ P… ┃ T… ┃ C… ┃ r… ┃ … ┃ P… ┃ … ┃ C… ┃ … ┃ V… ┃ … ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━╇━━━━╇━━━━╇━━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━┩
+│ Overall              │ 0… │ 0… │ 0… │ 0  │ 0  │ … │ 1… │ … │ 0  │ 0 │ 0  │ 0 │
+│ nom_tt_025C_1v80     │ 0… │ 0… │ 0… │ 0  │ 0  │ … │ 1… │ … │ 0  │ 0 │ 0  │ 0 │
+└──────────────────────┴────┴────┴────┴────┴────┴───┴────┴───┴────┴───┴────┴───┘
+[08:20:10] INFO     Saving views to                                 state.py:209
+                    '/work/routing/runs/global_desktop_electrical_s             
+                    ta310/final'…                                               
+[08:20:11] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 1 - STA (Pre-PnR) ━━━━━━━━━━━━━━━━━━━ 1/1 0:00:12
+

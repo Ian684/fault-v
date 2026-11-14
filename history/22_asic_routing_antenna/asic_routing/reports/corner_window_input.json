@@ -1,0 +1,33 @@
+{
+  "accepted": false,
+  "source": "runs/routed_shuffled/1-openroad-detailedrouting/drt_iter47.odb",
+  "source_sha256": "175c745a127a9c449c8ad8b3ac36a0eb097ef780e8e47c80eee913d8dfa89993",
+  "source_report": "runs/routed_shuffled/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-47.rpt",
+  "source_report_sha256": "de87270d270351a137b4a4c46ead3e1b445259d3b7b07b55e9e1ecb2f42eb8f2",
+  "native_markers": 10,
+  "derived": "inputs/corner_window_start.odb",
+  "derived_sha256": "175c745a127a9c449c8ad8b3ac36a0eb097ef780e8e47c80eee913d8dfa89993",
+  "geometry_and_logical_graph_unchanged": true,
+  "reason": "Ten persistent passing-trunk shorts occupy the same SRAM-corner gcell; use wider native repair windows without changing cells or rules.",
+  "window_schedule": [
+    {
+      "size": 19,
+      "offset": 0,
+      "maze_iters": 8,
+      "cost": 128
+    },
+    {
+      "size": 19,
+      "offset": -1,
+      "maze_iters": 8,
+      "cost": 256
+    },
+    {
+      "size": 19,
+      "offset": -2,
+      "maze_iters": 8,
+      "cost": 512
+    }
+  ],
+  "scope": "Preparation only; native route/connectivity, independent DRC, extracted timing and all existing acceptance checks still required."
+}

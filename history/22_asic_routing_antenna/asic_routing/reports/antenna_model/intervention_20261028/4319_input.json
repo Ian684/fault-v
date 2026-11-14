@@ -1,0 +1,73 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/antenna_4319_preparation_20261028/1-openroad-detailedrouting/corridor_native_prepared.odb",
+  "source_sha256": "2c2ab1ea1c16ffebd871b0e1e295633c2ffdae23255cdbb3add176ee78304493",
+  "source_incomplete": true,
+  "reference": "inputs/antenna_tight16.odb",
+  "reference_sha256": "9502163b5f44dcf6dc24b869f95240a1c3fb7c845578c80b57b337a06effb28e",
+  "reference_native_DRC": 16,
+  "reference_antenna_nets": 1,
+  "partial": "inputs/antenna_4319_partial.odb",
+  "partial_sha256": "963ad4c07b296ab4090c17b7aca20f5570c483a84bfe765c34e453bb54fc9b53",
+  "global_input": "inputs/antenna_4319_global.odb",
+  "global_input_sha256": "3fa972092561a8915b97768dd5182bdb463595034fcfcc0874cd415b79fa2bbe",
+  "new_native_diodes": [
+    "ANTENNA_7551"
+  ],
+  "native_added_diodes": 1,
+  "planned_diodes": 1,
+  "planned_diodes_scope": "One earlier planned net3312 diode already present in the coherent source; no planned diode added in this follow-up.",
+  "native_preparation_cleared_nets": [
+    "_09267_",
+    "net3181",
+    "net3183",
+    "net3227",
+    "net3312",
+    "net3347",
+    "net3653",
+    "net4319",
+    "net4749",
+    "net4818",
+    "net5737",
+    "net6035",
+    "net6038",
+    "net6081",
+    "net6164",
+    "net6166",
+    "net6231",
+    "net6233",
+    "net6235",
+    "net6242",
+    "net6505",
+    "net6594",
+    "net7187",
+    "net7324"
+  ],
+  "all_original_cached_preferences_preserved": true,
+  "new_diode_cached_preference_matches_actual_native": true,
+  "native_cached_equivalent_instance": "ANTENNA_1",
+  "cleared_whole_nets": [
+    "net4319"
+  ],
+  "retained_exact_wires": 41336,
+  "cached_access_points_checked": 5,
+  "routing_obstructions": [
+    [
+      "met1",
+      1582440,
+      640600,
+      1582700,
+      640820
+    ],
+    [
+      "met2",
+      1582440,
+      640600,
+      1582700,
+      640820
+    ]
+  ],
+  "global_macro_extension_gcells": 1,
+  "scope": "Copy only the native new diode placement/connectivity and exact preferred pin/layer/point using an existing native cached access object with the same master/orientation/index. Preserve every old cached preference and41336 exact route encodings; cold-route only net4319. All chip geometry and graph match the actual native preparation. Existing strict corner obstructions remain. Native guides reserve one additional macro-avoidance gcell; zero overflow and all final detailed/physical/RC/TT/antenna gates remain required."
+}

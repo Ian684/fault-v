@@ -1,0 +1,19 @@
+{
+  "pdk": "sky130A",
+  "pdk_revision": "8afc8346a57fe1ab7934ba5a6056ea8b43078e71",
+  "scl": "sky130_fd_sc_hd",
+  "corner": "nom_tt_025C_1v80",
+  "docker_image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302",
+  "openroad_commit": "dcf36133a369abc8f3c5e5738cd4d82e4903c0e0",
+  "selected_pdk_files": {
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef": "5de46c6f7c2cf82599b93d30a6459465f770f63c85b36182c672782219938519",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef": "46d4bfbcc9acbf3456e647827fcf4f401fae850e3f2debbe80e10874243972a1",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef": "3a3ea4e9d0973402702764d897659e52fe3d413eb48c306cd811de40a75264fa",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib": "8e78e14442062dba34d414fca6490b2f6b96038d4510d1438ca44fee31487135",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.calibre": "0b0678968a3d8665ee1ac882df2b0eb31e3896ac05130b9de6bd67ef2027c757",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.tech/openlane/rules.openrcx.sky130A.min.calibre": "b11177d33b33878c080a0c1db6c6dd022e89c64ebf21cc87e0ac4d9c68378a63",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre": "008ce6e4867fa9a68b16dbc50df596967d503f6c29b317354689f61f4c249220",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef": "19aaf83af18d588cca915eff29cc656e75cc0614b67fd3730d097a47362f5363",
+    "ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef": "14f7e9f499076bd9b4c0f307bff8c9361ef0bfbb95a432464787b2d66a3e5c94"
+  }
+}

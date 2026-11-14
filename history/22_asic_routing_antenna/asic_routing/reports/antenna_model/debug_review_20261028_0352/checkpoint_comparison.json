@@ -1,0 +1,46 @@
+{
+  "accepted": false,
+  "paired_checkpoints": [
+    {
+      "name": "best_drc7",
+      "source": "inputs/antenna_residual_source63.odb",
+      "odb_sha256": "e29be567607f4f6407e5b0b2fa77e066db088c2dc87e45d442938beab3b00400",
+      "native_DRC": 7,
+      "antenna_nets": 139,
+      "accepted": false
+    },
+    {
+      "name": "bounded_connected",
+      "source": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/antenna_connected.odb",
+      "odb_sha256": "d71ed45e51889a3147458984b502bfce4a46a6db0182199e99b0ce0d3ff7d50c",
+      "native_DRC": 110,
+      "antenna_nets": 0,
+      "accepted": false
+    },
+    {
+      "name": "bounded_final",
+      "source": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/bounded_routed.odb",
+      "odb_sha256": "63ab80765e0f5bd58b8b4043c2f86eae041dafc4c59afc81e5e4b00c79455ffd",
+      "native_DRC": 126,
+      "antenna_nets": 2,
+      "accepted": false
+    },
+    {
+      "name": "current_frozen",
+      "source": "reports/antenna_model/runtime_20261028_035111/checkpoint.odb",
+      "odb_sha256": "8a63d7e982f322bcaa5700cf3c5b6a6c46386aa395868c2036ebd6327c922baa",
+      "native_DRC": 36,
+      "antenna_nets": 4,
+      "accepted": false
+    }
+  ],
+  "selected_trial_source": {
+    "name": "bounded_connected",
+    "source": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/antenna_connected.odb",
+    "odb_sha256": "d71ed45e51889a3147458984b502bfce4a46a6db0182199e99b0ce0d3ff7d50c",
+    "native_DRC": 110,
+    "antenna_nets": 0,
+    "accepted": false
+  },
+  "scope": "Each metric pair belongs to one immutable ODB SHA256. Selection as an experiment input is not acceptance."
+}

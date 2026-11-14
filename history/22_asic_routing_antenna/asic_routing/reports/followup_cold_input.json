@@ -1,0 +1,13 @@
+{
+  "accepted": false,
+  "source": "runs/global_followup_rc/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "041bec076075968f3f84569d6580d280f76bed647d89400ef358ffbb12ae6cd6",
+  "input": "inputs/followup_cold_global.odb",
+  "input_sha256": "041bec076075968f3f84569d6580d280f76bed647d89400ef358ffbb12ae6cd6",
+  "signal_clock_detailed_wires": 0,
+  "guides": 373252,
+  "same_cells_graph_proof": "reports/followup_rc_reguide_input.json",
+  "same_cells_graph_verified": true,
+  "global_overflow": 0,
+  "scope": "Full coherent route-free zerooverflow global source for standard freshPA/native normal detailed routing. No retained old detailed routes or cross-solution splicing; actual RC/timing/independentDRC still required."
+}

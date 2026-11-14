@@ -1,0 +1,1003 @@
+{
+  "source_sha256": "1f3f1b127c5e725852f60983180b9a96821ad55dd8513760d3af062aef2f1cf9",
+  "region_dbu": [
+    1575000,
+    620000,
+    1610000,
+    655000
+  ],
+  "diodes": [
+    {
+      "instance": "ANTENNA_4019",
+      "master": "sky130_fd_sc_hd__diode_2",
+      "diode": true,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        652800,
+        1605400,
+        655520
+      ],
+      "location": [
+        1604480,
+        652800
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net6240"
+      ]
+    },
+    {
+      "instance": "ANTENNA_4288",
+      "master": "sky130_fd_sc_hd__diode_2",
+      "diode": true,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        620160,
+        1605400,
+        622880
+      ],
+      "location": [
+        1604480,
+        620160
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net6611"
+      ]
+    }
+  ],
+  "ordinary_cells": 31,
+  "macros": [
+    {
+      "instance": "u_soc.u_imem.banks\\[4\\].u_sram",
+      "master": "sky130_sram_2kbyte_1rw1r_32x512_8",
+      "diode": false,
+      "macro": true,
+      "box_dbu": [
+        900000,
+        640000,
+        1583100,
+        1056540
+      ],
+      "location": [
+        900000,
+        640000
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net537",
+        "net532",
+        "net527",
+        "net522",
+        "net517",
+        "net512",
+        "net507",
+        "net503",
+        "net497",
+        "net492",
+        "net487",
+        "net482",
+        "net477",
+        "net472",
+        "net467",
+        "net462",
+        "net457",
+        "net452",
+        "net447",
+        "net442",
+        "net437",
+        "net432",
+        "net427",
+        "net423",
+        "net418",
+        "net413",
+        "net407",
+        "net403",
+        "net397",
+        "net392",
+        "net387",
+        "net382",
+        "eco_sram_n116_last",
+        "eco_sram_n115_last",
+        "eco_sram_n114_last",
+        "eco_sram_n113_last",
+        "eco_sram_n112_last",
+        "eco_sram_n111_last",
+        "eco_sram_n110_last",
+        "eco_sram_n109_last",
+        "eco_sram_n108_last",
+        "net1124",
+        "net1125",
+        "net1126",
+        "net1127",
+        "net1128",
+        "net1129",
+        "net1130",
+        "net1131",
+        "net1132",
+        "net3234",
+        "net1190",
+        "net4324",
+        "clknet_leaf_8_clk",
+        "clknet_leaf_7_clk",
+        "eco_sram_n213_last",
+        "eco_sram_n212_last",
+        "eco_sram_n211_last",
+        "eco_sram_n210_last",
+        "sram_out_iso_n12_0",
+        "sram_out_iso_n12_1",
+        "sram_out_iso_n12_2",
+        "sram_out_iso_n12_3",
+        "sram_out_iso_n12_4",
+        "sram_out_iso_n12_5",
+        "sram_out_iso_n12_6",
+        "sram_out_iso_n12_7",
+        "sram_out_iso_n12_8",
+        "sram_out_iso_n12_9",
+        "sram_out_iso_n12_10",
+        "sram_out_iso_n12_11",
+        "sram_out_iso_n12_12",
+        "sram_out_iso_n12_13",
+        "sram_out_iso_n12_14",
+        "sram_out_iso_n12_15",
+        "sram_out_iso_n12_16",
+        "sram_out_iso_n12_17",
+        "sram_out_iso_n12_18",
+        "sram_out_iso_n12_19",
+        "sram_out_iso_n12_20",
+        "sram_out_iso_n12_21",
+        "sram_out_iso_n12_22",
+        "sram_out_iso_n12_23",
+        "sram_out_iso_n12_24",
+        "sram_out_iso_n12_25",
+        "sram_out_iso_n12_26",
+        "sram_out_iso_n12_27",
+        "sram_out_iso_n12_28",
+        "sram_out_iso_n12_29",
+        "sram_out_iso_n12_30",
+        "sram_out_iso_n12_31",
+        "_NC416",
+        "_NC415",
+        "_NC414",
+        "_NC413",
+        "_NC412",
+        "_NC411",
+        "_NC410",
+        "_NC409",
+        "_NC408",
+        "_NC407",
+        "_NC406",
+        "_NC405",
+        "_NC404",
+        "_NC403",
+        "_NC402",
+        "_NC401",
+        "_NC400",
+        "_NC399",
+        "_NC398",
+        "_NC397",
+        "_NC396",
+        "_NC395",
+        "_NC394",
+        "_NC393",
+        "_NC392",
+        "_NC391",
+        "_NC390",
+        "_NC389",
+        "_NC388",
+        "_NC387",
+        "_NC386",
+        "_NC385"
+      ]
+    }
+  ],
+  "all_instances": [
+    {
+      "instance": "_37484_",
+      "master": "sky130_fd_sc_hd__a211o_2",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1606780,
+        617440,
+        1610460,
+        620160
+      ],
+      "location": [
+        1606780,
+        617440
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "net6374",
+        "_09229_",
+        "_09233_",
+        "net6992",
+        "_09234_"
+      ]
+    },
+    {
+      "instance": "_37494_",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1607240,
+        620160,
+        1610460,
+        622880
+      ],
+      "location": [
+        1607240,
+        620160
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "_09161_",
+        "_09234_",
+        "_09243_",
+        "_09186_",
+        "_09244_"
+      ]
+    },
+    {
+      "instance": "_37504_",
+      "master": "sky130_fd_sc_hd__a211o_2",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1607700,
+        628320,
+        1611380,
+        631040
+      ],
+      "location": [
+        1607700,
+        628320
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "net6374",
+        "_09248_",
+        "_09252_",
+        "net6992",
+        "_09253_"
+      ]
+    },
+    {
+      "instance": "_37524_",
+      "master": "sky130_fd_sc_hd__a211o_2",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1608620,
+        647360,
+        1612300,
+        650080
+      ],
+      "location": [
+        1608620,
+        647360
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net6374",
+        "_09267_",
+        "_09271_",
+        "net6992",
+        "_09272_"
+      ]
+    },
+    {
+      "instance": "_37534_",
+      "master": "sky130_fd_sc_hd__a31o_2",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1607700,
+        650080,
+        1610920,
+        652800
+      ],
+      "location": [
+        1607700,
+        650080
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "_09161_",
+        "_09272_",
+        "net5319",
+        "_09186_",
+        "_09282_"
+      ]
+    },
+    {
+      "instance": "_38755_",
+      "master": "sky130_fd_sc_hd__clkbuf_2",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1607240,
+        625600,
+        1609080,
+        628320
+      ],
+      "location": [
+        1607240,
+        625600
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "_10352_",
+        "_10452_"
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[4\\].u_sram",
+      "master": "sky130_sram_2kbyte_1rw1r_32x512_8",
+      "diode": false,
+      "macro": true,
+      "box_dbu": [
+        900000,
+        640000,
+        1583100,
+        1056540
+      ],
+      "location": [
+        900000,
+        640000
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net537",
+        "net532",
+        "net527",
+        "net522",
+        "net517",
+        "net512",
+        "net507",
+        "net503",
+        "net497",
+        "net492",
+        "net487",
+        "net482",
+        "net477",
+        "net472",
+        "net467",
+        "net462",
+        "net457",
+        "net452",
+        "net447",
+        "net442",
+        "net437",
+        "net432",
+        "net427",
+        "net423",
+        "net418",
+        "net413",
+        "net407",
+        "net403",
+        "net397",
+        "net392",
+        "net387",
+        "net382",
+        "eco_sram_n116_last",
+        "eco_sram_n115_last",
+        "eco_sram_n114_last",
+        "eco_sram_n113_last",
+        "eco_sram_n112_last",
+        "eco_sram_n111_last",
+        "eco_sram_n110_last",
+        "eco_sram_n109_last",
+        "eco_sram_n108_last",
+        "net1124",
+        "net1125",
+        "net1126",
+        "net1127",
+        "net1128",
+        "net1129",
+        "net1130",
+        "net1131",
+        "net1132",
+        "net3234",
+        "net1190",
+        "net4324",
+        "clknet_leaf_8_clk",
+        "clknet_leaf_7_clk",
+        "eco_sram_n213_last",
+        "eco_sram_n212_last",
+        "eco_sram_n211_last",
+        "eco_sram_n210_last",
+        "sram_out_iso_n12_0",
+        "sram_out_iso_n12_1",
+        "sram_out_iso_n12_2",
+        "sram_out_iso_n12_3",
+        "sram_out_iso_n12_4",
+        "sram_out_iso_n12_5",
+        "sram_out_iso_n12_6",
+        "sram_out_iso_n12_7",
+        "sram_out_iso_n12_8",
+        "sram_out_iso_n12_9",
+        "sram_out_iso_n12_10",
+        "sram_out_iso_n12_11",
+        "sram_out_iso_n12_12",
+        "sram_out_iso_n12_13",
+        "sram_out_iso_n12_14",
+        "sram_out_iso_n12_15",
+        "sram_out_iso_n12_16",
+        "sram_out_iso_n12_17",
+        "sram_out_iso_n12_18",
+        "sram_out_iso_n12_19",
+        "sram_out_iso_n12_20",
+        "sram_out_iso_n12_21",
+        "sram_out_iso_n12_22",
+        "sram_out_iso_n12_23",
+        "sram_out_iso_n12_24",
+        "sram_out_iso_n12_25",
+        "sram_out_iso_n12_26",
+        "sram_out_iso_n12_27",
+        "sram_out_iso_n12_28",
+        "sram_out_iso_n12_29",
+        "sram_out_iso_n12_30",
+        "sram_out_iso_n12_31",
+        "_NC416",
+        "_NC415",
+        "_NC414",
+        "_NC413",
+        "_NC412",
+        "_NC411",
+        "_NC410",
+        "_NC409",
+        "_NC408",
+        "_NC407",
+        "_NC406",
+        "_NC405",
+        "_NC404",
+        "_NC403",
+        "_NC402",
+        "_NC401",
+        "_NC400",
+        "_NC399",
+        "_NC398",
+        "_NC397",
+        "_NC396",
+        "_NC395",
+        "_NC394",
+        "_NC393",
+        "_NC392",
+        "_NC391",
+        "_NC390",
+        "_NC389",
+        "_NC388",
+        "_NC387",
+        "_NC386",
+        "_NC385"
+      ]
+    },
+    {
+      "instance": "PHY_EDGE_ROW_197_3_Left_3658",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        617440,
+        1604480,
+        620160
+      ],
+      "location": [
+        1603100,
+        617440
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_198_3_Left_3659",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        620160,
+        1604480,
+        622880
+      ],
+      "location": [
+        1603100,
+        620160
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_199_3_Left_3660",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        622880,
+        1604480,
+        625600
+      ],
+      "location": [
+        1603100,
+        622880
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_200_3_Left_3661",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        625600,
+        1604480,
+        628320
+      ],
+      "location": [
+        1603100,
+        625600
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_201_3_Left_3662",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        628320,
+        1604480,
+        631040
+      ],
+      "location": [
+        1603100,
+        628320
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_202_3_Left_3663",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        631040,
+        1604480,
+        633760
+      ],
+      "location": [
+        1603100,
+        631040
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_203_3_Left_3664",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        633760,
+        1604480,
+        636480
+      ],
+      "location": [
+        1603100,
+        633760
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_204_3_Left_3665",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        636480,
+        1604480,
+        639200
+      ],
+      "location": [
+        1603100,
+        636480
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_205_3_Left_3666",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        639200,
+        1604480,
+        641920
+      ],
+      "location": [
+        1603100,
+        639200
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_206_3_Left_3667",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        641920,
+        1604480,
+        644640
+      ],
+      "location": [
+        1603100,
+        641920
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_207_3_Left_3668",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        644640,
+        1604480,
+        647360
+      ],
+      "location": [
+        1603100,
+        644640
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_208_3_Left_3669",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        647360,
+        1604480,
+        650080
+      ],
+      "location": [
+        1603100,
+        647360
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_209_3_Left_3670",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        650080,
+        1604480,
+        652800
+      ],
+      "location": [
+        1603100,
+        650080
+      ],
+      "orientation": "MX",
+      "signal_nets": []
+    },
+    {
+      "instance": "PHY_EDGE_ROW_210_3_Left_3671",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1603100,
+        652800,
+        1604480,
+        655520
+      ],
+      "location": [
+        1603100,
+        652800
+      ],
+      "orientation": "R0",
+      "signal_nets": []
+    },
+    {
+      "instance": "wire412",
+      "master": "sky130_fd_sc_hd__buf_12",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        644640,
+        1611840,
+        647360
+      ],
+      "location": [
+        1604480,
+        644640
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "net4965",
+        "net412"
+      ]
+    },
+    {
+      "instance": "wire417",
+      "master": "sky130_fd_sc_hd__buf_12",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        631040,
+        1611840,
+        633760
+      ],
+      "location": [
+        1604480,
+        631040
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net4972",
+        "net417"
+      ]
+    },
+    {
+      "instance": "wire422",
+      "master": "sky130_fd_sc_hd__buf_12",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        641920,
+        1611840,
+        644640
+      ],
+      "location": [
+        1604480,
+        641920
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net4977",
+        "net422"
+      ]
+    },
+    {
+      "instance": "wire426",
+      "master": "sky130_fd_sc_hd__buf_12",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        633760,
+        1611840,
+        636480
+      ],
+      "location": [
+        1604480,
+        633760
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "net4981",
+        "net426"
+      ]
+    },
+    {
+      "instance": "wire431",
+      "master": "sky130_fd_sc_hd__buf_12",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        636480,
+        1611840,
+        639200
+      ],
+      "location": [
+        1604480,
+        636480
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net4985",
+        "net431"
+      ]
+    },
+    {
+      "instance": "clkbuf_5_11__f_clk_regs",
+      "master": "sky130_fd_sc_hd__clkbuf_16",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        639200,
+        1613680,
+        641920
+      ],
+      "location": [
+        1604480,
+        639200
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "clknet_4_5_0_clk_regs",
+        "clknet_5_11__leaf_clk_regs"
+      ]
+    },
+    {
+      "instance": "clkload9",
+      "master": "sky130_fd_sc_hd__inv_8",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        647360,
+        1608620,
+        650080
+      ],
+      "location": [
+        1604480,
+        647360
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "clknet_5_11__leaf_clk_regs"
+      ]
+    },
+    {
+      "instance": "wire3428",
+      "master": "sky130_fd_sc_hd__buf_4",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        622880,
+        1607240,
+        625600
+      ],
+      "location": [
+        1604480,
+        622880
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "_09206_",
+        "net3428"
+      ]
+    },
+    {
+      "instance": "wire6162",
+      "master": "sky130_fd_sc_hd__buf_4",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        625600,
+        1607240,
+        628320
+      ],
+      "location": [
+        1604480,
+        625600
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net699",
+        "net6162"
+      ]
+    },
+    {
+      "instance": "wire6239",
+      "master": "sky130_fd_sc_hd__clkbuf_4",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        650080,
+        1607240,
+        652800
+      ],
+      "location": [
+        1604480,
+        650080
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "net6240",
+        "net6239"
+      ]
+    },
+    {
+      "instance": "wire6610",
+      "master": "sky130_fd_sc_hd__clkbuf_4",
+      "diode": false,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        628320,
+        1607240,
+        631040
+      ],
+      "location": [
+        1604480,
+        628320
+      ],
+      "orientation": "MX",
+      "signal_nets": [
+        "net6611",
+        "net6610"
+      ]
+    },
+    {
+      "instance": "ANTENNA_4019",
+      "master": "sky130_fd_sc_hd__diode_2",
+      "diode": true,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        652800,
+        1605400,
+        655520
+      ],
+      "location": [
+        1604480,
+        652800
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net6240"
+      ]
+    },
+    {
+      "instance": "ANTENNA_4288",
+      "master": "sky130_fd_sc_hd__diode_2",
+      "diode": true,
+      "macro": false,
+      "box_dbu": [
+        1604480,
+        620160,
+        1605400,
+        622880
+      ],
+      "location": [
+        1604480,
+        620160
+      ],
+      "orientation": "R0",
+      "signal_nets": [
+        "net6611"
+      ]
+    }
+  ]
+}

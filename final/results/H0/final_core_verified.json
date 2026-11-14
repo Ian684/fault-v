@@ -1,0 +1,48 @@
+{
+  "filled_ODB_sha256": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2",
+  "manufacturing_core_GDS_sha256": "67bcff916921d52cba6ca20ff2eccf32a37f3c867a88d764063f11c513a678d5",
+  "fresh_netlist_sha256": "cdbbfc46696534b7a5729c5c5f20a8de82b5923597f93cb53ec67f3f5f0e4175",
+  "filled_native_context_DRC": 0,
+  "all_41337_signal_clock_nets_geometrically_connected": true,
+  "diode_terminals": 7572,
+  "core_LVS_errors": 0,
+  "unique_declared_SRAM_ports": 125,
+  "SRAM_interfaces": 18,
+  "macro_39_layer_geometry_and_all_used_stdcell_and_via_stream_audits_pass": true,
+  "no_VPWR_VGND_copper_contacts": true,
+  "reset_CDC_cycles": 97,
+  "reset_release_phases": 8,
+  "four_workloads_pass": true,
+  "activity": {
+    "idle": {
+      "cycles": 256,
+      "mapping_coverage_pct": 100.0,
+      "mapped_unknown_time_fraction": 0.05539831144011419,
+      "clock_edges": 512,
+      "toggling_routed_nets": 446
+    },
+    "mixed": {
+      "cycles": 1159,
+      "mapping_coverage_pct": 100.0,
+      "mapped_unknown_time_fraction": 0.055148344747646835,
+      "clock_edges": 2318,
+      "toggling_routed_nets": 21451
+    },
+    "dot64_rv32i": {
+      "cycles": 21708,
+      "mapping_coverage_pct": 100.0,
+      "mapped_unknown_time_fraction": 0.05509118917253631,
+      "clock_edges": 43416,
+      "toggling_routed_nets": 8940
+    },
+    "dot64_custom": {
+      "cycles": 1022,
+      "mapping_coverage_pct": 100.0,
+      "mapped_unknown_time_fraction": 0.05508553814768752,
+      "clock_edges": 2044,
+      "toggling_routed_nets": 15349
+    }
+  },
+  "all_W25_gates_complete": false,
+  "scope": "Actual common-candidate core/pin-interface LVS and physical/digital screens. SRAM interior is opaque; X/Z activity time is retained explicitly. No SDF, analog CDC/MTBF, recovery/removal, foundry or SRAM qualification inferred. Final IR/EM/fill and comprehensive completion gate remain required."
+}

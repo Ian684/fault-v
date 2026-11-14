@@ -1,0 +1,8 @@
+{
+  "rc": 0,
+  "layers": 60,
+  "items": 0,
+  "categories_with_items": [],
+  "report_sha256": "133ed177c60815ec7e437d03ac91649f6497801865018602dd321fe6b91435dc",
+  "method": "KLayout DRC flat XOR, 500 um tiles, every polygon layer present in either layout (w26/scripts/xor_layouts.drc)"
+}

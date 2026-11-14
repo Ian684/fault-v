@@ -1,0 +1,262 @@
+{
+  "accepted": false,
+  "pass": false,
+  "source_sha256": "e5a155efe5e19c8276968063c47a6b918cce2c58058006255a2ee665fbe21426",
+  "known_source_shorts_detected": 3,
+  "candidate": null,
+  "trials": [
+    {
+      "shift": 0,
+      "y": 635460,
+      "connected": true,
+      "local_markers": 51,
+      "new_markers": 48
+    },
+    {
+      "shift": 0,
+      "y": 634780,
+      "connected": true,
+      "local_markers": 35,
+      "new_markers": 32
+    },
+    {
+      "shift": 0,
+      "y": 636140,
+      "connected": true,
+      "local_markers": 39,
+      "new_markers": 36
+    },
+    {
+      "shift": 0,
+      "y": 634100,
+      "connected": true,
+      "local_markers": 35,
+      "new_markers": 32
+    },
+    {
+      "shift": 0,
+      "y": 636820,
+      "connected": true,
+      "local_markers": 32,
+      "new_markers": 29
+    },
+    {
+      "shift": 0,
+      "y": 633420,
+      "connected": true,
+      "local_markers": 48,
+      "new_markers": 45
+    },
+    {
+      "shift": 0,
+      "y": 637500,
+      "connected": true,
+      "local_markers": 39,
+      "new_markers": 36
+    },
+    {
+      "shift": 0,
+      "y": 632740,
+      "connected": true,
+      "local_markers": 37,
+      "new_markers": 34
+    },
+    {
+      "shift": 0,
+      "y": 638180,
+      "connected": true,
+      "local_markers": 55,
+      "new_markers": 52
+    },
+    {
+      "shift": 460,
+      "y": 635460,
+      "connected": true,
+      "local_markers": 54,
+      "new_markers": 51
+    },
+    {
+      "shift": 460,
+      "y": 634780,
+      "connected": true,
+      "local_markers": 38,
+      "new_markers": 35
+    },
+    {
+      "shift": 460,
+      "y": 636140,
+      "connected": true,
+      "local_markers": 41,
+      "new_markers": 38
+    },
+    {
+      "shift": 460,
+      "y": 634100,
+      "connected": true,
+      "local_markers": 38,
+      "new_markers": 35
+    },
+    {
+      "shift": 460,
+      "y": 636820,
+      "connected": true,
+      "local_markers": 32,
+      "new_markers": 29
+    },
+    {
+      "shift": 460,
+      "y": 633420,
+      "connected": true,
+      "local_markers": 51,
+      "new_markers": 48
+    },
+    {
+      "shift": 460,
+      "y": 637500,
+      "connected": true,
+      "local_markers": 39,
+      "new_markers": 36
+    },
+    {
+      "shift": 460,
+      "y": 632740,
+      "connected": true,
+      "local_markers": 39,
+      "new_markers": 36
+    },
+    {
+      "shift": 460,
+      "y": 638180,
+      "connected": true,
+      "local_markers": 56,
+      "new_markers": 53
+    },
+    {
+      "shift": 920,
+      "y": 635460,
+      "connected": true,
+      "local_markers": 59,
+      "new_markers": 56
+    },
+    {
+      "shift": 920,
+      "y": 634780,
+      "connected": true,
+      "local_markers": 43,
+      "new_markers": 40
+    },
+    {
+      "shift": 920,
+      "y": 636140,
+      "connected": true,
+      "local_markers": 46,
+      "new_markers": 43
+    },
+    {
+      "shift": 920,
+      "y": 634100,
+      "connected": true,
+      "local_markers": 43,
+      "new_markers": 40
+    },
+    {
+      "shift": 920,
+      "y": 636820,
+      "connected": true,
+      "local_markers": 39,
+      "new_markers": 36
+    },
+    {
+      "shift": 920,
+      "y": 633420,
+      "connected": true,
+      "local_markers": 54,
+      "new_markers": 51
+    },
+    {
+      "shift": 920,
+      "y": 637500,
+      "connected": true,
+      "local_markers": 46,
+      "new_markers": 43
+    },
+    {
+      "shift": 920,
+      "y": 632740,
+      "connected": true,
+      "local_markers": 42,
+      "new_markers": 39
+    },
+    {
+      "shift": 920,
+      "y": 638180,
+      "connected": true,
+      "local_markers": 62,
+      "new_markers": 59
+    },
+    {
+      "shift": 1380,
+      "y": 635460,
+      "connected": true,
+      "local_markers": 61,
+      "new_markers": 58
+    },
+    {
+      "shift": 1380,
+      "y": 634780,
+      "connected": true,
+      "local_markers": 45,
+      "new_markers": 42
+    },
+    {
+      "shift": 1380,
+      "y": 636140,
+      "connected": true,
+      "local_markers": 47,
+      "new_markers": 44
+    },
+    {
+      "shift": 1380,
+      "y": 634100,
+      "connected": true,
+      "local_markers": 45,
+      "new_markers": 42
+    },
+    {
+      "shift": 1380,
+      "y": 636820,
+      "connected": true,
+      "local_markers": 42,
+      "new_markers": 39
+    },
+    {
+      "shift": 1380,
+      "y": 633420,
+      "connected": true,
+      "local_markers": 56,
+      "new_markers": 53
+    },
+    {
+      "shift": 1380,
+      "y": 637500,
+      "connected": true,
+      "local_markers": 47,
+      "new_markers": 44
+    },
+    {
+      "shift": 1380,
+      "y": 632740,
+      "connected": true,
+      "local_markers": 44,
+      "new_markers": 41
+    },
+    {
+      "shift": 1380,
+      "y": 638180,
+      "connected": true,
+      "local_markers": 64,
+      "new_markers": 61
+    }
+  ],
+  "scope": "Bounded manual local layer detour on net4947 only. Existing codec asserts preserve every other primitive, net, cell, graph, PG, guide and obstruction. The original three shorts are required negative controls; candidate must remove exactly those without adding any local marker and preserve actual target-net metal connectivity. Native antenna and full-chip physical/RC/TT/DRC gates remain mandatory; no Week24 acceptance."
+}

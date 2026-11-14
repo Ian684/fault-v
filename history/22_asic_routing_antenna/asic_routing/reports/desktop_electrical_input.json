@@ -1,0 +1,151 @@
+{
+  "accepted": false,
+  "source": "runs/routed_desktop_clock_top_full_20261022_084820/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "6e6c419fe047ffac2b428b59e8b1af9df785ef5fd235ae4c70d489f20aaa1976",
+  "proposal": "runs/desktop_electrical_proposal/final/odb/fault_v_asic_top.odb",
+  "proposal_sha256": "c5a2ebe2c50781dbfefabe8d7219f33a88453a845646bdd083096d9acd081e5b",
+  "partial": "inputs/desktop_electrical_partial.odb",
+  "partial_sha256": "1dfdf8bda1a44ed9b9931ea3daea825a5b26c8883fa0bf584035ef42164d3bb3",
+  "global_input": "inputs/desktop_electrical_global.odb",
+  "global_input_sha256": "5f81bafe53ae640d688cf89c712ee0f44a87b9b47bfac34e3f6647f90bb81d0f",
+  "resized_instances": {
+    "_27436_": [
+      "sky130_fd_sc_hd__a211oi_2",
+      "sky130_fd_sc_hd__a211oi_4"
+    ],
+    "clkbuf_1_1_0_clk": [
+      "sky130_fd_sc_hd__clkbuf_8",
+      "sky130_fd_sc_hd__clkbuf_16"
+    ],
+    "_29513_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_39099_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_27916_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_30115_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_34275_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_31004_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_36659_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_41007_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_30852_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_35759_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    "_38114_": [
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ]
+  },
+  "added_buffers": [
+    "eco_desktop_hold_a10467",
+    "eco_desktop_hold_b10468",
+    "eco_desktop_hold_c10469",
+    "eco_desktop_nor_load10466"
+  ],
+  "changed_physical_cells": [
+    "_27436_",
+    "_27532_",
+    "_27916_",
+    "_29513_",
+    "_30115_",
+    "_30158_",
+    "_30852_",
+    "_31004_",
+    "_34275_",
+    "_35759_",
+    "_36659_",
+    "_38114_",
+    "_39099_",
+    "_41007_",
+    "clkbuf_1_1_0_clk",
+    "eco_desktop_hold_a10467",
+    "eco_desktop_hold_b10468",
+    "eco_desktop_hold_c10469",
+    "eco_desktop_nor_load10466",
+    "wire3910"
+  ],
+  "cleared_whole_nets": [
+    "_02093_",
+    "_03018_",
+    "_03535_",
+    "_03546_",
+    "_03715_",
+    "_03716_",
+    "_03771_",
+    "_03772_",
+    "_06667_",
+    "_07879_",
+    "_08547_",
+    "_09844_",
+    "_10787_",
+    "_12340_",
+    "_12342_",
+    "_15298_",
+    "_22463_",
+    "_23891_",
+    "_23894_",
+    "_23895_",
+    "_23896_",
+    "_23897_",
+    "_23991_",
+    "_23992_",
+    "_23993_",
+    "_24162_",
+    "_24377_",
+    "_25698_",
+    "clknet_0_clk",
+    "clknet_1_1_0_clk",
+    "eco_desktop_hold_a_net10467",
+    "eco_desktop_hold_b_net10468",
+    "eco_desktop_hold_c_net10469",
+    "eco_desktop_nor_load_net10466",
+    "net3261",
+    "net3262",
+    "net3468",
+    "net3583",
+    "net3910",
+    "net5333",
+    "net547",
+    "net608",
+    "net6158",
+    "net6705",
+    "u_loader.byte_data\\[7\\]"
+  ],
+  "retained_wire_count": 41292,
+  "retained_native_wire_hashes_unchanged": true,
+  "same_partial_and_global_cells_graph_pg_obstructions": true,
+  "original_macros_and_pg_unchanged": true,
+  "pinless_met1_keepout_dbu": [
+    1581900,
+    640200,
+    1583200,
+    640650
+  ],
+  "scope": "Electrical and hold ECO proposal from measured routed RC. All wires incident to changed physical cells or changed graph, plus three corner/access nets, are removed completely. Unaffected wires remain byte identical. Actual routing, RC, timing and independent full-chip DRC remain required."
+}

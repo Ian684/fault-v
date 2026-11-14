@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Oct  5 19:14:13 2026
+# Process ID: 27528
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim
+# Command line: xsim.exe -log tb_decoder_results.log -mode tcl -source {xsim.dir/tb_decoder_checked/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim/tb_decoder_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_decoder_checked/xsim_script.tcl
+# xsim {tb_decoder_checked} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS 1: ADD inst=007302b3 controls=100048
+PASS 2: SUB inst=407302b3 controls=110048
+PASS 3: SLL inst=007312b3 controls=150048
+PASS 4: SLT inst=007322b3 controls=180048
+PASS 5: SLTU inst=007332b3 controls=190048
+PASS 6: XOR inst=007342b3 controls=140048
+PASS 7: SRL inst=007352b3 controls=160048
+PASS 8: SRA inst=407352b3 controls=170048
+PASS 9: OR inst=007362b3 controls=130048
+PASS 10: AND inst=007372b3 controls=120048
+PASS 11: ADDI inst=ffc30293 controls=102448
+PASS 12: SLTI inst=ffc32293 controls=182448
+PASS 13: SLTIU inst=ffc33293 controls=192448
+PASS 14: XORI inst=ffc34293 controls=142448
+PASS 15: ORI inst=ffc36293 controls=132448
+PASS 16: ANDI inst=ffc37293 controls=122448
+PASS 17: SLLI inst=01f31293 controls=152448
+PASS 18: SRLI inst=01f35293 controls=162448
+PASS 19: SRAI inst=41f35293 controls=172448
+PASS 20: LUI inst=123452b7 controls=109448
+PASS 21: AUIPC inst=12345297 controls=108c48
+PASS 22: BEQ inst=fe730ee3 controls=406cc0
+PASS 23: BNE inst=fe731ee3 controls=406d40
+PASS 24: BLT inst=fe734ee3 controls=406dc0
+PASS 25: BGE inst=fe735ee3 controls=406e40
+PASS 26: BLTU inst=fe736ee3 controls=406ec0
+PASS 27: BGEU inst=fe737ee3 controls=406f40
+PASS 28: JAL inst=ffdff2ef controls=50ac4c
+PASS 29: JALR inst=ffc302e7 controls=60244c
+PASS 30: LB inst=ffc30283 controls=20240a
+PASS 31: LH inst=ffc31283 controls=20242a
+PASS 32: LW inst=ffc32283 controls=20244a
+PASS 33: LBU inst=ffc34283 controls=20241a
+PASS 34: LHU inst=ffc35283 controls=20243a
+PASS 35: SB inst=fe730e23 controls=304400
+PASS 36: SH inst=fe731e23 controls=304420
+PASS 37: SW inst=fe732e23 controls=304440
+PASS 38: FENCE inst=0ff0000f controls=701440
+PASS 39: ECALL inst=00000073 controls=801440
+PASS 40: EBREAK inst=00100073 controls=901440
+PASS 33921: all zeros inst=00000000 controls=001441
+PASS 33922: all ones inst=ffffffff controls=001441
+PASS 33923: MUL unsupported inst=027302b3 controls=001441
+PASS 33924: FENCE.I unsupported inst=0000100f controls=001441
+PASS 33925: CSRRW unsupported inst=300312f3 controls=001441
+PASS 33926: CSRRS unsupported inst=300322f3 controls=001441
+PASS 33927: MRET unsupported inst=30200073 controls=001441
+PASS 33928: WFI unsupported inst=10500073 controls=001441
+PASS 33929: ECALL nonzero rd inst=000000f3 controls=001441
+PASS 33930: ECALL nonzero rs1 inst=00080073 controls=001441
+PASS 33931: EBREAK nonzero rd inst=001000f3 controls=001441
+PASS 33932: EBREAK nonzero rs1 inst=00108073 controls=001441
+PASS 33933: unknown SYSTEM immediate inst=00200073 controls=001441
+PASS 33934: RV64 OP-IMM-32 inst=0003029b controls=001441
+PASS 33935: RV64 OP-32 inst=007302bb controls=001441
+PASS 33936: compressed encoding inst=00000001 controls=001441
+PASS 33937: custom not yet implemented inst=0073028b controls=001441
+PASS 33938: canonical NOP inst=00000013 controls=102448
+PASS 33939: load to x0 retains load inst=00032003 controls=20244a
+PASS 33940: jump to x0 retains jump inst=0040006f controls=50ac4c
+PASS 33941: invalid after jump inst=ffffffff controls=001441
+PASS 33942: valid ADD after invalid inst=007302b3 controls=100048
+PASS 33943: invalid after ADD inst=027302b3 controls=001441
+ALL 33943 DECODER CHECKS PASSED
+$finish called at time : 33943 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/verify/tb_decoder.sv" Line 224
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct  5 19:14:15 2026...

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "tests": [
+    "disable_timing_load_slew",
+    "liberty_arcs_one2one_1",
+    "liberty_arcs_one2one_2"
+  ],
+  "scope": "Three targeted Tcl regressions; not the full upstream suite."
+}

@@ -1,0 +1,9 @@
+{
+  "metrics": {},
+  "odb": "/work/routing/inputs/direct_rc_neighbors.odb",
+  "nl": "/work/routing/runs/global_direct_rc2/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/global_direct_rc2/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/global_direct_rc2/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/global_direct_rc2/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/global_direct_rc2/final/vh/fault_v_asic_top.vh"
+}

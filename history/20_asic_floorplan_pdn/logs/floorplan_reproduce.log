@@ -1,0 +1,596 @@
+[06:14:09] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag 'floorplan_reproduce'.              
+[06:14:09] INFO     Starting…                                  sequential.py:339
+─────────────────────────────── Check SDC Files ────────────────────────────────
+[06:14:09] VERBOSE  Running 'OpenROAD.CheckSDCFiles' at             step.py:1138
+                    'runs/floorplan_reproduce/01-openroad-checksdcf             
+                    iles'…                                                      
+──────────────────────────── Check Macro Instances ─────────────────────────────
+[06:14:09] VERBOSE  Running 'OpenROAD.CheckMacroInstances' at       step.py:1138
+                    'runs/floorplan_reproduce/02-openroad-checkmacr             
+                    oinstances'…                                                
+[06:14:09] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/02-openroad-checkmacr             
+                    oinstances/openroad-checkmacroinstances.log'…               
++ define_corners nom_tt_025C_1v80                                               
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading cell library for the 'nom_tt_025C_1v80' corner at                       
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading cell library for the 'nom_tt_025C_1v80' corner at                       
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading top-level netlist at '/work/floorplan/inputs/mapped_top.v'…             
+Linking design 'fault_v_asic_top' from netlist…                                 
+Reading design constraints file at '/work/floorplan/constraints.sdc'…           
+[INFO] No information on clock propagation in input SDC file-- propagating all  
+clocks.                                                                         
+─────────────────────────── Floorplan Initialization ───────────────────────────
+[06:14:11] VERBOSE  Running 'OpenROAD.Floorplan' at                 step.py:1138
+                    'runs/floorplan_reproduce/03-openroad-floorplan             
+                    '…                                                          
+[06:14:11] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/03-openroad-floorplan             
+                    /openroad-floorplan.log'…                                   
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading technology LEF file at                                                  
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef'…                   
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers,  
+25 vias                                                                         
+Reading cell LEF file at                                                        
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…                             
+The NOWIREEXTENSIONATPIN statement will be ignored. See file                    
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.                     
+                                                                                
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 8 library cells       
+Reading cell LEF file at                                                        
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…                             
+The NOWIREEXTENSIONATPIN statement will be ignored. See file                    
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.                     
+                                                                                
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells     
+Reading macro LEF file at                                                       
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef'…                 
+[INFO ODB-0227] LEF file:                                                       
+/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef, created 1 library 
+cells                                                                           
+Reading top-level netlist at '/work/floorplan/inputs/mapped_top.v'…             
+Linking design 'fault_v_asic_top' from netlist…                                 
+Reading design constraints file at '/work/floorplan/constraints.sdc'…           
+[INFO] No information on clock propagation in input SDC file-- propagating all  
+clocks.                                                                         
+Using site height: 2.72 and site width: 0.46…                                   
+[INFO] Using absolute sizing for the floorplan.                                 
+[INFO] Using the set CORE_AREA; ignoring core margin parameters                 
++ initialize_floorplan -site unithd -die_area 0.0 0.0 2500.0 3300.0 -core_area  
+80.04 81.6 2419.6 3217.76                                                       
+[INFO IFP-0001] Added 1153 rows of 5086 site unithd.                            
+[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 2500.000 3300.000 ) um           
+[INFO IFP-0101] Core BBox: ( 80.040 81.600 ) ( 2419.600 3217.760 ) um           
+[INFO IFP-0102] Core area:                      7337234.490 um^2                
+[INFO IFP-0103] Total instances area:           5422636.161 um^2                
+[INFO IFP-0104] Effective utilization:                0.739                     
+[INFO IFP-0105] Number of instances:                  29466                     
+[INFO IFP-0030] Inserted 0 tiecells using sky130_fd_sc_hd__conb_1/LO.           
+[INFO IFP-0030] Inserted 0 tiecells using sky130_fd_sc_hd__conb_1/HI.           
+[INFO] Extracting DIE_AREA and CORE_AREA from the floorplan                     
+[INFO] Floorplanned on a die area of 0.0 0.0 2500.0 3300.0 (µm).                
+[INFO] Floorplanned on a core area of 80.04 81.6 2419.6 3217.76 (µm).           
+Writing metric design__die__bbox: 0.0 0.0 2500.0 3300.0                         
+Writing metric design__core__bbox: 80.04 81.6 2419.6 3217.76                    
+Setting global connections for newly added cells…                               
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.                        
+Updating metrics…                                                               
+Cell type report:                       Count       Area                        
+  Macro                                    18 5121692.53                        
+  Buffer                                 2940   17655.68                        
+  Inverter                                528    2011.93                        
+  Sequential cell                        2925   62230.93                        
+  Multi-Input combinational cell        23055  219045.08                        
+  Total                                 29466 5422636.16                        
+Writing OpenROAD database to                                                    
+'/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top
+.odb'…                                                                          
+Writing netlist to                                                              
+'/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top
+.nl.v'…                                                                         
+Writing powered netlist to                                                      
+'/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top
+.pnl.v'…                                                                        
+Writing layout to                                                               
+'/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top
+.def'…                                                                          
+Writing timing constraints to                                                   
+'/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top
+.sdc'…                                                                          
+──────────────────────────────── Dump RC Values ────────────────────────────────
+[06:14:16] VERBOSE  Running 'OpenROAD.DumpRCValues' at              step.py:1138
+                    'runs/floorplan_reproduce/04-openroad-dumprcval             
+                    ues'…                                                       
+[06:14:16] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/04-openroad-dumprcval             
+                    ues/openroad-dumprcvalues.log'…                             
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading technology LEF file at                                                  
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef'…                   
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers,  
+25 vias                                                                         
+Reading cell LEF file at                                                        
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…                             
+The NOWIREEXTENSIONATPIN statement will be ignored. See file                    
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.                     
+                                                                                
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 8 library cells       
+Reading cell LEF file at                                                        
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…                             
+The NOWIREEXTENSIONATPIN statement will be ignored. See file                    
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.                     
+                                                                                
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells     
+Reading macro LEF file at                                                       
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef'…                 
+[INFO ODB-0227] LEF file:                                                       
+/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef, created 1 library 
+cells                                                                           
+[INFO ODB-0127] Reading DEF file:                                               
+/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top.
+def                                                                             
+[INFO ODB-0128] Design: fault_v_asic_top                                        
+[INFO ODB-0130]     Created 108 pins.                                           
+[INFO ODB-0131]     Created 29466 components and 227357 component-terminals.    
+[INFO ODB-0132]     Created 2 special nets and 117828 connections.              
+[INFO ODB-0133]     Created 30605 nets and 109323 connections.                  
+[INFO ODB-0134] Finished DEF file:                                              
+/work/floorplan/runs/floorplan_reproduce/03-openroad-floorplan/fault_v_asic_top.
+def                                                                             
+────────── Check Antenna Properties of Macros Pins in Their LEF Views ──────────
+[06:14:19] VERBOSE  Running 'Odb.CheckMacroAntennaProperties' at    step.py:1138
+                    'runs/floorplan_reproduce/05-odb-checkmacroante             
+                    nnaproperties'…                                             
+[06:14:19] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/05-odb-checkmacroante             
+                    nnaproperties/odb-checkmacroantennaproperties.l             
+                    og'…                                                        
+[06:14:20] WARNING  Cell 'sky130_sram_2kbyte_1rw1r_32x512_8' has (59)  odb.py:71
+                    input pin(s) without antenna gate information.              
+                    They might not be connected to a gate.                      
+[06:14:20] WARNING  Cell 'sky130_sram_2kbyte_1rw1r_32x512_8' has (64)  odb.py:71
+                    output pin(s) without antenna diffusion                     
+                    information. They might not be driven.                      
+──────────────────────────── Set Power Connections ─────────────────────────────
+[06:14:21] VERBOSE  Running 'Odb.SetPowerConnections' at            step.py:1138
+                    'runs/floorplan_reproduce/06-odb-setpowerconnec             
+                    tions'…                                                     
+[06:14:21] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/06-odb-setpowerconnec             
+                    tions/odb-setpowerconnections.log'…                         
+──────────────────────────── Manual Macro Placement ────────────────────────────
+[06:14:25] VERBOSE  Running 'Odb.ManualMacroPlacement' at           step.py:1138
+                    'runs/floorplan_reproduce/07-odb-manualmacropla             
+                    cement'…                                                    
+[06:14:25] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/07-odb-manualmacropla             
+                    cement/odb-manualmacroplacement.log'…                       
+Placing the following macros:                                                   
+{'u_soc.u_imem.banks\\[0\\].u_sram': ['u_soc.u_imem.banks[0].u_sram', 120000,   
+120000, 'N'], 'u_soc.u_imem.banks\\[1\\].u_sram':                               
+['u_soc.u_imem.banks[1].u_sram', 900000, 120000, 'N'],                          
+'u_soc.u_imem.banks\\[2\\].u_sram': ['u_soc.u_imem.banks[2].u_sram', 1680000,   
+120000, 'N'], 'u_soc.u_imem.banks\\[3\\].u_sram':                               
+['u_soc.u_imem.banks[3].u_sram', 120000, 640000, 'N'],                          
+'u_soc.u_imem.banks\\[4\\].u_sram': ['u_soc.u_imem.banks[4].u_sram', 900000,    
+640000, 'N'], 'u_soc.u_imem.banks\\[5\\].u_sram':                               
+['u_soc.u_imem.banks[5].u_sram', 1680000, 640000, 'N'],                         
+'u_soc.u_imem.banks\\[6\\].u_sram': ['u_soc.u_imem.banks[6].u_sram', 120000,    
+1160000, 'N'], 'u_soc.u_imem.banks\\[7\\].u_sram':                              
+['u_soc.u_imem.banks[7].u_sram', 900000, 1160000, 'N'],                         
+'u_soc.u_dmem.banks\\[0\\].u_sram': ['u_soc.u_dmem.banks[0].u_sram', 1680000,   
+1160000, 'N'], 'u_soc.u_dmem.banks\\[1\\].u_sram':                              
+['u_soc.u_dmem.banks[1].u_sram', 120000, 1680000, 'N'],                         
+'u_soc.u_dmem.banks\\[2\\].u_sram': ['u_soc.u_dmem.banks[2].u_sram', 900000,    
+1680000, 'N'], 'u_soc.u_dmem.banks\\[3\\].u_sram':                              
+['u_soc.u_dmem.banks[3].u_sram', 1680000, 1680000, 'N'],                        
+'u_soc.u_dmem.banks\\[4\\].u_sram': ['u_soc.u_dmem.banks[4].u_sram', 120000,    
+2200000, 'N'], 'u_soc.u_dmem.banks\\[5\\].u_sram':                              
+['u_soc.u_dmem.banks[5].u_sram', 900000, 2200000, 'N'],                         
+'u_soc.u_dmem.banks\\[6\\].u_sram': ['u_soc.u_dmem.banks[6].u_sram', 1680000,   
+2200000, 'N'], 'u_soc.u_dmem.banks\\[7\\].u_sram':                              
+['u_soc.u_dmem.banks[7].u_sram', 120000, 2720000, 'N'],                         
+'u_soc.u_scratch.banks\\[0\\].u_sram': ['u_soc.u_scratch.banks[0].u_sram',      
+900000, 2720000, 'N'], 'u_soc.u_scratch.banks\\[1\\].u_sram':                   
+['u_soc.u_scratch.banks[1].u_sram', 1680000, 2720000, 'N']}                     
+Design name: fault_v_asic_top                                                   
+Placing u_soc.u_dmem.banks\[0\].u_sram                                          
+Placing u_soc.u_dmem.banks\[1\].u_sram                                          
+Placing u_soc.u_dmem.banks\[2\].u_sram                                          
+Placing u_soc.u_dmem.banks\[3\].u_sram                                          
+Placing u_soc.u_dmem.banks\[4\].u_sram                                          
+Placing u_soc.u_dmem.banks\[5\].u_sram                                          
+Placing u_soc.u_dmem.banks\[6\].u_sram                                          
+Placing u_soc.u_dmem.banks\[7\].u_sram                                          
+Placing u_soc.u_imem.banks\[0\].u_sram                                          
+Placing u_soc.u_imem.banks\[1\].u_sram                                          
+Placing u_soc.u_imem.banks\[2\].u_sram                                          
+Placing u_soc.u_imem.banks\[3\].u_sram                                          
+Placing u_soc.u_imem.banks\[4\].u_sram                                          
+Placing u_soc.u_imem.banks\[5\].u_sram                                          
+Placing u_soc.u_imem.banks\[6\].u_sram                                          
+Placing u_soc.u_imem.banks\[7\].u_sram                                          
+Placing u_soc.u_scratch.banks\[0\].u_sram                                       
+Placing u_soc.u_scratch.banks\[1\].u_sram                                       
+Successfully placed 18 instances.                                               
+─────────────────────────────────── Cut Rows ───────────────────────────────────
+[06:14:27] VERBOSE  Running 'OpenROAD.CutRows' at                   step.py:1138
+                    'runs/floorplan_reproduce/08-openroad-cutrows'…             
+[06:14:27] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/08-openroad-cutrows/o             
+                    penroad-cutrows.log'…                                       
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading OpenROAD database at                                                    
+'/work/floorplan/runs/floorplan_reproduce/07-odb-manualmacroplacement/fault_v_as
+ic_top.odb'…                                                                    
+Reading design constraints file at '/work/floorplan/constraints.sdc'…           
+[INFO] No information on clock propagation in input SDC file-- propagating all  
+clocks.                                                                         
++ cut_rows -halo_width_x 20.0 -halo_width_y 20.0 -endcap_master                 
+sky130_fd_sc_hd__decap_3                                                        
+[INFO ODB-0303] The initial 1153 rows (5864158 sites) were cut with 18 shapes   
+for a total of 4192 rows (1084824 sites).                                       
+Setting global connections for newly added cells…                               
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.                        
+Updating metrics…                                                               
+Cell type report:                       Count       Area                        
+  Macro                                    18 5121692.53                        
+  Buffer                                 2940   17655.68                        
+  Inverter                                528    2011.93                        
+  Sequential cell                        2925   62230.93                        
+  Multi-Input combinational cell        23055  219045.08                        
+  Total                                 29466 5422636.16                        
+Writing OpenROAD database to                                                    
+'/work/floorplan/runs/floorplan_reproduce/08-openroad-cutrows/fault_v_asic_top.o
+db'…                                                                            
+Writing layout to                                                               
+'/work/floorplan/runs/floorplan_reproduce/08-openroad-cutrows/fault_v_asic_top.d
+ef'…                                                                            
+───────────────────────────── Tap/Decap Insertion ──────────────────────────────
+[06:14:32] VERBOSE  Running 'OpenROAD.TapEndcapInsertion' at        step.py:1138
+                    'runs/floorplan_reproduce/09-openroad-tapendcap             
+                    insertion'…                                                 
+[06:14:32] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/09-openroad-tapendcap             
+                    insertion/openroad-tapendcapinsertion.log'…                 
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading OpenROAD database at                                                    
+'/work/floorplan/runs/floorplan_reproduce/08-openroad-cutrows/fault_v_asic_top.o
+db'…                                                                            
+Reading design constraints file at '/work/floorplan/constraints.sdc'…           
+[INFO] No information on clock propagation in input SDC file-- propagating all  
+clocks.                                                                         
++ tapcell -halo_width_x 20.0 -halo_width_y 20.0 -distance 13.0 -tapcell_master  
+sky130_fd_sc_hd__tapvpwrvgnd_1 -endcap_master sky130_fd_sc_hd__decap_3          
+[INFO ODB-0303] The initial 4192 rows (1084824 sites) were cut with 18 shapes   
+for a total of 4192 rows (1084824 sites).                                       
+[INFO TAP-0004] Inserted 2306 endcaps.                                          
+[INFO TAP-0005] Inserted 19509 tapcells.                                        
+Setting global connections for newly added cells…                               
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 72554 connections made, 0 conflicts skipped.                    
+Updating metrics…                                                               
+Cell type report:                       Count       Area                        
+  Macro                                    18 5121692.53                        
+  Fill cell                              8384   31470.18                        
+  Tap cell                              19509   24409.66                        
+  Buffer                                 2940   17655.68                        
+  Inverter                                528    2011.93                        
+  Sequential cell                        2925   62230.93                        
+  Multi-Input combinational cell        23055  219045.08                        
+  Total                                 57359 5478516.00                        
+Writing OpenROAD database to                                                    
+'/work/floorplan/runs/floorplan_reproduce/09-openroad-tapendcapinsertion/fault_v
+_asic_top.odb'…                                                                 
+Writing netlist to                                                              
+'/work/floorplan/runs/floorplan_reproduce/09-openroad-tapendcapinsertion/fault_v
+_asic_top.nl.v'…                                                                
+Writing powered netlist to                                                      
+'/work/floorplan/runs/floorplan_reproduce/09-openroad-tapendcapinsertion/fault_v
+_asic_top.pnl.v'…                                                               
+Writing layout to                                                               
+'/work/floorplan/runs/floorplan_reproduce/09-openroad-tapendcapinsertion/fault_v
+_asic_top.def'…                                                                 
+Writing timing constraints to                                                   
+'/work/floorplan/runs/floorplan_reproduce/09-openroad-tapendcapinsertion/fault_v
+_asic_top.sdc'…                                                                 
+───────────────────────────── Add PDN obstructions ─────────────────────────────
+[06:14:36] VERBOSE  Running 'Odb.AddPDNObstructions' at             step.py:1138
+                    'runs/floorplan_reproduce/10-odb-addpdnobstruct             
+                    ions'…                                                      
+[06:14:36] INFO     'PDN_OBSTRUCTIONS' is not defined. Skipping       odb.py:589
+                    'Odb.AddPDNObstructions'…                                   
+──────────────────── Power Distribution Network Generation ─────────────────────
+[06:14:36] VERBOSE  Running 'OpenROAD.GeneratePDN' at               step.py:1138
+                    'runs/floorplan_reproduce/11-openroad-generatep             
+                    dn'…                                                        
+[06:14:36] INFO     'PDN_CFG' not explicitly set, setting it to openroad.py:1483
+                    /nix/store/7zqpr7slgvjfjcqfabb2fmlpvc8k23ax                 
+                    -python3-3.13.9-env/lib/python3.13/site-pac                 
+                    kages/librelane/scripts/openroad/common/pdn                 
+                    _cfg.tcl…                                                   
+[06:14:36] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/11-openroad-generatep             
+                    dn/openroad-generatepdn.log'…                               
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading OpenROAD database at                                                    
+'/work/floorplan/runs/floorplan_reproduce/09-openroad-tapendcapinsertion/fault_v
+_asic_top.odb'…                                                                 
+Reading design constraints file at '/work/floorplan/constraints.sdc'…           
+[INFO] No information on clock propagation in input SDC file-- propagating all  
+clocks.                                                                         
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.                        
++ pdngen                                                                        
+[INFO PDN-0001] Inserting grid: stdcell_grid                                    
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[0\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[1\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[2\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[3\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[4\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[5\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[6\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[7\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[0\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[1\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[2\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[3\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[4\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[5\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[6\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[7\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_scratch.banks\[0\].u_sram       
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_scratch.banks\[1\].u_sram       
+Setting global connections for newly added cells…                               
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.                        
+Updating metrics…                                                               
+Cell type report:                       Count       Area                        
+  Macro                                    18 5121692.53                        
+  Fill cell                              8384   31470.18                        
+  Tap cell                              19509   24409.66                        
+  Buffer                                 2940   17655.68                        
+  Inverter                                528    2011.93                        
+  Sequential cell                        2925   62230.93                        
+  Multi-Input combinational cell        23055  219045.08                        
+  Total                                 57359 5478516.00                        
+Writing OpenROAD database to                                                    
+'/work/floorplan/runs/floorplan_reproduce/11-openroad-generatepdn/fault_v_asic_t
+op.odb'…                                                                        
+Writing netlist to                                                              
+'/work/floorplan/runs/floorplan_reproduce/11-openroad-generatepdn/fault_v_asic_t
+op.nl.v'…                                                                       
+Writing powered netlist to                                                      
+'/work/floorplan/runs/floorplan_reproduce/11-openroad-generatepdn/fault_v_asic_t
+op.pnl.v'…                                                                      
+Writing layout to                                                               
+'/work/floorplan/runs/floorplan_reproduce/11-openroad-generatepdn/fault_v_asic_t
+op.def'…                                                                        
+Writing timing constraints to                                                   
+'/work/floorplan/runs/floorplan_reproduce/11-openroad-generatepdn/fault_v_asic_t
+op.sdc'…                                                                        
+[INFO PSM-0040] All shapes on net VPWR are connected.                           
+[INFO PSM-0040] All shapes on net VGND are connected.                           
+─────────────────────────── Remove PDN obstructions ────────────────────────────
+[06:14:43] VERBOSE  Running 'Odb.RemovePDNObstructions' at          step.py:1138
+                    'runs/floorplan_reproduce/12-odb-removepdnobstr             
+                    uctions'…                                                   
+[06:14:43] INFO     'PDN_OBSTRUCTIONS' is not defined. Skipping       odb.py:589
+                    'Odb.RemovePDNObstructions'…                                
+─────────────────────────────── Add Obstructions ───────────────────────────────
+[06:14:43] VERBOSE  Running 'Odb.AddRoutingObstructions' at         step.py:1138
+                    'runs/floorplan_reproduce/13-odb-addroutingobst             
+                    ructions'…                                                  
+[06:14:43] INFO     'ROUTING_OBSTRUCTIONS' is not defined. Skipping   odb.py:589
+                    'Odb.AddRoutingObstructions'…                               
+─────────────────────── Custom I/O Pin Placement Script ────────────────────────
+[06:14:44] VERBOSE  Running 'Odb.CustomIOPlacement' at              step.py:1138
+                    'runs/floorplan_reproduce/14-odb-customioplacem             
+                    ent'…                                                       
+[06:14:44] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_reproduce/14-odb-customioplacem             
+                    ent/odb-customioplacement.log'…                             
+Top-level design name: fault_v_asic_top                                         
+Block boundaries: 0 0 2500000 3300000                                           
+Horizontal Tracks Origin: 340, Count: 4853, Step: 680                           
+Vertical Tracks Origin: 230, Count: 5435, Step: 460                             
+Placement details for the N side                                                
+Virtual pin count:  0                                                           
+Actual pin count:  32                                                           
+Total pin count:  32                                                            
+Tracks count:  5435                                                             
+Tracks per pin:  169                                                            
+Used tracks count:  5240                                                        
+Unused track count:  195                                                        
+Starting track index:  97                                                       
+Placement details for the E side                                                
+Virtual pin count:  0                                                           
+Actual pin count:  64                                                           
+Total pin count:  64                                                            
+Tracks count:  2427                                                             
+Tracks per pin:  37                                                             
+Used tracks count:  2332                                                        
+Unused track count:  95                                                         
+Starting track index:  47                                                       
+Placement details for the W side                                                
+Virtual pin count:  0                                                           
+Actual pin count:  6                                                            
+Total pin count:  6                                                             
+Tracks count:  2427                                                             
+Tracks per pin:  404                                                            
+Used tracks count:  2021                                                        
+Unused track count:  406                                                        
+Starting track index:  203                                                      
+Placement details for the S side                                                
+Virtual pin count:  0                                                           
+Actual pin count:  6                                                            
+Total pin count:  6                                                             
+Tracks count:  5435                                                             
+Tracks per pin:  905                                                            
+Used tracks count:  4526                                                        
+Unused track count:  909                                                        
+Starting track index:  454                                                      
+───────────────────────── Power Grid Violation Checker ─────────────────────────
+[06:14:47] VERBOSE  Running 'Checker.PowerGridViolations' at        step.py:1138
+                    'runs/floorplan_reproduce/15-checker-powergridv             
+                    iolations'…                                                 
+[06:14:47] INFO     Check for power grid violations (as reported  checker.py:131
+                    by OpenROAD PSM- you may ignore these if LVS                
+                    passes) clear.                                              
+[06:14:47] INFO     Saving views to                                 state.py:209
+                    '/work/floorplan/runs/floorplan_reproduce/final             
+                    '…                                                          
+[06:14:48] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 15 - Power Grid Violation Checker ━━━━ 15/… 0:00…
+
+[06:14:48] WARNING  The following warnings were generated by the     flow.py:699
+                    flow:                                                       
+[06:14:48] WARNING  [Odb.CheckMacroAntennaProperties] Cell           flow.py:701
+                    'sky130_sram_2kbyte_1rw1r_32x512_8' has (59)                
+                    input pin(s) without antenna gate information.              
+                    They might not be connected to a gate. (and 1               
+                    similar warnings)                                           

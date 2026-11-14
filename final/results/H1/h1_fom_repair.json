@@ -1,0 +1,11 @@
+{
+  "input_sha256": "37339a8d9d8d9a76aad1b30b0227bec52816121ff6c8d53a508c13b9335f1188",
+  "output_sha256": "250075e706b49d79c35bebc058d5f33ae4030db6ef9134bc55bd9b0b3ecc4815",
+  "source_geometry_sha256": "ae8a3f29dfe7140fe24410bd3b76b089c97ecebe0ed55c1be0f61112fc93ea22",
+  "removed_FOM_islands": 2118,
+  "removed_FOM_area_um2": 524.50765,
+  "retained_FOM_area_um2": 2681171.1720000003,
+  "all_other_seven_fill_layers_XOR_empty": true,
+  "width_spacing_implant_screens_pass": true,
+  "scope": "Deletes only whole unconnected FOM dummy islands that intersect <0.5um width markers or 0.13um implant keepouts. No source circuit geometry changes. Existing foundry qualification, seal/frame and macro internal signoff are not inferred."
+}

@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "python_syntax": true,
+  "connectivity_checker_positive_and_negative_fixtures": true,
+  "identity_buffer_sizes_checked_against_original_liberty": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    16
+  ],
+  "final_netlist_sha256": "88b35c08aa99b400a6bd72d7d1128b2d63fd8e9a04ae0f441698587c29f036f0"
+}

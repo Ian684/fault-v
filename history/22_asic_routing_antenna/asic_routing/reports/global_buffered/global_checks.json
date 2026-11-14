@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "run": "global_buffered",
+  "resources": 3257462,
+  "demand": 862963,
+  "usage_pct": 26.49,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "51f9f4d21395b68ad460a7be3076dadfea16d5c6dcadee913e4b0dda52516052"
+}

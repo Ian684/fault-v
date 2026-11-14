@@ -1,0 +1,34 @@
+{
+  "source_geometry_sha256": "e9c1218d0fe4cc27206734162d80221388a42fe9ba33ce05d63e11030310a7c9",
+  "source_ODB_sha256": "9c06b1b07f69b63056734f85a25a71c4a828835595241be6db64b9c8c79dc402",
+  "layers": {
+    "met1": {
+      "overlap_area_um2": 0.0,
+      "overlap_components": 0,
+      "touching_VPWR_components": 0
+    },
+    "met2": {
+      "overlap_area_um2": 0.0,
+      "overlap_components": 0,
+      "touching_VPWR_components": 0
+    },
+    "met3": {
+      "overlap_area_um2": 0.0,
+      "overlap_components": 0,
+      "touching_VPWR_components": 0
+    },
+    "met4": {
+      "overlap_area_um2": 0.0,
+      "overlap_components": 0,
+      "touching_VPWR_components": 0
+    },
+    "met5": {
+      "overlap_area_um2": 0.0,
+      "overlap_components": 0,
+      "touching_VPWR_components": 0
+    }
+  },
+  "positive_area_PG_contacts": [],
+  "no_VPWR_VGND_copper_contact": true,
+  "scope": "All native PG special-wire and via-enclosure copper plus SRAM PG pins and top PG ports. Standard-cell master PG pins are unchanged and only occupy lower layers; full actual core LVS is still mandatory. Both overlaps and zero-area edge/point contact are rejected; no technology rule or manufacturing geometry changed."
+}

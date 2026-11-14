@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "run": "global_desktop_corner_refined",
+  "resources": 3257448,
+  "demand": 865343,
+  "usage_pct": 26.57,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "187f3c5fe6216560ab7f48943e1495e1d2545db90a6344bed4d66c4fea9f698d"
+}

@@ -1,0 +1,68 @@
+# 標準元件放置與時脈樹
+
+Placement 決定每個標準元件在晶片核心中的位置；CTS（Clock Tree Synthesis）加入時脈 buffer，把同一個 clock 送到暫存器與 SRAM。CPU 的指令、FSM 與記憶體容量延續原本設計，這一階段調整的是實體位置、驅動能力與時脈分配。
+
+## 1．實體配置
+
+| 項目 | 設計 |
+| --- | --- |
+| 製程／標準元件庫 | SKY130A／`sky130_fd_sc_hd` |
+| 實作邊界 | 2500 × 3300 µm；作為核心實作邊界，尚不包含完整 pad ring、ESD 與封裝 |
+| Core | 左下角 (80.04, 81.60)，右上角 (2419.60, 3217.76) µm |
+| 記憶體 | 18 顆 2 KiB SRAM：8 顆指令、8 顆資料、2 顆 scratchpad |
+| SRAM 排列 | 三欄、六列；保留既定座標與 R0 方向 |
+| Macro halo | 水平與垂直各 20 µm，保留記憶體周圍空間 |
+| 標準元件 | 放入 SRAM 之間的合法 rows；包含 CPU、周邊、DMA、加速器與電氣修整元件 |
+| 放置設定 | 目標密度 40%，啟用可繞線性估算；此值是 placer 設定，不等於最後的實際使用率 |
+| 放置穩定性 | Nesterov 最大 phi 係數 1.01；此設定與 40% 密度配合 |
+| 電源 | 沿用 VPWR／VGND 電源環、straps、rails 與 SRAM 供電連接 |
+| 外部訊號 | 保留原有 108 個 signal pins 的位置與金屬層 |
+
+## 2．SRAM 邊界電路
+
+SRAM 的 address 與 write mask 輸入有 40 ps 的 transition 上限。長導線的電容會讓邊緣變慢，因此將最後幾級驅動器固定在接腳附近，並將 SRAM 讀出端與長負載分開。
+
+```text
+CPU／記憶體控制邏輯
+        │
+        ▼
+      BUF_4          前級整形，輸入端仍允許上游修整
+        │
+        ▼
+      INV_16
+        │
+        ▼
+      INV_16         末級固定在 SRAM 輸入附近
+        │
+        ▼
+SRAM addr0／wmask0
+
+SRAM dout0 ──→ BUF_4 ──→ 讀出選擇與 CPU 資料路徑
+```
+
+| 項目 | 設計 |
+| --- | --- |
+| 受限輸入 | 每顆 SRAM 的 9-bit `addr0` 與 4-bit `wmask0`，共 234 個接腳 |
+| 輸入鏈 | 每個受限輸入採 `BUF_4 → INV_16 → INV_16`，兩次反相保持原本邏輯值 |
+| 輸出隔離 | 每個已使用的 `dout0[31:0]` 接一個 `BUF_4`，共 576 個 |
+| 位置 | 使用既有合法 rows，避開 SRAM、tap 與 endcap，不改變 SRAM 位置 |
+| 修整保護 | 保護 SRAM 局部網路、兩級 INV 與輸出隔離 buffer；前級 BUF 的輸入可接受上游修整 |
+| CPU 行為 | 這些都是組合元件，不增加暫存器、不新增指令 cycle |
+| 時序規格 | 保留原始 Liberty 與 SDC，沒有放寬 SRAM 的 40 ps 上限 |
+
+## 3．時脈與後續交接
+
+| 項目 | 設計 |
+| --- | --- |
+| 主時脈 | `clk`，SDC 名稱 `core_clk`；40 ns／25 MHz |
+| 時脈約束 | uncertainty 0.25 ns，輸入 clock transition 0.15 ns |
+| 暫存器 | 2925 個 flip-flops |
+| Clock sinks | 2961 個：2925 個暫存器 CLK，加上 18 顆 SRAM 各自的 `clk0`、`clk1` |
+| SRAM 第二埠 | 功能上停用第二讀取埠，但其 `clk1` 仍接入 clock tree |
+| CTS | 依負載與位置加入 buffer，形成分支與葉節點；buffer 數量由實際實作決定 |
+| Clock 分析 | 使用 propagated clocks，納入 clock tree 的元件與估算導線延遲 |
+| RC 模型 | 放置後估算的寄生參數；繞線後必須重新估算或萃取 |
+| 交接資料 | OpenDB、DEF、功能／供電網表、SDC、設定檔與 `handoff_state.json` |
+| 後續工作 | Global Routing、Detailed Routing、實際導線寄生萃取及重新修整時序與電氣問題 |
+
+整個流程是：固定 SRAM 與電源骨架 → 建立局部驅動電路 → Global Placement → 電氣修整 → Detailed Placement → CTS → 時序與電氣修整 → 交給繞線。圖中的 clock 直線只表示實際電路連接，不表示已經完成金屬繞線。

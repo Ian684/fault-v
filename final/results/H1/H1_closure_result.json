@@ -1,0 +1,142 @@
+{
+  "updated_utc": "2026-11-13T10:42:31.752212+00:00",
+  "design": "H1 cand_gap90x95 (h1c_pg_r1 -> h1c_post)",
+  "method": "H0 week25_closure gate scripts with path patches (reports/script_provenance.json); density re-run over the actual H1 die (scripts/check_sliding_density_die.py) after the first run used the H0 die extent 2500x3300um (kept as reports/h1_sliding_density_H0die_misscoped.json)",
+  "all_W25_method_gates_pass": true,
+  "gates": {
+    "chain_all_rc_0": true,
+    "native_full_chip_DRC_unresolved_0": true,
+    "all_signal_nets_connected": true,
+    "SRAM_macro_layers_exact": true,
+    "stdcell_and_via_stream_match": true,
+    "no_VPWR_VGND_contact": true,
+    "PG_average_EM_pass": true,
+    "fill_FOM_LI_repairs_clean": true,
+    "sliding_density_actual_die_pass": true,
+    "dummy_grid_pass": true,
+    "FOM_geometry_pass": true,
+    "fill_BEOL_interaction_markers_0": true,
+    "ODB_binding_consistent": true,
+    "GDS_binding_consistent": true
+  },
+  "numbers": {
+    "native_DRC_raw_markers": 58,
+    "native_DRC_partition_artifacts": 58,
+    "connected_signal_nets": 40850,
+    "diode_terminals": 5317,
+    "stdcell_instances": 171309,
+    "stdcell_masters": 144,
+    "route_vias": 449970,
+    "IR_14mW_per_SRAM": {
+      "VPWR_worst_mV": 15.2,
+      "VGND_worst_mV": 15.3,
+      "combined_mV": 30.5
+    },
+    "IR_28mW_per_SRAM": {
+      "VPWR_worst_mV": 28.9,
+      "VGND_worst_mV": 28.9,
+      "combined_mV": 57.8
+    },
+    "EM_worst_ratio": {
+      "0p014": {
+        "VPWR": 0.495,
+        "VGND": 0.518
+      },
+      "0p028": {
+        "VPWR": 0.936,
+        "VGND": 0.981
+      }
+    },
+    "density_window_min_max": {
+      "FOM": [
+        0.347,
+        0.464,
+        [
+          0.33,
+          0.57
+        ]
+      ],
+      "POLY": [
+        0.109,
+        0.182,
+        [
+          null,
+          null
+        ]
+      ],
+      "LI": [
+        0.388,
+        0.443,
+        [
+          0.35,
+          0.6
+        ]
+      ],
+      "MET1": [
+        0.441,
+        0.482,
+        [
+          0.35,
+          0.6
+        ]
+      ],
+      "MET2": [
+        0.423,
+        0.495,
+        [
+          0.35,
+          0.6
+        ]
+      ],
+      "MET3": [
+        0.407,
+        0.457,
+        [
+          0.35,
+          0.6
+        ]
+      ],
+      "MET4": [
+        0.424,
+        0.471,
+        [
+          0.35,
+          0.6
+        ]
+      ],
+      "MET5": [
+        0.462,
+        0.527,
+        [
+          0.45,
+          0.76
+        ]
+      ]
+    },
+    "density_windows_per_layer": 999,
+    "removed_FOM_dummy_islands": 2118,
+    "removed_LI_dummy_islands": 498
+  },
+  "filled_ODB_sha256": "9c06b1b07f69b63056734f85a25a71c4a828835595241be6db64b9c8c79dc402",
+  "core_GDS_sha256": "ae8a3f29dfe7140fe24410bd3b76b089c97ecebe0ed55c1be0f61112fc93ea22",
+  "dummy_filled_GDS_sha256": "168b162145c4cd96c2ebcefea17e05c94a3220ab45206056fbf8cda9536bed17",
+  "fill_pattern_sha256": "a39d067e7e20d51fcc7216c8dc9960dffcb00b8a63f6f518a9c6017332506987",
+  "report_sha256": {
+    "h1_dummy_grid.json": "5cf014fe820d0d7260d7227781da6cecee00c2c3ca198cd22bf8e15d2436c732",
+    "h1_em_resistor_audit.json": "6bbf9e2acb3ac70e488ea18f65d6a33cfdc6452cc5d421f4b9e89153dfa42c8b",
+    "h1_filled_all_connectivity.json": "835f4b54a21828a7d344fc5c8317ec329a8c9302785e351ae19339fff8ace77a",
+    "h1_filled_independent.json": "b68d3dc2fd55e36803b6c932525b279e5b7097f8a8d4a35041e4cdb56aaf43fb",
+    "h1_fom_geometry.json": "2768187418542bdb42fb68b84412b4f51721a8a7239c566586a0c646be248f76",
+    "h1_fom_repair.json": "a624db95ab50aeb86d271998bed7c283ef105e9f5ff1444373a427b13466ea43",
+    "h1_ir_input.json": "7e72fe82760fcc573871c1738428f6e4dc9db8b30ac5ed418a5271ee0ee17985",
+    "h1_li_repair.json": "e1d0fd3c287a1831d2fcad443995485b0eaa3a59f1e8db037946a4599f07197b",
+    "h1_macro_audit.json": "070ad19ed6fc8c54571622e15f5a899611e57bd4d3e10df3946220d599c1557e",
+    "h1_native_vias.json": "071c3cd464e7be33d9de8ab1236a7386904dd92a2d39a948e6f02f36c392fd69",
+    "h1_pg_contacts.json": "7e99a4057aca3ec64dc16d70e76cb8f469b119ac5a10d6fbc0d0001f14aaa334",
+    "h1_sliding_density.json": "ea543ffd3e6b90d62e9f25a3d82b2d3ba30966e107985a31ed819624a10d826d",
+    "h1_sliding_density_H0die_misscoped.json": "1078eb4aecfacb7a64040244e62156927d5cf1ccc67a965432d42d50a982e373",
+    "h1_stdcell_audit.json": "e8d9ce672520a01f88a8b7ac1e3b9301e46a90cad489adac4f484a4d8c0558ab",
+    "h1_fill_beol.rdb": "910051094fcfc41d68cf00b98fa6ab0d0972cc6bfab6ccc0808acb341c67b777"
+  },
+  "not_covered_same_as_H0": "foundry/SRAM-interior signoff, fill-aware PEX, multi-PVT SRAM models, transient/package IR, current crowding, DFT/pad/ESD hardware, silicon"
+}

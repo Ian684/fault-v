@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Oct 11 19:57:34 2026
+# Process ID: 9200
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2
+# Command line: vivado.exe -mode batch -source check_hardware.tcl -log logs/hardware_check.log -journal logs/hardware_check.jou
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/logs/hardware_check.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2\logs/hardware_check.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source check_hardware.tcl
+# open_hw_manager
+open_hw_manager: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 382.766 ; gain = 47.812
+# connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-07:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2026 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 406.629 ; gain = 23.863
+# set targets [get_hw_targets]
+# puts "FAULTV_HW_TARGET_COUNT=[llength $targets]"
+FAULTV_HW_TARGET_COUNT=1
+# foreach target $targets {puts "FAULTV_HW_TARGET=$target"}
+FAULTV_HW_TARGET=localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+# if {[llength $targets] == 1} {
+#     current_hw_target [lindex $targets 0]
+#     open_hw_target
+#     foreach device [get_hw_devices] {
+#         puts "FAULTV_HW_DEVICE=$device PART=[get_property PART $device]"
+#     }
+#     close_hw_target
+# } elseif {[llength $targets] == 0} {
+#     puts "FAULTV_HW_NO_TARGET"
+# } else {
+#     puts "FAULTV_HW_MULTIPLE_TARGETS_SELECT_REQUIRED"
+# }
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+FAULTV_HW_DEVICE=arm_dap_0 PART=arm_dap
+FAULTV_HW_DEVICE=xc7z020_1 PART=xc7z020
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+# disconnect_hw_server
+# close_hw_manager
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 11 19:57:55 2026...

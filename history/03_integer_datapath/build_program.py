@@ -1,0 +1,55 @@
+from pathlib import Path
+import json
+root=Path(__file__).resolve().parent
+def I(imm,rs1,f3,rd,op=0x13):return ((imm&4095)<<20)|(rs1<<15)|(f3<<12)|(rd<<7)|op
+def R(f7,rs2,rs1,f3,rd):return (f7<<25)|(rs2<<20)|(rs1<<15)|(f3<<12)|(rd<<7)|0x33
+def U(imm,rd,op):return (imm<<12)|(rd<<7)|op
+p=[]
+def add(text,word,rd,value):p.append([text,word,rd,value])
+add('addi x1,x0,5',I(5,0,0,1),1,5)
+add('addi x2,x0,-3',I(-3,0,0,2),2,0xfffffffd)
+add('addi x3,x0,32',I(32,0,0,3),3,32)
+add('addi x4,x0,31',I(31,0,0,4),4,31)
+add('addi x5,x0,1',I(1,0,0,5),5,1)
+add('add x6,x1,x2',R(0,2,1,0,6),6,2)
+add('sub x7,x2,x1',R(32,1,2,0,7),7,0xfffffff8)
+add('and x8,x1,x2',R(0,2,1,7,8),8,5)
+add('or x9,x1,x2',R(0,2,1,6,9),9,0xfffffffd)
+add('xor x10,x1,x2',R(0,2,1,4,10),10,0xfffffff8)
+add('slt x11,x2,x1',R(0,1,2,2,11),11,1)
+add('sltu x12,x2,x1',R(0,1,2,3,12),12,0)
+add('sll x13,x5,x4',R(0,4,5,1,13),13,0x80000000)
+add('srl x14,x13,x5',R(0,5,13,5,14),14,0x40000000)
+add('sra x15,x13,x5',R(32,5,13,5,15),15,0xc0000000)
+add('sll x16,x5,x3',R(0,3,5,1,16),16,1)
+add('addi x17,x1,-4',I(-4,1,0,17),17,1)
+add('andi x18,x2,15',I(15,2,7,18),18,13)
+add('ori x19,x1,16',I(16,1,6,19),19,21)
+add('xori x20,x1,-1',I(-1,1,4,20),20,0xfffffffa)
+add('slti x21,x2,-1',I(-1,2,2,21),21,1)
+add('sltiu x22,x1,-1',I(-1,1,3,22),22,1)
+add('slli x23,x5,31',I(31,5,1,23),23,0x80000000)
+add('srli x24,x23,31',I(31,23,5,24),24,1)
+add('srai x25,x23,31',I(0x41f,23,5,25),25,0xffffffff)
+add('lui x26,0x12345',U(0x12345,26,0x37),26,0x12345000)
+add('auipc x27,0x1',U(1,27,0x17),27,0x1068)
+add('addi x26,x26,0x678',I(0x678,26,0,26),26,0x12345678)
+add('add x28,x6,x17',R(0,17,6,0,28),28,3)
+add('addi x0,x0,99',I(99,0,0,0),0,0)
+add('add x29,x0,x28',R(0,28,0,0,29),29,3)
+add('addi x30,x2,3',I(3,2,0,30),30,0)
+add('lui x31,0x80000',U(0x80000,31,0x37),31,0x80000000)
+add('addi x31,x31,-1',I(-1,31,0,31),31,0x7fffffff)
+add('addi x31,x31,1',I(1,31,0,31),31,0x80000000)
+add('fence iorw,iorw',0x0ff0000f,0,0)
+add('addi x0,x0,0',0x00000013,0,0)
+(root/'program_spec.json').write_text(json.dumps(p,indent=2),encoding='utf-8')
+(root/'verify/alu_program.mem').write_text('\n'.join(f'{x[1]:08x}' for x in p)+ '\n00100073\n',encoding='ascii')
+(root/'verify/alu_program.S').write_text('.section .text\n.globl _start\n_start:\n'+ '\n'.join('    '+x[0] for x in p)+'\n    ebreak\n',encoding='utf-8')
+lines=[]
+for i,(name,word,rd,value) in enumerate(p):
+    lines.append(f"        program_words[{i}]=32'h{word:08x}; expected_rd[{i}]=5'd{rd}; expected_value[{i}]=32'h{value:08x};")
+lines.append(f"        program_words[{len(p)}]=32'h00100073; program_len={len(p)+1}; expected_commits={len(p)};")
+(root/'verify/program_init.svh').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+print('Program:',len(p),'normal instructions followed by EBREAK.')
+

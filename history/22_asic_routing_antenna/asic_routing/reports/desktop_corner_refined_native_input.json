@@ -1,0 +1,21 @@
+{
+  "accepted": false,
+  "source": "inputs/desktop_corner_refined_partial.odb",
+  "source_sha256": "7018518addb3488368879fa42dd9c8fdb2fd96b992cc83a685c47db95bbefd7f",
+  "derived_sha256": "d1cf2022cd953ae7ff3de5a107fe7b579da6ded78447a89d702482e99fe76688",
+  "global_run": "global_desktop_corner_refined",
+  "global_source_sha256": "187f3c5fe6216560ab7f48943e1495e1d2545db90a6344bed4d66c4fea9f698d",
+  "global_overflow": 0,
+  "cleared_whole_nets": [
+    "_15298_",
+    "net3361",
+    "net5465"
+  ],
+  "retained_wire_count": 41334,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_graph_pg_unchanged_from_electrical_proposal": true,
+  "all_guides_match_actual_zero_overflow_source": true,
+  "guide_count": 374534,
+  "electrical_proposal": "reports/desktop_corner_refined_input.json",
+  "scope": "Native reroute after measured electrical/hold ECO, preserving 41334 unaffected native wires. All guides and refined optional pinless corner keepout exactly match new zero-overflow global parent. Actual routing/RC/STA and calibrated independent DRC still required."
+}

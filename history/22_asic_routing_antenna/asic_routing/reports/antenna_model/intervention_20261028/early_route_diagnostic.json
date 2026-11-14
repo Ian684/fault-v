@@ -1,0 +1,150 @@
+[
+  {
+    "iteration": 1,
+    "markers": 208,
+    "same_exact_source_markers": 0,
+    "markers_without_any_cleared_net": 0,
+    "types": {
+      "Short": 194,
+      "Metal Spacing": 14
+    },
+    "top_nets": [
+      [
+        "net6503",
+        61
+      ],
+      [
+        "net6898",
+        26
+      ],
+      [
+        "net4932",
+        23
+      ],
+      [
+        "net6038",
+        22
+      ],
+      [
+        "net3185",
+        17
+      ],
+      [
+        "net6173",
+        14
+      ]
+    ],
+    "hot_20um_tiles": [
+      [
+        [
+          1580,
+          620
+        ],
+        35
+      ],
+      [
+        [
+          1580,
+          640
+        ],
+        19
+      ],
+      [
+        [
+          1600,
+          580
+        ],
+        14
+      ],
+      [
+        [
+          1600,
+          620
+        ],
+        14
+      ],
+      [
+        [
+          1600,
+          600
+        ],
+        11
+      ]
+    ],
+    "report_sha256": "f44fc6056b90f842439c1406bd8b39592bee0acc0c5a3846fd489bf02cc17da3"
+  },
+  {
+    "iteration": 2,
+    "markers": 206,
+    "same_exact_source_markers": 0,
+    "markers_without_any_cleared_net": 0,
+    "types": {
+      "Metal Spacing": 31,
+      "Short": 175
+    },
+    "top_nets": [
+      [
+        "net6503",
+        72
+      ],
+      [
+        "net6898",
+        35
+      ],
+      [
+        "net3185",
+        17
+      ],
+      [
+        "net3116",
+        15
+      ],
+      [
+        "net4959",
+        14
+      ],
+      [
+        "net4932",
+        14
+      ]
+    ],
+    "hot_20um_tiles": [
+      [
+        [
+          1580,
+          640
+        ],
+        35
+      ],
+      [
+        [
+          1580,
+          620
+        ],
+        23
+      ],
+      [
+        [
+          1600,
+          560
+        ],
+        16
+      ],
+      [
+        [
+          1600,
+          620
+        ],
+        14
+      ],
+      [
+        [
+          1620,
+          580
+        ],
+        12
+      ]
+    ],
+    "report_sha256": "a8ee08a93c499675658e272b00d8f7636da6fbb546c1d198ac99303bf24abb6a"
+  }
+]

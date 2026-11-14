@@ -1,0 +1,21 @@
+{
+  "accepted": false,
+  "source": "runs/global_buffered/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "51f9f4d21395b68ad460a7be3076dadfea16d5c6dcadee913e4b0dda52516052",
+  "region_dbu": [
+    1580100,
+    634800,
+    1593900,
+    648600
+  ],
+  "layers": [
+    "met1",
+    "met2",
+    "met3",
+    "met4"
+  ],
+  "capacity_reduction": 1.0,
+  "nonpower_pins_in_region": [],
+  "source_signal_clock_wire_count": 0,
+  "scope": "Coarse-routing capacity reservation only at one pinless SRAM corner across2x2 GCells; no physical obstructions, cell/PG/pin/logic/SDC changes. Final DRT/RC/independentDRC gates remain required."
+}

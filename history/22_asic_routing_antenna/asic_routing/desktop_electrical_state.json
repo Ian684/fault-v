@@ -1,0 +1,9 @@
+{
+  "odb": "/work/routing/runs/routed_desktop_clock_top_full_20261022_084820/final/odb/fault_v_asic_top.odb",
+  "metrics": {},
+  "nl": "/work/routing/runs/global_clock_top/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/global_clock_top/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/global_clock_top/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/global_clock_top/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/global_clock_top/final/vh/fault_v_asic_top.vh"
+}

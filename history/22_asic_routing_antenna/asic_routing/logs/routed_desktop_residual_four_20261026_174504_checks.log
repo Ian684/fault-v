@@ -1,0 +1,62 @@
+{
+  "pass": true,
+  "run": "global_desktop_joint_corner",
+  "resources": 3257450,
+  "demand": 865479,
+  "usage_pct": 26.57,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "aee9d68b67d2afd3d67bb66c88c52870c9e89b54f7cb72505f696a8ca89d62fb"
+}
+Prepared corrected STA: routed /mnt/e/Codex/Fault_V_W24_Transfer/work/fault-v-asic/routing/runs/routed_desktop_residual_four_20261026_174504/final/spef/nom/fault_v_asic_top.nom.spef
+{
+  "timing__setup__ws": 6.9895344823623855,
+  "timing__hold__ws": 0.09519296731425607,
+  "timing__setup__tns": 0,
+  "timing__hold__tns": 0,
+  "timing__setup_vio__count": 0,
+  "timing__hold_vio__count": 0,
+  "design__max_slew_violation__count": 0,
+  "design__max_cap_violation__count": 0,
+  "clock__skew__worst_setup": 1.094414145840455,
+  "clock__skew__worst_hold": -1.2185846010507817,
+  "max_macro_input_slew_ns": 0.033501,
+  "max_macro_input_slew_pin": "u_soc.u_imem.banks[1].u_sram/wmask0[0]",
+  "engine": "OpenSTA 3.1.0",
+  "clock_period_ns": 40,
+  "corner": "nom_tt_025C_1v80",
+  "parasitics": "routed SPEF",
+  "unannotated_unused_output_drivers": 1097,
+  "active_unannotated_output_drivers": 0,
+  "pass": true
+}
+ALL CORRECTED TIMING / SLEW / CAP / ANNOTATION CHECKS PASSED
+ALL CALIBRATED INDEPENDENT FULL-CHIP ROUTING DRC CHECKS PASSED
+ACCEPTED ROUTED / EXTRACTED / TT TIMING HANDOFF
+{
+  "accepted": true,
+  "global_run": "global_desktop_joint_corner",
+  "routed_run": "routed_desktop_residual_four_20261026_174504",
+  "clock_period_ns": 40,
+  "corner": "nom_tt_025C_1v80",
+  "parasitics": "OpenRCX extracted nominal routed SPEF",
+  "global_overflow": 0,
+  "routing_drc": 0,
+  "setup_ws_ns": 6.9895344823623855,
+  "hold_ws_ns": 0.09519296731425607,
+  "max_macro_input_slew_ns": 0.033501,
+  "slew_violations": 0,
+  "cap_violations": 0,
+  "active_signal_clock_nets": 41337,
+  "wire_length_um": 6140711.105000032,
+  "vias": 409568,
+  "flip_flops": 2925,
+  "clock_sink_pins": 2961,
+  "macro_count": 18,
+  "netlist_sha256": "9aeeda2249b9999b2396e7c646b863e39ec4f3d19788d20e6b0462bfa044fad3",
+  "odb_sha256": "196e8c9b7d74a0000d8b0869b9b6d2cc9ad7a73b7b44b6a3f389ce25d758cc16",
+  "reported_antenna_nets": 2428,
+  "scope": "Routing-stage acceptance only: TT timing and router-supported LEF rules. Full foundry DRC/LVS, antenna closure, multiple PVT and physical signoff remain."
+}
+ALL routed RC / CONNECTIVITY / TIMING CHECKS PASSED: routed_desktop_residual_four_20261026_174504

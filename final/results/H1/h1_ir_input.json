@@ -1,0 +1,11 @@
+{
+  "ODB_sha256": "9c06b1b07f69b63056734f85a25a71c4a828835595241be6db64b9c8c79dc402",
+  "netlist_sha256": "5c11b7c518a443dcfc83f3b71356c808ff66a67c2fbfc49760cff0723f00b8f0",
+  "mixed_VCD_sha256": "10caa3aeafffdd27dd3a2130f2a5eafd48b248a3a2a81f03d68769aa892db475",
+  "nominal_SPEF_sha256": "bad7fcde0198f705aa0577f25082bad7960aa0a18ef284f98f8f959510d0ea0b",
+  "macro_budgets_W_each": [
+    0.014,
+    0.028
+  ],
+  "method": "week25_closure prepare_final_ir.py / pg_ir_native.tcl with H1 files; VSRC: existing met5 PG terminals within 100 um of the H1 die edge (week25_signoff inspect_pdn.py rule)"
+}

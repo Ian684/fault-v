@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "source_odb_sha256": "d71ed45e51889a3147458984b502bfce4a46a6db0182199e99b0ce0d3ff7d50c",
+  "native_DRC_first": 110,
+  "native_DRC_reused_without_reset": 220,
+  "native_DRC_after_public_pin_access_reset": 110,
+  "full_wire_metal_via_geometry_unchanged_after_every_control": true,
+  "cells_endpoint_graph_PG_unchanged": true,
+  "source_file_unchanged": true,
+  "scope": "Same physical input and two INCR initialization steps only; public pin_access reset clears native internal design before reuse. Does not waive real DRC or establish final acceptance."
+}

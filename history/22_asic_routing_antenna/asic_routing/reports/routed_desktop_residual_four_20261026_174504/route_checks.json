@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "run": "routed_desktop_residual_four_20261026_174504",
+  "active_signal_clock_nets": 41337,
+  "nets_with_wires": 41337,
+  "active_nets_missing_wires": [],
+  "decoded_manhattan_length_um": 6140261.664993145,
+  "native_wire_length_um": 6140711.105000032,
+  "clock_nets": 446,
+  "decoded_vias": 409568,
+  "length_um_by_layer": {
+    "met1": 2234293.900000306,
+    "met2": 1992914.8149995313,
+    "met3": 1182359.2599999893,
+    "met4": 647860.5999999933,
+    "met5": 82833.08999999998
+  },
+  "odb_sha256": "196e8c9b7d74a0000d8b0869b9b6d2cc9ad7a73b7b44b6a3f389ce25d758cc16",
+  "scope": "Native length includes endpoint extension effects; decoded length/plot use centerlines. Wire presence plus separate native TritonRoute DRC/connectivity checks, not foundry LVS."
+}

@@ -1,0 +1,86 @@
+{
+  "LINTER_INCLUDE_PDK_MODELS": false,
+  "DESIGN_NAME": "fault_v_asic_top",
+  "VERILOG_FILES": [
+    "dir::rtl/fault_v_pkg.sv",
+    "dir::rtl/a_stream_pkg.sv",
+    "dir::rtl/alu.sv",
+    "dir::rtl/branch_compare.sv",
+    "dir::rtl/control_fsm.sv",
+    "dir::rtl/custom_exec.sv",
+    "dir::rtl/decoder.sv",
+    "dir::rtl/fault_v_accelerator.sv",
+    "dir::rtl/fault_v_asic_top.sv",
+    "dir::rtl/fault_v_cpu.sv",
+    "dir::rtl/fault_v_dma.sv",
+    "dir::rtl/fault_v_dot_pipeline.sv",
+    "dir::rtl/fault_v_io.sv",
+    "dir::rtl/fault_v_job_regs.sv",
+    "dir::rtl/fault_v_loader.sv",
+    "dir::rtl/fault_v_mem_arbiter.sv",
+    "dir::rtl/fault_v_memory.sv",
+    "dir::rtl/fault_v_soc.sv",
+    "dir::rtl/fault_v_uart_rx.sv",
+    "dir::rtl/imm_gen.sv",
+    "dir::rtl/load_extract.sv",
+    "dir::rtl/pc_reg.sv",
+    "dir::rtl/regfile.sv",
+    "dir::rtl/store_align.sv",
+    "dir::rtl/uart_tx.sv",
+    "dir::macros/blackbox.v"
+  ],
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "USE_SLANG": true,
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 40,
+  "DEFAULT_CORNER": "nom_tt_025C_1v80",
+  "STA_CORNERS": [
+    "nom_tt_025C_1v80"
+  ],
+  "PNR_SDC_FILE": "dir::constraints.sdc",
+  "SIGNOFF_SDC_FILE": "dir::constraints.sdc",
+  "SYNTH_HIERARCHY_MODE": "flatten",
+  "SYNTH_STRATEGY": "AREA 0",
+  "FP_CORE_UTIL": 40,
+  "MAX_FANOUT_CONSTRAINT": 10,
+  "MAX_TRANSITION_CONSTRAINT": 1.5,
+  "MACROS": {
+    "sky130_sram_2kbyte_1rw1r_32x512_8": {
+      "instances": {
+        "u_soc.u_imem.banks[0].u_sram": {},
+        "u_soc.u_imem.banks[1].u_sram": {},
+        "u_soc.u_imem.banks[2].u_sram": {},
+        "u_soc.u_imem.banks[3].u_sram": {},
+        "u_soc.u_imem.banks[4].u_sram": {},
+        "u_soc.u_imem.banks[5].u_sram": {},
+        "u_soc.u_imem.banks[6].u_sram": {},
+        "u_soc.u_imem.banks[7].u_sram": {},
+        "u_soc.u_dmem.banks[0].u_sram": {},
+        "u_soc.u_dmem.banks[1].u_sram": {},
+        "u_soc.u_dmem.banks[2].u_sram": {},
+        "u_soc.u_dmem.banks[3].u_sram": {},
+        "u_soc.u_dmem.banks[4].u_sram": {},
+        "u_soc.u_dmem.banks[5].u_sram": {},
+        "u_soc.u_dmem.banks[6].u_sram": {},
+        "u_soc.u_dmem.banks[7].u_sram": {},
+        "u_soc.u_scratch.banks[0].u_sram": {},
+        "u_soc.u_scratch.banks[1].u_sram": {}
+      },
+      "gds": [
+        "dir::macros/vendor/sky130_sram_2kbyte_1rw1r_32x512_8.gds"
+      ],
+      "lef": [
+        "dir::macros/vendor/sky130_sram_2kbyte_1rw1r_32x512_8.lef"
+      ],
+      "lib": {
+        "*_tt_025C_1v80": [
+          "dir::macros/vendor/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib"
+        ]
+      },
+      "spice": [
+        "dir::macros/vendor/sky130_sram_2kbyte_1rw1r_32x512_8.lvs.sp"
+      ]
+    }
+  }
+}

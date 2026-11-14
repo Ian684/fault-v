@@ -1,0 +1,6 @@
+{
+  "checked_inputs": 33,
+  "all_local_and_synthesized_inputs_match": true,
+  "mapped_netlist_sha256": "88b35c08aa99b400a6bd72d7d1128b2d63fd8e9a04ae0f441698587c29f036f0",
+  "accepted_run": "tt_delivery_reload"
+}

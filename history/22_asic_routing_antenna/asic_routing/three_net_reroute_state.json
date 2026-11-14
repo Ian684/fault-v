@@ -1,0 +1,9 @@
+{
+  "metrics": {},
+  "odb": "/work/routing/inputs/three_net_reroute.odb",
+  "nl": "/work/routing/runs/global_buffered/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/global_buffered/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/global_buffered/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/global_buffered/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/global_buffered/final/vh/fault_v_asic_top.vh"
+}

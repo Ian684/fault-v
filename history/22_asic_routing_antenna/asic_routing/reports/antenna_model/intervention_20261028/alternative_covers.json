@@ -1,0 +1,69 @@
+[
+  {
+    "protected_problem_nets": [],
+    "feasible": true,
+    "cleared_nets": [
+      "net3116",
+      "net3185",
+      "net3317",
+      "net4319",
+      "net4749",
+      "net4932",
+      "net4959",
+      "net6038",
+      "net6173",
+      "net6503",
+      "net6881",
+      "net6898"
+    ],
+    "net_count": 12,
+    "routing_cost": 5762.68
+  },
+  {
+    "protected_problem_nets": [
+      "net6503"
+    ],
+    "feasible": true,
+    "cleared_nets": [
+      "_09252_",
+      "net3116",
+      "net3185",
+      "net3317",
+      "net4319",
+      "net4749",
+      "net4932",
+      "net4959",
+      "net6038",
+      "net6173",
+      "net6881",
+      "net6898",
+      "net8680"
+    ],
+    "net_count": 13,
+    "routing_cost": 5911.18
+  },
+  {
+    "protected_problem_nets": [
+      "net6503",
+      "net6898"
+    ],
+    "feasible": true,
+    "cleared_nets": [
+      "_09252_",
+      "net3116",
+      "net3185",
+      "net3317",
+      "net4319",
+      "net4749",
+      "net4818",
+      "net4932",
+      "net4959",
+      "net6038",
+      "net6173",
+      "net6881",
+      "net8680"
+    ],
+    "net_count": 13,
+    "routing_cost": 6026.54
+  }
+]

@@ -1,0 +1,124 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Oct  5 19:14:32 2026
+# Process ID: 9736
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim
+# Command line: xsim.exe -log tb_regfile_results.log -mode tcl -source {xsim.dir/tb_regfile_checked/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim/tb_regfile_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_regfile_checked/xsim_script.tcl
+# xsim {tb_regfile_checked} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS 1: initial reset x0
+PASS 2: initial reset x1
+PASS 3: initial reset x2
+PASS 4: initial reset x3
+PASS 5: initial reset x4
+PASS 6: initial reset x5
+PASS 7: initial reset x6
+PASS 8: initial reset x7
+PASS 9: initial reset x8
+PASS 10: initial reset x9
+PASS 11: initial reset x10
+PASS 12: initial reset x11
+PASS 13: initial reset x12
+PASS 14: initial reset x13
+PASS 15: initial reset x14
+PASS 16: initial reset x15
+PASS 17: initial reset x16
+PASS 18: initial reset x17
+PASS 19: initial reset x18
+PASS 20: initial reset x19
+PASS 21: initial reset x20
+PASS 22: initial reset x21
+PASS 23: initial reset x22
+PASS 24: initial reset x23
+PASS 25: initial reset x24
+PASS 26: initial reset x25
+PASS 27: initial reset x26
+PASS 28: initial reset x27
+PASS 29: initial reset x28
+PASS 30: initial reset x29
+PASS 31: initial reset x30
+PASS 32: initial reset x31
+PASS 33: read x1 and x0
+PASS 34: read x2 and x0
+PASS 35: read x3 and x0
+PASS 36: read x4 and x0
+PASS 37: read x5 and x0
+PASS 38: read x6 and x0
+PASS 39: read x7 and x0
+PASS 40: read x8 and x0
+PASS 41: read x9 and x0
+PASS 42: read x10 and x0
+PASS 43: read x11 and x0
+PASS 44: read x12 and x0
+PASS 45: read x13 and x0
+PASS 46: read x14 and x0
+PASS 47: read x15 and x0
+PASS 48: read x16 and x0
+PASS 49: read x17 and x0
+PASS 50: read x18 and x0
+PASS 51: read x19 and x0
+PASS 52: read x20 and x0
+PASS 53: read x21 and x0
+PASS 54: read x22 and x0
+PASS 55: read x23 and x0
+PASS 56: read x24 and x0
+PASS 57: read x25 and x0
+PASS 58: read x26 and x0
+PASS 59: read x27 and x0
+PASS 60: read x28 and x0
+PASS 61: read x29 and x0
+PASS 62: read x30 and x0
+PASS 63: read x31 and x0
+PASS 64: dual-port different addresses
+PASS 65: write disabled
+PASS 66: x0 write protection
+PASS 67: same-address before write edge
+PASS 68: same-address after write edge
+PASS 69: combinational read first addresses
+PASS 70: combinational read changed addresses
+PASS 71: synchronous reset before edge
+PASS 72: reset overrides write
+PASS 73: final reset x0
+PASS 74: final reset x1
+PASS 75: final reset x2
+PASS 76: final reset x3
+PASS 77: final reset x4
+PASS 78: final reset x5
+PASS 79: final reset x6
+PASS 80: final reset x7
+PASS 81: final reset x8
+PASS 82: final reset x9
+PASS 83: final reset x10
+PASS 84: final reset x11
+PASS 85: final reset x12
+PASS 86: final reset x13
+PASS 87: final reset x14
+PASS 88: final reset x15
+PASS 89: final reset x16
+PASS 90: final reset x17
+PASS 91: final reset x18
+PASS 92: final reset x19
+PASS 93: final reset x20
+PASS 94: final reset x21
+PASS 95: final reset x22
+PASS 96: final reset x23
+PASS 97: final reset x24
+PASS 98: final reset x25
+PASS 99: final reset x26
+PASS 100: final reset x27
+PASS 101: final reset x28
+PASS 102: final reset x29
+PASS 103: final reset x30
+PASS 104: final reset x31
+ALL 104 REGFILE CHECKS PASSED
+$finish called at time : 1371 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/verify/tb_regfile.sv" Line 240
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct  5 19:14:34 2026...

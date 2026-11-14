@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/routed_antenna_20261026_190111/1-openroad-detailedrouting/drt_iter16.odb",
+  "source_sha256": "a36387aab08dade549414e11769a7d95056157cb93daf6b21b30e6de6f2c6f43",
+  "derived": "inputs/antenna_resume_16.odb",
+  "derived_sha256": "a36387aab08dade549414e11769a7d95056157cb93daf6b21b30e6de6f2c6f43",
+  "source_iteration": 16,
+  "source_native_DRC": 686,
+  "source_DRC_report": "runs/routed_antenna_20261026_190111/1-openroad-detailedrouting/fault_v_asic_top.drc-16.rpt",
+  "source_DRC_report_sha256": "3075030f9ceb2288f7a4f2acbd0e042a79889a2c1d4b47bdeb4186fd631bf116",
+  "native_placed_reference_sha256": "c2ecdfb465d9cad3f25c28fb2d891e27687223f6c4d2252daff0cf317e63b957",
+  "native_placed_cells_graph_PG_unchanged": true,
+  "routed_nets": 41337,
+  "passive_diodes": 7251,
+  "scope": "Exact native checkpoint bytes. This is an incomplete route, not acceptance; detailed routing and all antenna/physical/extracted-RC/TT gates must run again."
+}

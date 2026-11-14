@@ -1,0 +1,70 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/antenna_planned_preparation_20261028/1-openroad-detailedrouting/corridor_native_prepared.odb",
+  "source_sha256": "f5eb7f516a31038a5f9093e022fa0be98affd027f07ff9d008c0670f1c37c61c",
+  "source_incomplete": true,
+  "reference": "inputs/antenna_opposite_final_10.odb",
+  "reference_sha256": "b4e761b16742fa820524e08df312da2ca0a8f670dd030e1de87449ef06c61040",
+  "reference_native_DRC": 10,
+  "reference_antenna_nets": 1,
+  "partial": "inputs/antenna_corner_small_partial.odb",
+  "partial_sha256": "98fa81edb4bfd8a7dc5617c13332b2e2b029dc60fa7496945b5b44f580471260",
+  "global_input": "inputs/antenna_corner_small_global.odb",
+  "global_input_sha256": "591668a67f3277d3edf82177ab884ec1ce74d90af26234c62dfb168a28c786b6",
+  "added_passive_diodes": [
+    "ANTENNA_7548",
+    "ANTENNA_7549",
+    "ANTENNA_7550"
+  ],
+  "native_added_diodes": 2,
+  "planned_diodes": 1,
+  "native_antenna_missing_wire_nets": [
+    "_11011_",
+    "net3317"
+  ],
+  "new_obstructions": [
+    [
+      "met1",
+      1582300,
+      640400,
+      1583000,
+      641000
+    ],
+    [
+      "met2",
+      1582300,
+      640400,
+      1583000,
+      641000
+    ]
+  ],
+  "pin_PG_clearance_dbu": 200,
+  "cached_access_points_checked": 46,
+  "cleared_whole_nets": [
+    "_11011_",
+    "net3116",
+    "net3185",
+    "net3312",
+    "net3317",
+    "net4319",
+    "net4959",
+    "net6035",
+    "net6038",
+    "net6355",
+    "net6634",
+    "net6881"
+  ],
+  "constraint_neighborhood_nets": [
+    "net3116",
+    "net4319",
+    "net6038",
+    "net6355",
+    "net6634",
+    "net6881"
+  ],
+  "retained_exact_wires": 41325,
+  "original_cells_graph_PG_unchanged_except_native_passive_loads": true,
+  "protected_access_net": "_15298_",
+  "scope": "Full-source antenna preparation precedes all ECO clearing. Stricter pin/PG-free M1/M2 corner constraints; all affected complete nets cleared after native insertion. Every retained native wire matches the fully routed reference byte-for-byte. Actual zero-overflow native guides and all final acceptance gates still required."
+}

@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "source": "runs/routed_desktop_joint_corner_20261026_150638/1-openroad-detailedrouting/drt_iter54.odb",
+  "source_sha256": "fd00a2cdc2c33623e602fc4a412f57307045630a3672fa2eceb4866b03ba90f7",
+  "native_report": "runs/routed_desktop_joint_corner_20261026_150638/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-54.rpt",
+  "native_report_sha256": "6f2878381798cbe4df60d75da634f5d1e9a962c001ec5203861a744a5f678166",
+  "native_drc": 2,
+  "cleared_whole_nets": [
+    "net3312",
+    "net6505",
+    "net4947",
+    "net4977"
+  ],
+  "scope": "One coherent two-short checkpoint; clear only the four exact marker nets, retaining the previously rebuilt AP-workaround net unchanged. Native cached PA is tried without that additional clearing; any actual DRT-1231 would reject this attempt."
+}

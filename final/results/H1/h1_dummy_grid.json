@@ -1,0 +1,41 @@
+{
+  "fill_sha256": "a39d067e7e20d51fcc7216c8dc9960dffcb00b8a63f6f518a9c6017332506987",
+  "grid_um": 0.005,
+  "layers": {
+    "FOM": {
+      "polygons": 245691,
+      "offgrid_markers": 0
+    },
+    "POLY": {
+      "polygons": 384859,
+      "offgrid_markers": 0
+    },
+    "LI": {
+      "polygons": 1087010,
+      "offgrid_markers": 0
+    },
+    "M1": {
+      "polygons": 4313125,
+      "offgrid_markers": 0
+    },
+    "M2": {
+      "polygons": 4220647,
+      "offgrid_markers": 0
+    },
+    "M3": {
+      "polygons": 2510191,
+      "offgrid_markers": 0
+    },
+    "M4": {
+      "polygons": 2424167,
+      "offgrid_markers": 0
+    },
+    "M5": {
+      "polygons": 139061,
+      "offgrid_markers": 0
+    }
+  },
+  "positive_and_negative_controls_pass": true,
+  "screen_pass": true,
+  "scope": "All eight dummy purposes, after recursive instance transforms. Manufacturing-grid screen only; not foundry dummy qualification."
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "report": "fault_v_asic_top.drc-1.rpt",
+    "count": 1094,
+    "without_dirty_net": 0,
+    "types": {
+      "Short": 950,
+      "Metal Spacing": 142,
+      "Cut Short": 1,
+      "Cut Spacing": 1
+    },
+    "top_nets": [
+      [
+        "net6170",
+        116
+      ],
+      [
+        "net3179",
+        90
+      ],
+      [
+        "_09267_",
+        82
+      ],
+      [
+        "net3116",
+        80
+      ],
+      [
+        "net8263",
+        75
+      ],
+      [
+        "net6173",
+        72
+      ],
+      [
+        "net8601",
+        69
+      ],
+      [
+        "net6035",
+        58
+      ]
+    ]
+  },
+  {
+    "report": "fault_v_asic_top.drc-2.rpt",
+    "count": 980,
+    "without_dirty_net": 0,
+    "types": {
+      "Short": 825,
+      "Metal Spacing": 154,
+      "Cut Short": 1
+    },
+    "top_nets": [
+      [
+        "net6170",
+        93
+      ],
+      [
+        "net3317",
+        93
+      ],
+      [
+        "_09267_",
+        87
+      ],
+      [
+        "net3179",
+        69
+      ],
+      [
+        "net4959",
+        69
+      ],
+      [
+        "net6881",
+        67
+      ],
+      [
+        "net3116",
+        62
+      ],
+      [
+        "net5465",
+        56
+      ]
+    ]
+  }
+]

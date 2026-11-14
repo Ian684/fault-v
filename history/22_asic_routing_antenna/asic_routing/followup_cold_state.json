@@ -1,0 +1,9 @@
+{
+  "metrics": {},
+  "odb": "/work/routing/inputs/followup_cold_global.odb",
+  "nl": "/work/routing/runs/global_followup_rc/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/global_followup_rc/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/global_followup_rc/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/global_followup_rc/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/global_followup_rc/final/vh/fault_v_asic_top.vh"
+}

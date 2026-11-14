@@ -1,0 +1,83 @@
+{
+  "accepted": false,
+  "source": "inputs/corner_window_start.odb",
+  "source_sha256": "175c745a127a9c449c8ad8b3ac36a0eb097ef780e8e47c80eee913d8dfa89993",
+  "global_source": "runs/global_corner_reserve/final/odb/fault_v_asic_top.odb",
+  "global_source_sha256": "de4939f0322d0054b548265e635398afa9a227cbc5203c324da0fbaa4236bdc6",
+  "derived": "inputs/corner_reguide_start.odb",
+  "derived_sha256": "54eceaa6306331dcd3fb95959b614b26d24cd84945bf1b7c13d5c735f15f10bd",
+  "source_native_markers": 10,
+  "removed_nets": [
+    {
+      "net": "_10753_",
+      "wire_length_dbu": 499000
+    },
+    {
+      "net": "net3116",
+      "wire_length_dbu": 442130
+    },
+    {
+      "net": "net3179",
+      "wire_length_dbu": 497860
+    },
+    {
+      "net": "net3181",
+      "wire_length_dbu": 467400
+    },
+    {
+      "net": "net3183",
+      "wire_length_dbu": 525170
+    },
+    {
+      "net": "net3212",
+      "wire_length_dbu": 489400
+    },
+    {
+      "net": "net3227",
+      "wire_length_dbu": 435720
+    },
+    {
+      "net": "net3653",
+      "wire_length_dbu": 387560
+    },
+    {
+      "net": "net4469",
+      "wire_length_dbu": 511660
+    },
+    {
+      "net": "net4749",
+      "wire_length_dbu": 517820
+    },
+    {
+      "net": "net4936",
+      "wire_length_dbu": 519000
+    },
+    {
+      "net": "net4947",
+      "wire_length_dbu": 507660
+    },
+    {
+      "net": "net5465",
+      "wire_length_dbu": 582260
+    },
+    {
+      "net": "net6081",
+      "wire_length_dbu": 353470
+    },
+    {
+      "net": "net6231",
+      "wire_length_dbu": 481750
+    },
+    {
+      "net": "net6342",
+      "wire_length_dbu": 503290
+    }
+  ],
+  "retained_wire_count": 41298,
+  "guides_copied": 375487,
+  "guides_match_new_global": true,
+  "cells_and_logical_graph_unchanged": true,
+  "other_wires_unchanged": true,
+  "physical_obstructions_added": 0,
+  "scope": "Copy actual new global guides, including via layer and flags, onto original10-short route. Rebuild only16signal dbWires; retain other41298routes,cells,clock topology,PG,pins and logic. Global full-guide RC precheck is not acceptance; final actual extracted0violations required."
+}

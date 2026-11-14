@@ -1,0 +1,22 @@
+{
+  "accepted": false,
+  "source": "runs/routed_desktop_joint_corner_20261026_150638/1-openroad-detailedrouting/drt_iter54.odb",
+  "source_sha256": "fd00a2cdc2c33623e602fc4a412f57307045630a3672fa2eceb4866b03ba90f7",
+  "derived_sha256": "bc8c094214bebc8063c8afadce3169648846bcd6ca12f52385fe0512e434e306",
+  "global_run": "global_desktop_joint_corner",
+  "global_source_sha256": "aee9d68b67d2afd3d67bb66c88c52870c9e89b54f7cb72505f696a8ca89d62fb",
+  "global_overflow": 0,
+  "cleared_whole_nets": [
+    "net3312",
+    "net6505",
+    "net4947",
+    "net4977"
+  ],
+  "retained_wire_count": 41333,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_graph_pg_unchanged_from_electrical_proposal": true,
+  "all_guides_match_actual_zero_overflow_source": true,
+  "guide_count": 374369,
+  "electrical_proposal": "reports/desktop_residual_four_source54.json",
+  "scope": "Clear only the four exact remaining M1-short nets only; retain the existing AP-workaround net unchanged from one coherent two-short native checkpoint; retain 41333 unaffected wire encodings. All guides, cells, graph, power and all obstructions match the genuine zero-overflow joint global parent. Actual routing/RC/STA and calibrated independent DRC still required."
+}

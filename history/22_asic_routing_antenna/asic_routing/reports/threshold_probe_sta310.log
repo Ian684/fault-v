@@ -1,0 +1,940 @@
+OpenSTA 3.1.0 0f2529d182 Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+max slew
+
+Pin                                           Limit           Slew          Slack
+---------------------------------------------------------------------------------
+sram0/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram0/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram0/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram0/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram1/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram1/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram1/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram1/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram2/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram2/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram2/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram2/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram3/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram3/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram3/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram3/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram4/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram4/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram4/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram4/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram5/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram5/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram5/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram5/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram6/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram6/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram6/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram6/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram7/wmask0[0]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram7/wmask0[1]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram7/wmask0[2]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+sram7/wmask0[3]                         0.039999999    0.468540996   -0.428541005 (VIOLATED)
+
+Warning 503: threshold_probe.tcl line 1, report_checks -group_count is deprecated. Use -group_path_count instead.
+Startpoint: a (input port clocked by clk)
+Endpoint: sram0 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram0/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram0/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram0 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram0/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram0/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram0 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram0/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram0/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram0 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram0/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram0/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram1 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram1/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram1/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram1 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram1/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram1/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram1 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram1/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram1/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram1 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram1/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram1/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram2 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram2/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram2/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram2 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram2/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram2/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram2 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram2/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram2/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram2 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram2/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram2/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram3 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram3/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram3/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram3 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram3/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram3/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram3 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram3/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram3/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram3 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram3/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram3/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram4 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram4/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram4/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram4 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram4/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram4/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram4 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram4/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram4/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram4 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram4/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram4/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram5 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram5/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram5/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram5 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram5/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram5/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram5 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram5/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram5/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram5 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram5/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram5/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram6 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram6/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram6/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram6 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram6/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram6/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram6 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram6/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram6/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram6 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram6/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram6/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram7 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram7/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram7/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram7 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram7/wmask0[1] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram7/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram7 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram7/wmask0[2] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram7/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: sram7 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout            Cap           Slew          Delay           Time   Description
+---------------------------------------------------------------------------------------------------------
+                         0.150000006    0.000000000    0.000000000   clock clk (rise edge)
+                                        0.000000000    0.000000000   clock network delay (ideal)
+                                        0.000000000    0.000000000 ^ input external delay
+     1    0.007337000    0.199999988    0.000000000    0.000000000 ^ a (in)
+    33    0.220479906    0.351405710    0.359866410    0.359866410 ^ driver/X (sky130_fd_sc_hd__buf_8)
+                         0.468540996    0.000000000    0.359866410 ^ sram7/wmask0[3] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                                       0.359866410   data arrival time
+
+                         0.150000006   40.000000000   40.000000000   clock clk (rise edge)
+                                        0.000000000   40.000000000   clock network delay (ideal)
+                                        0.000000000   40.000000000   clock reconvergence pessimism
+                                                      40.000000000 ^ sram7/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+                                       -0.103000000   39.896999359   library setup time
+                                                      39.896999359   data required time
+---------------------------------------------------------------------------------------------------------
+                                                      39.896999359   data required time
+                                                      -0.359866410   data arrival time
+---------------------------------------------------------------------------------------------------------
+                                                      39.537136078   slack (MET)
+
+

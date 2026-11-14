@@ -1,0 +1,61 @@
+{
+  "accepted": false,
+  "observed_utc": "2026-10-28T05:55:27.389252+00:00",
+  "checkpoints": [
+    {
+      "name": "historical_lowest_DRC",
+      "source": "inputs/antenna_residual_source63.odb",
+      "odb_sha256": "e29be567607f4f6407e5b0b2fa77e066db088c2dc87e45d442938beab3b00400",
+      "native_DRC": 7,
+      "antenna_nets": 139,
+      "DRC_proof": "reports/antenna_model/residual_source63.rpt",
+      "DRC_proof_sha256": "68c0b1a0018a9546b3eab06e39af957cb7e044631bea148e5d4e1f3c93872458",
+      "antenna_proof": "reports/antenna_model/debug_review_20261028_0352/best_drc7.json",
+      "antenna_proof_sha256": "31464b842935e4a4cc7b99f6aa48773088e882b72a827ac9dfa1795333e5346a",
+      "accepted": false
+    },
+    {
+      "name": "zero_antenna_source",
+      "source": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/antenna_connected.odb",
+      "odb_sha256": "d71ed45e51889a3147458984b502bfce4a46a6db0182199e99b0ce0d3ff7d50c",
+      "native_DRC": 110,
+      "antenna_nets": 0,
+      "DRC_proof": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/antenna_connection.drc-6.rpt",
+      "DRC_proof_sha256": "449c247d12043ca99b5b986b0f2486ca13f0b7ffeb7ca04c0818ada009f09109",
+      "antenna_proof": "reports/antenna_model/debug_review_20261028_0352/bounded_connected.json",
+      "antenna_proof_sha256": "412b48c74cd9e2265f36faae08d06b1768ea3c0f6196367811ea8c2ae6a54277",
+      "accepted": false
+    },
+    {
+      "name": "stopped_zero_trial",
+      "source": "runs/routed_antenna_zero_20261028_122158/1-openroad-detailedrouting/drt_iter11.odb",
+      "odb_sha256": "d294fd7304673a6146f1c5bc3c9f1023ec8f6e819f938d20b21676e8aec2252c",
+      "native_DRC": 27,
+      "antenna_nets": 2,
+      "DRC_proof": "runs/routed_antenna_zero_20261028_122158/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-11.rpt",
+      "DRC_proof_sha256": "05e40c929a0398c2c4363f5d06d2ddd5a77fdebd2a47051e794d78f60c99814d",
+      "antenna_proof": "reports/antenna_model/debug_smoother_20261028/zero27_antenna.json",
+      "antenna_proof_sha256": "8eddb7f3639f9a90e8c1d4b7c3b9bad4e45bbb83df10e33e2892eb8b4623a35a",
+      "accepted": false
+    },
+    {
+      "name": "current_residual_frozen",
+      "source": "reports/antenna_model/runtime_20261028_054253/checkpoint.odb",
+      "odb_sha256": "bb593156cef1ced3094ea1bad9231f8821e3ed54bc9af6103b0b9472dec47a77",
+      "native_DRC": 36,
+      "antenna_nets": 4,
+      "DRC_proof": "reports/antenna_model/runtime_20261028_054253/fault_v_asic_top.drc-59.rpt",
+      "DRC_proof_sha256": "073e4eb0a180082a2852573ce24b6f5efbb920a2c299a1c37e0cbad19ebc2c60",
+      "antenna_proof": "reports/antenna_model/runtime_20261028_054253/current_antenna.json",
+      "antenna_proof_sha256": "73539719b5b4b9baf2dad2630c72b2183315ca2a53043cf63a470613c194ba58",
+      "accepted": false
+    }
+  ],
+  "nondominated_checkpoints": [
+    "historical_lowest_DRC",
+    "zero_antenna_source",
+    "stopped_zero_trial"
+  ],
+  "next_trial_source": "zero_antenna_source",
+  "scope": "Compare DRC and antenna on the exact same native ODB. These are incomplete checkpoints, not final independent DRC, connectivity, extracted RC/TT or acceptance."
+}

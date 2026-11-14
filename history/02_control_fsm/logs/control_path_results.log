@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Oct  5 19:12:10 2026
+# Process ID: 13092
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim
+# Command line: xsim.exe -log control_path_results.log -mode tcl -source {xsim.dir/control_path_behav/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim/control_path_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/control_path_behav/xsim_script.tcl
+# xsim {control_path_behav} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS 1: ADD pc=00000004 writes=1 wb=00000008 requests=0 cause=0
+PASS 2: SUB pc=00000004 writes=1 wb=fffffffe requests=0 cause=0
+PASS 3: SLL pc=00000004 writes=1 wb=00000001 requests=0 cause=0
+PASS 4: SLT pc=00000004 writes=1 wb=00000001 requests=0 cause=0
+PASS 5: SLTU pc=00000004 writes=1 wb=00000000 requests=0 cause=0
+PASS 6: XOR pc=00000004 writes=1 wb=00000006 requests=0 cause=0
+PASS 7: SRL pc=00000004 writes=1 wb=40000000 requests=0 cause=0
+PASS 8: SRA pc=00000004 writes=1 wb=c0000000 requests=0 cause=0
+PASS 9: OR pc=00000004 writes=1 wb=0000000e requests=0 cause=0
+PASS 10: AND pc=00000004 writes=1 wb=00000008 requests=0 cause=0
+PASS 11: ADDI pc=00000004 writes=1 wb=00000006 requests=0 cause=0
+PASS 12: SLTI pc=00000004 writes=1 wb=00000001 requests=0 cause=0
+PASS 13: SLTIU pc=00000004 writes=1 wb=00000001 requests=0 cause=0
+PASS 14: XORI pc=00000004 writes=1 wb=edcba984 requests=0 cause=0
+PASS 15: ORI pc=00000004 writes=1 wb=fffffffc requests=0 cause=0
+PASS 16: ANDI pc=00000004 writes=1 wb=12345678 requests=0 cause=0
+PASS 17: SLLI pc=00000004 writes=1 wb=80000000 requests=0 cause=0
+PASS 18: SRLI pc=00000004 writes=1 wb=00000001 requests=0 cause=0
+PASS 19: SRAI pc=00000004 writes=1 wb=ffffffff requests=0 cause=0
+PASS 20: LUI pc=00000004 writes=1 wb=12345000 requests=0 cause=0
+PASS 21: AUIPC pc=00000004 writes=1 wb=12345000 requests=0 cause=0
+PASS 22: BEQ taken pc=fffffffc writes=0 wb=00000000 requests=0 cause=0
+PASS 23: BNE taken pc=fffffffc writes=0 wb=00000000 requests=0 cause=0
+PASS 24: BLT taken pc=fffffffc writes=0 wb=00000000 requests=0 cause=0
+PASS 25: BGE taken pc=fffffffc writes=0 wb=00000000 requests=0 cause=0
+PASS 26: BLTU taken pc=fffffffc writes=0 wb=00000000 requests=0 cause=0
+PASS 27: BGEU taken pc=fffffffc writes=0 wb=00000000 requests=0 cause=0
+PASS 28: JAL pc=fffffffc writes=1 wb=00000004 requests=0 cause=0
+PASS 29: JALR pc=000001fc writes=1 wb=00000004 requests=0 cause=0
+PASS 30: LB pc=00000004 writes=1 wb=00000001 requests=1 cause=0
+PASS 31: LH pc=00000004 writes=1 wb=00007f01 requests=1 cause=0
+PASS 32: LW pc=00000004 writes=1 wb=80ff7f01 requests=1 cause=0
+PASS 33: LBU pc=00000004 writes=1 wb=00000001 requests=1 cause=0
+PASS 34: LHU pc=00000004 writes=1 wb=00007f01 requests=1 cause=0
+PASS 35: SB pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 36: SH pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 37: SW pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 38: FENCE pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 39: ECALL pc=00000000 writes=0 wb=00000000 requests=0 cause=8
+PASS 40: EBREAK pc=00000000 writes=0 wb=00000000 requests=0 cause=9
+PASS 41: BEQ not taken pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 42: BNE not taken pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 43: BLT not taken pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 44: BGE not taken pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 45: BLTU not taken pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 46: BGEU not taken pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 47: untaken misaligned branch pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 48: taken misaligned branch pc=00000000 writes=0 wb=00000000 requests=0 cause=2
+PASS 49: misaligned JAL pc=00000000 writes=0 wb=00000000 requests=0 cause=2
+PASS 50: JALR clears bit zero pc=00000100 writes=1 wb=00000004 requests=0 cause=0
+PASS 51: JALR still misaligned pc=00000000 writes=0 wb=00000000 requests=0 cause=2
+PASS 52: canonical NOP x0 pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 53: JAL to x0 pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 54: Load to x0 still accesses pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 55: LB upper negative byte pc=00000004 writes=1 wb=ffffff80 requests=1 cause=0
+PASS 56: LBU upper byte pc=00000004 writes=1 wb=00000080 requests=1 cause=0
+PASS 57: LH upper negative halfword pc=00000004 writes=1 wb=ffff80ff requests=1 cause=0
+PASS 58: LHU upper halfword pc=00000004 writes=1 wb=000080ff requests=1 cause=0
+PASS 59: SB upper byte mask pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 60: SH upper halfword mask pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 61: misaligned LW pc=00000000 writes=0 wb=00000000 requests=0 cause=4
+PASS 62: misaligned SW pc=00000000 writes=0 wb=00000000 requests=0 cause=5
+PASS 63: misaligned LH pc=00000000 writes=0 wb=00000000 requests=0 cause=4
+PASS 64: misaligned SH pc=00000000 writes=0 wb=00000000 requests=0 cause=5
+PASS 65: narrow MMIO load rejected pc=00000000 writes=0 wb=00000000 requests=0 cause=6
+PASS 66: narrow MMIO store rejected pc=00000000 writes=0 wb=00000000 requests=0 cause=7
+PASS 67: word MMIO load accepted pc=00000004 writes=1 wb=80ff7f01 requests=1 cause=0
+PASS 68: word MMIO store accepted pc=00000004 writes=0 wb=00000000 requests=1 cause=0
+PASS 69: load response error pc=00000000 writes=0 wb=00000000 requests=1 cause=6
+PASS 70: byte response error raw fault address pc=00000000 writes=0 wb=00000000 requests=1 cause=6
+PASS 71: store response error pc=00000000 writes=0 wb=00000000 requests=1 cause=7
+PASS 72: illegal instruction pc=00000000 writes=0 wb=00000000 requests=0 cause=1
+PASS 73: MUL unsupported pc=00000000 writes=0 wb=00000000 requests=0 cause=1
+PASS 74: CSR unsupported pc=00000000 writes=0 wb=00000000 requests=0 cause=1
+PASS 75: FENCE reserved fields pc=00000004 writes=0 wb=00000000 requests=0 cause=0
+PASS 76: target fetch error preserves committed link
+ALL 76 CONTROL PATH CASES PASSED
+$finish called at time : 11051 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/verify/tb_control_path.sv" Line 322
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct  5 19:12:12 2026...

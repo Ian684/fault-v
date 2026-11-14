@@ -1,0 +1,8 @@
+ARM loaded extension C overlay; FCLK0=50.0 MHz
+PASS EXTENSION C FPGA run=1 bytes=6 status=1 halt_cause=9
+PASS EXTENSION C FPGA run=2 bytes=6 status=1 halt_cause=9
+PASS EXTENSION C FPGA run=3 bytes=6 status=1 halt_cause=9
+ALL 3 EXTENSION C FPGA RUNS PASSED; 18 RECEIVED BYTES
+
+[sudo] password for xilinx: 
+exit_code=0

@@ -1,0 +1,23 @@
+{
+  "accepted": false,
+  "run": "global_antenna_final_20261029_173136",
+  "started_utc": "2026-10-29T09:36:34.135814+00:00",
+  "input_sha256": "b604c40623cb623f2fe2032a0889210e14acd4cc217c0760d7d418704a5b2298",
+  "input": "inputs/global_antenna_final_20261029_173136.odb",
+  "config": "config_global_antenna_final_20261029_173136.json",
+  "state": "global_antenna_final_20261029_173136_state.json",
+  "sha256": {
+    "scripts/final_antenna_global_proof.py": "6eb2e99145aa08e9c125c935536a2d8dc29fff2363d59c347a96f117d5e14540",
+    "scripts/antenna_corridor_global_cli.py": "9a123be23404747f05d3bb9643bf3fc8e221be81df6a45ef16bc6e27af6105dd",
+    "scripts/grt_antenna_corridor.tcl": "18abf4681c47cee7fd85d1619da480e0a5df03b39678fc59db7a0d425c967b73",
+    "scripts/check_global.py": "f28e89cb4fe4799ec4f7977c75547ec4b477032b136526ad5c4d07f1e5068556",
+    "global_antenna_final_20261029_173136_state.json": "2b8be8dcbc6b794c201986c5a2992b24a6b5def5b0e5b65e53df022043bcd4e8",
+    "config_global_antenna_final_20261029_173136.json": "2dcb8b80bb873d65d2c8af250e9501560ca36957bef31997fe72ce405a99e188",
+    "reports/global_antenna_final_20261029_173136_input.json": "7b11ddd75555f3c1f223fff6b672b5c57233abf86e8d4af0f330baa36bcf9bac",
+    "inputs/global_antenna_final_20261029_173136.odb": "b604c40623cb623f2fe2032a0889210e14acd4cc217c0760d7d418704a5b2298",
+    "reports/global_antenna_final_20261029_173136_input_before_verification.json": "fe0f8732209af2dcd2e285d8f0f10005615fb5d95c51efd453c8c859addada74"
+  },
+  "scope": "Native global capacity proof using all final cells/diodes, unchanged endpoint graph, PG and restrictions.",
+  "verification_receipt_snapshot": "reports/global_antenna_final_20261029_173136_input_before_verification.json",
+  "verification_finished_utc": "2026-10-29T09:37:24.337847+00:00"
+}

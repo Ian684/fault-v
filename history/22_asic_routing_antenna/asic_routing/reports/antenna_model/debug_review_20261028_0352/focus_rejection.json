@@ -1,0 +1,64 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_focus_20261028_120458",
+  "intentional_stop": true,
+  "native_exit": 137,
+  "reason": "Temporary FIXED representation produced a very large native DRC change; do not reuse this representation without native equivalence calibration. Candidate still above source baseline when stopped. Source and fallback retained.",
+  "source_native_DRC": 110,
+  "source_antenna_nets": 0,
+  "source_sha256": "d71ed45e51889a3147458984b502bfce4a46a6db0182199e99b0ce0d3ff7d50c",
+  "native_reports": [
+    {
+      "report": "fault_v_asic_top.drc-1.rpt",
+      "markers": 481,
+      "without_any_editable_net": 250,
+      "types": {
+        "Short": 208,
+        "Metal Spacing": 14,
+        "Recheck": 259
+      }
+    },
+    {
+      "report": "fault_v_asic_top.drc-2.rpt",
+      "markers": 341,
+      "without_any_editable_net": 153,
+      "types": {
+        "Short": 168,
+        "Metal Spacing": 11,
+        "Recheck": 162
+      }
+    },
+    {
+      "report": "fault_v_asic_top.drc-3.rpt",
+      "markers": 239,
+      "without_any_editable_net": 59,
+      "types": {
+        "Short": 158,
+        "Metal Spacing": 17,
+        "Recheck": 63,
+        "Cut Short": 1
+      }
+    },
+    {
+      "report": "fault_v_asic_top.drc-4.rpt",
+      "markers": 225,
+      "without_any_editable_net": 49,
+      "types": {
+        "Short": 155,
+        "Metal Spacing": 17,
+        "Recheck": 53
+      }
+    },
+    {
+      "report": "fault_v_asic_top.drc-5.rpt",
+      "markers": 179,
+      "without_any_editable_net": 33,
+      "types": {
+        "Short": 129,
+        "Metal Spacing": 13,
+        "Recheck": 37
+      }
+    }
+  ],
+  "no_final_normalization_or_acceptance_claimed": true
+}

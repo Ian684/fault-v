@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "scope": "Exact non-buffer pin and top-port connectivity after collapsing positive identity buffers; not RTL formal equivalence.",
+  "added_identity_buffers": 468,
+  "compared_nonbuffer_endpoints": 102975,
+  "connected_components": 27089,
+  "netlist_sha256": "88b35c08aa99b400a6bd72d7d1128b2d63fd8e9a04ae0f441698587c29f036f0"
+}

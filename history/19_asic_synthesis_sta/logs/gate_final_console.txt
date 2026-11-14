@@ -1,0 +1,784 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives_xsim.v" into library work
+INFO: [VRFC 10-2263] Analyzing Verilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/sky130_fd_sc_hd_xsim.v" into library work
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__decap_12
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__decap_20_12
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__decap_40_12
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__decap_60_12
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__decap_80_12
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__fill_2
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__fill_4
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__fill_8
+INFO: [VRFC 10-311] analyzing module sky130_ef_sc_hd__fill_12
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2bb2o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2bb2o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2bb2o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2bb2oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2bb2oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2bb2oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21bo_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21bo_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21bo_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21boi_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21boi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21boi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21boi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a21oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a22o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a22o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a22o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a22oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a22oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a22oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a31o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a31o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a31o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a31oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a31oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a31oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a32o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a32o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a32o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a32oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a32oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a32oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a41o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a41o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a41o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a41oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a41oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a41oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a211o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a211o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a211o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a211oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a211oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a211oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a221o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a221o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a221o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a221oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a221oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a221oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a222oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a311o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a311o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a311o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a311oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a311oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a311oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111o_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111o_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111o_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111oi_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111oi_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111oi_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__a2111oi_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and2b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and3_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and3b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and3b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and3b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4bb_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4bb_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__and4bb_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_6
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_12
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__buf_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__bufbuf_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__bufbuf_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__bufinv_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__bufinv_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkbuf_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkbuf_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkbuf_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkbuf_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkbuf_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s15_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s15_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s18_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s18_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s25_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s25_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s50_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkdlybuf4s50_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinv_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinv_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinv_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinv_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinv_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinvlp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__clkinvlp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__conb_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__decap_3
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__decap_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__decap_6
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__decap_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__decap_12
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfbbn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfbbn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfbbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfrbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfrbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfrtn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfrtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfrtp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfrtp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfsbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfsbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfstp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfstp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfstp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfxbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfxbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfxtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfxtp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dfxtp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__diode_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlclkp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlclkp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlclkp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrbn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrbn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrtn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrtn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrtn_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrtp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlrtp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxbn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxbn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxtn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxtn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxtn_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlxtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlygate4sd1_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlygate4sd2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlygate4sd3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlymetal6s2s_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlymetal6s4s_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__dlymetal6s6s_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ebufn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ebufn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ebufn_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ebufn_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__edfxbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__edfxtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvn_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvn_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvn_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__einvp_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fa_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fa_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fa_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fah_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fahcin_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fahcon_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fill_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fill_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fill_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__fill_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ha_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ha_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__ha_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_6
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_12
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__inv_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_bleeder_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkbufkapwr_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkbufkapwr_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkbufkapwr_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkbufkapwr_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkbufkapwr_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkinvkapwr_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkinvkapwr_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkinvkapwr_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkinvkapwr_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_clkinvkapwr_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_decapkapwr_3
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_decapkapwr_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_decapkapwr_6
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_decapkapwr_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_decapkapwr_12
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_inputiso0n_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_inputiso0p_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_inputiso1n_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_inputiso1p_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_inputisolatch_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_isobufsrc_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_isobufsrc_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_isobufsrc_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_isobufsrc_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_isobufsrc_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_isobufsrckapwr_16
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__macro_sparecell
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__maj3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__maj3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__maj3_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2i_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2i_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux2i_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux4_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux4_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__mux4_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand2b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand3_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand3b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand3b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand3b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4bb_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4bb_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nand4bb_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor2b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor3_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor3b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor3b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor3b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4bb_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4bb_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__nor4bb_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2bb2a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2bb2a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2bb2a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2bb2ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2bb2ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2bb2ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ai_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ba_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ba_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21ba_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21bai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21bai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o21bai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o22a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o22a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o22a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o22ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o22ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o22ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o31a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o31a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o31a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o31ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o31ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o31ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o32a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o32a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o32a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o32ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o32ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o32ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o41a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o41a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o41a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o41ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o41ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o41ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o211a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o211a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o211a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o211ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o211ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o211ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o221a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o221a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o221a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o221ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o221ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o221ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311ai_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o311ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2111a_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2111a_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2111a_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2111ai_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2111ai_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__o2111ai_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2_0
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or2b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or3_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or3b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or3b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or3b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4b_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4b_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4b_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4bb_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4bb_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__or4bb_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__probe_p_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__probec_p_8
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfbbn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfbbn_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfbbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfrbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfrbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfrtn_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfrtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfrtp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfrtp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfsbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfsbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfstp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfstp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfstp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfxbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfxbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfxtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfxtp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdfxtp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdlclkp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdlclkp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sdlclkp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sedfxbp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sedfxbp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sedfxtp_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sedfxtp_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__sedfxtp_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__tap_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__tap_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__tapvgnd2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__tapvgnd_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__tapvpwrvgnd_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xnor2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xnor2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xnor2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xnor3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xnor3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xnor3_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xor2_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xor2_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xor2_4
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xor3_1
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xor3_2
+INFO: [VRFC 10-311] analyzing module sky130_fd_sc_hd__xor3_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/model.v" into library work
+INFO: [VRFC 10-311] analyzing module sky130_sram_2kbyte_1rw1r_32x512_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_asic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_gate.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_gate
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_gate -s tb_gate --debug typical --mt off 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180418]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180421]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180424]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180427]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180430]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180433]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180436]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180439]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180442]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180445]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180448]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180451]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180454]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180457]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180460]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180463]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180466]
+WARNING: [VRFC 10-3645] port 'LO' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180469]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180472]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180475]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180478]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180481]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180484]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180487]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180490]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180493]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180496]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180499]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180502]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180505]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180508]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180511]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180514]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180517]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180520]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180523]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180526]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180529]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180532]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180535]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180538]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180541]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180544]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180547]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180550]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180553]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180556]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180559]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180562]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180565]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180568]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180571]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180574]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180577]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180580]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180583]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180586]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180589]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180592]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180595]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180598]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180601]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180604]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180607]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180610]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180613]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180616]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180619]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180622]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180625]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180628]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180631]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180634]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180637]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180640]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180643]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180646]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180649]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180652]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180655]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180658]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180661]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180664]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180667]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180670]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180673]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180676]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180679]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180682]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180685]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180688]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180691]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180694]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180697]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180700]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180703]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180706]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180709]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180712]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180715]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180718]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180721]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180724]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180727]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180730]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180733]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180736]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180739]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180742]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180745]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180748]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180751]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180754]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180757]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180760]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180763]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180766]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180769]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180772]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180775]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180778]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180781]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180784]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180787]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180790]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180793]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180796]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180799]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180802]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180805]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180808]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180811]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180814]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180817]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180820]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180823]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180826]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180829]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180832]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180835]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180838]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180841]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180844]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180847]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180850]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180853]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180856]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180859]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180862]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180865]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180868]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180871]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180874]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180877]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180880]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180883]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180886]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180889]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180892]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180895]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180898]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180901]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180904]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180907]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180910]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180913]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180916]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180919]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180922]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180925]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180928]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180931]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180934]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180937]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180940]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180943]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180946]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180949]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180952]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180955]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180958]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180961]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180964]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180967]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180970]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180973]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180976]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180979]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180982]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180985]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180988]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180991]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180994]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:180997]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181000]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181003]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181006]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181009]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181012]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181015]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181018]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181021]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181024]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181027]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181030]
+WARNING: [VRFC 10-3645] port 'HI' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181033]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181048]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181060]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181072]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181084]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181096]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181108]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181120]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181132]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181144]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181156]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181168]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181180]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181192]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181204]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181216]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181228]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181240]
+WARNING: [VRFC 10-3645] port 'dout1' remains unconnected for this instance [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/mapped_top.v:181252]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sky130_fd_sc_hd__inv_2
+Compiling module work.sky130_fd_sc_hd__and2b_2
+Compiling module work.sky130_fd_sc_hd__nand2b_2
+Compiling module work.sky130_fd_sc_hd__nand2_2
+Compiling module work.sky130_fd_sc_hd__or2_2
+Compiling module work.sky130_fd_sc_hd__or4_2
+Compiling module work.sky130_fd_sc_hd__nor4_2
+Compiling module work.sky130_fd_sc_hd__nor2_2
+Compiling module work.sky130_fd_sc_hd__and2_2
+Compiling module work.sky130_fd_sc_hd__xnor2_2
+Compiling module work.sky130_fd_sc_hd__o21ai_2
+Compiling module work.sky130_fd_sc_hd__a21bo_2
+Compiling module work.sky130_fd_sc_hd__a21o_2
+Compiling module work.sky130_fd_sc_hd__a211oi_2
+Compiling module work.sky130_fd_sc_hd__o21a_2
+Compiling module work.sky130_fd_sc_hd__o311a_2
+Compiling module work.sky130_fd_sc_hd__o31a_2
+Compiling module work.sky130_fd_sc_hd__a21boi_2
+Compiling module work.sky130_fd_sc_hd__xor2_2
+Compiling module work.sky130_fd_sc_hd__o2bb2a_2
+Compiling module work.sky130_fd_sc_hd__a221o_2
+Compiling module work.sky130_fd_sc_hd__o221a_2
+Compiling module work.sky130_fd_sc_hd__o22a_2
+Compiling module work.sky130_fd_sc_hd__o221ai_2
+Compiling module work.sky130_fd_sc_hd__a2bb2o_2
+Compiling module work.sky130_fd_sc_hd__a221oi_2
+Compiling module work.sky130_fd_sc_hd__or3_2
+Compiling module work.sky130_fd_sc_hd__a311o_2
+Compiling module work.sky130_fd_sc_hd__a21oi_2
+Compiling module work.sky130_fd_sc_hd__a211o_2
+Compiling module work.sky130_fd_sc_hd__a22o_2
+Compiling module work.sky130_fd_sc_hd__or4b_2
+Compiling module work.sky130_fd_sc_hd__o21ba_2
+Compiling module work.sky130_fd_sc_hd__nor3_2
+Compiling module work.sky130_fd_sc_hd__and3b_2
+Compiling module work.sky130_fd_sc_hd__o211a_2
+Compiling module work.sky130_fd_sc_hd__or3b_2
+Compiling module work.sky130_fd_sc_hd__nand3_2
+Compiling module work.sky130_fd_sc_hd__a2111oi_2
+Compiling module work.sky130_fd_sc_hd__and3_2
+Compiling module work.sky130_fd_sc_hd__and4_2
+Compiling module work.sky130_fd_sc_hd__a22oi_2
+Compiling module work.sky130_fd_sc_hd__a31o_2
+Compiling module work.sky130_fd_sc_hd__o21bai_2
+Compiling module work.sky130_fd_sc_hd__and4bb_2
+Compiling module work.sky130_fd_sc_hd__o22ai_2
+Compiling module work.sky130_fd_sc_hd__o32ai_2
+Compiling module work.sky130_fd_sc_hd__a311oi_2
+Compiling module work.sky130_fd_sc_hd__and4b_2
+Compiling module work.sky130_fd_sc_hd__o31ai_2
+Compiling module work.sky130_fd_sc_hd__or4bb_2
+Compiling module work.sky130_fd_sc_hd__a41o_2
+Compiling module work.sky130_fd_sc_hd__nand4_2
+Compiling module work.sky130_fd_sc_hd__nand3b_2
+Compiling module work.sky130_fd_sc_hd__o2111a_2
+Compiling module work.sky130_fd_sc_hd__udp_mux_2to1
+Compiling module work.sky130_fd_sc_hd__mux2_1
+Compiling module work.sky130_fd_sc_hd__o32a_2
+Compiling module work.sky130_fd_sc_hd__nor3b_2
+Compiling module work.sky130_fd_sc_hd__o41a_2
+Compiling module work.sky130_fd_sc_hd__a32o_2
+Compiling module work.sky130_fd_sc_hd__a2111o_2
+Compiling module work.sky130_fd_sc_hd__o211ai_2
+Compiling module work.sky130_fd_sc_hd__o2bb2ai_2
+Compiling module work.sky130_fd_sc_hd__udp_mux_4to2
+Compiling module work.sky130_fd_sc_hd__mux4_2
+Compiling module work.sky130_fd_sc_hd__a31oi_2
+Compiling module work.sky130_fd_sc_hd__nand4b_2
+Compiling module work.sky130_fd_sc_hd__nor4b_2
+Compiling module work.sky130_fd_sc_hd__o2111ai_2
+Compiling module work.sky130_fd_sc_hd__a2bb2oi_2
+Compiling module work.sky130_fd_sc_hd__o311ai_2
+Compiling module work.sky130_fd_sc_hd__a41oi_2
+Compiling module work.sky130_fd_sc_hd__a32oi_2
+Compiling module work.sky130_fd_sc_hd__udp_dff$P
+Compiling module work.sky130_fd_sc_hd__dfxtp_2
+Compiling module work.sky130_fd_sc_hd__udp_dff$PS
+Compiling module work.sky130_fd_sc_hd__dfstp_2
+Compiling module work.sky130_fd_sc_hd__conb_1
+Compiling module work.sky130_fd_sc_hd__buf_2
+Compiling module work.sky130_sram_2kbyte_1rw1r_32x512_...
+Compiling module work.fault_v_asic_top
+Compiling module work.tb_gate
+Built simulation snapshot tb_gate
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_gate/xsim_script.tcl
+# xsim {tb_gate} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+GATE UART bytes=0/834
+GATE UART bytes=256/834

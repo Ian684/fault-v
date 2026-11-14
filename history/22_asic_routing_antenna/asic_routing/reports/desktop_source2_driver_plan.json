@@ -1,0 +1,968 @@
+[
+  {
+    "instance": "_27436_",
+    "master": "sky130_fd_sc_hd__a211oi_2",
+    "net": "_23897_",
+    "violating_pins": [
+      {
+        "pin": "_27436_/Y",
+        "limit": "1.497255",
+        "actual": "1.694009",
+        "slack": "-0.196754",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27438_/A3",
+        "limit": "1.500000",
+        "actual": "1.694144",
+        "slack": "-0.194144",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27523_/A3",
+        "limit": "1.500000",
+        "actual": "1.694144",
+        "slack": "-0.194144",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27527_/C",
+        "limit": "1.500000",
+        "actual": "1.694013",
+        "slack": "-0.194013",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27528_/A2",
+        "limit": "1.500000",
+        "actual": "1.694009",
+        "slack": "-0.194009",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27436_/Y",
+        "limit": "0.088816",
+        "actual": "0.103392",
+        "slack": "-0.014576",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__a211oi_4"
+  },
+  {
+    "instance": "clkbuf_1_1_0_clk",
+    "master": "sky130_fd_sc_hd__clkbuf_8",
+    "net": "clknet_1_1_0_clk",
+    "violating_pins": [
+      {
+        "pin": "clkbuf_leaf_1_clk/A",
+        "limit": "1.500000",
+        "actual": "1.684173",
+        "slack": "-0.184173",
+        "kind": "slew"
+      },
+      {
+        "pin": "clkbuf_leaf_2_clk/A",
+        "limit": "1.500000",
+        "actual": "1.677279",
+        "slack": "-0.177279",
+        "kind": "slew"
+      },
+      {
+        "pin": "clkbuf_leaf_4_clk/A",
+        "limit": "1.500000",
+        "actual": "1.675835",
+        "slack": "-0.175835",
+        "kind": "slew"
+      },
+      {
+        "pin": "clkbuf_leaf_3_clk/A",
+        "limit": "1.500000",
+        "actual": "1.675719",
+        "slack": "-0.175719",
+        "kind": "slew"
+      },
+      {
+        "pin": "clkload0/A",
+        "limit": "1.500000",
+        "actual": "1.666792",
+        "slack": "-0.166792",
+        "kind": "slew"
+      },
+      {
+        "pin": "clkbuf_1_1_0_clk/X",
+        "limit": "1.514247",
+        "actual": "1.666698",
+        "slack": "-0.152451",
+        "kind": "slew"
+      },
+      {
+        "pin": "clkbuf_1_1_0_clk/X",
+        "limit": "0.909128",
+        "actual": "0.999069",
+        "slack": "-0.089941",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__clkbuf_16"
+  },
+  {
+    "instance": "_29513_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_03018_",
+    "violating_pins": [
+      {
+        "pin": "_34987_/A1",
+        "limit": "1.500000",
+        "actual": "1.554053",
+        "slack": "-0.054053",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34967_/A0",
+        "limit": "1.500000",
+        "actual": "1.554048",
+        "slack": "-0.054048",
+        "kind": "slew"
+      },
+      {
+        "pin": "_29514_/A",
+        "limit": "1.500000",
+        "actual": "1.554048",
+        "slack": "-0.054048",
+        "kind": "slew"
+      },
+      {
+        "pin": "_51805_/A0",
+        "limit": "1.500000",
+        "actual": "1.554030",
+        "slack": "-0.054030",
+        "kind": "slew"
+      },
+      {
+        "pin": "_51779_/A0",
+        "limit": "1.500000",
+        "actual": "1.554006",
+        "slack": "-0.054006",
+        "kind": "slew"
+      },
+      {
+        "pin": "_51754_/A1",
+        "limit": "1.500000",
+        "actual": "1.553932",
+        "slack": "-0.053932",
+        "kind": "slew"
+      },
+      {
+        "pin": "_51692_/A1",
+        "limit": "1.500000",
+        "actual": "1.553831",
+        "slack": "-0.053831",
+        "kind": "slew"
+      },
+      {
+        "pin": "_51712_/A1",
+        "limit": "1.500000",
+        "actual": "1.553829",
+        "slack": "-0.053829",
+        "kind": "slew"
+      },
+      {
+        "pin": "_51671_/A1",
+        "limit": "1.500000",
+        "actual": "1.553826",
+        "slack": "-0.053826",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34817_/A",
+        "limit": "1.500000",
+        "actual": "1.553810",
+        "slack": "-0.053810",
+        "kind": "slew"
+      },
+      {
+        "pin": "_29513_/X",
+        "limit": "1.506103",
+        "actual": "1.553799",
+        "slack": "-0.047696",
+        "kind": "slew"
+      },
+      {
+        "pin": "_29513_/X",
+        "limit": "0.130015",
+        "actual": "0.135917",
+        "slack": "-0.005902",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_39099_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_10787_",
+    "violating_pins": [
+      {
+        "pin": "_39137_/A2",
+        "limit": "1.500000",
+        "actual": "1.542951",
+        "slack": "-0.042951",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39172_/A2",
+        "limit": "1.500000",
+        "actual": "1.542930",
+        "slack": "-0.042931",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39101_/A2",
+        "limit": "1.500000",
+        "actual": "1.542929",
+        "slack": "-0.042929",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39244_/A2",
+        "limit": "1.500000",
+        "actual": "1.542813",
+        "slack": "-0.042814",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39205_/A2",
+        "limit": "1.500000",
+        "actual": "1.542511",
+        "slack": "-0.042511",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39280_/A2",
+        "limit": "1.500000",
+        "actual": "1.542231",
+        "slack": "-0.042231",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39315_/A2",
+        "limit": "1.500000",
+        "actual": "1.542160",
+        "slack": "-0.042160",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39387_/A2",
+        "limit": "1.500000",
+        "actual": "1.542039",
+        "slack": "-0.042039",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39353_/A2",
+        "limit": "1.500000",
+        "actual": "1.542026",
+        "slack": "-0.042026",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39422_/A2",
+        "limit": "1.500000",
+        "actual": "1.541913",
+        "slack": "-0.041913",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39099_/X",
+        "limit": "1.506103",
+        "actual": "1.541905",
+        "slack": "-0.035802",
+        "kind": "slew"
+      },
+      {
+        "pin": "_39099_/X",
+        "limit": "0.130015",
+        "actual": "0.135472",
+        "slack": "-0.005457",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_27916_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_24377_",
+    "violating_pins": [
+      {
+        "pin": "_28254_/B1",
+        "limit": "1.500000",
+        "actual": "1.521832",
+        "slack": "-0.021832",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28250_/A",
+        "limit": "1.500000",
+        "actual": "1.521825",
+        "slack": "-0.021825",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28235_/C",
+        "limit": "1.500000",
+        "actual": "1.521794",
+        "slack": "-0.021794",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28231_/C",
+        "limit": "1.500000",
+        "actual": "1.521794",
+        "slack": "-0.021794",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28182_/A",
+        "limit": "1.500000",
+        "actual": "1.521793",
+        "slack": "-0.021793",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28109_/A",
+        "limit": "1.500000",
+        "actual": "1.521790",
+        "slack": "-0.021790",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27917_/A",
+        "limit": "1.500000",
+        "actual": "1.521725",
+        "slack": "-0.021725",
+        "kind": "slew"
+      },
+      {
+        "pin": "_29387_/B2",
+        "limit": "1.500000",
+        "actual": "1.521684",
+        "slack": "-0.021684",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28246_/A1",
+        "limit": "1.500000",
+        "actual": "1.521676",
+        "slack": "-0.021676",
+        "kind": "slew"
+      },
+      {
+        "pin": "_28599_/A",
+        "limit": "1.500000",
+        "actual": "1.521674",
+        "slack": "-0.021674",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27916_/X",
+        "limit": "1.506103",
+        "actual": "1.521669",
+        "slack": "-0.015565",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27916_/X",
+        "limit": "0.130015",
+        "actual": "0.133363",
+        "slack": "-0.003348",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_30115_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_03535_",
+    "violating_pins": [
+      {
+        "pin": "_30117_/A2",
+        "limit": "1.500000",
+        "actual": "1.521671",
+        "slack": "-0.021671",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30118_/A2",
+        "limit": "1.500000",
+        "actual": "1.521669",
+        "slack": "-0.021669",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30120_/A2",
+        "limit": "1.500000",
+        "actual": "1.520963",
+        "slack": "-0.020963",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30121_/A2",
+        "limit": "1.500000",
+        "actual": "1.520829",
+        "slack": "-0.020829",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30122_/A2",
+        "limit": "1.500000",
+        "actual": "1.520746",
+        "slack": "-0.020746",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30119_/A2",
+        "limit": "1.500000",
+        "actual": "1.520672",
+        "slack": "-0.020672",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30123_/A2",
+        "limit": "1.500000",
+        "actual": "1.520600",
+        "slack": "-0.020600",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30126_/A2",
+        "limit": "1.500000",
+        "actual": "1.520577",
+        "slack": "-0.020577",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30124_/A2",
+        "limit": "1.500000",
+        "actual": "1.520511",
+        "slack": "-0.020511",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30125_/A2",
+        "limit": "1.500000",
+        "actual": "1.520484",
+        "slack": "-0.020484",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30115_/X",
+        "limit": "1.506103",
+        "actual": "1.520472",
+        "slack": "-0.014369",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30115_/X",
+        "limit": "0.130015",
+        "actual": "0.133603",
+        "slack": "-0.003588",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_34275_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_06667_",
+    "violating_pins": [
+      {
+        "pin": "_35069_/B1",
+        "limit": "1.500000",
+        "actual": "1.517530",
+        "slack": "-0.017530",
+        "kind": "slew"
+      },
+      {
+        "pin": "_35061_/B1",
+        "limit": "1.500000",
+        "actual": "1.517527",
+        "slack": "-0.017527",
+        "kind": "slew"
+      },
+      {
+        "pin": "_35077_/B1",
+        "limit": "1.500000",
+        "actual": "1.517519",
+        "slack": "-0.017519",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34458_/C1",
+        "limit": "1.500000",
+        "actual": "1.517515",
+        "slack": "-0.017515",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34376_/A",
+        "limit": "1.500000",
+        "actual": "1.517514",
+        "slack": "-0.017514",
+        "kind": "slew"
+      },
+      {
+        "pin": "_35085_/B1",
+        "limit": "1.500000",
+        "actual": "1.517507",
+        "slack": "-0.017507",
+        "kind": "slew"
+      },
+      {
+        "pin": "_35093_/B1",
+        "limit": "1.500000",
+        "actual": "1.517486",
+        "slack": "-0.017486",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34633_/A",
+        "limit": "1.500000",
+        "actual": "1.517408",
+        "slack": "-0.017408",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34368_/A",
+        "limit": "1.500000",
+        "actual": "1.517403",
+        "slack": "-0.017403",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34286_/B2",
+        "limit": "1.500000",
+        "actual": "1.517395",
+        "slack": "-0.017395",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34275_/X",
+        "limit": "1.506103",
+        "actual": "1.517395",
+        "slack": "-0.011292",
+        "kind": "slew"
+      },
+      {
+        "pin": "_34275_/X",
+        "limit": "0.130015",
+        "actual": "0.132130",
+        "slack": "-0.002115",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_26002_",
+    "master": "sky130_fd_sc_hd__nor4_4",
+    "net": "_22463_",
+    "violating_pins": [
+      {
+        "pin": "_26002_/Y",
+        "limit": "1.488818",
+        "actual": "1.500363",
+        "slack": "-0.011545",
+        "kind": "slew"
+      },
+      {
+        "pin": "wire6795/A",
+        "limit": "1.500000",
+        "actual": "1.501291",
+        "slack": "-0.001291",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27750_/B",
+        "limit": "1.500000",
+        "actual": "1.500368",
+        "slack": "-0.000368",
+        "kind": "slew"
+      },
+      {
+        "pin": "_27770_/B",
+        "limit": "1.500000",
+        "actual": "1.500368",
+        "slack": "-0.000368",
+        "kind": "slew"
+      },
+      {
+        "pin": "_26048_/A",
+        "limit": "1.500000",
+        "actual": "1.500367",
+        "slack": "-0.000367",
+        "kind": "slew"
+      },
+      {
+        "pin": "_26002_/Y",
+        "limit": "0.112620",
+        "actual": "0.115347",
+        "slack": "-0.002727",
+        "kind": "cap"
+      }
+    ],
+    "next_master": null
+  },
+  {
+    "instance": "_31004_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_03772_",
+    "violating_pins": [
+      {
+        "pin": "_31011_/A2",
+        "limit": "1.500000",
+        "actual": "1.507545",
+        "slack": "-0.007545",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31013_/A2",
+        "limit": "1.500000",
+        "actual": "1.507543",
+        "slack": "-0.007543",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31016_/A2",
+        "limit": "1.500000",
+        "actual": "1.507537",
+        "slack": "-0.007537",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31015_/A2",
+        "limit": "1.500000",
+        "actual": "1.507528",
+        "slack": "-0.007528",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31009_/A2",
+        "limit": "1.500000",
+        "actual": "1.507507",
+        "slack": "-0.007507",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31012_/A2",
+        "limit": "1.500000",
+        "actual": "1.507488",
+        "slack": "-0.007488",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31010_/A2",
+        "limit": "1.500000",
+        "actual": "1.507473",
+        "slack": "-0.007473",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31008_/A2",
+        "limit": "1.500000",
+        "actual": "1.507427",
+        "slack": "-0.007427",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31014_/A2",
+        "limit": "1.500000",
+        "actual": "1.507419",
+        "slack": "-0.007419",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31007_/A2",
+        "limit": "1.500000",
+        "actual": "1.507362",
+        "slack": "-0.007362",
+        "kind": "slew"
+      },
+      {
+        "pin": "_31004_/X",
+        "limit": "0.130015",
+        "actual": "0.132175",
+        "slack": "-0.002160",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_36659_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_08547_",
+    "violating_pins": [
+      {
+        "pin": "_36680_/C1",
+        "limit": "1.500000",
+        "actual": "1.503911",
+        "slack": "-0.003911",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36678_/C1",
+        "limit": "1.500000",
+        "actual": "1.503908",
+        "slack": "-0.003908",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36676_/C1",
+        "limit": "1.500000",
+        "actual": "1.503887",
+        "slack": "-0.003887",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36673_/C1",
+        "limit": "1.500000",
+        "actual": "1.503773",
+        "slack": "-0.003773",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36671_/C1",
+        "limit": "1.500000",
+        "actual": "1.503747",
+        "slack": "-0.003747",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36669_/C1",
+        "limit": "1.500000",
+        "actual": "1.503253",
+        "slack": "-0.003253",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36667_/C1",
+        "limit": "1.500000",
+        "actual": "1.503153",
+        "slack": "-0.003153",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36664_/C1",
+        "limit": "1.500000",
+        "actual": "1.503076",
+        "slack": "-0.003076",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36662_/C1",
+        "limit": "1.500000",
+        "actual": "1.502966",
+        "slack": "-0.002966",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36660_/C1",
+        "limit": "1.500000",
+        "actual": "1.502717",
+        "slack": "-0.002717",
+        "kind": "slew"
+      },
+      {
+        "pin": "_36659_/X",
+        "limit": "0.130015",
+        "actual": "0.131828",
+        "slack": "-0.001813",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_41007_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_12342_",
+    "violating_pins": [
+      {
+        "pin": "_46439_/A1",
+        "limit": "1.500000",
+        "actual": "1.503501",
+        "slack": "-0.003501",
+        "kind": "slew"
+      },
+      {
+        "pin": "_44307_/A",
+        "limit": "1.500000",
+        "actual": "1.503497",
+        "slack": "-0.003497",
+        "kind": "slew"
+      },
+      {
+        "pin": "_44008_/A",
+        "limit": "1.500000",
+        "actual": "1.503445",
+        "slack": "-0.003445",
+        "kind": "slew"
+      },
+      {
+        "pin": "_43764_/B2",
+        "limit": "1.500000",
+        "actual": "1.503379",
+        "slack": "-0.003379",
+        "kind": "slew"
+      },
+      {
+        "pin": "_43453_/A",
+        "limit": "1.500000",
+        "actual": "1.503360",
+        "slack": "-0.003360",
+        "kind": "slew"
+      },
+      {
+        "pin": "_42917_/A",
+        "limit": "1.500000",
+        "actual": "1.503290",
+        "slack": "-0.003290",
+        "kind": "slew"
+      },
+      {
+        "pin": "_43176_/A",
+        "limit": "1.500000",
+        "actual": "1.503289",
+        "slack": "-0.003289",
+        "kind": "slew"
+      },
+      {
+        "pin": "_42345_/A",
+        "limit": "1.500000",
+        "actual": "1.503126",
+        "slack": "-0.003126",
+        "kind": "slew"
+      },
+      {
+        "pin": "_41008_/B1",
+        "limit": "1.500000",
+        "actual": "1.503017",
+        "slack": "-0.003017",
+        "kind": "slew"
+      },
+      {
+        "pin": "_41072_/D",
+        "limit": "1.500000",
+        "actual": "1.503016",
+        "slack": "-0.003016",
+        "kind": "slew"
+      },
+      {
+        "pin": "_41007_/X",
+        "limit": "0.130015",
+        "actual": "0.131074",
+        "slack": "-0.001059",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_30852_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_03716_",
+    "violating_pins": [
+      {
+        "pin": "_30865_/A2",
+        "limit": "1.500000",
+        "actual": "1.500679",
+        "slack": "-0.000679",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30867_/A2",
+        "limit": "1.500000",
+        "actual": "1.500677",
+        "slack": "-0.000677",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30863_/A2",
+        "limit": "1.500000",
+        "actual": "1.500661",
+        "slack": "-0.000661",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30871_/A2",
+        "limit": "1.500000",
+        "actual": "1.500655",
+        "slack": "-0.000655",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30873_/A2",
+        "limit": "1.500000",
+        "actual": "1.500650",
+        "slack": "-0.000650",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30859_/A2",
+        "limit": "1.500000",
+        "actual": "1.500579",
+        "slack": "-0.000579",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30861_/A2",
+        "limit": "1.500000",
+        "actual": "1.500333",
+        "slack": "-0.000334",
+        "kind": "slew"
+      },
+      {
+        "pin": "_30852_/X",
+        "limit": "0.130015",
+        "actual": "0.131507",
+        "slack": "-0.001492",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_35759_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_07879_",
+    "violating_pins": [
+      {
+        "pin": "_35759_/X",
+        "limit": "0.130015",
+        "actual": "0.131615",
+        "slack": "-0.001600",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  },
+  {
+    "instance": "_38114_",
+    "master": "sky130_fd_sc_hd__buf_1",
+    "net": "_09844_",
+    "violating_pins": [
+      {
+        "pin": "_38114_/X",
+        "limit": "0.130015",
+        "actual": "0.131162",
+        "slack": "-0.001147",
+        "kind": "cap"
+      }
+    ],
+    "next_master": "sky130_fd_sc_hd__buf_2"
+  }
+]

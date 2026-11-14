@@ -1,0 +1,30 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Oct 13 20:00:29 2026
+| Host         : <host> running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file logs/candidate_utilization.rpt
+| Design       : custom_exec
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------+---------------+------------+------------+---------+------+-----+--------+--------+------------+
+|     Instance    |     Module    | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------+---------------+------------+------------+---------+------+-----+--------+--------+------------+
+| custom_exec     |         (top) |        304 |        304 |       0 |    0 | 119 |      0 |      0 |          1 |
+|   (custom_exec) |         (top) |        304 |        304 |       0 |    0 | 119 |      0 |      0 |          0 |
+|   u_multiplier  | fault_v_mul16 |          0 |          0 |       0 |    0 |   0 |      0 |      0 |          1 |
++-----------------+---------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+

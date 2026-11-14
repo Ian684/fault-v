@@ -1,0 +1,10 @@
+{
+  "metrics": {
+    "design__power_grid_violation__count": 0,
+    "design__power_grid_violation__count__net:VPWR": 0,
+    "design__power_grid_violation__count__net:VGND": 0
+  },
+  "odb": "/work/placement_cts/inputs/anchored_floorplan.odb",
+  "sdc": "/work/placement_cts/inputs/fault_v_asic_top.sdc",
+  "json_h": "/work/placement_cts/inputs/top.h.json"
+}

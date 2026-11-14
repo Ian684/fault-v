@@ -1,0 +1,299 @@
+{
+  "phase": "H1 formal PPA (die-shrink implementation of the H0 mapped netlist)",
+  "all_h1_checks_pass": true,
+  "passes": {
+    "native_router_clean": true,
+    "klayout_drc_clean": true,
+    "antenna_clean": true,
+    "sta_clean": true,
+    "core_lvs_clean": true,
+    "core_lvs_negative_control_detected": true,
+    "functional_pass": true,
+    "activity_fully_mapped": true
+  },
+  "checks": {
+    "native_router": {
+      "DRC": 0,
+      "antenna_nets": 0,
+      "final_eco_run": "h1c_pg_r1",
+      "routed_odb_sha256": "29a706cf71ca4af7caaf38e5f46cba9897527ffcdc170bb224490a07e3508651"
+    },
+    "klayout_drc_error_count": 0,
+    "antenna_violating_nets": 0,
+    "antenna_violating_pins": 0,
+    "sta_violation_counts_nonzero": {},
+    "sta_violation_count_metrics_checked": 28,
+    "sta_min_setup_ws_ns": 11.017903345979144,
+    "sta_min_hold_ws_ns": 0.24542524263092222,
+    "core_lvs": {
+      "magic__illegal_overlap__count": 0,
+      "design__lvs_device_difference__count": 0,
+      "design__lvs_net_difference__count": 0,
+      "design__lvs_property_fail__count": 0,
+      "design__lvs_error__count": 0,
+      "design__lvs_unmatched_device__count": 0,
+      "design__lvs_unmatched_net__count": 0,
+      "design__lvs_unmatched_pin__count": 0
+    },
+    "core_lvs_negative_control_errors": 44,
+    "reset_CDC": {
+      "passed": true,
+      "cycles": 97,
+      "release_phases": 8
+    },
+    "four_workloads_pass": true,
+    "activity_mapping_coverage_pct": [
+      100.0
+    ],
+    "routed_signal_clock_nets": 40850,
+    "power_annotated_pins": [
+      137242
+    ]
+  },
+  "not_done_for_h1": [
+    "DFT / pad / ESD review (design-level, shared with H0)"
+  ],
+  "W25_method_closure": {
+    "result": "ppa/h1/cand_gap90x95/closure_c/reports/H1_closure_result.json",
+    "all_W25_method_gates_pass": true,
+    "filled_ODB_matches": true,
+    "IR_EM": {
+      "IR_14mW_per_SRAM": {
+        "VPWR_worst_mV": 15.2,
+        "VGND_worst_mV": 15.3,
+        "combined_mV": 30.5
+      },
+      "IR_28mW_per_SRAM": {
+        "VPWR_worst_mV": 28.9,
+        "VGND_worst_mV": 28.9,
+        "combined_mV": 57.8
+      },
+      "EM_worst_ratio": {
+        "0p014": {
+          "VPWR": 0.495,
+          "VGND": 0.518
+        },
+        "0p028": {
+          "VPWR": 0.936,
+          "VGND": 0.981
+        }
+      }
+    },
+    "dummy_filled_GDS_sha256": "168b162145c4cd96c2ebcefea17e05c94a3220ab45206056fbf8cda9536bed17"
+  },
+  "candidate": {
+    "netlist_sha256": "5c11b7c518a443dcfc83f3b71356c808ff66a67c2fbfc49760cff0723f00b8f0",
+    "nom_SPEF_sha256": "bad7fcde0198f705aa0577f25082bad7960aa0a18ef284f98f8f959510d0ea0b",
+    "SDC_sha256": "979a8d3f988f18efcc3d17a61201caff54c2af681eb10316aa6fd8c965d06203",
+    "filled_ODB_sha256": "9c06b1b07f69b63056734f85a25a71c4a828835595241be6db64b9c8c79dc402",
+    "routed_ODB_sha256": "29a706cf71ca4af7caaf38e5f46cba9897527ffcdc170bb224490a07e3508651"
+  },
+  "conditions": {
+    "PVT": "TT 25C 1.8V",
+    "RC_power": "nom",
+    "clock_MHz": 25.0
+  },
+  "area_um2": {
+    "die__area": 7945990,
+    "core__area": 7047310,
+    "instance__area": 6187830,
+    "instance__area__stdcell": 437062,
+    "instance__area__macros": 5121690,
+    "instance__area__padcells": 0,
+    "instance__area__cover": 0,
+    "instance__area__class:macro": 5121690,
+    "instance__area__class:fill_cell": 629077,
+    "instance__area__class:tap_cell": 18834.3,
+    "instance__area__class:antenna_cell": 13305.3,
+    "instance__area__class:buffer": 16958.8,
+    "instance__area__class:clock_buffer": 8327.99,
+    "instance__area__class:timing_repair_buffer": 82741.9,
+    "instance__area__class:inverter": 11390.9,
+    "instance__area__class:clock_inverter": 2189.6,
+    "instance__area__class:sequential_cell": 62283.5,
+    "instance__area__class:multi_input_combinational_cell": 221029
+  },
+  "instance_counts": {
+    "design__instance__count": 171327,
+    "stdcell": 60962,
+    "macros": 18,
+    "padcells": 0,
+    "cover": 0,
+    "class:macro": 18,
+    "class:fill_cell": 110347,
+    "class:tap_cell": 15053,
+    "class:antenna_cell": 5317,
+    "class:buffer": 3282,
+    "class:clock_buffer": 606,
+    "class:timing_repair_buffer": 9558,
+    "class:inverter": 996,
+    "class:clock_inverter": 170,
+    "class:sequential_cell": 2925,
+    "class:multi_input_combinational_cell": 23055
+  },
+  "utilization": {
+    "all_instances": 0.788777,
+    "stdcell": 0.226972
+  },
+  "timing": {
+    "setup_ws_ns": {
+      "nom_tt_025C_1v80": 12.146181293429844,
+      "min_tt_025C_1v80": 13.81726061564755,
+      "max_tt_025C_1v80": 11.017903345979144
+    },
+    "hold_ws_ns": {
+      "nom_tt_025C_1v80": 0.2579372344277061,
+      "min_tt_025C_1v80": 0.24673042085558453,
+      "max_tt_025C_1v80": 0.24542524263092222
+    },
+    "slack_based_fmax_estimate": {
+      "nom_tt_025C_1v80": {
+        "setup_ws_ns": 12.146181293429844,
+        "min_period_ns": 27.853818706570156,
+        "fmax_MHz": 35.90171999518759
+      },
+      "min_tt_025C_1v80": {
+        "setup_ws_ns": 13.81726061564755,
+        "min_period_ns": 26.182739384352452,
+        "fmax_MHz": 38.19310062711117
+      },
+      "max_tt_025C_1v80": {
+        "setup_ws_ns": 11.017903345979144,
+        "min_period_ns": 28.982096654020857,
+        "fmax_MHz": 34.50405993526573
+      }
+    }
+  },
+  "power": {
+    "idle": {
+      "cycles": 256,
+      "window_us": 10.24,
+      "vcd_sha256": "1e6b824a07f813c5151d7837de6bf743b4d02ed70d2687e88e30965e5c280025",
+      "group_total_mW": {
+        "Sequential": 2.923818,
+        "Combinational": 0.1292035,
+        "Clock": 4.3394189999999995,
+        "Macro": 25.17419,
+        "Pad": 0.0,
+        "Total": 32.56918
+      },
+      "internal_switching_leakage_mW": [
+        29.46341,
+        2.78653,
+        0.319242
+      ],
+      "total_mW": 32.56918,
+      "logic_mW": 7.3949900000000035,
+      "sram_mW": 25.17419,
+      "sram_per_bank_mW": [
+        1.398566
+      ],
+      "energy_nJ": 333.50840320000003,
+      "logic_energy_nJ": 75.72469760000004,
+      "energy_per_cycle_pJ": 1302.7672000000002
+    },
+    "mixed": {
+      "cycles": 1159,
+      "window_us": 46.36,
+      "vcd_sha256": "10caa3aeafffdd27dd3a2130f2a5eafd48b248a3a2a81f03d68769aa892db475",
+      "group_total_mW": {
+        "Sequential": 2.958484,
+        "Combinational": 1.362145,
+        "Clock": 4.339416,
+        "Macro": 25.17419,
+        "Pad": 0.0,
+        "Total": 33.83395
+      },
+      "internal_switching_leakage_mW": [
+        29.698829999999997,
+        3.815877,
+        0.3192428
+      ],
+      "total_mW": 33.83395,
+      "logic_mW": 8.659760000000002,
+      "sram_mW": 25.17419,
+      "sram_per_bank_mW": [
+        1.398566
+      ],
+      "energy_nJ": 1568.541922,
+      "logic_energy_nJ": 401.4664736000001,
+      "energy_per_cycle_pJ": 1353.3580000000002
+    },
+    "dot64_rv32i": {
+      "cycles": 21708,
+      "window_us": 868.32,
+      "vcd_sha256": "db81c90a2c60b289863a60189d8d6535ec9dc1f7c114fd5ccba003562f772a49",
+      "group_total_mW": {
+        "Sequential": 2.952388,
+        "Combinational": 1.1136169999999999,
+        "Clock": 4.339417,
+        "Macro": 25.17419,
+        "Pad": 0.0,
+        "Total": 33.579119999999996
+      },
+      "internal_switching_leakage_mW": [
+        29.643800000000002,
+        3.6160799999999997,
+        0.3192429
+      ],
+      "total_mW": 33.579119999999996,
+      "logic_mW": 8.404929999999997,
+      "sram_mW": 25.17419,
+      "sram_per_bank_mW": [
+        1.398566
+      ],
+      "energy_nJ": 29157.4214784,
+      "logic_energy_nJ": 7298.168817599998,
+      "energy_per_cycle_pJ": 1343.1647999999998
+    },
+    "dot64_custom": {
+      "cycles": 1022,
+      "window_us": 40.88,
+      "vcd_sha256": "925ebe04344275a98156fa6cdd1ff0285ed0a7962052786e231cc68876f9e31c",
+      "group_total_mW": {
+        "Sequential": 2.957714,
+        "Combinational": 1.1794229999999999,
+        "Clock": 4.339417,
+        "Macro": 25.17419,
+        "Pad": 0.0,
+        "Total": 33.64984
+      },
+      "internal_switching_leakage_mW": [
+        29.66506,
+        3.6655300000000004,
+        0.3192434
+      ],
+      "total_mW": 33.64984,
+      "logic_mW": 8.475649999999998,
+      "sram_mW": 25.17419,
+      "sram_per_bank_mW": [
+        1.398566
+      ],
+      "energy_nJ": 1375.6054592,
+      "logic_energy_nJ": 346.48457199999996,
+      "energy_per_cycle_pJ": 1345.9935999999998
+    }
+  },
+  "dot64": {
+    "mac_count": 64,
+    "result": 60256,
+    "cycle_ratio_rv32i_over_custom": 21.240704500978474,
+    "energy_ratio_rv32i_over_custom": 21.196064091921276,
+    "energy_per_MAC_nJ": {
+      "rv32i": 455.5847106,
+      "custom": 21.4938353
+    }
+  },
+  "unknown_time_fraction": {
+    "idle": 0.052900856793145656,
+    "mixed": 0.05279673472362005,
+    "dot64_rv32i": 0.0527432789360239,
+    "dot64_custom": 0.05270396683010489
+  },
+  "toggling_routed_nets": {
+    "idle": 454,
+    "mixed": 21139,
+    "dot64_rv32i": 9430,
+    "dot64_custom": 15199
+  }
+}

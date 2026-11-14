@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 14 20:49:05 2026
+# Process ID: 22644
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/sim
+# Command line: xsim.exe -log tb_custom_cpu.log -mode tcl -source {xsim.dir/tb_custom_cpu/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/sim/tb_custom_cpu.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_custom_cpu/xsim_script.tcl
+# xsim {tb_custom_cpu} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS CUSTOM CPU mode=0 cases=1911
+PASS CUSTOM CPU mode=1 cases=1911
+ALL 3822 CUSTOM CPU CASE RUNS PASSED
+$finish called at time : 1625026 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/verify/tb_custom_cpu.sv" Line 77
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 20:49:11 2026...

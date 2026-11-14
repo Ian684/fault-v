@@ -1,0 +1,173 @@
+{
+  "accepted": false,
+  "source": "reports/antenna_model/intervention_20261028/corner_tight_iter5.odb",
+  "source_odb_sha256": "b5d2d4f1256f5fe81342d8c655afacf7746ddbcbed31f7c020b3be924d6a5fcc",
+  "native_antenna_violating_nets": 1,
+  "source_unchanged": true,
+  "passive_diodes": 7550,
+  "macro_boxes_um": [
+    {
+      "instance": "u_soc.u_dmem.banks\\[0\\].u_sram",
+      "box_um": [
+        1680.0,
+        1160.0,
+        2363.1,
+        1576.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[1\\].u_sram",
+      "box_um": [
+        120.0,
+        1680.0,
+        803.1,
+        2096.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[2\\].u_sram",
+      "box_um": [
+        900.0,
+        1680.0,
+        1583.1,
+        2096.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[3\\].u_sram",
+      "box_um": [
+        1680.0,
+        1680.0,
+        2363.1,
+        2096.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[4\\].u_sram",
+      "box_um": [
+        120.0,
+        2200.0,
+        803.1,
+        2616.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[5\\].u_sram",
+      "box_um": [
+        900.0,
+        2200.0,
+        1583.1,
+        2616.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[6\\].u_sram",
+      "box_um": [
+        1680.0,
+        2200.0,
+        2363.1,
+        2616.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_dmem.banks\\[7\\].u_sram",
+      "box_um": [
+        120.0,
+        2720.0,
+        803.1,
+        3136.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[0\\].u_sram",
+      "box_um": [
+        120.0,
+        120.0,
+        803.1,
+        536.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[1\\].u_sram",
+      "box_um": [
+        900.0,
+        120.0,
+        1583.1,
+        536.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[2\\].u_sram",
+      "box_um": [
+        1680.0,
+        120.0,
+        2363.1,
+        536.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[3\\].u_sram",
+      "box_um": [
+        120.0,
+        640.0,
+        803.1,
+        1056.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[4\\].u_sram",
+      "box_um": [
+        900.0,
+        640.0,
+        1583.1,
+        1056.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[5\\].u_sram",
+      "box_um": [
+        1680.0,
+        640.0,
+        2363.1,
+        1056.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[6\\].u_sram",
+      "box_um": [
+        120.0,
+        1160.0,
+        803.1,
+        1576.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_imem.banks\\[7\\].u_sram",
+      "box_um": [
+        900.0,
+        1160.0,
+        1583.1,
+        1576.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_scratch.banks\\[0\\].u_sram",
+      "box_um": [
+        900.0,
+        2720.0,
+        1583.1,
+        3136.54
+      ]
+    },
+    {
+      "instance": "u_soc.u_scratch.banks\\[1\\].u_sram",
+      "box_um": [
+        1680.0,
+        2720.0,
+        2363.1,
+        3136.54
+      ]
+    }
+  ],
+  "scope": "Read-only native top-level antenna diagnosis on an incomplete routed checkpoint; no routing/DRC or foundry signoff claimed."
+}

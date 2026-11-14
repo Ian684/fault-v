@@ -1,0 +1,79 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_spacing_source59.odb",
+  "source_sha256": "49b0ea2ed38970fac305dbe616d6d8aec3dd423ccee8ceccd0ea3d7281bdcdbe",
+  "derived": "inputs/antenna_spacing_native.odb",
+  "derived_sha256": "8409dc99d036bd2daef77148dbb281ca9cef9333290ede8b360436cda129f88e",
+  "source_native_DRC": 1,
+  "native_local_DRC": 0,
+  "changed_net": "net3116",
+  "retained_exact_other_wires": 41336,
+  "cells_graph_PG_guides_obstructions_unchanged": true,
+  "complete_changed_net_metal_and_pins_connected": true,
+  "wire_length_unchanged": true,
+  "via_and_patch_geometry_unchanged": true,
+  "native_negative_source_and_noop_controls_pass": true,
+  "chosen": {
+    "bend_x_dbu": 1582790,
+    "removed": [
+      [
+        "S",
+        "met2",
+        1576190,
+        640220,
+        1582630,
+        640220,
+        70,
+        70
+      ],
+      [
+        "S",
+        "met2",
+        1582630,
+        640220,
+        1582630,
+        640390,
+        70,
+        70
+      ],
+      [
+        "S",
+        "met2",
+        1582630,
+        640390,
+        1583090,
+        640390,
+        70,
+        70
+      ]
+    ],
+    "replacement_path_dbu": [
+      [
+        1576190,
+        640220
+      ],
+      [
+        1582790,
+        640220
+      ],
+      [
+        1582790,
+        640390
+      ],
+      [
+        1583090,
+        640390
+      ]
+    ]
+  },
+  "bend_shift_um": 0.16,
+  "trials": [
+    {
+      "bend_x_dbu": 1582790,
+      "native_local_DRC": 0
+    }
+  ],
+  "global_run": "global_antenna_4319_control_20261028_184048",
+  "scope": "One met2 bend shifted within the existing narrow corridor between an unchanged SRAM obstruction and net5547. Whole-chip native routing, antenna, independent DRC, all signal/PG, extracted RC/TT checks and a new delivery remain mandatory."
+}

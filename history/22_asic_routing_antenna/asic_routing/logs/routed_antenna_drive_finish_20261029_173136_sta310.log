@@ -1,0 +1,37 @@
+[09:37:30] INFO     Loading the design configuration file has      config.py:740
+                    generated the following warnings:                           
+[09:37:30] WARNING  Key 'SIGNOFF_SDC_FILE' provided is unused by   config.py:744
+                    the current flow.                                           
+[09:37:30] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag                                     
+                    'routed_antenna_drive_finish_20261029_173136_sta            
+                    310'.                                                       
+[09:37:30] INFO     Starting…                                  sequential.py:339
+─────────────────────── Static Timing Analysis (Pre-PnR) ───────────────────────
+[09:37:31] VERBOSE  Running 'OpenROAD.STAPrePNR' at                 step.py:1138
+                    'runs/routed_antenna_drive_finish_20261029_1731             
+                    36_sta310/1-openroad-staprepnr'…                            
+[09:37:31] INFO     Starting STA for the nom_tt_025C_1v80 timing openroad.py:749
+                    corner…                                                     
+[09:37:31] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/routed_antenna_drive_finish_20261029_1731             
+                    36_sta310/1-openroad-staprepnr/nom_tt_025C_1v80             
+                    /sta.log'…                                                  
+[09:37:44] INFO     Finished STA for the nom_tt_025C_1v80 timing openroad.py:764
+                    corner.                                                     
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━┳━━━━┳━━━━┳━━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┓
+┃                      ┃    ┃    ┃    ┃    ┃ of ┃   ┃    ┃   ┃    ┃ … ┃    ┃   ┃
+┃                      ┃    ┃ R… ┃    ┃    ┃ w… ┃   ┃ R… ┃   ┃    ┃ … ┃    ┃   ┃
+┃                      ┃ H… ┃ to ┃    ┃ H… ┃ r… ┃ … ┃ to ┃   ┃ S… ┃ … ┃ M… ┃ … ┃
+┃                      ┃ W… ┃ R… ┃ H… ┃ V… ┃ to ┃ … ┃ R… ┃ … ┃ V… ┃ … ┃ C… ┃ … ┃
+┃ Corner/Group         ┃ S… ┃ P… ┃ T… ┃ C… ┃ r… ┃ … ┃ P… ┃ … ┃ C… ┃ … ┃ V… ┃ … ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━╇━━━━╇━━━━╇━━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━┩
+│ Overall              │ 0… │ 0… │ 0… │ 0  │ 0  │ … │ 6… │ … │ 0  │ 0 │ 0  │ 0 │
+│ nom_tt_025C_1v80     │ 0… │ 0… │ 0… │ 0  │ 0  │ … │ 6… │ … │ 0  │ 0 │ 0  │ 0 │
+└──────────────────────┴────┴────┴────┴────┴────┴───┴────┴───┴────┴───┴────┴───┘
+[09:37:44] INFO     Saving views to                                 state.py:209
+                    '/work/routing/runs/routed_antenna_drive_finish             
+                    _20261029_173136_sta310/final'…                             
+[09:37:46] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 1 - STA (Pre-PnR) ━━━━━━━━━━━━━━━━━━━ 1/1 0:00:14
+

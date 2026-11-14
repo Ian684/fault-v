@@ -1,0 +1,80 @@
+[06:18:59] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag                                     
+                    'floorplan_handoff_check'.                                  
+[06:19:06] INFO     Starting…                                  sequential.py:339
+[06:19:06] INFO     Skipping step 'Check SDC Files'…           sequential.py:370
+[06:19:06] INFO     Skipping step 'Check Macro Instances'…     sequential.py:370
+[06:19:07] INFO     Skipping step 'Floorplan Init'…            sequential.py:370
+──────────────────────────────── Dump RC Values ────────────────────────────────
+[06:19:07] VERBOSE  Running 'OpenROAD.DumpRCValues' at              step.py:1138
+                    'runs/floorplan_handoff_check/01-openroad-dumpr             
+                    cvalues'…                                                   
+[06:19:07] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/floorplan_handoff_check/01-openroad-dumpr             
+                    cvalues/openroad-dumprcvalues.log'…                         
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading technology LEF file at                                                  
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef'…                   
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers,  
+25 vias                                                                         
+Reading cell LEF file at                                                        
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…                             
+The NOWIREEXTENSIONATPIN statement will be ignored. See file                    
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.                     
+                                                                                
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 8 library cells       
+Reading cell LEF file at                                                        
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…                             
+The NOWIREEXTENSIONATPIN statement will be ignored. See file                    
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.                     
+                                                                                
+[INFO ODB-0227] LEF file:                                                       
+/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A/
+libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells     
+Reading macro LEF file at                                                       
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef'…                 
+[INFO ODB-0227] LEF file:                                                       
+/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef, created 1 library 
+cells                                                                           
+[INFO ODB-0127] Reading DEF file:                                               
+/work/floorplan/runs/floorplan_accepted/final/def/fault_v_asic_top.def          
+[INFO ODB-0128] Design: fault_v_asic_top                                        
+[INFO ODB-0130]     Created 110 pins.                                           
+[INFO ODB-0131]     Created 57359 components and 299911 component-terminals.    
+[INFO ODB-0132]     Created 2 special nets and 190382 connections.              
+[INFO ODB-0133]     Created 30605 nets and 109323 connections.                  
+[INFO ODB-0134] Finished DEF file:                                              
+/work/floorplan/runs/floorplan_accepted/final/def/fault_v_asic_top.def          
+[06:19:09] INFO     Skipping step 'Check Antenna Properties of sequential.py:370
+                    Macros Pins in Their LEF Views'…                            
+[06:19:09] INFO     Skipping step 'Set Power Connections'…     sequential.py:370
+[06:19:09] INFO     Skipping step 'Manual Macro Placement'…    sequential.py:370
+[06:19:09] INFO     Skipping step 'Cut Rows'…                  sequential.py:370
+[06:19:09] INFO     Skipping step 'Tap/Decap Insertion'…       sequential.py:370
+[06:19:10] INFO     Skipping step 'Add PDN obstructions'…      sequential.py:370
+[06:19:10] INFO     Skipping step 'Generate PDN'…              sequential.py:370
+[06:19:10] INFO     Skipping step 'Remove PDN obstructions'…   sequential.py:370
+[06:19:10] INFO     Skipping step 'Add Obstructions'…          sequential.py:370
+[06:19:10] INFO     Skipping step 'Custom I/O Placement'…      sequential.py:370
+[06:19:10] INFO     Skipping step 'Power Grid Violation        sequential.py:370
+                    Checker'…                                                   
+[06:19:10] INFO     Saving views to                                 state.py:209
+                    '/work/floorplan/runs/floorplan_handoff_check/f             
+                    inal'…                                                      
+[06:19:12] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 15 - Power Grid Violation Checker ━━━━ 15/… 0:00…
+

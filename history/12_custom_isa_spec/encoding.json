@@ -1,0 +1,26 @@
+{
+  "DOT4": {
+    "funct3": 0,
+    "match": "0xb",
+    "mask": "0xfe00707f",
+    "example_x5_x6_x7": "0x73028b"
+  },
+  "MUL16": {
+    "funct3": 1,
+    "match": "0x100b",
+    "mask": "0xfe00707f",
+    "example_x5_x6_x7": "0x73128b"
+  },
+  "ADDSAT": {
+    "funct3": 2,
+    "match": "0x200b",
+    "mask": "0xfe00707f",
+    "example_x5_x6_x7": "0x73228b"
+  },
+  "QNT8": {
+    "funct3": 3,
+    "match": "0x300b",
+    "mask": "0xfe00707f",
+    "example_x5_x6_x7": "0x73328b"
+  }
+}

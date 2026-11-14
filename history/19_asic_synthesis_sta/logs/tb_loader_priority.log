@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Oct 16 15:31:02 2026
+# Process ID: 7576
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/sim
+# Command line: xsim.exe -log tb_loader_priority.log -mode tcl -source {xsim.dir/tb_loader_priority/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/sim/tb_loader_priority.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_loader_priority/xsim_script.tcl
+# xsim {tb_loader_priority} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+ALL LOADER ERROR PRIORITY CHECKS PASSED; FINAL FILL COLLISION AND RETRY
+$finish called at time : 105216 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_loader_priority.sv" Line 31
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 15:31:04 2026...

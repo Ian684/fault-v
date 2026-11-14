@@ -1,0 +1,12 @@
+{
+  "source_geometry_sha256": "ae8a3f29dfe7140fe24410bd3b76b089c97ecebe0ed55c1be0f61112fc93ea22",
+  "input_fill_sha256": "250075e706b49d79c35bebc058d5f33ae4030db6ef9134bc55bd9b0b3ecc4815",
+  "output_fill_sha256": "a39d067e7e20d51fcc7216c8dc9960dffcb00b8a63f6f518a9c6017332506987",
+  "native_li8_markers_before": 498,
+  "removed_LI_dummy_islands": 498,
+  "removed_LI_area_um2": 167.3213,
+  "native_li8_markers_after": 0,
+  "full_LI_dummy_minimum_width_screen_pass": true,
+  "all_other_seven_fill_layers_XOR_empty": true,
+  "scope": "Removes whole dummy LI islands whose intersection with existing areaid.ce fails native li.8. No circuit LI or core markers modified, and no DRC category disabled. Global density and final native interaction checks remain required."
+}

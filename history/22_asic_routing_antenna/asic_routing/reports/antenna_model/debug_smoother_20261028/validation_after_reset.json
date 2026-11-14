@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "observed_utc": "2026-10-28T06:18:00.908471+00:00",
+  "real_same_geometry_reset_control": [
+    110,
+    220,
+    110
+  ],
+  "source_geometry_placement_and_overlap_negative_control_pass": true,
+  "checkpoint_hash_and_source_baseline_negative_controls_pass": true,
+  "actual_premature_acceptance_rejected_without_handoff_change": true,
+  "Bash_Python_native_Tcl_validation_pass": true,
+  "source_sha256": {
+    "drt_antenna_guarded.tcl": "bedb43a04952a02a5691f4f538f12317fd009bb1af268e265e46258678d4d9ec",
+    "run_antenna_guarded.sh": "6fc750f17d562e37d8e8b514a80fb813bb35f37ea535cb100719bcac22221b44",
+    "antenna_checkpoint_pairs.py": "be9cee277f7caeafba993d1990e5045d011952531f3e39250450bbae22462123",
+    "test_antenna_checkpoint_pairs.py": "1d87eed29e797337a50fd3aeb2740909f9299d65ebe2afca0f4c6d55e6c4f618",
+    "audit_antenna_checkpoint_geometry.py": "5451f55a736c017cae8e782514731ebbe031b2acdf18078836d27799733c14db",
+    "calibrate_antenna_router_reset.py": "60f26a15126617dc15c0b7a4af2d664f8235d85b725a09f12c8e0d220f6d6944",
+    "diagnose_antenna_runtime.py": "7bd8ed571eb1b305ec01c59dbbdd672aa95a1245ce66f29f5ee89224d24cfe02",
+    "check_antenna_progress.py": "72014d8cecd322a06e280813e1afb69d7d9505f2937f455e8aa0e03ca606bc9a"
+  },
+  "control_proof_sha256": "a46f66630132382f5c554fc829601b48c8846e9c1b08fb27f0f07cc9900263e2",
+  "geometry_proof_sha256": "8cd2aa486b020d0eff429cd7dd2d357085ccd12b0d20664e19cf1b33017a7afb"
+}

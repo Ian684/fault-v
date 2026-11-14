@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "run": "routed_antenna_drive_finish_20261029_173136",
+  "source_odb_sha256": "33646a000d824d8c734146d25f67dcfac4d80cc91450d7b75e8bb4f63622ba52",
+  "checked_diode_nets": 2918,
+  "diode_terminals": 7553,
+  "unconnected_diode_terminals": 0,
+  "first_unconnected_diodes": [],
+  "nets_with_disconnected_original_terminals": [],
+  "scope": "Geometric connected components from actual routed S/R/via metal and transformed ITerm/BTerm shapes. Every added diode and all original signal terminals of each diode-bearing net must join one component. Not transistor-level foundry LVS."
+}

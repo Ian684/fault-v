@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "accepted": false,
+  "candidate": {
+    "global_run": "global_shrink_rc",
+    "routed_run": "routed_neighborhood_rc",
+    "cli": "scripts/corner_reguide_cli.py",
+    "config": "config_corner_reguide.json",
+    "state": "neighborhood_routed_state.json",
+    "threads": 8,
+    "memory_mb": 6000
+  },
+  "script_sha256": "d4369ec7745054f24a967a9112ea0bc245789f05925fef148efe26ad5d8d3124",
+  "checks": {
+    "actual_frozen_input_positive": true,
+    "reject_unlisted_global": true,
+    "reject_unlisted_cli": true,
+    "reject_unlisted_state": true,
+    "reject_path_escape_even_if_hash_declared": true,
+    "reject_input_hash_mismatch": true
+  },
+  "scope": "Exact production embedded Python metadata/path/hash prelude tested on the actual frozen 56-data-net neighborhood input via same-volume hardlink. No complete shell/Docker replay, no second independent full detailed routing, no routing acceptance."
+}

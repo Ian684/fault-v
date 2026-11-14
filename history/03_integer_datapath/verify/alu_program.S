@@ -1,0 +1,41 @@
+.section .text
+.globl _start
+_start:
+    addi x1,x0,5
+    addi x2,x0,-3
+    addi x3,x0,32
+    addi x4,x0,31
+    addi x5,x0,1
+    add x6,x1,x2
+    sub x7,x2,x1
+    and x8,x1,x2
+    or x9,x1,x2
+    xor x10,x1,x2
+    slt x11,x2,x1
+    sltu x12,x2,x1
+    sll x13,x5,x4
+    srl x14,x13,x5
+    sra x15,x13,x5
+    sll x16,x5,x3
+    addi x17,x1,-4
+    andi x18,x2,15
+    ori x19,x1,16
+    xori x20,x1,-1
+    slti x21,x2,-1
+    sltiu x22,x1,-1
+    slli x23,x5,31
+    srli x24,x23,31
+    srai x25,x23,31
+    lui x26,0x12345
+    auipc x27,0x1
+    addi x26,x26,0x678
+    add x28,x6,x17
+    addi x0,x0,99
+    add x29,x0,x28
+    addi x30,x2,3
+    lui x31,0x80000
+    addi x31,x31,-1
+    addi x31,x31,1
+    fence iorw,iorw
+    addi x0,x0,0
+    ebreak

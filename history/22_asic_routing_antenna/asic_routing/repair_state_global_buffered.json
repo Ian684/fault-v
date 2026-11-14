@@ -1,0 +1,10 @@
+{
+  "metrics": {},
+  "odb": "/work/routing/runs/global_electrical/final/odb/fault_v_asic_top.odb",
+  "def": "/work/routing/runs/global_electrical/final/def/fault_v_asic_top.def",
+  "nl": "/work/routing/runs/global_electrical/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/global_electrical/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/global_electrical/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/global_electrical/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/global_electrical/final/vh/fault_v_asic_top.vh"
+}

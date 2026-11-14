@@ -1,0 +1,102 @@
+violation type: Metal Spacing
+	srcs: net:_04046_
+	bbox = (219.4600, 2653.2750) - (219.5650, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_08235_
+	bbox = (384.1400, 2653.2750) - (384.2450, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_22933_
+	bbox = (818.1950, 2653.2750) - (818.2100, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_20719_
+	bbox = (864.0250, 2273.3050) - (864.1950, 2273.3250) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_25103_
+	bbox = (1209.1950, 2653.2750) - (1209.2100, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_25169_
+	bbox = (1203.2150, 2653.2750) - (1203.2300, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_25436_
+	bbox = (1215.6350, 2653.2750) - (1215.6500, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_22828_
+	bbox = (1588.8800, 2653.2750) - (1588.9850, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_13332_
+	bbox = (1842.3400, 2653.2750) - (1842.4450, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:net4013
+	bbox = (1900.1150, 2653.2750) - (1900.1700, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_12778_
+	bbox = (1930.4750, 2653.2750) - (1930.4900, 2653.2750) on Layer li1
+violation type: Metal Spacing
+	srcs: net:_16527_
+	bbox = (2282.8350, 2653.2750) - (2282.8500, 2653.2750) on Layer li1
+violation type: NS Metal
+	srcs: net:_04091_
+	bbox = (211.7600, 2653.2250) - (211.9150, 2653.2750) on Layer li1
+violation type: NS Metal
+	srcs: net:_03902_
+	bbox = (332.2850, 2653.2250) - (332.4350, 2653.2750) on Layer li1
+violation type: NS Metal
+	srcs: net:_08199_
+	bbox = (417.3650, 2653.2740) - (417.4750, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:_24753_
+	bbox = (663.4650, 2653.2740) - (663.6150, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:_20968_
+	bbox = (836.5100, 2273.3250) - (836.6350, 2273.3350) on Layer li1
+violation type: NS Metal
+	srcs: net:_25153_
+	bbox = (948.2050, 2653.2740) - (948.3150, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net5628
+	bbox = (990.5300, 93.3850) - (990.6950, 93.4150) on Layer li1
+violation type: NS Metal
+	srcs: net:_25101_
+	bbox = (1170.4050, 2653.2250) - (1170.5550, 2653.2750) on Layer li1
+violation type: NS Metal
+	srcs: net:_25171_
+	bbox = (1223.3050, 2653.2250) - (1223.4550, 2653.2750) on Layer li1
+violation type: NS Metal
+	srcs: net:_20845_
+	bbox = (1647.9050, 2273.3250) - (1648.0350, 2273.3350) on Layer li1
+violation type: NS Metal
+	srcs: net:net8826
+	bbox = (1746.3100, 93.3850) - (1746.4750, 93.4150) on Layer li1
+violation type: NS Metal
+	srcs: net:net6189
+	bbox = (1776.2100, 2653.2740) - (1776.3750, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net6853
+	bbox = (1801.0450, 2653.2740) - (1801.1550, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net7676
+	bbox = (1808.4050, 2653.2740) - (1808.5150, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net7655
+	bbox = (1821.7450, 2653.2740) - (1821.8550, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net8825
+	bbox = (1942.2700, 93.3850) - (1942.4350, 93.4150) on Layer li1
+violation type: NS Metal
+	srcs: net:net6966
+	bbox = (2082.1050, 2653.2740) - (2082.2150, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net6807
+	bbox = (2088.0850, 2653.2740) - (2088.1950, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:_16745_
+	bbox = (2221.5100, 2653.2740) - (2221.6550, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:_16509_
+	bbox = (2305.2050, 2653.2740) - (2305.2300, 2653.2760) on Layer li1
+violation type: NS Metal
+	srcs: net:net7702
+	bbox = (2386.1700, 1500.5050) - (2386.3350, 1500.5350) on Layer li1
+violation type: NS Metal
+	srcs: net:net4808
+	bbox = (2385.7050, 3142.7040) - (2385.8250, 3142.7060) on Layer li1

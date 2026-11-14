@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "same_net_loads": 32,
+  "old_slew_ns_range": [
+    0.468540937,
+    3498.222900391
+  ],
+  "new_slew_ns_range": [
+    0.468540996,
+    0.468540996
+  ],
+  "scope": "Threshold conversion regression only; this deliberately overloaded fixture is not a CPU timing pass."
+}

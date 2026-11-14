@@ -1,0 +1,8 @@
+{
+  "actual_router_threads": 8,
+  "container_cpu_quota": 16,
+  "launch_threads_field_scope": "container CPU quota; actual router setting is frozen config DRT_THREADS",
+  "source_config": "config_routed_antenna_both8_20261028_205425.json",
+  "verified_in_native_log": true,
+  "accepted": false
+}

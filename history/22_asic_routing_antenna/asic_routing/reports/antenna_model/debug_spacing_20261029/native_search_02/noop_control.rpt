@@ -1,0 +1,3 @@
+violation type: Metal Spacing
+	srcs: inst:u_soc.u_imem.banks\[4\].u_sram net:net3116
+	bbox = (1582.4800, 640.4600) - (1582.5600, 640.6200) on Layer met2

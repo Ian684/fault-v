@@ -1,0 +1,27 @@
+{
+  "block_obstructions": [],
+  "pin_free_constraint_candidates": [
+    {
+      "name": "narrow_corner",
+      "box": [
+        1582000,
+        636100,
+        1587600,
+        640900
+      ],
+      "pin_overlap": [],
+      "PG_within_200nm": []
+    },
+    {
+      "name": "corner_top",
+      "box": [
+        1582000,
+        640100,
+        1587600,
+        640900
+      ],
+      "pin_overlap": [],
+      "PG_within_200nm": []
+    }
+  ]
+}

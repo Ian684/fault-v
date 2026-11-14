@@ -1,0 +1,30 @@
+{
+  "scope": "W25 research core specified checks; DFT/pad/ESD review and requirements only",
+  "required_routed_multiterminal_nets": 41337,
+  "required_reviewed_equivalent_driver_changes": 51,
+  "core_open_rule_DRC": 0,
+  "native_context_unresolved_DRC": 0,
+  "core_pin_interface_LVS_errors": 0,
+  "top_level_antenna_nets_and_pins": 0,
+  "TT_timing_electrical_counts_all_three_RC": 0,
+  "density_windows_per_layer": 1053,
+  "static_IR_engineering_budget": {
+    "VDD_V": 1.8,
+    "max_combined_VPWR_drop_plus_VGND_rise_V": 0.09,
+    "rail_source": "Ideal core boundary sources; no package RLC",
+    "basis": "Chosen 5 percent combined-rail research screening budget, recorded before final-candidate IR runs. This is not a foundry limit or proof that nominal Liberty remains valid under droop."
+  },
+  "macro_load_assumptions_W_each": [0.014, 0.028],
+  "EM": "All native resistor/CSV branches below explicit PDK Tj90C average-current limits with 0.1 percent rounding margin; full source/cut-count binding required",
+  "unqualified_scope_must_be_reported": [
+    "Foundry/full SRAM interior DRC/LVS/antenna and unsupported LEF58 rules",
+    "Qualified SRAM SS/FF/multi-PVT timing and power",
+    "Fill-aware PEX and post-fill electrical signoff",
+    "Analog reset recovery/removal, CDC MTBF and independent CDC/RDC signoff",
+    "Transient/package/thermal/current-crowding and SRAM interior IR/EM",
+    "Scan/MBIST/pad-ring/ESD hardware, manufacturing coverage and ESD ratings",
+    "Physical fabrication, packaging and silicon measurement"
+  ],
+  "W25_complete_does_not_mean_foundry_signoff": true,
+  "formal_PPA_comparison_complete": false
+}

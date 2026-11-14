@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "run": "routed_antenna_drive_finish_20261029_173136",
+  "independent_full_chip_drc": 0,
+  "raw_marker_count": 34,
+  "confirmed_partition_artifacts": 34,
+  "negative_control_known_shorts": 2,
+  "odb_sha256": "33646a000d824d8c734146d25f67dcfac4d80cc91450d7b75e8bb4f63622ba52",
+  "calibration_odb_sha256": "d76e62334708948ae6ef721082b11bf4f929c410084d83032dae5e828cf155a7",
+  "image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302",
+  "scope": "Fresh native full-chip DRC with centered-context checks of every marker; calibration reused only with matching source/checker/evidence SHA-256. No technology waiver. Not foundry DRC/LVS."
+}

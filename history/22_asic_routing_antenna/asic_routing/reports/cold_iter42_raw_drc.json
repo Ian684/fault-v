@@ -1,0 +1,537 @@
+{
+  "accepted": false,
+  "raw_marker_count": 48,
+  "raw_markers": [
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_04046_",
+      "bbox_dbu": [
+        219460,
+        2653275,
+        219565,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_08235_",
+      "bbox_dbu": [
+        384140,
+        2653275,
+        384245,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_22933_",
+      "bbox_dbu": [
+        818195,
+        2653275,
+        818210,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_20719_",
+      "bbox_dbu": [
+        864025,
+        2273305,
+        864195,
+        2273325
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_25169_",
+      "bbox_dbu": [
+        1203215,
+        2653275,
+        1203230,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_25436_",
+      "bbox_dbu": [
+        1215635,
+        2653275,
+        1215650,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_09267_ net:net3312",
+      "bbox_dbu": [
+        1584540,
+        639300,
+        1584555,
+        639440
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:net3361 net:net6505",
+      "bbox_dbu": [
+        1583020,
+        640120,
+        1583160,
+        640150
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:net7676",
+      "bbox_dbu": [
+        1806870,
+        2653275,
+        1807025,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_13332_",
+      "bbox_dbu": [
+        1842340,
+        2653275,
+        1842445,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:net4013",
+      "bbox_dbu": [
+        1900115,
+        2653275,
+        1900170,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_16527_",
+      "bbox_dbu": [
+        2282835,
+        2653275,
+        2282850,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_08199_",
+      "bbox_dbu": [
+        417365,
+        2653274,
+        417475,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_23181_",
+      "bbox_dbu": [
+        733845,
+        2653274,
+        733865,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_20968_",
+      "bbox_dbu": [
+        836510,
+        2273325,
+        836635,
+        2273335
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net5628",
+      "bbox_dbu": [
+        990530,
+        93385,
+        990695,
+        93415
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_25151_",
+      "bbox_dbu": [
+        1082065,
+        2653274,
+        1082215,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_25101_",
+      "bbox_dbu": [
+        1170405,
+        2653225,
+        1170555,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_25171_",
+      "bbox_dbu": [
+        1223305,
+        2653225,
+        1223455,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_22777_",
+      "bbox_dbu": [
+        1307005,
+        2653274,
+        1307155,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net4159",
+      "bbox_dbu": [
+        1429830,
+        2653274,
+        1429995,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_22883_",
+      "bbox_dbu": [
+        1544840,
+        2653225,
+        1544995,
+        2653275
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_08614_",
+      "bbox_dbu": [
+        1630385,
+        3142704,
+        1630505,
+        3142706
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_20845_",
+      "bbox_dbu": [
+        1647905,
+        2273325,
+        1648035,
+        2273335
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net8826",
+      "bbox_dbu": [
+        1746310,
+        93385,
+        1746475,
+        93415
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6189",
+      "bbox_dbu": [
+        1776210,
+        2653274,
+        1776375,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6853",
+      "bbox_dbu": [
+        1801045,
+        2653274,
+        1801155,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net8825",
+      "bbox_dbu": [
+        1942270,
+        93385,
+        1942435,
+        93415
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6966",
+      "bbox_dbu": [
+        2082105,
+        2653274,
+        2082215,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_16745_",
+      "bbox_dbu": [
+        2221510,
+        2653274,
+        2221655,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_16509_",
+      "bbox_dbu": [
+        2305205,
+        2653274,
+        2305230,
+        2653276
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net7702",
+      "bbox_dbu": [
+        2386170,
+        1500505,
+        2386335,
+        1500535
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net4808",
+      "bbox_dbu": [
+        2385705,
+        3142704,
+        2385825,
+        3142706
+      ],
+      "layer": "li1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:clknet_3_2_0_clk_regs net:net4940",
+      "bbox_dbu": [
+        1587160,
+        639300,
+        1587300,
+        639440
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:net4936 net:net4985",
+      "bbox_dbu": [
+        1585345,
+        637940,
+        1585485,
+        638080
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:clknet_3_2_0_clk_regs net:net4936",
+      "bbox_dbu": [
+        1585780,
+        638620,
+        1585920,
+        638760
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:clknet_3_2_0_clk_regs net:net4985",
+      "bbox_dbu": [
+        1585780,
+        637940,
+        1585920,
+        638080
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:clknet_3_2_0_clk_regs net:net4947",
+      "bbox_dbu": [
+        1585780,
+        636580,
+        1585920,
+        636720
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:net3311 net:net4947",
+      "bbox_dbu": [
+        1587160,
+        636580,
+        1587300,
+        636720
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:clknet_3_2_0_clk_regs net:net3183",
+      "bbox_dbu": [
+        1585780,
+        636920,
+        1585920,
+        637060
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:net5451 net:net8601",
+      "bbox_dbu": [
+        1588080,
+        634880,
+        1588220,
+        635020
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:net3347 net:net3354",
+      "bbox_dbu": [
+        1583480,
+        639640,
+        1583620,
+        639780
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:clknet_3_2_0_clk_regs net:net6245",
+      "bbox_dbu": [
+        1585780,
+        637260,
+        1585920,
+        637400
+      ],
+      "layer": "met1"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:_11011_ net:net6505",
+      "bbox_dbu": [
+        1583020,
+        639300,
+        1583160,
+        639440
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:_11011_ net:net6505",
+      "bbox_dbu": [
+        1583020,
+        639355,
+        1583160,
+        639440
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:net6166 net:net8704",
+      "bbox_dbu": [
+        1583020,
+        637260,
+        1583160,
+        637400
+      ],
+      "layer": "met2"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:_09195_ net:net5732",
+      "bbox_dbu": [
+        1581790,
+        637350,
+        1582090,
+        637650
+      ],
+      "layer": "met4"
+    },
+    {
+      "type": "Short",
+      "srcs": "net:net3311 net:net6245",
+      "bbox_dbu": [
+        1601420,
+        638960,
+        1601560,
+        639100
+      ],
+      "layer": "met1"
+    }
+  ],
+  "odb_sha256": "4572b42676c79eb1c601f8cf08a50ddc2c796181a9fc6ba04e4cd4e19f2b21c7",
+  "physical_geometry_unchanged": true,
+  "scope": "Raw full-chip diagnostic only; no centered-context classification, no final acceptance, no rules or source geometry modified."
+}

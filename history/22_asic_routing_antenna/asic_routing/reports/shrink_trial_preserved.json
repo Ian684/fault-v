@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "stopped_at": "2026-10-21T05:36:13.660818",
+  "run": "routed_shrink_rc",
+  "container_id": "203be8f573de6dc44ec59640d0b8132d120f3799fe725050d62261d21dcd3022",
+  "source_snapshot_iteration": 45,
+  "source": "inputs/residual_source45.odb",
+  "source_sha256": "d890d384925ac636ab31520c2131ae26fedf84eeeeab78e20a504c86b24b6501",
+  "source_drc": "reports/residual_source45.drc.rpt",
+  "source_drc_sha256": "99ff40619cad9ea0f43f8f374c93841cbdb4a14aa2ef0a0adad2ccfaaf9c616b",
+  "unresolved_native_markers": 6,
+  "reason": "Persistent six wire/wire residuals over multiple complete iterations; read-only geometry probe found no associated pin metal within 2um. Prepared and verified a coherent nine-whole-net reroute input before stopping. Native 64-iteration limit was NOT reached; no routing/timing acceptance claimed.",
+  "replacement_input": "inputs/residual_rc_partial.odb",
+  "replacement_input_sha256": "80e264d1c6c0060007c5b7e15913d416fef39d8dc5494733fde7d666ac142910"
+}

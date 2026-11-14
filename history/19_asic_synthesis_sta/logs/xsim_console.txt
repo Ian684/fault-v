@@ -1,0 +1,150 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/a_stream_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/alu.sv" into library work
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/branch_compare.sv" into library work
+INFO: [VRFC 10-311] analyzing module branch_compare
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/control_fsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/custom_exec.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec
+INFO: [VRFC 10-311] analyzing module fault_v_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_accelerator.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_accelerator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_asic_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_asic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_dma.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dma
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_dot_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dot_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_io.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_io
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_job_regs.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_job_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_loader.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_loader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_memory.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_mem_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_mem_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_soc.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_uart_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/imm_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/load_extract.sv" into library work
+INFO: [VRFC 10-311] analyzing module load_extract
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/pc_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/regfile.sv" into library work
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/store_align.sv" into library work
+INFO: [VRFC 10-311] analyzing module store_align
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/uart_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/model.v" into library work
+INFO: [VRFC 10-311] analyzing module sky130_sram_2kbyte_1rw1r_32x512_8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_sram_banks.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_sram_banks
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_asic_boot.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_asic_boot
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_sram_banks -s tb_sram_banks --debug typical --mt off 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.sky130_sram_2kbyte_1rw1r_32x512_...
+Compiling module work.fault_v_memory(READ_ONLY=1'b0,WI...
+Compiling module work.fault_v_memory(READ_ONLY=1'b0,WI...
+Compiling module work.fault_v_memory(BASE_ADDR=32'b0,R...
+Compiling module work.fault_v_memory(BASE_ADDR=32'b0,R...
+Compiling module work.tb_sram_banks
+Built simulation snapshot tb_sram_banks
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_sram_banks/xsim_script.tcl
+# xsim {tb_sram_banks} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS SRAM mode=2 checks=13211 words=4096 banks=8
+PASS SRAM mode=0 checks=13217 words=4096 banks=8
+PASS SRAM mode=3 checks=13211 words=4096 banks=8
+PASS SRAM mode=1 checks=13217 words=4096 banks=8
+ALL 4 SRAM BANK MODES PASSED; 16384 WORD READS; BYTE MASKS, STALLS, ROM PROTECTION AND RESET
+$finish called at time : 2027320 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_sram_banks.sv" Line 54
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 14:16:34 2026...
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_asic_boot -s tb_asic_boot --debug typical --mt off 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.fault_v_pkg
+Compiling package work.fault_v_stream_pkg
+Compiling module work.fault_v_uart_rx(CLKS_PER_BIT=8)
+Compiling module work.fault_v_loader(CLKS_PER_BIT=8,TI...
+Compiling module work.fault_v_mem_arbiter
+Compiling module work.fault_v_job_regs
+Compiling module work.fault_v_dma
+Compiling module work.fault_v_job_regs(BASE=32'b010000...
+Compiling module work.fault_v_mul16
+Compiling module work.fault_v_dot_pipeline_default
+Compiling module work.fault_v_accelerator
+Compiling module work.decoder
+Compiling module work.control_fsm
+Compiling module work.custom_exec_default
+Compiling module work.regfile
+Compiling module work.imm_gen
+Compiling module work.alu
+Compiling module work.pc_reg
+Compiling module work.branch_compare
+Compiling module work.load_extract
+Compiling module work.store_align
+Compiling module work.fault_v_cpu
+Compiling module work.sky130_sram_2kbyte_1rw1r_32x512_...
+Compiling module work.fault_v_memory(BASE_ADDR=32'b0,R...
+Compiling module work.fault_v_memory(WITH_STATUS=1'b1)
+Compiling module work.fault_v_memory(BASE_ADDR=32'b010...
+Compiling module work.uart_tx(CLKS_PER_BIT=8)
+Compiling module work.fault_v_io(UART_CLKS_PER_BIT=8)
+Compiling module work.fault_v_soc(UART_CLKS_PER_BIT=8)
+Compiling module work.fault_v_asic_top(UART_CLKS_PER_B...
+Compiling module work.tb_asic_boot
+Built simulation snapshot tb_asic_boot
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_asic_boot/xsim_script.tcl
+# xsim {tb_asic_boot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS ASIC BOOT run=0 image_words=2239 checks=137 UART=6
+PASS ASIC BOOT run=1 image_words=2239 checks=137 UART=6
+ALL ASIC UART BOOT TESTS PASSED; 2 FULL PROGRAM RUNS; INVALID SIZE, CRC, TIMEOUT, FRAME ERROR AND RESET
+$finish called at time : 61135221 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_asic_boot.sv" Line 56
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 264.781 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 13204 KB (Peak: 13204 KB), Simulation CPU Usage: 27796 ms
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 14:17:33 2026...

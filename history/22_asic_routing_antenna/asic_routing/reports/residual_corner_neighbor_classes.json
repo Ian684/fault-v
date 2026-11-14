@@ -1,0 +1,406 @@
+{
+  "accepted": false,
+  "source": "reports/residual_geometry26_source.odb",
+  "source_sha256": "fc748ae797cffc8e786019c824537c86451a0a604d3a2789945153626a36fc5c",
+  "region": [
+    1580000,
+    633000,
+    1589000,
+    643000
+  ],
+  "nets": [
+    {
+      "net": "_03402_",
+      "sigtype": "SIGNAL",
+      "terminals": 11,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "_09290_",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net2541",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3116",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3179",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3181",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3183",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3185",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3231",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3262",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3311",
+      "sigtype": "SIGNAL",
+      "terminals": 4,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3312",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3315",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3319",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3347",
+      "sigtype": "SIGNAL",
+      "terminals": 5,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3354",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3374",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3653",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net3814",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4319",
+      "sigtype": "SIGNAL",
+      "terminals": 4,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4586",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4818",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4932",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4936",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4940",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4947",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4951",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4959",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4977",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4981",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net4985",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net5465",
+      "sigtype": "SIGNAL",
+      "terminals": 4,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net5545",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net5688",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net5695",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net5737",
+      "sigtype": "SIGNAL",
+      "terminals": 5,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net5915",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6036",
+      "sigtype": "SIGNAL",
+      "terminals": 8,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6075",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6158",
+      "sigtype": "SIGNAL",
+      "terminals": 5,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6166",
+      "sigtype": "SIGNAL",
+      "terminals": 5,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6231",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6240",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6342",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6362",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6505",
+      "sigtype": "SIGNAL",
+      "terminals": 4,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6541",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6559",
+      "sigtype": "SIGNAL",
+      "terminals": 4,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net658",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6594",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6634",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6705",
+      "sigtype": "SIGNAL",
+      "terminals": 5,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6881",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6905",
+      "sigtype": "SIGNAL",
+      "terminals": 2,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net6975",
+      "sigtype": "SIGNAL",
+      "terminals": 9,
+      "has_wire": true,
+      "protected_sram_cells": []
+    },
+    {
+      "net": "net7187",
+      "sigtype": "SIGNAL",
+      "terminals": 3,
+      "has_wire": true,
+      "protected_sram_cells": []
+    }
+  ],
+  "scope": "Read-only signal/clock/protected-SRAM neighborhood classification; no input or route mutation."
+}

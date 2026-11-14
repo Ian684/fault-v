@@ -1,0 +1,31 @@
+{
+  "accepted": false,
+  "source": "runs/routed_desktop_electrical_20261023_162420/1-openroad-detailedrouting/drt_iter45.odb",
+  "source_sha256": "3c03005b53a6426f37981af107b4e372c26c6ac5abf2143164db81b9aa598006",
+  "partial": "inputs/desktop_corner_refined_partial.odb",
+  "partial_sha256": "7018518addb3488368879fa42dd9c8fdb2fd96b992cc83a685c47db95bbefd7f",
+  "grt": "inputs/desktop_corner_refined_grt.odb",
+  "grt_sha256": "55a37415af87996cf7a9074535b79948a9b3ab2e97c50ae85495deb8ac3e77ad",
+  "cleared_whole_nets": [
+    "_15298_",
+    "net3361",
+    "net5465"
+  ],
+  "retained_wire_count": 41334,
+  "other_wires_byte_identical": true,
+  "cells_graph_pg_unchanged": true,
+  "old_optional_met1_keepout": [
+    1581900,
+    640200,
+    1583200,
+    640650
+  ],
+  "refined_optional_met1_keepout": [
+    1581900,
+    640280,
+    1582860,
+    640650
+  ],
+  "original_macro_technology_obstructions_unchanged": true,
+  "scope": "Refine only our one optional block obstruction to a strict subset; preserve all original macro and technology obstructions and rules. Clear complete two shorted nets plus known access workaround. Actual GRT, native DRC, independent DRC, RC and timing remain required."
+}

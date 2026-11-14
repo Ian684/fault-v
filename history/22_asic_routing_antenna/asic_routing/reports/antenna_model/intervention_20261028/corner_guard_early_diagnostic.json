@@ -1,0 +1,40 @@
+{
+  "accepted": false,
+  "iteration": 3,
+  "native_DRC": 98,
+  "types": {
+    "Short": 88,
+    "Metal Spacing": 10
+  },
+  "macro_instance_markers": 0,
+  "top_nets": [
+    [
+      "net5625",
+      31
+    ],
+    [
+      "net4319",
+      15
+    ],
+    [
+      "net6881",
+      14
+    ],
+    [
+      "net6170",
+      14
+    ],
+    [
+      "net5547",
+      14
+    ],
+    [
+      "net3116",
+      9
+    ],
+    [
+      "net6898",
+      9
+    ]
+  ]
+}

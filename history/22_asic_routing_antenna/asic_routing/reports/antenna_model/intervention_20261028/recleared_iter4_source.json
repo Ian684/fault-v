@@ -1,0 +1,7 @@
+{
+  "accepted": false,
+  "native_DRC": 81,
+  "source_odb_sha256": "2ad98971f3ab4d8839b8480db7e032d02e302ec04eeb4bc94fb64e076b98b4ea",
+  "source": "reports/antenna_model/intervention_20261028/recleared_iter4.odb",
+  "run": "routed_antenna_recleared_20261028_165723"
+}

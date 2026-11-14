@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "source_sha256": "fc748ae797cffc8e786019c824537c86451a0a604d3a2789945153626a36fc5c",
+  "preferred_ap_points": 184,
+  "outside_pin_shapes": [],
+  "coordinate_rule": "Oriented AP plus dbInst.getLocation(), matching pinned frInst::getNoRotationTransform; do not apply cell rotation again.",
+  "supersedes": "reports/source26_neighborhood_ap_geometry.json used double rotation; its outside-point count is not evidence of invalid cache.",
+  "scope": "Point containment for affected 56 nets only; not via clearance, full-chip DRC, or timing acceptance."
+}

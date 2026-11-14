@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "board": "PYNQ-Z2",
+  "pynq_version": "2.5",
+  "clock_mhz": 50.0,
+  "runs": 3,
+  "bytes_per_run": 8,
+  "expected_text": "DSP OK\r\n",
+  "uart_error_flags": 0,
+  "status": 1,
+  "halted": true,
+  "halt_cause": 9,
+  "remote_directory": "/home/xilinx/jupyter_notebooks/fault_v_custom_20261014_194525",
+  "bit_sha256": "8c905499d397415d7cce6825a7e8936bc67e7a59fe9576c7aa9c1b96ab0bdbf8",
+  "hwh_sha256": "b8aae20902ac1fe6044b2e89a143480c759db01ef6c93029770c8236df4d0d14",
+  "program_sha256": "6a69cd1e97767347e80d56596155fd063e8131cfb9923dd057cd3811f53338c9",
+  "led_button_observation": {
+    "source": "user_confirmation",
+    "date": "2026-10-14",
+    "running_led": "LD0 and LD2 on; LD1 and LD3 off",
+    "button_held": "all four off",
+    "button_released": "LD0 and LD2 on again",
+    "result": "all_confirmed"
+  }
+}

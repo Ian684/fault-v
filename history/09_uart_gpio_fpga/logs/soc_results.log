@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 10 19:32:14 2026
+# Process ID: 20236
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim
+# Command line: xsim.exe -log soc_results.log -mode tcl -source {xsim.dir/fault_v_soc_behav/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim/soc_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/fault_v_soc_behav/xsim_script.tcl
+# xsim {fault_v_soc_behav} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS soc=3 run=0 id=1 commits=1 data=0 status=00000000 cause=1 pc=00000004
+PASS soc=4 run=0 id=2 commits=2 data=0 status=00000000 cause=4 pc=00000008
+PASS soc=6 run=0 id=4 commits=3 data=0 status=00000000 cause=3 pc=00004000
+PASS soc=5 run=0 id=3 commits=2 data=1 status=00000000 cause=7 pc=00000008
+PASS soc=7 run=0 id=5 commits=2 data=1 status=00000000 cause=6 pc=00000008
+PASS soc=0 run=0 id=0 commits=175 data=33 status=00000001 cause=9 pc=000000cc
+PASS soc=1 run=0 id=0 commits=175 data=33 status=00000001 cause=9 pc=000000cc
+PASS soc=2 run=0 id=0 commits=175 data=33 status=00000001 cause=9 pc=000000cc
+PASS soc=0 run=1 id=0 commits=175 data=33 status=00000001 cause=9 pc=000000cc
+PASS soc=8 run=0 id=6 commits=146 data=23 status=00000002 cause=9 pc=00000120
+PASS soc=1 run=1 id=0 commits=175 data=33 status=00000001 cause=9 pc=000000cc
+PASS soc=2 run=1 id=0 commits=175 data=33 status=00000001 cause=9 pc=000000cc
+ALL 12 SOC PROGRAM RUNS PASSED
+$finish called at time : 33207 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/verify/tb_fault_v_soc.sv" Line 84
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 10 19:32:17 2026...

@@ -1,0 +1,135 @@
+[06:10:29] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag 'pdn_offset_35'.                    
+[06:10:29] INFO     Starting…                                  sequential.py:339
+[06:10:30] INFO     Skipping step 'Check SDC Files'…           sequential.py:370
+[06:10:32] INFO     Skipping step 'Check Macro Instances'…     sequential.py:370
+[06:10:32] INFO     Skipping step 'Floorplan Init'…            sequential.py:370
+[06:10:32] INFO     Skipping step 'Dump RC Values'…            sequential.py:370
+[06:10:32] INFO     Skipping step 'Check Antenna Properties of sequential.py:370
+                    Macros Pins in Their LEF Views'…                            
+[06:10:33] INFO     Skipping step 'Set Power Connections'…     sequential.py:370
+[06:10:33] INFO     Skipping step 'Manual Macro Placement'…    sequential.py:370
+[06:10:33] INFO     Skipping step 'Cut Rows'…                  sequential.py:370
+[06:10:33] INFO     Skipping step 'Tap/Decap Insertion'…       sequential.py:370
+[06:10:33] INFO     Skipping step 'Add PDN obstructions'…      sequential.py:370
+──────────────────── Power Distribution Network Generation ─────────────────────
+[06:10:33] VERBOSE  Running 'OpenROAD.GeneratePDN' at               step.py:1138
+                    'runs/pdn_offset_35/01-openroad-generatepdn'…               
+[06:10:33] INFO     'PDN_CFG' not explicitly set, setting it to openroad.py:1483
+                    /nix/store/7zqpr7slgvjfjcqfabb2fmlpvc8k23ax                 
+                    -python3-3.13.9-env/lib/python3.13/site-pac                 
+                    kages/librelane/scripts/openroad/common/pdn                 
+                    _cfg.tcl…                                                   
+[06:10:33] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/pdn_offset_35/01-openroad-generatepdn/ope             
+                    nroad-generatepdn.log'…                                     
+Reading timing models for corner nom_tt_025C_1v80…                              
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/pdk/ciel/sky130/versions/8afc8346a57fe1ab7934ba5a6056ea8b43078e71/sky130A
+/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…               
+Reading timing library for the 'nom_tt_025C_1v80' corner at                     
+'/work/floorplan/macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib'…     
+Reading OpenROAD database at                                                    
+'/work/floorplan/runs/floorplan_release/09-openroad-tapendcapinsertion/fault_v_a
+sic_top.odb'…                                                                   
+Reading design constraints file at '/work/floorplan/constraints.sdc'…           
+[INFO] No information on clock propagation in input SDC file-- propagating all  
+clocks.                                                                         
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.                        
++ pdngen                                                                        
+[INFO PDN-0001] Inserting grid: stdcell_grid                                    
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[0\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[1\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[2\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[3\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[4\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[5\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[6\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_dmem.banks\[7\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[0\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[1\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[2\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[3\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[4\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[5\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[6\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_imem.banks\[7\].u_sram          
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_scratch.banks\[0\].u_sram       
+[INFO PDN-0001] Inserting grid: macro - u_soc.u_scratch.banks\[1\].u_sram       
+Setting global connections for newly added cells…                               
+[INFO] Setting global connections...                                            
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_dmem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[0\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[1\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[2\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[3\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[4\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[5\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[6\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_imem.banks\[7\].u_sram                       
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[0\].u_sram                    
+u_soc.*u_sram matched with u_soc.u_scratch.banks\[1\].u_sram                    
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.                        
+Updating metrics…                                                               
+Cell type report:                       Count       Area                        
+  Macro                                    18 5121692.53                        
+  Fill cell                              8384   31470.18                        
+  Tap cell                              19509   24409.66                        
+  Buffer                                 2940   17655.68                        
+  Inverter                                528    2011.93                        
+  Sequential cell                        2925   62230.93                        
+  Multi-Input combinational cell        23055  219045.08                        
+  Total                                 57359 5478516.00                        
+Writing OpenROAD database to                                                    
+'/work/floorplan/runs/pdn_offset_35/01-openroad-generatepdn/fault_v_asic_top.odb
+'…                                                                              
+Writing netlist to                                                              
+'/work/floorplan/runs/pdn_offset_35/01-openroad-generatepdn/fault_v_asic_top.nl.
+v'…                                                                             
+Writing powered netlist to                                                      
+'/work/floorplan/runs/pdn_offset_35/01-openroad-generatepdn/fault_v_asic_top.pnl
+.v'…                                                                            
+Writing layout to                                                               
+'/work/floorplan/runs/pdn_offset_35/01-openroad-generatepdn/fault_v_asic_top.def
+'…                                                                              
+Writing timing constraints to                                                   
+'/work/floorplan/runs/pdn_offset_35/01-openroad-generatepdn/fault_v_asic_top.sdc
+'…                                                                              
+[INFO PSM-0040] All shapes on net VPWR are connected.                           
+[INFO PSM-0040] All shapes on net VGND are connected.                           
+[06:10:40] INFO     Skipping step 'Remove PDN obstructions'…   sequential.py:370
+[06:10:40] INFO     Skipping step 'Add Obstructions'…          sequential.py:370
+[06:10:40] INFO     Skipping step 'Custom I/O Placement'…      sequential.py:370
+[06:10:41] INFO     Skipping step 'Power Grid Violation        sequential.py:370
+                    Checker'…                                                   
+[06:10:41] INFO     Saving views to                                 state.py:209
+                    '/work/floorplan/runs/pdn_offset_35/final'…                 
+[06:10:42] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 15 - Power Grid Violation Checker ━━━━ 15/… 0:00…
+

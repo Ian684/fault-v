@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "known_incomplete_source_sha256": "196e8c9b7d74a0000d8b0869b9b6d2cc9ad7a73b7b44b6a3f389ce25d758cc16",
+  "checker_sha256": "9326e3664ab1ed545b82c36a361ee995cee6131921b07a424d6bc23641c80628",
+  "expected_exit": 1,
+  "actual_exit": 1,
+  "reason": "Missing macro gate model",
+  "no_acceptance_report_created": true,
+  "image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302"
+}

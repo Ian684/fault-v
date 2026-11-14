@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "run": "routed_antenna_drive_finish_20261029_173136",
+  "active_signal_clock_nets": 41337,
+  "nets_with_wires": 41337,
+  "active_nets_missing_wires": [],
+  "decoded_manhattan_length_um": 6194273.424991784,
+  "native_wire_length_um": 6194772.390000032,
+  "clock_nets": 446,
+  "decoded_vias": 434882,
+  "length_um_by_layer": {
+    "met1": 2299244.0949998554,
+    "met2": 2024937.5149994302,
+    "met3": 1141069.1850000173,
+    "met4": 638666.0099999948,
+    "met5": 90356.6199999999
+  },
+  "odb_sha256": "33646a000d824d8c734146d25f67dcfac4d80cc91450d7b75e8bb4f63622ba52",
+  "scope": "Native length includes endpoint extension effects; decoded length/plot use centerlines. Wire presence plus separate native TritonRoute DRC/connectivity checks, not foundry LVS."
+}

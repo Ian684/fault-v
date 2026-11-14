@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_opposite5.odb",
+  "source_sha256": "a51b0b542d749b722a8c65367db5b25fdc7c55331b8688ef1c3d3295dc8f9259",
+  "source_incomplete": true,
+  "reference_native_DRC": 6,
+  "reference_antenna_nets": 0,
+  "reference_full_source": "inputs/antenna_native6_zero.odb",
+  "reference_full_source_sha256": "e5a155efe5e19c8276968063c47a6b918cce2c58058006255a2ee665fbe21426",
+  "source_passive_diodes": 7551,
+  "source_physical_connectivity_pass": true,
+  "partial": "inputs/antenna_corner_guard_partial.odb",
+  "partial_sha256": "105ffbc433e5375dc743a11fbb7d86478dfe36d7233995a647c0e33cd7894061",
+  "global_input": "inputs/antenna_corner_guard_global.odb",
+  "global_input_sha256": "648a6f4a9a93e64e87156acd4ce0dcf4cafd5c101231bc7f4abd5c5aeb46336d",
+  "old_strict_obstructions": [
+    [
+      "met1",
+      1582440,
+      640600,
+      1582700,
+      640820
+    ],
+    [
+      "met2",
+      1582440,
+      640600,
+      1582700,
+      640820
+    ]
+  ],
+  "new_strict_obstructions": [
+    [
+      "met1",
+      1582000,
+      639800,
+      1584000,
+      640900
+    ],
+    [
+      "met2",
+      1582000,
+      639800,
+      1584000,
+      640900
+    ]
+  ],
+  "pin_PG_clearance_dbu": 200,
+  "constraint_route_clearance_dbu": 300,
+  "constraint_neighborhood_nets": [
+    "net3311",
+    "net3317",
+    "net4319",
+    "net6634",
+    "net6881"
+  ],
+  "cleared_whole_nets": [
+    "net3116",
+    "net3311",
+    "net3317",
+    "net4319",
+    "net4932",
+    "net4936",
+    "net5547",
+    "net5625",
+    "net6634",
+    "net6881"
+  ],
+  "retained_exact_wires": 41327,
+  "all_cached_preferences_unchanged": true,
+  "cached_access_points_checked": 38,
+  "planned_diodes": 1,
+  "global_macro_extension_gcells": 0,
+  "scope": "Extend only the existing two optional strict corner obstructions to a pin/PG-free2x1.1um rectangle. Original macro/PDK OBS unchanged. Start from coherent native6/antenna0 physical-connected source; use the opposite-side cover and clear only additional actual wire/via neighbors of the stricter corner. No new cells, PA regeneration or manual wire edits. Native zero-overflow guides and all final physical/RC/TT/DRC/antenna gates remain mandatory."
+}

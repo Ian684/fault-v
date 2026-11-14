@@ -1,0 +1,7 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_guarded_20261028_1355",
+  "intentional_stop": true,
+  "reason": "The second initialization produced exactly two copies of each of the same 110 markers. Stop this diagnostic trial and calibrate native state reset before continuing; no OOM diagnosis. Stage 1 committed 110 DRC / zero antenna and is preserved.",
+  "observed_utc": "2026-10-28T06:07:07.939506+00:00"
+}

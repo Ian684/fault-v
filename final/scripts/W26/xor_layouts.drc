@@ -1,0 +1,20 @@
+# Flat tiled geometry XOR of two layouts on every polygon layer present in either one.
+# klayout -b -r xor_layouts.drc -rd a=<layout A> -rd b=<layout B> -rd report=<out.rdb> [-rd only=L/D]
+# Every XOR result is written to the report; equivalence means the report has zero items.
+source($a)
+lb = layout($b)
+report("GDS vs OASIS flat XOR", $report)
+tiles(500.um)
+tile_borders(1.um)
+threads(2)
+la = source.layout
+infos = []
+[la, lb.layout].each do |ly|
+  ly.layer_indexes.each { |i| li = ly.get_info(i); infos << [li.layer, li.datatype] }
+end
+infos = infos.uniq.sort
+infos = infos.select { |l, d| "#{l}/#{d}" == $only } if $only
+log("XOR layers: #{infos.size}")
+infos.each do |l, d|
+  (input(l, d) ^ lb.input(l, d)).output("xor #{l}/#{d}", "XOR difference on layer #{l}/#{d}")
+end

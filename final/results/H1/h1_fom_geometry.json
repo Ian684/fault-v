@@ -1,0 +1,314 @@
+{
+  "source_sha256": "ae8a3f29dfe7140fe24410bd3b76b089c97ecebe0ed55c1be0f61112fc93ea22",
+  "fill_sha256": "a39d067e7e20d51fcc7216c8dc9960dffcb00b8a63f6f518a9c6017332506987",
+  "global_checks": {
+    "minimum_width": 0,
+    "minimum_spacing": 0,
+    "over_maximum_dimension": 0
+  },
+  "tiles": [
+    {
+      "x_um": 0,
+      "y_um": 0,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 700,
+      "y_um": 0,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 1400,
+      "y_um": 0,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 2100,
+      "y_um": 0,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 0,
+      "y_um": 700,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 700,
+      "y_um": 700,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 1400,
+      "y_um": 700,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 2100,
+      "y_um": 700,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 0,
+      "y_um": 1400,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 700,
+      "y_um": 1400,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 1400,
+      "y_um": 1400,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 2100,
+      "y_um": 1400,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 0,
+      "y_um": 2100,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 700,
+      "y_um": 2100,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 1400,
+      "y_um": 2100,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 2100,
+      "y_um": 2100,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 0,
+      "y_um": 2800,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 700,
+      "y_um": 2800,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 1400,
+      "y_um": 2800,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    },
+    {
+      "x_um": 2100,
+      "y_um": 2800,
+      "checks": {
+        "diff_overlap": 0,
+        "poly_overlap": 0,
+        "nsdm_spacing": 0,
+        "psdm_spacing": 0,
+        "nwell_crossing": 0,
+        "nwell_enclosure": 0,
+        "nwell_outside_spacing": 0,
+        "THKOX_source_area": 0,
+        "VHVI_source_area": 0
+      }
+    }
+  ],
+  "negative_control_detected": true,
+  "screen_pass": true,
+  "scope": "Whole FOM dummy islands, globally checked width/spacing/max dimension and local actual diffusion/poly/implant/nwell interactions. Overlapping tiles retain entire islands to avoid artificial clipping. Public open-PDK screen; seal/frame and foundry qualification remain outside coverage."
+}

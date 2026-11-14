@@ -1,0 +1,22 @@
+{
+  "observed_Taipei": "2026-10-28T21:11:22.998918+08:00",
+  "accepted": false,
+  "week24_complete": false,
+  "active_run": "routed_antenna_both8_20261028_205425",
+  "native_iteration": 13,
+  "latest_complete_iteration_DRC": 2,
+  "final_antenna_not_yet_checked": true,
+  "preserved_best_checkpoint": "inputs/antenna_native6_zero.odb",
+  "preserved_best_native_DRC": 6,
+  "preserved_best_antenna_nets": 0,
+  "preserved_best_physically_connected_diodes": 7551,
+  "actual_router_threads": 8,
+  "container_cpu_quota": 16,
+  "stopped_worse_trial": "routed_antenna_corner_guard_20261028_202534",
+  "intentional_stop_receipt": "reports/antenna_model/intervention_20261028/corner_guard_intentional_stop.json",
+  "automatic_next_steps_on_native_zero_pair": "run_antenna_checks.sh then accept_antenna_both8_phase.py; delivery promotion and versioned archive remain pending",
+  "delivery_changes_staged_only": true,
+  "thread_fix_controls": "../../../delivery_updates/antenna_closure/thread_config_controls.json",
+  "upper_guide_control_run": "global_antenna_upper_20261028_210320",
+  "upper_control_not_selected": true
+}

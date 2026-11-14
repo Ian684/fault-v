@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 10 19:19:05 2026
+# Process ID: 24352
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2
+# Command line: vivado.exe -mode batch -source audit_routed.tcl -log logs/audit.log -journal logs/audit.jou
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/logs/audit.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2\logs/audit.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source audit_routed.tcl
+# set_param general.maxThreads 2
+# open_checkpoint build/fault_v_routed.dcp
+Command: open_checkpoint build/fault_v_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 317.148 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 812.391 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 344 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.291 . Memory (MB): peak = 1518.055 ; gain = 7.457
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.292 . Memory (MB): peak = 1518.055 ; gain = 7.457
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1518.055 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
+OpenCheckpoint Checksum | Checksum: 1c8866e64
+----- Checksum: PlaceDB: 38dba7a1 ShapeSum: b298dc77 RouteDB: dd11ea4c 
+open_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1518.055 ; gain = 1200.906
+# source audit_design.tcl
+## report_route_status -file logs/route_status.rpt
+## report_timing_summary -delay_type min_max -report_unconstrained -file logs/route_timing.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+## report_drc -file logs/drc.rpt
+Command: report_drc -file logs/drc.rpt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/logs/drc.rpt.
+report_drc completed successfully
+## report_methodology -file logs/methodology.rpt
+Command: report_methodology -file logs/methodology.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/logs/methodology.rpt.
+report_methodology completed successfully
+## set blackboxes [get_cells -quiet -hier -filter {IS_BLACKBOX == 1}]
+## set latches [get_cells -quiet -hier -filter {REF_NAME =~ LD*}]
+## if {[llength $blackboxes] || [llength $latches]} {error "Black box or latch present"}
+## foreach violation [get_drc_violations -quiet] {
+##     set severity [get_property SEVERITY $violation]
+##     if {$severity eq "Error" || $severity eq "Critical Warning"} {error "DRC failed: $violation"}
+##     # One board/platform warning is retained and described in the report.
+##     if {$severity eq "Warning" && ![string match "ZPS7-1*" $violation]} {
+##         error "Unexpected DRC warning: $violation"
+##     }
+## }
+## foreach type {max min} {
+##     set paths [get_timing_paths -delay_type $type -max_paths 1]
+##     if {[llength $paths]==0 || [get_property SLACK $paths]<0} {error "Timing failed: $type"}
+## }
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+## set fh [open logs/route_timing.rpt r];
+## set timing_report [read $fh];
+## close $fh
+## if {![string match "*All user specified timing constraints are met.*" $timing_report]} {
+##     error "Timing summary includes violations"
+## }
+## foreach label {no_clock unconstrained_internal_endpoints generated_clocks loops latch_loops} {
+##     if {![regexp "checking $label \\(0\\)" $timing_report]} {error "Unexpected timing check: $label"}
+## }
+## puts "FPGA AUDIT PASSED: no latches/black boxes, timing met, only documented ZPS7-1 warning allowed"
+FPGA AUDIT PASSED: no latches/black boxes, timing met, only documented ZPS7-1 warning allowed
+# report_utilization -hierarchical -file logs/route_hierarchy.rpt
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 10 19:19:28 2026...

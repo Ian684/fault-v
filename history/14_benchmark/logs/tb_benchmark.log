@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 14 20:03:41 2026
+# Process ID: 21136
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/benchmark/sim
+# Command line: xsim.exe -log tb_benchmark.log -mode tcl -source {xsim.dir/tb_benchmark/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/benchmark/sim/tb_benchmark.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/benchmark/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_benchmark/xsim_script.tcl
+# xsim {tb_benchmark} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+BENCH_RESULT mode=0 id=0 repeat=0 cycles=21671 instructions=3526 custom=0 loads=128 stores=1 outputs=1
+BENCH_RESULT mode=1 id=0 repeat=0 cycles=33023 instructions=3526 custom=0 loads=128 stores=1 outputs=1
+BENCH_RESULT mode=0 id=0 repeat=1 cycles=21671 instructions=3526 custom=0 loads=128 stores=1 outputs=1
+BENCH_RESULT mode=0 id=1 repeat=0 cycles=1033 instructions=137 custom=16 loads=32 stores=1 outputs=1
+BENCH_RESULT mode=0 id=1 repeat=1 cycles=1033 instructions=137 custom=16 loads=32 stores=1 outputs=1
+BENCH_RESULT mode=0 id=2 repeat=0 cycles=20206 instructions=3269 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=1 id=0 repeat=1 cycles=33023 instructions=3526 custom=0 loads=128 stores=1 outputs=1
+BENCH_RESULT mode=1 id=1 repeat=0 cycles=1642 instructions=137 custom=16 loads=32 stores=1 outputs=1
+BENCH_RESULT mode=1 id=1 repeat=1 cycles=1642 instructions=137 custom=16 loads=32 stores=1 outputs=1
+BENCH_RESULT mode=0 id=2 repeat=1 cycles=20206 instructions=3269 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=0 id=3 repeat=0 cycles=4046 instructions=553 custom=32 loads=130 stores=16 outputs=16
+BENCH_RESULT mode=0 id=3 repeat=1 cycles=4046 instructions=553 custom=32 loads=130 stores=16 outputs=16
+BENCH_RESULT mode=1 id=2 repeat=0 cycles=30925 instructions=3269 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=0 id=4 repeat=0 cycles=20782 instructions=3429 custom=0 loads=40 stores=16 outputs=16
+BENCH_RESULT mode=1 id=2 repeat=1 cycles=30925 instructions=3269 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=0 id=4 repeat=1 cycles=20782 instructions=3429 custom=0 loads=40 stores=16 outputs=16
+BENCH_RESULT mode=0 id=5 repeat=0 cycles=1550 instructions=201 custom=32 loads=34 stores=16 outputs=16
+BENCH_RESULT mode=1 id=3 repeat=0 cycles=6581 instructions=553 custom=32 loads=130 stores=16 outputs=16
+BENCH_RESULT mode=0 id=5 repeat=1 cycles=1550 instructions=201 custom=32 loads=34 stores=16 outputs=16
+BENCH_RESULT mode=1 id=3 repeat=1 cycles=6581 instructions=553 custom=32 loads=130 stores=16 outputs=16
+BENCH_RESULT mode=1 id=4 repeat=0 cycles=31405 instructions=3429 custom=0 loads=40 stores=16 outputs=16
+BENCH_RESULT mode=0 id=6 repeat=0 cycles=50518 instructions=8321 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=1 id=4 repeat=1 cycles=31405 instructions=3429 custom=0 loads=40 stores=16 outputs=16
+BENCH_RESULT mode=1 id=5 repeat=0 cycles=2453 instructions=201 custom=32 loads=34 stores=16 outputs=16
+BENCH_RESULT mode=1 id=5 repeat=1 cycles=2453 instructions=201 custom=32 loads=34 stores=16 outputs=16
+BENCH_RESULT mode=0 id=6 repeat=1 cycles=50518 instructions=8321 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=0 id=7 repeat=0 cycles=3818 instructions=495 custom=128 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=0 id=7 repeat=1 cycles=3818 instructions=495 custom=128 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=0 id=8 repeat=0 cycles=1216 instructions=184 custom=0 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=0 id=8 repeat=1 cycles=1216 instructions=184 custom=0 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=0 id=9 repeat=0 cycles=864 instructions=120 custom=16 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=0 id=9 repeat=1 cycles=864 instructions=120 custom=16 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=0 id=10 repeat=0 cycles=6614 instructions=985 custom=0 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=0 id=10 repeat=1 cycles=6614 instructions=985 custom=0 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=0 id=11 repeat=0 cycles=4342 instructions=585 custom=64 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=0 id=11 repeat=1 cycles=4342 instructions=585 custom=64 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=1 id=6 repeat=0 cycles=76393 instructions=8321 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=1 id=6 repeat=1 cycles=76393 instructions=8321 custom=0 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=1 id=7 repeat=0 cycles=6215 instructions=495 custom=128 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=1 id=7 repeat=1 cycles=6215 instructions=495 custom=128 loads=136 stores=16 outputs=16
+BENCH_RESULT mode=1 id=8 repeat=0 cycles=1960 instructions=184 custom=0 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=1 id=8 repeat=1 cycles=1960 instructions=184 custom=0 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=1 id=9 repeat=0 cycles=1416 instructions=120 custom=16 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=1 id=9 repeat=1 cycles=1416 instructions=120 custom=16 loads=16 stores=16 outputs=16
+BENCH_RESULT mode=1 id=10 repeat=0 cycles=10721 instructions=985 custom=0 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=1 id=10 repeat=1 cycles=10721 instructions=985 custom=0 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=1 id=11 repeat=0 cycles=7249 instructions=585 custom=64 loads=128 stores=64 outputs=64
+BENCH_RESULT mode=1 id=11 repeat=1 cycles=7249 instructions=585 custom=64 loads=128 stores=64 outputs=64
+ALL 48 BENCHMARK RUNS PASSED; OUTPUTS AND REPEATED COUNTS VERIFIED
+$finish called at time : 8430051 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/benchmark/verify/tb_benchmark.sv" Line 85
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 20:03:49 2026...

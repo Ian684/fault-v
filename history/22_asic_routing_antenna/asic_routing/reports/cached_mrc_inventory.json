@@ -1,0 +1,1224 @@
+{
+  "source": "runs/routed_cached_local/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "4a9dfbb50af31a996039877eed2354af17f700fee4bb2b4502a4f70667465736",
+  "reports": {
+    "max slew": {
+      "summary": {
+        "pin_violations": 133,
+        "unique_nets": 13,
+        "driver_instances": 13,
+        "clock_type_nets": 1,
+        "three_moved_cells_also_drivers": []
+      },
+      "nets": [
+        {
+          "net": "_09163_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_37706_/B_N",
+              "limit": 1.5,
+              "actual": 1.75505,
+              "slack": -0.25505
+            },
+            {
+              "pin": "_37686_/B_N",
+              "limit": 1.5,
+              "actual": 1.755048,
+              "slack": -0.255048
+            },
+            {
+              "pin": "_37646_/B_N",
+              "limit": 1.5,
+              "actual": 1.754557,
+              "slack": -0.254558
+            },
+            {
+              "pin": "_37578_/B_N",
+              "limit": 1.5,
+              "actual": 1.754287,
+              "slack": -0.254287
+            },
+            {
+              "pin": "_37411_/B_N",
+              "limit": 1.5,
+              "actual": 1.75425,
+              "slack": -0.25425
+            },
+            {
+              "pin": "_37437_/B_N",
+              "limit": 1.5,
+              "actual": 1.754249,
+              "slack": -0.25425
+            },
+            {
+              "pin": "_37599_/B_N",
+              "limit": 1.5,
+              "actual": 1.754249,
+              "slack": -0.254249
+            },
+            {
+              "pin": "_37457_/B_N",
+              "limit": 1.5,
+              "actual": 1.754247,
+              "slack": -0.254247
+            },
+            {
+              "pin": "_37557_/B_N",
+              "limit": 1.5,
+              "actual": 1.754213,
+              "slack": -0.254213
+            },
+            {
+              "pin": "_37537_/B_N",
+              "limit": 1.5,
+              "actual": 1.75421,
+              "slack": -0.25421
+            },
+            {
+              "pin": "_37410_/X",
+              "limit": 1.506103,
+              "actual": 1.754206,
+              "slack": -0.248103
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_37410_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_05162_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_35861_/B1",
+              "limit": 1.5,
+              "actual": 1.627401,
+              "slack": -0.127401
+            },
+            {
+              "pin": "_35863_/A1",
+              "limit": 1.5,
+              "actual": 1.627401,
+              "slack": -0.127401
+            },
+            {
+              "pin": "_36907_/A1",
+              "limit": 1.5,
+              "actual": 1.62736,
+              "slack": -0.12736
+            },
+            {
+              "pin": "_33378_/A1",
+              "limit": 1.5,
+              "actual": 1.626785,
+              "slack": -0.126785
+            },
+            {
+              "pin": "_33379_/B2",
+              "limit": 1.5,
+              "actual": 1.62677,
+              "slack": -0.12677
+            },
+            {
+              "pin": "_33460_/B2",
+              "limit": 1.5,
+              "actual": 1.625453,
+              "slack": -0.125453
+            },
+            {
+              "pin": "_33459_/A1",
+              "limit": 1.5,
+              "actual": 1.625424,
+              "slack": -0.125424
+            },
+            {
+              "pin": "_32830_/B2",
+              "limit": 1.5,
+              "actual": 1.625321,
+              "slack": -0.125321
+            },
+            {
+              "pin": "_32731_/C",
+              "limit": 1.5,
+              "actual": 1.625301,
+              "slack": -0.125301
+            },
+            {
+              "pin": "_32996_/B2",
+              "limit": 1.5,
+              "actual": 1.625301,
+              "slack": -0.125301
+            },
+            {
+              "pin": "_32730_/X",
+              "limit": 1.506103,
+              "actual": 1.625301,
+              "slack": -0.119198
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_32730_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "clknet_1_0_0_clk",
+          "sig_type": "CLOCK",
+          "violated_pins": [
+            {
+              "pin": "clkbuf_leaf_9_clk/A",
+              "limit": 1.5,
+              "actual": 1.616467,
+              "slack": -0.116468
+            },
+            {
+              "pin": "clkbuf_leaf_8_clk/A",
+              "limit": 1.5,
+              "actual": 1.596811,
+              "slack": -0.096811
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "clkbuf_1_0_0_clk",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__clkbuf_16"
+            }
+          ]
+        },
+        {
+          "net": "_03764_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30976_/A2",
+              "limit": 1.5,
+              "actual": 1.576362,
+              "slack": -0.076363
+            },
+            {
+              "pin": "_30973_/A2",
+              "limit": 1.5,
+              "actual": 1.576349,
+              "slack": -0.076349
+            },
+            {
+              "pin": "_30975_/A2",
+              "limit": 1.5,
+              "actual": 1.576337,
+              "slack": -0.076337
+            },
+            {
+              "pin": "_30972_/A2",
+              "limit": 1.5,
+              "actual": 1.576321,
+              "slack": -0.076321
+            },
+            {
+              "pin": "_30969_/A2",
+              "limit": 1.5,
+              "actual": 1.576263,
+              "slack": -0.076263
+            },
+            {
+              "pin": "_30970_/A2",
+              "limit": 1.5,
+              "actual": 1.576187,
+              "slack": -0.076188
+            },
+            {
+              "pin": "_30971_/A2",
+              "limit": 1.5,
+              "actual": 1.576075,
+              "slack": -0.076075
+            },
+            {
+              "pin": "_30974_/A2",
+              "limit": 1.5,
+              "actual": 1.576068,
+              "slack": -0.076068
+            },
+            {
+              "pin": "_30968_/A2",
+              "limit": 1.5,
+              "actual": 1.576033,
+              "slack": -0.076033
+            },
+            {
+              "pin": "_30967_/A2",
+              "limit": 1.5,
+              "actual": 1.575985,
+              "slack": -0.075985
+            },
+            {
+              "pin": "_30964_/X",
+              "limit": 1.506103,
+              "actual": 1.574352,
+              "slack": -0.068249
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30964_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03568_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30265_/B1",
+              "limit": 1.5,
+              "actual": 1.56299,
+              "slack": -0.06299
+            },
+            {
+              "pin": "_30261_/B1",
+              "limit": 1.5,
+              "actual": 1.562974,
+              "slack": -0.062974
+            },
+            {
+              "pin": "_30263_/B1",
+              "limit": 1.5,
+              "actual": 1.562955,
+              "slack": -0.062955
+            },
+            {
+              "pin": "_30266_/B1",
+              "limit": 1.5,
+              "actual": 1.562935,
+              "slack": -0.062936
+            },
+            {
+              "pin": "_30262_/B1",
+              "limit": 1.5,
+              "actual": 1.562927,
+              "slack": -0.062927
+            },
+            {
+              "pin": "_30259_/B1",
+              "limit": 1.5,
+              "actual": 1.562867,
+              "slack": -0.062867
+            },
+            {
+              "pin": "_30260_/B1",
+              "limit": 1.5,
+              "actual": 1.562353,
+              "slack": -0.062353
+            },
+            {
+              "pin": "_30257_/B1",
+              "limit": 1.5,
+              "actual": 1.56162,
+              "slack": -0.06162
+            },
+            {
+              "pin": "_30264_/B1",
+              "limit": 1.5,
+              "actual": 1.561609,
+              "slack": -0.061609
+            },
+            {
+              "pin": "_30258_/B1",
+              "limit": 1.5,
+              "actual": 1.561555,
+              "slack": -0.061555
+            },
+            {
+              "pin": "_30256_/X",
+              "limit": 1.506103,
+              "actual": 1.56154,
+              "slack": -0.055437
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30256_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_10279_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_38715_/A",
+              "limit": 1.5,
+              "actual": 1.558703,
+              "slack": -0.058703
+            },
+            {
+              "pin": "_39542_/S",
+              "limit": 1.5,
+              "actual": 1.558701,
+              "slack": -0.058701
+            },
+            {
+              "pin": "_39440_/A",
+              "limit": 1.5,
+              "actual": 1.558698,
+              "slack": -0.058698
+            },
+            {
+              "pin": "_39348_/A",
+              "limit": 1.5,
+              "actual": 1.558603,
+              "slack": -0.058603
+            },
+            {
+              "pin": "_39313_/A",
+              "limit": 1.5,
+              "actual": 1.558601,
+              "slack": -0.058601
+            },
+            {
+              "pin": "_38581_/A",
+              "limit": 1.5,
+              "actual": 1.558591,
+              "slack": -0.058591
+            },
+            {
+              "pin": "_38980_/A",
+              "limit": 1.5,
+              "actual": 1.55857,
+              "slack": -0.05857
+            },
+            {
+              "pin": "_38947_/A",
+              "limit": 1.5,
+              "actual": 1.55855,
+              "slack": -0.05855
+            },
+            {
+              "pin": "_39083_/A",
+              "limit": 1.5,
+              "actual": 1.558545,
+              "slack": -0.058545
+            },
+            {
+              "pin": "_38687_/A",
+              "limit": 1.5,
+              "actual": 1.558498,
+              "slack": -0.058498
+            },
+            {
+              "pin": "_38580_/X",
+              "limit": 1.506103,
+              "actual": 1.558498,
+              "slack": -0.052395
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_38580_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_24855_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_28436_/A",
+              "limit": 1.5,
+              "actual": 1.545754,
+              "slack": -0.045754
+            },
+            {
+              "pin": "_28437_/A",
+              "limit": 1.5,
+              "actual": 1.545748,
+              "slack": -0.045748
+            },
+            {
+              "pin": "_36787_/A1",
+              "limit": 1.5,
+              "actual": 1.545676,
+              "slack": -0.045676
+            },
+            {
+              "pin": "_33478_/A1",
+              "limit": 1.5,
+              "actual": 1.545475,
+              "slack": -0.045475
+            },
+            {
+              "pin": "_33315_/A1",
+              "limit": 1.5,
+              "actual": 1.545475,
+              "slack": -0.045475
+            },
+            {
+              "pin": "_33316_/B2",
+              "limit": 1.5,
+              "actual": 1.545473,
+              "slack": -0.045473
+            },
+            {
+              "pin": "_33479_/A1",
+              "limit": 1.5,
+              "actual": 1.545473,
+              "slack": -0.045473
+            },
+            {
+              "pin": "_33227_/A1",
+              "limit": 1.5,
+              "actual": 1.545469,
+              "slack": -0.045469
+            },
+            {
+              "pin": "_33228_/B2",
+              "limit": 1.5,
+              "actual": 1.545463,
+              "slack": -0.045463
+            },
+            {
+              "pin": "_37052_/A",
+              "limit": 1.5,
+              "actual": 1.545402,
+              "slack": -0.045402
+            },
+            {
+              "pin": "_28435_/X",
+              "limit": 1.506103,
+              "actual": 1.545379,
+              "slack": -0.039276
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_28435_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03686_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30708_/A2",
+              "limit": 1.5,
+              "actual": 1.54425,
+              "slack": -0.04425
+            },
+            {
+              "pin": "_30706_/A2",
+              "limit": 1.5,
+              "actual": 1.54423,
+              "slack": -0.04423
+            },
+            {
+              "pin": "_30707_/A2",
+              "limit": 1.5,
+              "actual": 1.544181,
+              "slack": -0.044181
+            },
+            {
+              "pin": "_30710_/A2",
+              "limit": 1.5,
+              "actual": 1.544168,
+              "slack": -0.044168
+            },
+            {
+              "pin": "_30709_/A2",
+              "limit": 1.5,
+              "actual": 1.544163,
+              "slack": -0.044163
+            },
+            {
+              "pin": "_30711_/A2",
+              "limit": 1.5,
+              "actual": 1.544157,
+              "slack": -0.044157
+            },
+            {
+              "pin": "_30712_/A2",
+              "limit": 1.5,
+              "actual": 1.544131,
+              "slack": -0.044131
+            },
+            {
+              "pin": "_30714_/A2",
+              "limit": 1.5,
+              "actual": 1.543636,
+              "slack": -0.043637
+            },
+            {
+              "pin": "_30715_/A2",
+              "limit": 1.5,
+              "actual": 1.543249,
+              "slack": -0.043249
+            },
+            {
+              "pin": "_30713_/A2",
+              "limit": 1.5,
+              "actual": 1.542883,
+              "slack": -0.042883
+            },
+            {
+              "pin": "_30704_/X",
+              "limit": 1.506103,
+              "actual": 1.542527,
+              "slack": -0.036424
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30704_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_14484_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_46469_/A",
+              "limit": 1.5,
+              "actual": 1.543795,
+              "slack": -0.043795
+            },
+            {
+              "pin": "_46838_/A",
+              "limit": 1.5,
+              "actual": 1.543795,
+              "slack": -0.043795
+            },
+            {
+              "pin": "_44290_/B",
+              "limit": 1.5,
+              "actual": 1.543777,
+              "slack": -0.043777
+            },
+            {
+              "pin": "_47042_/B2",
+              "limit": 1.5,
+              "actual": 1.543743,
+              "slack": -0.043743
+            },
+            {
+              "pin": "_47041_/A",
+              "limit": 1.5,
+              "actual": 1.543736,
+              "slack": -0.043736
+            },
+            {
+              "pin": "_44288_/A1_N",
+              "limit": 1.5,
+              "actual": 1.543591,
+              "slack": -0.043591
+            },
+            {
+              "pin": "_43994_/A2_N",
+              "limit": 1.5,
+              "actual": 1.543448,
+              "slack": -0.043448
+            },
+            {
+              "pin": "_43995_/C",
+              "limit": 1.5,
+              "actual": 1.543417,
+              "slack": -0.043417
+            },
+            {
+              "pin": "_43747_/A2",
+              "limit": 1.5,
+              "actual": 1.543283,
+              "slack": -0.043283
+            },
+            {
+              "pin": "_43161_/A2",
+              "limit": 1.5,
+              "actual": 1.543275,
+              "slack": -0.043275
+            },
+            {
+              "pin": "_43160_/X",
+              "limit": 1.506103,
+              "actual": 1.543271,
+              "slack": -0.037168
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_43160_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03694_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30747_/A2",
+              "limit": 1.5,
+              "actual": 1.543231,
+              "slack": -0.043231
+            },
+            {
+              "pin": "_30746_/A2",
+              "limit": 1.5,
+              "actual": 1.543225,
+              "slack": -0.043225
+            },
+            {
+              "pin": "_30748_/A2",
+              "limit": 1.5,
+              "actual": 1.543222,
+              "slack": -0.043222
+            },
+            {
+              "pin": "_30750_/A2",
+              "limit": 1.5,
+              "actual": 1.543174,
+              "slack": -0.043174
+            },
+            {
+              "pin": "_30751_/A2",
+              "limit": 1.5,
+              "actual": 1.543169,
+              "slack": -0.043169
+            },
+            {
+              "pin": "_30752_/A2",
+              "limit": 1.5,
+              "actual": 1.543153,
+              "slack": -0.043153
+            },
+            {
+              "pin": "_30749_/A2",
+              "limit": 1.5,
+              "actual": 1.543144,
+              "slack": -0.043144
+            },
+            {
+              "pin": "_30754_/A2",
+              "limit": 1.5,
+              "actual": 1.543056,
+              "slack": -0.043056
+            },
+            {
+              "pin": "_30755_/A2",
+              "limit": 1.5,
+              "actual": 1.542932,
+              "slack": -0.042932
+            },
+            {
+              "pin": "_30753_/A2",
+              "limit": 1.5,
+              "actual": 1.542781,
+              "slack": -0.042781
+            },
+            {
+              "pin": "_30744_/X",
+              "limit": 1.506103,
+              "actual": 1.54229,
+              "slack": -0.036187
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30744_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_11781_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_40262_/A2",
+              "limit": 1.5,
+              "actual": 1.532234,
+              "slack": -0.032234
+            },
+            {
+              "pin": "_40256_/A2",
+              "limit": 1.5,
+              "actual": 1.532234,
+              "slack": -0.032234
+            },
+            {
+              "pin": "_40259_/A2",
+              "limit": 1.5,
+              "actual": 1.532174,
+              "slack": -0.032174
+            },
+            {
+              "pin": "_40287_/A2",
+              "limit": 1.5,
+              "actual": 1.53205,
+              "slack": -0.03205
+            },
+            {
+              "pin": "_40284_/A2",
+              "limit": 1.5,
+              "actual": 1.532049,
+              "slack": -0.032049
+            },
+            {
+              "pin": "_40281_/A2",
+              "limit": 1.5,
+              "actual": 1.532048,
+              "slack": -0.032048
+            },
+            {
+              "pin": "_40278_/A2",
+              "limit": 1.5,
+              "actual": 1.532044,
+              "slack": -0.032044
+            },
+            {
+              "pin": "_40275_/A2",
+              "limit": 1.5,
+              "actual": 1.53204,
+              "slack": -0.03204
+            },
+            {
+              "pin": "_40271_/A2",
+              "limit": 1.5,
+              "actual": 1.532021,
+              "slack": -0.032021
+            },
+            {
+              "pin": "_40265_/A2",
+              "limit": 1.5,
+              "actual": 1.53196,
+              "slack": -0.03196
+            },
+            {
+              "pin": "_40253_/X",
+              "limit": 1.506103,
+              "actual": 1.531952,
+              "slack": -0.025849
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_40253_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03594_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30388_/B1",
+              "limit": 1.5,
+              "actual": 1.507987,
+              "slack": -0.007987
+            },
+            {
+              "pin": "_30387_/B1",
+              "limit": 1.5,
+              "actual": 1.507976,
+              "slack": -0.007976
+            },
+            {
+              "pin": "_30383_/B1",
+              "limit": 1.5,
+              "actual": 1.50794,
+              "slack": -0.00794
+            },
+            {
+              "pin": "_30385_/B1",
+              "limit": 1.5,
+              "actual": 1.507931,
+              "slack": -0.007932
+            },
+            {
+              "pin": "_30384_/B1",
+              "limit": 1.5,
+              "actual": 1.507888,
+              "slack": -0.007888
+            },
+            {
+              "pin": "_30381_/B1",
+              "limit": 1.5,
+              "actual": 1.50787,
+              "slack": -0.00787
+            },
+            {
+              "pin": "_30382_/B1",
+              "limit": 1.5,
+              "actual": 1.507585,
+              "slack": -0.007585
+            },
+            {
+              "pin": "_30386_/B1",
+              "limit": 1.5,
+              "actual": 1.506355,
+              "slack": -0.006355
+            },
+            {
+              "pin": "_30379_/B1",
+              "limit": 1.5,
+              "actual": 1.506328,
+              "slack": -0.006328
+            },
+            {
+              "pin": "_30380_/B1",
+              "limit": 1.5,
+              "actual": 1.50625,
+              "slack": -0.00625
+            },
+            {
+              "pin": "_30378_/X",
+              "limit": 1.506103,
+              "actual": 1.506218,
+              "slack": -0.000115
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30378_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_07785_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_35726_/B1",
+              "limit": 1.5,
+              "actual": 1.503791,
+              "slack": -0.003791
+            },
+            {
+              "pin": "_35718_/B1",
+              "limit": 1.5,
+              "actual": 1.503789,
+              "slack": -0.003789
+            },
+            {
+              "pin": "_35669_/B2",
+              "limit": 1.5,
+              "actual": 1.503768,
+              "slack": -0.003768
+            },
+            {
+              "pin": "_35688_/B2",
+              "limit": 1.5,
+              "actual": 1.503763,
+              "slack": -0.003763
+            },
+            {
+              "pin": "_35658_/A2",
+              "limit": 1.5,
+              "actual": 1.503685,
+              "slack": -0.003685
+            },
+            {
+              "pin": "_35654_/A2",
+              "limit": 1.5,
+              "actual": 1.503664,
+              "slack": -0.003664
+            },
+            {
+              "pin": "_35735_/B1",
+              "limit": 1.5,
+              "actual": 1.503547,
+              "slack": -0.003547
+            },
+            {
+              "pin": "_35744_/B1",
+              "limit": 1.5,
+              "actual": 1.503453,
+              "slack": -0.003453
+            },
+            {
+              "pin": "_35783_/B1",
+              "limit": 1.5,
+              "actual": 1.503062,
+              "slack": -0.003062
+            },
+            {
+              "pin": "_35822_/B2",
+              "limit": 1.5,
+              "actual": 1.502866,
+              "slack": -0.002866
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_35653_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        }
+      ]
+    },
+    "max capacitance": {
+      "summary": {
+        "pin_violations": 12,
+        "unique_nets": 12,
+        "driver_instances": 12,
+        "clock_type_nets": 0,
+        "three_moved_cells_also_drivers": []
+      },
+      "nets": [
+        {
+          "net": "_09163_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_37410_/X",
+              "limit": 0.130015,
+              "actual": 0.153783,
+              "slack": -0.023768
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_37410_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_05162_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_32730_/X",
+              "limit": 0.130015,
+              "actual": 0.142953,
+              "slack": -0.012938
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_32730_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03764_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30964_/X",
+              "limit": 0.130015,
+              "actual": 0.137897,
+              "slack": -0.007882
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30964_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03568_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30256_/X",
+              "limit": 0.130015,
+              "actual": 0.137337,
+              "slack": -0.007322
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30256_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_10279_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_38580_/X",
+              "limit": 0.130015,
+              "actual": 0.136401,
+              "slack": -0.006386
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_38580_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03686_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30704_/X",
+              "limit": 0.130015,
+              "actual": 0.135505,
+              "slack": -0.00549
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30704_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03694_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30744_/X",
+              "limit": 0.130015,
+              "actual": 0.135478,
+              "slack": -0.005463
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30744_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_24855_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_28435_/X",
+              "limit": 0.130015,
+              "actual": 0.135161,
+              "slack": -0.005146
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_28435_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_14484_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_43160_/X",
+              "limit": 0.130015,
+              "actual": 0.134728,
+              "slack": -0.004713
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_43160_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_11781_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_40253_/X",
+              "limit": 0.130015,
+              "actual": 0.133757,
+              "slack": -0.003742
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_40253_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_03594_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_30378_/X",
+              "limit": 0.130015,
+              "actual": 0.132364,
+              "slack": -0.002349
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_30378_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        },
+        {
+          "net": "_07785_",
+          "sig_type": "SIGNAL",
+          "violated_pins": [
+            {
+              "pin": "_35653_/X",
+              "limit": 0.130015,
+              "actual": 0.132085,
+              "slack": -0.00207
+            }
+          ],
+          "drivers": [
+            {
+              "instance": "_35653_",
+              "pin": "X",
+              "master": "sky130_fd_sc_hd__buf_1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scope": "Read-only mapping of actual OpenSTA3.1.0 extracted-RC violations to OpenDB nets and drivers. No acceptance."
+}

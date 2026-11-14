@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "accepted": false,
+  "candidate": {
+    "global_run": "global_shrink_rc",
+    "routed_run": "routed_residual_rc",
+    "cli": "scripts/corner_reguide_cli.py",
+    "config": "config_corner_reguide.json",
+    "state": "residual_routed_state.json",
+    "threads": 8,
+    "memory_mb": 6000
+  },
+  "script_sha256": "f6f672b294eb466f84bce07268ec2af17120308e4291a71113b07f5e5b3a231d",
+  "checks": {
+    "actual_frozen_input_positive": true,
+    "reject_unlisted_global": true,
+    "reject_unlisted_cli": true,
+    "reject_unlisted_state": true,
+    "reject_path_escape_even_if_hash_declared": true,
+    "reject_input_hash_mismatch": true
+  },
+  "scope": "Exact production embedded metadata/path/hash Python prelude exercised on the actual frozen nine-whole-net reroute input through a temporary same-volume hardlink. No second full Detailed Routing, no full-shell/Docker replay and no routing acceptance."
+}

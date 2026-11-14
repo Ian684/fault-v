@@ -1,0 +1,787 @@
+{
+  "cases": {
+    "0p014": {
+      "VPWR": {
+        "all_EM_rows_joined_to_exact_native_resistor": true,
+        "rows": 119039,
+        "total_native_resistors": 335110,
+        "branches_by_layer": {
+          "met1": 99482,
+          "via": 3208,
+          "via2": 3208,
+          "via3": 3208,
+          "met4": 3429,
+          "via4": 485,
+          "met5": 6019
+        },
+        "effective_cut_histograms": {
+          "via": {
+            "9": 3207,
+            "3": 1
+          },
+          "via2": {
+            "7": 3207,
+            "3": 1
+          },
+          "via3": {
+            "7": 3208
+          },
+          "via4": {
+            "9": 4,
+            "3": 125,
+            "1": 216,
+            "8": 35,
+            "2": 102,
+            "4": 3
+          }
+        },
+        "worst_per_layer": {
+          "met1": {
+            "node0": [
+              "met1",
+              1723850,
+              2178720
+            ],
+            "node1": [
+              "met1",
+              1726380,
+              2178720
+            ],
+            "current_A": 5.407e-05,
+            "resistance_ohm": 0.6588542,
+            "native_effective_width_um": 0.47999997571541625,
+            "mA_per_um": 0.11264583903241107,
+            "limit_mA_per_um": 2.8,
+            "utilization": 0.04023065679728967,
+            "conservative_utilization": 0.040270887454086954
+          },
+          "via": {
+            "node0": [
+              "met1",
+              1608620,
+              3157920
+            ],
+            "node1": [
+              "met2",
+              1610040,
+              3157920
+            ],
+            "current_A": 6.705e-05,
+            "resistance_ohm": 0.5,
+            "effective_cuts": 9,
+            "mA_per_cut": 0.00745,
+            "limit_mA_per_cut": 0.29,
+            "utilization": 0.025689655172413794,
+            "conservative_utilization": 0.025715344827586206
+          },
+          "via2": {
+            "node0": [
+              "met2",
+              1610040,
+              3157920
+            ],
+            "node1": [
+              "met3",
+              1610040,
+              3157920
+            ],
+            "current_A": 6.705e-05,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.009578571428571428,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.019955357142857143,
+            "conservative_utilization": 0.0199753125
+          },
+          "via3": {
+            "node0": [
+              "met3",
+              1610040,
+              3157920
+            ],
+            "node1": [
+              "met4",
+              1610040,
+              3157920
+            ],
+            "current_A": 6.705e-05,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.009578571428571428,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.019955357142857143,
+            "conservative_utilization": 0.0199753125
+          },
+          "met4": {
+            "node0": [
+              "met4",
+              125630,
+              2368180
+            ],
+            "node1": [
+              "met4",
+              125630,
+              2408270
+            ],
+            "current_A": 0.005462,
+            "resistance_ohm": 1.082891,
+            "native_effective_width_um": 1.739999686025648,
+            "mA_per_um": 3.1390810262016844,
+            "limit_mA_per_um": 6.8,
+            "utilization": 0.4616295626767183,
+            "conservative_utilization": 0.46209119223939493
+          },
+          "via4": {
+            "node0": [
+              "met4",
+              1685630,
+              866600
+            ],
+            "node1": [
+              "met5",
+              1685630,
+              866600
+            ],
+            "current_A": 0.00101,
+            "resistance_ohm": 0.38,
+            "effective_cuts": 1,
+            "mA_per_cut": 1.01,
+            "limit_mA_per_cut": 2.49,
+            "utilization": 0.40562248995983935,
+            "conservative_utilization": 0.40602811244979914
+          },
+          "met5": {
+            "node0": [
+              "met5",
+              86940,
+              866600
+            ],
+            "node1": [
+              "met5",
+              100040,
+              866600
+            ],
+            "current_A": 0.008072,
+            "resistance_ohm": 0.12445,
+            "native_effective_width_um": 3.0,
+            "mA_per_um": 2.6906666666666665,
+            "limit_mA_per_um": 10.17,
+            "utilization": 0.26456899377253357,
+            "conservative_utilization": 0.2648335627663061
+          }
+        },
+        "violations": [],
+        "near_limit_branches_over_90_percent": [],
+        "resistance_map": {
+          "nwell": 0.0,
+          "pwell": 0.0,
+          "licon": 0.0,
+          "li1": 12.8,
+          "mcon": 9.3,
+          "met1": 0.125,
+          "via": 4.5,
+          "met2": 0.125,
+          "via2": 3.41,
+          "met3": 0.047,
+          "via3": 3.41,
+          "met4": 0.047,
+          "via4": 0.38,
+          "met5": 0.0285
+        },
+        "source_SHA256": {
+          "EM": "95772b04e690f268c3a0744248b4476c8ac4ca2500fc5bc7f215c162887c3c4d",
+          "resistor_export": "1c75dfec11053d4cc954fa0434562760d3c615bd3540ffafcbd3db5fb86d1a0e",
+          "ODB": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2"
+        },
+        "full_SPICE_load_export_complete": false
+      },
+      "VGND": {
+        "all_EM_rows_joined_to_exact_native_resistor": true,
+        "rows": 118356,
+        "total_native_resistors": 334427,
+        "branches_by_layer": {
+          "met1": 98727,
+          "via": 3208,
+          "via2": 3208,
+          "via3": 3208,
+          "met4": 3433,
+          "via4": 524,
+          "met5": 6048
+        },
+        "effective_cut_histograms": {
+          "via": {
+            "9": 3208
+          },
+          "via2": {
+            "7": 3208
+          },
+          "via3": {
+            "7": 3208
+          },
+          "via4": {
+            "9": 4,
+            "3": 136,
+            "1": 230,
+            "2": 124,
+            "8": 28,
+            "4": 2
+          }
+        },
+        "worst_per_layer": {
+          "met1": {
+            "node0": [
+              "met1",
+              268410,
+              2170560
+            ],
+            "node1": [
+              "met1",
+              272780,
+              2170560
+            ],
+            "current_A": 5.447e-05,
+            "resistance_ohm": 1.138021,
+            "native_effective_width_um": 0.4799999297025275,
+            "mA_per_um": 0.11347918328604119,
+            "limit_mA_per_um": 2.8,
+            "utilization": 0.04052827974501471,
+            "conservative_utilization": 0.04056880802475972
+          },
+          "via": {
+            "node0": [
+              "met1",
+              1616040,
+              3160640
+            ],
+            "node1": [
+              "met2",
+              1616040,
+              3160640
+            ],
+            "current_A": 7.106e-05,
+            "resistance_ohm": 0.5,
+            "effective_cuts": 9,
+            "mA_per_cut": 0.007895555555555555,
+            "limit_mA_per_cut": 0.29,
+            "utilization": 0.02722605363984674,
+            "conservative_utilization": 0.027253279693486586
+          },
+          "via2": {
+            "node0": [
+              "met2",
+              1616040,
+              3160640
+            ],
+            "node1": [
+              "met3",
+              1616040,
+              3160640
+            ],
+            "current_A": 7.106e-05,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.010151428571428572,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.021148809523809525,
+            "conservative_utilization": 0.021169958333333332
+          },
+          "via3": {
+            "node0": [
+              "met3",
+              1616040,
+              3160640
+            ],
+            "node1": [
+              "met4",
+              1616040,
+              3160640
+            ],
+            "current_A": 7.106e-05,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.010151428571428572,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.021148809523809525,
+            "conservative_utilization": 0.021169958333333332
+          },
+          "met4": {
+            "node0": [
+              "met4",
+              122230,
+              2928270
+            ],
+            "node1": [
+              "met4",
+              122230,
+              2971810
+            ],
+            "current_A": 0.005319,
+            "resistance_ohm": 1.17608,
+            "native_effective_width_um": 1.740000680225835,
+            "mA_per_um": 3.0568953566786226,
+            "limit_mA_per_um": 6.8,
+            "utilization": 0.4495434348056798,
+            "conservative_utilization": 0.44999297824048545
+          },
+          "via4": {
+            "node0": [
+              "met4",
+              122230,
+              2971810
+            ],
+            "node1": [
+              "met5",
+              121430,
+              2972600
+            ],
+            "current_A": 0.003479,
+            "resistance_ohm": 0.1266667,
+            "effective_cuts": 3,
+            "mA_per_cut": 1.1596666666666666,
+            "limit_mA_per_cut": 2.49,
+            "utilization": 0.46572958500669337,
+            "conservative_utilization": 0.4661953145917
+          },
+          "met5": {
+            "node0": [
+              "met5",
+              93380,
+              872600
+            ],
+            "node1": [
+              "met5",
+              100040,
+              872600
+            ],
+            "current_A": 0.007616,
+            "resistance_ohm": 0.06327,
+            "native_effective_width_um": 3.0,
+            "mA_per_um": 2.538666666666667,
+            "limit_mA_per_um": 10.17,
+            "utilization": 0.24962307440183548,
+            "conservative_utilization": 0.24987269747623728
+          }
+        },
+        "violations": [],
+        "near_limit_branches_over_90_percent": [],
+        "resistance_map": {
+          "nwell": 0.0,
+          "pwell": 0.0,
+          "licon": 0.0,
+          "li1": 12.8,
+          "mcon": 9.3,
+          "met1": 0.125,
+          "via": 4.5,
+          "met2": 0.125,
+          "via2": 3.41,
+          "met3": 0.047,
+          "via3": 3.41,
+          "met4": 0.047,
+          "via4": 0.38,
+          "met5": 0.0285
+        },
+        "source_SHA256": {
+          "EM": "e614458e4a0048d9e13478de98c1774ac9d0825a2ec4d6b77e5d4b11f9a15e43",
+          "resistor_export": "c16201b736625be7f7644f15d2f575c53c6468230b4296bfb0527d406707aba9",
+          "ODB": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2"
+        },
+        "full_SPICE_load_export_complete": false
+      }
+    },
+    "0p028": {
+      "VPWR": {
+        "all_EM_rows_joined_to_exact_native_resistor": true,
+        "rows": 119039,
+        "total_native_resistors": 335110,
+        "branches_by_layer": {
+          "met1": 99482,
+          "via": 3208,
+          "via2": 3208,
+          "via3": 3208,
+          "met4": 3429,
+          "via4": 485,
+          "met5": 6019
+        },
+        "effective_cut_histograms": {
+          "via": {
+            "9": 3207,
+            "3": 1
+          },
+          "via2": {
+            "7": 3207,
+            "3": 1
+          },
+          "via3": {
+            "7": 3208
+          },
+          "via4": {
+            "9": 4,
+            "3": 125,
+            "1": 216,
+            "8": 35,
+            "2": 102,
+            "4": 3
+          }
+        },
+        "worst_per_layer": {
+          "met1": {
+            "node0": [
+              "met1",
+              1723850,
+              2178720
+            ],
+            "node1": [
+              "met1",
+              1726380,
+              2178720
+            ],
+            "current_A": 9.552e-05,
+            "resistance_ohm": 0.6588542,
+            "native_effective_width_um": 0.47999997571541625,
+            "mA_per_um": 0.19900001006798418,
+            "limit_mA_per_um": 2.8,
+            "utilization": 0.07107143216713721,
+            "conservative_utilization": 0.07114250359930434
+          },
+          "via": {
+            "node0": [
+              "met1",
+              1608620,
+              3157920
+            ],
+            "node1": [
+              "met2",
+              1610040,
+              3157920
+            ],
+            "current_A": 0.000129,
+            "resistance_ohm": 0.5,
+            "effective_cuts": 9,
+            "mA_per_cut": 0.014333333333333333,
+            "limit_mA_per_cut": 0.29,
+            "utilization": 0.049425287356321845,
+            "conservative_utilization": 0.04947471264367816
+          },
+          "via2": {
+            "node0": [
+              "met2",
+              1610040,
+              3157920
+            ],
+            "node1": [
+              "met3",
+              1610040,
+              3157920
+            ],
+            "current_A": 0.000129,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.01842857142857143,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.038392857142857145,
+            "conservative_utilization": 0.03843125
+          },
+          "via3": {
+            "node0": [
+              "met3",
+              1610040,
+              3157920
+            ],
+            "node1": [
+              "met4",
+              1610040,
+              3157920
+            ],
+            "current_A": 0.000129,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.01842857142857143,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.038392857142857145,
+            "conservative_utilization": 0.03843125
+          },
+          "met4": {
+            "node0": [
+              "met4",
+              125630,
+              2368180
+            ],
+            "node1": [
+              "met4",
+              125630,
+              2408270
+            ],
+            "current_A": 0.01037,
+            "resistance_ohm": 1.082891,
+            "native_effective_width_um": 1.739999686025648,
+            "mA_per_um": 5.95977119035362,
+            "limit_mA_per_um": 6.8,
+            "utilization": 0.8764369397578853,
+            "conservative_utilization": 0.8773133766976431
+          },
+          "via4": {
+            "node0": [
+              "met4",
+              1685630,
+              866600
+            ],
+            "node1": [
+              "met5",
+              1685630,
+              866600
+            ],
+            "current_A": 0.001827,
+            "resistance_ohm": 0.38,
+            "effective_cuts": 1,
+            "mA_per_cut": 1.827,
+            "limit_mA_per_cut": 2.49,
+            "utilization": 0.733734939759036,
+            "conservative_utilization": 0.734468674698795
+          },
+          "met5": {
+            "node0": [
+              "met5",
+              86940,
+              866600
+            ],
+            "node1": [
+              "met5",
+              100040,
+              866600
+            ],
+            "current_A": 0.01523,
+            "resistance_ohm": 0.12445,
+            "native_effective_width_um": 3.0,
+            "mA_per_um": 5.076666666666667,
+            "limit_mA_per_um": 10.17,
+            "utilization": 0.4991805965257293,
+            "conservative_utilization": 0.499679777122255
+          }
+        },
+        "violations": [],
+        "near_limit_branches_over_90_percent": [],
+        "resistance_map": {
+          "nwell": 0.0,
+          "pwell": 0.0,
+          "licon": 0.0,
+          "li1": 12.8,
+          "mcon": 9.3,
+          "met1": 0.125,
+          "via": 4.5,
+          "met2": 0.125,
+          "via2": 3.41,
+          "met3": 0.047,
+          "via3": 3.41,
+          "met4": 0.047,
+          "via4": 0.38,
+          "met5": 0.0285
+        },
+        "source_SHA256": {
+          "EM": "bfc279d95fc73fb2634f97514bf1174d50a106cad5012c9933f0cbe052be6a8b",
+          "resistor_export": "1c75dfec11053d4cc954fa0434562760d3c615bd3540ffafcbd3db5fb86d1a0e",
+          "ODB": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2"
+        },
+        "full_SPICE_load_export_complete": false
+      },
+      "VGND": {
+        "all_EM_rows_joined_to_exact_native_resistor": true,
+        "rows": 118356,
+        "total_native_resistors": 334427,
+        "branches_by_layer": {
+          "met1": 98727,
+          "via": 3208,
+          "via2": 3208,
+          "via3": 3208,
+          "met4": 3433,
+          "via4": 524,
+          "met5": 6048
+        },
+        "effective_cut_histograms": {
+          "via": {
+            "9": 3208
+          },
+          "via2": {
+            "7": 3208
+          },
+          "via3": {
+            "7": 3208
+          },
+          "via4": {
+            "9": 4,
+            "3": 136,
+            "1": 230,
+            "2": 124,
+            "8": 28,
+            "4": 2
+          }
+        },
+        "worst_per_layer": {
+          "met1": {
+            "node0": [
+              "met1",
+              1723620,
+              3160640
+            ],
+            "node1": [
+              "met1",
+              1725460,
+              3160640
+            ],
+            "current_A": 9.245e-05,
+            "resistance_ohm": 0.4791667,
+            "native_effective_width_um": 0.479999966608698,
+            "mA_per_um": 0.1926041800652174,
+            "limit_mA_per_um": 2.8,
+            "utilization": 0.06878720716614907,
+            "conservative_utilization": 0.06885599437331522
+          },
+          "via": {
+            "node0": [
+              "met1",
+              1616040,
+              3160640
+            ],
+            "node1": [
+              "met2",
+              1616040,
+              3160640
+            ],
+            "current_A": 0.0001368,
+            "resistance_ohm": 0.5,
+            "effective_cuts": 9,
+            "mA_per_cut": 0.0152,
+            "limit_mA_per_cut": 0.29,
+            "utilization": 0.05241379310344828,
+            "conservative_utilization": 0.05246620689655172
+          },
+          "via2": {
+            "node0": [
+              "met2",
+              1616040,
+              3160640
+            ],
+            "node1": [
+              "met3",
+              1616040,
+              3160640
+            ],
+            "current_A": 0.0001368,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.019542857142857143,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.04071428571428572,
+            "conservative_utilization": 0.040755
+          },
+          "via3": {
+            "node0": [
+              "met3",
+              1616040,
+              3160640
+            ],
+            "node1": [
+              "met4",
+              1616040,
+              3160640
+            ],
+            "current_A": 0.0001368,
+            "resistance_ohm": 0.4871429,
+            "effective_cuts": 7,
+            "mA_per_cut": 0.019542857142857143,
+            "limit_mA_per_cut": 0.48,
+            "utilization": 0.04071428571428572,
+            "conservative_utilization": 0.040755
+          },
+          "met4": {
+            "node0": [
+              "met4",
+              122230,
+              2928270
+            ],
+            "node1": [
+              "met4",
+              122230,
+              2971810
+            ],
+            "current_A": 0.01011,
+            "resistance_ohm": 1.17608,
+            "native_effective_width_um": 1.740000680225835,
+            "mA_per_um": 5.810342556123496,
+            "limit_mA_per_um": 6.8,
+            "utilization": 0.8544621406063965,
+            "conservative_utilization": 0.8553166027470027
+          },
+          "via4": {
+            "node0": [
+              "met4",
+              122230,
+              2971810
+            ],
+            "node1": [
+              "met5",
+              121430,
+              2972600
+            ],
+            "current_A": 0.00661,
+            "resistance_ohm": 0.1266667,
+            "effective_cuts": 3,
+            "mA_per_cut": 2.2033333333333336,
+            "limit_mA_per_cut": 2.49,
+            "utilization": 0.8848728246318608,
+            "conservative_utilization": 0.8857576974564926
+          },
+          "met5": {
+            "node0": [
+              "met5",
+              93380,
+              872600
+            ],
+            "node1": [
+              "met5",
+              100040,
+              872600
+            ],
+            "current_A": 0.01438,
+            "resistance_ohm": 0.06327,
+            "native_effective_width_um": 3.0,
+            "mA_per_um": 4.793333333333334,
+            "limit_mA_per_um": 10.17,
+            "utilization": 0.4713208784005245,
+            "conservative_utilization": 0.47179219927892496
+          }
+        },
+        "violations": [],
+        "near_limit_branches_over_90_percent": [],
+        "resistance_map": {
+          "nwell": 0.0,
+          "pwell": 0.0,
+          "licon": 0.0,
+          "li1": 12.8,
+          "mcon": 9.3,
+          "met1": 0.125,
+          "via": 4.5,
+          "met2": 0.125,
+          "via2": 3.41,
+          "met3": 0.047,
+          "via3": 3.41,
+          "met4": 0.047,
+          "via4": 0.38,
+          "met5": 0.0285
+        },
+        "source_SHA256": {
+          "EM": "addc8270cb9df59da7f81b5e60e077423c67bd878ebc6b77193f8feefd75bfbd",
+          "resistor_export": "c16201b736625be7f7644f15d2f575c53c6468230b4296bfb0527d406707aba9",
+          "ODB": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2"
+        },
+        "full_SPICE_load_export_complete": false
+      }
+    }
+  },
+  "violations": [],
+  "native_average_current_screen_pass": true,
+  "temperature_C": 90,
+  "rounding_margin": 0.001,
+  "native_source_manifest": "controls/pinned_psm_source/manifest.json",
+  "scope": "Final common-candidate load A/B, using fresh final-netlist mixed-workload VCD and fresh nominal RC with 14/28mW per-SRAM assumptions. Native resistor values resolve merged cut counts and effective parallel wire widths; CSV current is never blindly divided by eight. PDK explicit comments supply average mA/cut and mA/um at Tj90C. Uniform native resistor current sharing; local crowding, temperature solution, package and SRAM internal EM are not qualified. Native SPICE exporter fails at sink section; complete resistor sections only are used and every EM row must join exactly. Native runs must log W25_FINAL_IR_INPUT_HASHES_VERIFIED for actual ODB/SPEF/VCD binding. This is a research average-current screen with the listed model and physical coverage limits.",
+  "techLEF_sha256": "5de46c6f7c2cf82599b93d30a6459465f770f63c85b36182c672782219938519"
+}

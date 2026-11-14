@@ -1,0 +1,4 @@
+PASS MAPPED UART rejected bad CRC
+PASS MAPPED UART valid one-word image, tail fill and EBREAK
+ALL MAPPED GATE PROGRAM CHECKS PASSED; REAL UART CRC/BOOT CASES; SRAM-PRELOADED 15-CHECK CPU CASE
+../verify/tb_gate_accept.sv:55: $finish called at 2641341000 (1ps)

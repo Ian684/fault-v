@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "failed_run": "rc_followup_insert",
+  "failure": "Native insert_buffer successfully uses automatic unique suffixes; initial exact-base-name assertion rejected generated nets. Corrected by checking observed unique native branch names and exact count/master.",
+  "failed_script": "reports/rc_followup_insert_failed_names.tcl",
+  "failed_script_sha256": "bfe543e90fc22f99c7a8032d2eef007189d41abeaf97a7b5a81784d86e50f332",
+  "corrected_script_sha256": "ee0c16a16020bac3ad4ee70beceb701ae3e50508a1db483684946f0318f71919"
+}

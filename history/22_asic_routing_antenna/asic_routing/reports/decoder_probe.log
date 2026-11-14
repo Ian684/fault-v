@@ -1,0 +1,5 @@
+extended False patch False centerline 60000 native 60000 expected_native 60000
+extended True patch False centerline 60000 native 60430 expected_native 60430
+extended False patch True centerline 60000 native 60000 expected_native 60000
+extended True patch True centerline 60000 native 60430 expected_native 60430
+BRANCH / VIA / POINT_EXT / PATCH LENGTH SELF-CHECKS PASSED

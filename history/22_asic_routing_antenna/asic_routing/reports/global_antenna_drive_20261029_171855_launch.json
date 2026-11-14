@@ -1,0 +1,21 @@
+{
+  "accepted": false,
+  "run": "global_antenna_drive_20261029_171855",
+  "input": "inputs/antenna_drive_global.odb",
+  "input_sha256": "9ca34b90ecfa7cf88c420fcf5484349393159fa67f04dc2b4828a4fac54ddf5d",
+  "config": "config_antenna_drive_global.json",
+  "state": "antenna_drive_global_state.json",
+  "started_utc": "2026-10-29T09:19:12.116765+00:00",
+  "sha256": {
+    "reports/antenna_model/debug_spacing_20261029/drive_input.json": "293fe9ee606722e61b3a60d0f11a0163a5a12bfa4d06135ddb627277d855e01a",
+    "scripts/prepare_antenna_drive.py": "d4c34b35ae2e0763897a218fd98e2a846834e21e7e6301e7a2511a5632805ccd",
+    "scripts/antenna_corridor_global_cli.py": "9a123be23404747f05d3bb9643bf3fc8e221be81df6a45ef16bc6e27af6105dd",
+    "scripts/grt_antenna_corridor.tcl": "18abf4681c47cee7fd85d1619da480e0a5df03b39678fc59db7a0d425c967b73",
+    "scripts/check_global.py": "f28e89cb4fe4799ec4f7977c75547ec4b477032b136526ad5c4d07f1e5068556",
+    "scripts/run_antenna_drive.sh": "35c098fa7bde731d35e86e4b199b3b31d9217d494c19286ba2cd5821dd0f7f4f",
+    "antenna_drive_global_state.json": "e97e4851d96e33e86cad11fc0f413ba4fc69641129cb0a3f60dcdd1065eae532",
+    "config_antenna_drive_global.json": "2dcb8b80bb873d65d2c8af250e9501560ca36957bef31997fe72ce405a99e188",
+    "inputs/antenna_drive_global.odb": "9ca34b90ecfa7cf88c420fcf5484349393159fa67f04dc2b4828a4fac54ddf5d"
+  },
+  "scope": "Actual global route after exactly one equivalent driver resize; no antenna insertion or other circuit edit."
+}

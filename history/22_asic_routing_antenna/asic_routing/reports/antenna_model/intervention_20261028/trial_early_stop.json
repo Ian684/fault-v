@@ -1,0 +1,10 @@
+{
+  "accepted": false,
+  "intentional_stop": true,
+  "not_OOM_diagnosis": true,
+  "reason": "Three complete iterations at144 DRC; higher than coherent source41/antenna0. Switch conflict-side choice based on dominant newly conflicting nets.",
+  "checkpoint": "reports/antenna_model/intervention_20261028/trial_iter9.odb",
+  "native_DRC": 144,
+  "source_odb_sha256": "f4fb2d96813e72688bee679b135b5860fdbcbf3d3d29339e2175646e830fdc1b",
+  "observed_utc": "2026-10-28T08:06:27.468471+00:00"
+}

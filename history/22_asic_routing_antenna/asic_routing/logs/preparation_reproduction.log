@@ -1,0 +1,44 @@
+ALL FROZEN ROUTING INPUT / TOOL / PDK HASH CHECKS PASSED
+{
+  "clock_network_nets": 444,
+  "cleared_clock_ndrs": 13,
+  "source_sha256": "a005cbdd879bb2e57f9e2f769108f9de95de436434d54f3a87d86ebf2f805ba9",
+  "derived_sha256": "02817336b471d875a05b2bd87028d30fcfceaaecc357e016335e925d084932a9",
+  "scope": "Only net non-default routing-rule assignments removed; no cells, pins, logical connections or SDC changed."
+}
+Prepared global-route electrical/hold repair with unchanged SDC
+{
+  "pass": true,
+  "run": "repro_prepare_repair",
+  "resources": 3257474,
+  "demand": 861039,
+  "usage_pct": 26.43,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "a73f47f9bfb928b53fff0d0365548b1e765f52fa101dfa43bb0dbfb67a031a43"
+}
+Prepared corrected STA: global /mnt/fault-v-d/Codex/WSL/fault-v-asic/routing/runs/repro_prepare_repair/3-openroad-stamidpnr/estimated_global.spef
+{
+  "timing__setup__ws": 15.691228316372271,
+  "timing__hold__ws": 0.2932771886132415,
+  "timing__setup__tns": 0,
+  "timing__hold__tns": 0,
+  "timing__setup_vio__count": 0,
+  "timing__hold_vio__count": 0,
+  "design__max_slew_violation__count": 0,
+  "design__max_cap_violation__count": 0,
+  "clock__skew__worst_setup": 0.6170140129023463,
+  "clock__skew__worst_hold": -0.5672342756055462,
+  "max_macro_input_slew_ns": 0.031089,
+  "max_macro_input_slew_pin": "u_soc.u_imem.banks[0].u_sram/addr0[5]",
+  "engine": "OpenSTA 3.1.0",
+  "clock_period_ns": 40,
+  "corner": "nom_tt_025C_1v80",
+  "parasitics": "global SPEF",
+  "unannotated_unused_output_drivers": 1097,
+  "active_unannotated_output_drivers": 0,
+  "pass": true
+}
+ALL CORRECTED TIMING / SLEW / CAP / ANNOTATION CHECKS PASSED
+ALL global RC / CONNECTIVITY / TIMING CHECKS PASSED: repro_prepare_repair

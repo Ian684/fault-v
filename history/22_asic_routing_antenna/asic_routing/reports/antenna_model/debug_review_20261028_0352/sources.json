@@ -1,0 +1,22 @@
+[
+  {
+    "source": "inputs/antenna_residual_source63.odb",
+    "name": "best_drc7",
+    "native_DRC": 7
+  },
+  {
+    "source": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/antenna_connected.odb",
+    "name": "bounded_connected",
+    "native_DRC": 110
+  },
+  {
+    "source": "runs/routed_antenna_bounded_20261028_110309/1-openroad-detailedrouting/bounded_routed.odb",
+    "name": "bounded_final",
+    "native_DRC": 126
+  },
+  {
+    "source": "reports/antenna_model/runtime_20261028_035111/checkpoint.odb",
+    "name": "current_frozen",
+    "native_DRC": 36
+  }
+]

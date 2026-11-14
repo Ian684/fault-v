@@ -1,0 +1,53 @@
+ALL FROZEN INPUT / RUNTIME / SELECTED PDK HASH CHECKS PASSED
+Prepared post-CTS electrical repair; I/O buffers are retained
+Prepared post-CTS STA with placement-estimated SPEF /mnt/fault-v-d/Codex/WSL/fault-v-asic/placement_cts/runs/placement_release/2-openroad-stamidpnr/estimated.spef
+{
+  "timing__setup__ws": 17.510592582666376,
+  "timing__hold__ws": 0.10516676716035696,
+  "timing__setup__tns": 0,
+  "timing__hold__tns": 0,
+  "timing__setup_vio__count": 0,
+  "timing__hold_vio__count": 0,
+  "design__max_slew_violation__count": 0,
+  "design__max_cap_violation__count": 0,
+  "clock__skew__worst_setup": 0.5328498904043311,
+  "clock__skew__worst_hold": -0.5183459364004281,
+  "max_macro_input_slew_ns": 0.03008,
+  "max_macro_input_slew_pin": "u_soc.u_imem.banks[0].u_sram/addr0[4]",
+  "engine": "OpenSTA 3.1.0",
+  "clock_period_ns": 40,
+  "corner": "nom_tt_025C_1v80",
+  "parasitics": "placement estimated SPEF, not routed extraction",
+  "unannotated_unused_output_drivers": 1097,
+  "active_unannotated_output_drivers": 0,
+  "pass": true
+}
+ALL CORRECTED POST-CTS ESTIMATED TIMING / SLEW / CAP / ANNOTATION CHECKS PASSED
+ACCEPTED PLACEMENT / CTS / CORRECTED ESTIMATED TIMING HANDOFF
+{
+  "accepted": true,
+  "run": "placement_release",
+  "netlist_sha256": "dac50b5e33a72d3d561c81a31eecd99feb5f4910d3af0824d80c28ecc738063f",
+  "clock_period_ns": 40,
+  "corner": "nom_tt_025C_1v80",
+  "macro_count": 18,
+  "flip_flops": 2925,
+  "clock_sink_pins": 2961,
+  "active_clock_buffer_count": 443,
+  "clock_buffer_depth_range": [
+    6,
+    9
+  ],
+  "instances": 59712,
+  "stdcell_area_um2": 388187.30240000016,
+  "macro_area_um2": 5121692.531999999,
+  "setup_ws_ns": 17.510592582666376,
+  "hold_ws_ns": 0.10516676716035696,
+  "max_macro_input_slew_ns": 0.03008,
+  "max_macro_input_slew_pin": "u_soc.u_imem.banks[0].u_sram/addr0[4]",
+  "slew_violations": 0,
+  "cap_violations": 0,
+  "power_grid_violations": 0,
+  "scope": "TT, placement-estimated RC, propagated clocks; no routed extraction or foundry signoff."
+}
+ALL PLACEMENT / CTS RELEASE CHECKS PASSED: placement_release

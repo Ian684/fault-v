@@ -1,0 +1,40 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING ORD-0039] .openroad ignored with -python
+ALL FLOORPLAN GEOMETRY / POWER CONNECTION / FUNCTIONAL CONNECTIVITY CHECKS PASSED
+{
+  "stdcell_area_um2": 356823.472,
+  "functional_placement_status": {
+    "NONE": 29448,
+    "FIRM": 18
+  },
+  "accepted": true,
+  "run": "floorplan_accepted",
+  "die_um": [
+    0.0,
+    0.0,
+    2500.0,
+    3300.0
+  ],
+  "core_um": [
+    80.04,
+    81.6,
+    2419.6,
+    3217.76
+  ],
+  "macro_count": 18,
+  "macro_area_um2": 5121692.531999999,
+  "placement_row_count": 4192,
+  "placeable_row_area_um2": 1357331.788800109,
+  "instance_count": 57359,
+  "connected_pg_iterms": 190382,
+  "macro_pg_iterms": 36,
+  "placed_signal_pins": 108,
+  "functional_cell_count": 29466,
+  "functional_iterm_count": 109529,
+  "functional_port_count": 108,
+  "power_grid_violations": 0,
+  "pdn_missing_via_warnings": 0
+}

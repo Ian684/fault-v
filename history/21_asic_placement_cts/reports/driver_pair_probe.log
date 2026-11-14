@@ -1,0 +1,255 @@
+OpenSTA 3.1.0 0f2529d182 Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_pair_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 503: driver_pair_probe.tcl line 1, report_checks -group_count is deprecated. Use -group_path_count instead.
+Startpoint: a (input port clocked by clk)
+Endpoint: s3 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.200503811    0.200503811 v f3/X (sky130_fd_sc_hd__clkbuf_8)
+   0.135210603    0.335714400 v l3/X (sky130_fd_sc_hd__clkbuf_16)
+   0.000000000    0.335714400 v s3/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.335714400   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s3/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.335714400   data arrival time
+-----------------------------------------------------------------------
+                 39.561286926   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s0 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.212541774    0.212541774 v f0/X (sky130_fd_sc_hd__buf_4)
+   0.121122979    0.333664745 v l0/X (sky130_fd_sc_hd__buf_16)
+   0.000000000    0.333664745 v s0/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.333664745   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s0/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.333664745   data arrival time
+-----------------------------------------------------------------------
+                 39.563335419   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s2 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.195001110    0.195001110 v f2/X (sky130_fd_sc_hd__buf_16)
+   0.117225036    0.312226146 v l2/X (sky130_fd_sc_hd__buf_16)
+   0.000000000    0.312226146 v s2/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.312226146   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s2/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.312226146   data arrival time
+-----------------------------------------------------------------------
+                 39.584774017   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s1 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.189414024    0.189414024 v f1/X (sky130_fd_sc_hd__buf_8)
+   0.116778396    0.306192428 v l1/X (sky130_fd_sc_hd__buf_16)
+   0.000000000    0.306192428 v s1/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.306192428   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s1/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.306192428   data arrival time
+-----------------------------------------------------------------------
+                 39.590808868   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s4 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.165886715    0.165886715 ^ f4/Y (sky130_fd_sc_hd__inv_4)
+   0.036179602    0.202066317 v l4/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.202066317 v s4/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.202066317   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s4/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.202066317   data arrival time
+-----------------------------------------------------------------------
+                 39.694931030   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s7 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.149803042    0.149803042 ^ f7/Y (sky130_fd_sc_hd__inv_4)
+   0.034419123    0.184222177 v l7/Y (sky130_fd_sc_hd__inv_12)
+   0.000000000    0.184222177 v s7/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.184222177   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s7/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.184222177   data arrival time
+-----------------------------------------------------------------------
+                 39.712779999   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s5 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.134763613    0.134763613 ^ f5/Y (sky130_fd_sc_hd__inv_8)
+   0.033017352    0.167780966 v l5/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.167780966 v s5/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.167780966   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s5/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.167780966   data arrival time
+-----------------------------------------------------------------------
+                 39.729221344   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s6 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.119751655    0.119751655 ^ f6/Y (sky130_fd_sc_hd__inv_16)
+   0.031652544    0.151404202 v l6/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.151404202 v s6/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.151404202   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s6/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.151404202   data arrival time
+-----------------------------------------------------------------------
+                 39.745597839   slack (MET)
+
+
+PAIR first=buf_4 last=buf_16 rise=0.048400 fall=0.038584
+PAIR first=buf_8 last=buf_16 rise=0.048355 fall=0.038566
+PAIR first=buf_16 last=buf_16 rise=0.048351 fall=0.038568
+PAIR first=clkbuf_8 last=clkbuf_16 rise=0.049930 fall=0.043195
+PAIR first=inv_4 last=inv_16 rise=0.041896 fall=0.036527
+PAIR first=inv_8 last=inv_16 rise=0.037558 fall=0.029585
+PAIR first=inv_16 last=inv_16 rise=0.036540 fall=0.026588
+PAIR first=inv_4 last=inv_12 rise=0.041564 fall=0.034134

@@ -1,0 +1,8 @@
+ARM loaded Fault-V overlay; FCLK0=50.0 MHz
+PASS NETWORK UART run=1 bytes=12 text='Fault-V OK\r\n' status=1 halt_cause=9
+PASS NETWORK UART run=2 bytes=12 text='Fault-V OK\r\n' status=1 halt_cause=9
+PASS NETWORK UART run=3 bytes=12 text='Fault-V OK\r\n' status=1 halt_cause=9
+ALL 3 NETWORK UART RUNS PASSED; 36 RECEIVED BYTES
+
+[sudo] password for xilinx: 
+exit_code=0

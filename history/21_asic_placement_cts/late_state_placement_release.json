@@ -1,0 +1,10 @@
+{
+  "metrics": {},
+  "odb": "/work/placement_cts/runs/placement_release_build/final/odb/fault_v_asic_top.odb",
+  "def": "/work/placement_cts/runs/placement_release_build/final/def/fault_v_asic_top.def",
+  "nl": "/work/placement_cts/runs/placement_release_build/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/placement_cts/runs/placement_release_build/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/placement_cts/runs/placement_release_build/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/placement_cts/runs/placement_release_build/final/json_h/top.h.json",
+  "vh": "/work/placement_cts/runs/placement_release_build/final/vh/fault_v_asic_top.vh"
+}

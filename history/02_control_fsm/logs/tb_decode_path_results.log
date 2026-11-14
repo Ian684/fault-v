@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Oct  5 19:14:18 2026
+# Process ID: 23540
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim
+# Command line: xsim.exe -log tb_decode_path_results.log -mode tcl -source {xsim.dir/tb_decode_path_checked/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim/tb_decode_path_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_decode_path_checked/xsim_script.tcl
+# xsim {tb_decode_path_checked} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS 1: ADD imm=00000000 result=00000008 target=00000008 wb=00000008
+PASS 2: SUB negative imm=00000000 result=fffffffe target=fffffffe wb=fffffffe
+PASS 3: SLL mask imm=00000000 result=00000001 target=00000001 wb=00000001
+PASS 4: SLT signed imm=00000000 result=00000001 target=00000001 wb=00000001
+PASS 5: SLTU unsigned imm=00000000 result=00000000 target=00000000 wb=00000000
+PASS 6: XOR imm=00000000 result=00000006 target=00000006 wb=00000006
+PASS 7: SRL imm=00000000 result=40000000 target=40000000 wb=40000000
+PASS 8: SRA imm=00000000 result=c0000000 target=c0000000 wb=c0000000
+PASS 9: OR imm=00000000 result=0000000e target=0000000e wb=0000000e
+PASS 10: AND imm=00000000 result=00000008 target=00000008 wb=00000008
+PASS 11: ADDI negative imm=fffffffc result=00000006 target=00000006 wb=00000006
+PASS 12: SLTI signed imm=fffffffc result=00000001 target=00000001 wb=00000001
+PASS 13: SLTIU sign-extended immediate imm=fffffffc result=00000001 target=00000001 wb=00000001
+PASS 14: XORI negative imm=fffffffc result=edcba984 target=edcba984 wb=edcba984
+PASS 15: ORI negative imm=fffffffc result=fffffffc target=fffffffc wb=fffffffc
+PASS 16: ANDI negative imm=fffffffc result=12345678 target=12345678 wb=12345678
+PASS 17: SLLI 31 imm=0000001f result=80000000 target=80000000 wb=80000000
+PASS 18: SRLI 31 imm=0000001f result=00000001 target=00000001 wb=00000001
+PASS 19: SRAI 31 imm=0000041f result=ffffffff target=ffffffff wb=ffffffff
+PASS 20: LUI imm=12345000 result=12345000 target=12345000 wb=12345000
+PASS 21: AUIPC imm=12345000 result=12345100 target=12345100 wb=12345100
+PASS 22: Branch backward target imm=fffffffc result=000000fc target=000000fc wb=00000000
+PASS 23: JAL target and link imm=fffffffc result=000000fc target=000000fc wb=00000104
+PASS 24: JALR clear bit zero imm=00000000 result=00000101 target=00000100 wb=00000104
+PASS 25: JALR negative offset imm=fffffffc result=000001fc target=000001fc wb=00000104
+PASS 26: LW effective address imm=fffffffc result=10000004 target=10000004 wb=00000000
+PASS 27: SW effective address imm=fffffffc result=10000004 target=10000004 wb=00000000
+PASS 28: FENCE safe controls imm=00000000 result=00000000 target=00000000 wb=00000000
+PASS 29: ECALL safe controls imm=00000000 result=00000000 target=00000000 wb=00000000
+PASS 30: EBREAK safe controls imm=00000000 result=00000000 target=00000000 wb=00000000
+PASS 31: Illegal safe controls imm=00000000 result=00000000 target=00000000 wb=00000000
+PASS 32: ADDI after illegal imm=fffffffc result=00000006 target=00000006 wb=00000006
+PASS 33: ADDI overflow wraps imm=00000001 result=00000000 target=00000000 wb=00000000
+ALL 33 DECODE PATH CASES PASSED
+$finish called at time : 330 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/control_fsm/verify/tb_decode_path.sv" Line 94
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Oct  5 19:14:20 2026...

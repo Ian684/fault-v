@@ -1,0 +1,10 @@
+{
+  "accepted": false,
+  "source": "runs/routed_pin_spread_reguide/1-openroad-detailedrouting/drt_iter3.odb",
+  "source_sha256": "9efbe584ca4c24b00e9f6f29e7dedd2c89720864d0ea8789a1618fac6a5dea27",
+  "source_native_drc": 707,
+  "source_report": "runs/routed_pin_spread_reguide/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-3.rpt",
+  "source_report_sha256": "3fc10eb05bb3c22fb68f05c768e26d016c044f54193e69cdf6a43a4c09eaae43",
+  "parent_input_audit": "reports/pin_spread_reguide_input.json",
+  "scope": "Actual saved native iteration3 from verified three-cell ECO partial reroute. Resume intact checkpoint with fresh PA/normal64-iteration main, no per-net wire transplant, no physical/rule/acceptance changes. Full existing extracted and independent gates still required."
+}

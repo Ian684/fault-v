@@ -1,0 +1,61 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/a_stream_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/alu.sv" into library work
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/branch_compare.sv" into library work
+INFO: [VRFC 10-311] analyzing module branch_compare
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/control_fsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/custom_exec.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec
+INFO: [VRFC 10-311] analyzing module fault_v_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_accelerator.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_accelerator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_asic_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_asic_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_dma.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dma
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_dot_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dot_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_io.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_io
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_job_regs.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_job_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_loader.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_loader
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_memory.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_mem_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_mem_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_soc.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/fault_v_uart_rx.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_uart_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/imm_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/load_extract.sv" into library work
+INFO: [VRFC 10-311] analyzing module load_extract
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/pc_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/regfile.sv" into library work
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/store_align.sv" into library work
+INFO: [VRFC 10-311] analyzing module store_align
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/rtl/uart_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/model.v" into library work
+INFO: [VRFC 10-311] analyzing module sky130_sram_2kbyte_1rw1r_32x512_8
+ERROR: [VRFC 10-3380] identifier 'mem' is used before its declaration [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/model.v:60]
+ERROR: [VRFC 10-8530] module 'sky130_sram_2kbyte_1rw1r_32x512_8' is ignored due to previous errors [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/model.v:7]
+Compile failed
+At <HOME>\Documents\Codex\2026-09-28\https-chatgpt-com-share-6aba66e3-8910\outputs\asic_synthesis\run_xsim.ps1:11 
+char:27
++   if($LASTEXITCODE -ne 0){throw 'Compile failed'}
++                           ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Compile failed:String) [], RuntimeException
+    + FullyQualifiedErrorId : Compile failed
+ 

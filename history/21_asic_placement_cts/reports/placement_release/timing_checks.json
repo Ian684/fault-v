@@ -1,0 +1,21 @@
+{
+  "timing__setup__ws": 17.510592582666376,
+  "timing__hold__ws": 0.10516676716035696,
+  "timing__setup__tns": 0,
+  "timing__hold__tns": 0,
+  "timing__setup_vio__count": 0,
+  "timing__hold_vio__count": 0,
+  "design__max_slew_violation__count": 0,
+  "design__max_cap_violation__count": 0,
+  "clock__skew__worst_setup": 0.5328498904043311,
+  "clock__skew__worst_hold": -0.5183459364004281,
+  "max_macro_input_slew_ns": 0.03008,
+  "max_macro_input_slew_pin": "u_soc.u_imem.banks[0].u_sram/addr0[4]",
+  "engine": "OpenSTA 3.1.0",
+  "clock_period_ns": 40,
+  "corner": "nom_tt_025C_1v80",
+  "parasitics": "placement estimated SPEF, not routed extraction",
+  "unannotated_unused_output_drivers": 1097,
+  "active_unannotated_output_drivers": 0,
+  "pass": true
+}

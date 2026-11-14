@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_4319_partial.odb",
+  "source_sha256": "963ad4c07b296ab4090c17b7aca20f5570c483a84bfe765c34e453bb54fc9b53",
+  "source_receipt": "reports/antenna_model/intervention_20261028/4319_input.json",
+  "global_run": "global_antenna_4319_control_20261028_184048",
+  "global_macro_extension_gcells": 0,
+  "global_source": "runs/global_antenna_4319_control_20261028_184048/final/odb/fault_v_asic_top.odb",
+  "global_source_sha256": "6c08c0e7482e04597a9f7a1c60ee3f1faa338a2325c02d2d356e2e119a30bba6",
+  "derived": "inputs/antenna_4319_guided.odb",
+  "derived_sha256": "963ad4c07b296ab4090c17b7aca20f5570c483a84bfe765c34e453bb54fc9b53",
+  "retained_exact_wires": 41336,
+  "guides_copied": 384056,
+  "cells_graph_PG_obstructions_unchanged": true,
+  "missing_nets": [
+    "net4319"
+  ],
+  "scope": "Only actual native zero-overflow guides copied; no coarse route wires imported. Final detailed-route, antenna and physical/TT/electrical gates remain mandatory."
+}

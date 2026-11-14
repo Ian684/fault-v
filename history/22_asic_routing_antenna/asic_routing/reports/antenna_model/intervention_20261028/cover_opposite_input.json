@@ -1,0 +1,324 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_intervention_parent42_20261028.odb",
+  "source_sha256": "1f3f1b127c5e725852f60983180b9a96821ad55dd8513760d3af062aef2f1cf9",
+  "source_native_DRC": 41,
+  "source_antenna_nets": 0,
+  "derived": "inputs/antenna_intervention_opposite.odb",
+  "derived_sha256": "221f4caf345fd67ce5060f99942ef1cd6d5a95bbf67176ae2a9bf606b0c34490",
+  "cleared_whole_nets": [
+    "_09252_",
+    "net3116",
+    "net3185",
+    "net3317",
+    "net4319",
+    "net4749",
+    "net4818",
+    "net4932",
+    "net4959",
+    "net6038",
+    "net6173",
+    "net6881",
+    "net8680"
+  ],
+  "preserved_problem_routes": [
+    "net6503",
+    "net6898"
+  ],
+  "minimum_cover_objective": [
+    13,
+    0,
+    6026.54,
+    [
+      "_09252_",
+      "net3116",
+      "net3185",
+      "net3317",
+      "net4319",
+      "net4749",
+      "net4818",
+      "net4932",
+      "net4959",
+      "net6038",
+      "net6173",
+      "net6881",
+      "net8680"
+    ]
+  ],
+  "conflict_edges": [
+    [
+      "_09252_",
+      "net6503"
+    ],
+    [
+      "_09267_",
+      "net4932"
+    ],
+    [
+      "net3116",
+      "net3653"
+    ],
+    [
+      "net3116",
+      "net4818"
+    ],
+    [
+      "net3116",
+      "net5465"
+    ],
+    [
+      "net3179",
+      "net4959"
+    ],
+    [
+      "net3185",
+      "net3653"
+    ],
+    [
+      "net3185",
+      "net5465"
+    ],
+    [
+      "net3311",
+      "net6881"
+    ],
+    [
+      "net3317",
+      "net5732"
+    ],
+    [
+      "net3470",
+      "net6173"
+    ],
+    [
+      "net4319",
+      "net4959"
+    ],
+    [
+      "net4749",
+      "net6166"
+    ],
+    [
+      "net4818",
+      "net6881"
+    ],
+    [
+      "net4818",
+      "net6898"
+    ],
+    [
+      "net4932",
+      "net4985"
+    ],
+    [
+      "net4959",
+      "net6342"
+    ],
+    [
+      "net4977",
+      "net6173"
+    ],
+    [
+      "net6038",
+      "net662"
+    ],
+    [
+      "net6038",
+      "net6634"
+    ],
+    [
+      "net6503",
+      "net8680"
+    ],
+    [
+      "net6881",
+      "net8601"
+    ]
+  ],
+  "mandatory_nets": [
+    "net3116",
+    "net4319"
+  ],
+  "net_statistics": {
+    "net4985": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 538.0799999999999
+    },
+    "net4932": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 500.68
+    },
+    "net4977": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 545.58
+    },
+    "net6173": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 506.2
+    },
+    "net3470": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 497.54
+    },
+    "net4319": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 481.46999999999997
+    },
+    "net4959": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 536.4200000000001
+    },
+    "net6342": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 481.34
+    },
+    "net662": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 109.52
+    },
+    "net6038": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 413.47
+    },
+    "net5465": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 519.88
+    },
+    "net3116": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 438.84
+    },
+    "net3653": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 400.24
+    },
+    "net3185": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 267.8
+    },
+    "net4749": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 524.26
+    },
+    "net6166": {
+      "type": "SIGNAL",
+      "iterms": 5,
+      "missing_AP": [],
+      "length_um": 541.96
+    },
+    "net6634": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 351.68
+    },
+    "net8680": {
+      "type": "SIGNAL",
+      "iterms": 9,
+      "missing_AP": [],
+      "length_um": 550.12
+    },
+    "net6503": {
+      "type": "SIGNAL",
+      "iterms": 5,
+      "missing_AP": [],
+      "length_um": 485.09999999999997
+    },
+    "_09252_": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 23.48
+    },
+    "_09267_": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 137.34
+    },
+    "net3179": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 505.45
+    },
+    "net8601": {
+      "type": "SIGNAL",
+      "iterms": 9,
+      "missing_AP": [],
+      "length_um": 514.68
+    },
+    "net6881": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 362.26
+    },
+    "net6898": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 403.36
+    },
+    "net4818": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 508.72
+    },
+    "net3317": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 472.82
+    },
+    "net5732": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 617.1800000000001
+    },
+    "net3311": {
+      "type": "SIGNAL",
+      "iterms": 6,
+      "missing_AP": [],
+      "length_um": 527.84
+    }
+  },
+  "retained_wire_count": 41324,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_graph_PG_guides_obstructions_unchanged": true,
+  "cleared_signal_iterms_with_verified_AP": 44,
+  "scope": "Minimum whole-net conflict cover; ordinary ROUTED geometry. All 41 source markers involve a cleared net; all other wire bytes, guides, cells, PG and models preserved. No acceptance until fresh final gates pass."
+}

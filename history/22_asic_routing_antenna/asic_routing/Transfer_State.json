@@ -1,0 +1,22 @@
+{
+  "accepted": false,
+  "purpose": "Move the existing W24 work to a faster Windows/WSL/Docker computer. Not W24 acceptance.",
+  "global_run": "global_cold_corner_keepout",
+  "cli": "scripts/cold_corner_keepout_cli.py",
+  "config": "config_corner_reguide.json",
+  "state": "cold_corner_keepout_state.json",
+  "candidate_odb": "inputs/cold_corner_keepout_reguide.odb",
+  "candidate_sha256": "93ffbc6a8844dfa6a5e301dd0ca834dc9b43c8f71814e784badaf92b4bbac928",
+  "last_complete_checkpoint": "inputs/transfer_cold_checkpoint45.odb",
+  "last_complete_checkpoint_sha256": "cb92070079283ec40585d11d334e3914b6840325fe33936da825eb2a95520048",
+  "last_complete_native_drc": 15,
+  "candidate_native_drc": null,
+  "candidate_global_overflow": 0,
+  "candidate_cleared_whole_nets": 35,
+  "candidate_retained_wires": 41298,
+  "candidate_verified_cached_access_points": 118,
+  "image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302",
+  "next_action": "python3 scripts/run_desktop.py --check-only, then python3 scripts/run_desktop.py. Do not restart old cold full routing or obsolete finalizer.",
+  "gates": "40ns, SRAM input slew40ps, zero setup/hold/slew/cap violations, native DRC0, calibrated independent DRC0, unchanged connectivity/clock phase/PG. Existing immutable native_route_drc.py and known-bad fixture remain mandatory.",
+  "limitations": "New candidate has not run DetailedRouting/RCX/STA/independent DRC. Full foundry signoff is outside the completed work. Actual transfer to the other computer still requires user action."
+}

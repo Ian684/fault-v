@@ -1,0 +1,10 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_corridor2_20261028_174417",
+  "intentional_stop": true,
+  "reason": "Wide corner constraint cleared28 nets; complete counters859 to856 did not justify continuing versus preserved10/1 and41/0 references. Narrower constraint next.",
+  "source": "reports/antenna_model/intervention_20261028/corridor2_iter4.odb",
+  "source_sha256": "44fda023932c2ab755dfbbab584242503fe14924d3cdad34404102cde1c0dbd4",
+  "native_DRC": 856,
+  "antenna_not_yet_measured": true
+}

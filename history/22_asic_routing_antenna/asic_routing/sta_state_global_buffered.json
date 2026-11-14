@@ -1,0 +1,7 @@
+{
+  "nl": "/work/routing/runs/global_buffered/final/nl/fault_v_asic_top.nl.v",
+  "spef": {
+    "nom_tt_025C_1v80": "/work/routing/runs/global_buffered/3-openroad-stamidpnr/estimated_global.spef"
+  },
+  "metrics": {}
+}

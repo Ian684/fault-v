@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Oct  2 19:29:00 2026
+# Process ID: 28116
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/sim
+# Command line: xsim.exe -log tb_pc_reg_results.log -mode tcl -source {xsim.dir/tb_pc_reg_verified/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/sim/tb_pc_reg_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_pc_reg_verified/xsim_script.tcl
+# xsim {tb_pc_reg_verified} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS 1: initial reset pc=00000000
+PASS 2: hold with write disabled pc=00000000
+PASS 3: before update edge pc=00000000
+PASS 4: sequential address 4 pc=00000004
+PASS 5: sequential address 8 pc=00000008
+PASS 6: forward target pc=00000100
+PASS 7: hold while next changes pc=00000100
+PASS 8: wait cycle 1 pc=00000100
+PASS 9: wait cycle 2 pc=00000100
+PASS 10: wait cycle 3 pc=00000100
+PASS 11: backward target pc=00000020
+PASS 12: synchronous reset before edge pc=00000020
+PASS 13: reset overrides update pc=00000000
+PASS 14: reset remains active pc=00000000
+PASS 15: hold after reset pc=00000000
+PASS 16: full-width address pc=fffffffc
+PASS 17: load zero address pc=00000000
+ALL 17 PC CHECKS PASSED
+$finish called at time : 146 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/verify/tb_pc_reg.sv" Line 173
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct  2 19:29:02 2026...

@@ -1,0 +1,8 @@
+ARM loaded Fault-V overlay; FCLK0=50.0 MHz
+PASS CUSTOM FPGA UART run=1 bytes=8 text='DSP OK\r\n' status=1 halt_cause=9
+PASS CUSTOM FPGA UART run=2 bytes=8 text='DSP OK\r\n' status=1 halt_cause=9
+PASS CUSTOM FPGA UART run=3 bytes=8 text='DSP OK\r\n' status=1 halt_cause=9
+ALL 3 CUSTOM FPGA UART RUNS PASSED; 24 RECEIVED BYTES
+
+[sudo] password for xilinx: 
+exit_code=0

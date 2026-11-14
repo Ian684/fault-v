@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 14 22:33:13 2026
+# Process ID: 23996
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/sim
+# Command line: xsim.exe -log tb_stream_demo.log -mode tcl -source {xsim.dir/tb_stream_demo/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/sim/tb_stream_demo.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_stream_demo/xsim_script.tcl
+# xsim {tb_stream_demo} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS STREAM DEMO mode=0 run=0 checks=137 UART=6
+PASS STREAM DEMO mode=1 run=0 checks=137 UART=6
+PASS STREAM DEMO mode=0 run=1 checks=137 UART=6
+DEMO FAILURE DEBUG mode=0 late=0 cause=9 status=2 gpio=f bytes=0 check=65 result=deadbeef
+PASS STREAM DEMO injected failure mode=0 check=65
+PASS STREAM DEMO mode=1 run=1 checks=137 UART=6
+DEMO FAILURE DEBUG mode=0 late=1 cause=9 status=2 gpio=f bytes=0 check=134 result=fffef598
+PASS STREAM DEMO injected failure mode=0 check=134
+DEMO FAILURE DEBUG mode=1 late=0 cause=9 status=2 gpio=f bytes=0 check=65 result=deadbeef
+PASS STREAM DEMO injected failure mode=1 check=65
+DEMO FAILURE DEBUG mode=1 late=1 cause=9 status=2 gpio=f bytes=0 check=134 result=fffef598
+PASS STREAM DEMO injected failure mode=1 check=134
+ALL 4 STREAM DEMO RUNS AND 4 INJECTED SELF-CHECK FAILURES PASSED
+$finish called at time : 978046 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/verify/tb_stream_demo.sv" Line 44
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 22:33:16 2026...

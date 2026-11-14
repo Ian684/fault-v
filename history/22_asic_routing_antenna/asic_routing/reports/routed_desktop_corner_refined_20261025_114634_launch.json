@@ -1,0 +1,19 @@
+{
+  "accepted": false,
+  "run": "routed_desktop_corner_refined_20261025_114634",
+  "global_run": "global_desktop_corner_refined",
+  "cli": "scripts/desktop_fresh_cli.py",
+  "config": "config_routed_desktop_corner_refined_20261025_114634.json",
+  "state": "desktop_corner_refined_native_state.json",
+  "threads": 16,
+  "memory_mb": 12000,
+  "started_utc": "2026-10-25T03:48:42.182382+00:00",
+  "sha256": {
+    "scripts/desktop_fresh_cli.py": "2b3f6515dc52a4fb839983b10b1fe5d8b9eea14a87e5e34570bc70c63aa30cba",
+    "scripts/drt_desktop_fresh.tcl": "4f390b280c0a08f10f0d299069aac2642b707a14afd8fafc96a540dff7ca925a",
+    "config_routed_desktop_corner_refined_20261025_114634.json": "da19af0d3ea206b99e541e644fc29b75705df2d870568d1fd51674d183a46478",
+    "desktop_corner_refined_native_state.json": "5dee4780ee78aed1035f323bb4d45b4c2ab7206abd8726b04fd68df791a22be8"
+  },
+  "pipeline_exit": 2,
+  "finished_utc": "2026-10-25T06:34:44.608388+00:00"
+}

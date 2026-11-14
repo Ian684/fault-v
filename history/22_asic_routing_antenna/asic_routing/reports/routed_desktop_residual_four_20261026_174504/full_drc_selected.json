@@ -1,0 +1,827 @@
+{
+  "raw_marker_count": 34,
+  "confirmed_partition_artifacts": 34,
+  "unresolved_count": 0,
+  "unresolved": [],
+  "markers": [
+    {
+      "type": "NS Metal",
+      "srcs": "net:_04091_",
+      "bbox_dbu": [
+        211760,
+        2653225,
+        211915,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -29663,
+        -3250,
+        13800
+      ],
+      "context_box_dbu": [
+        211260,
+        2652725,
+        212415,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_03902_",
+      "bbox_dbu": [
+        332285,
+        2653225,
+        332435,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -5740,
+        -3250,
+        13800
+      ],
+      "context_box_dbu": [
+        331785,
+        2652725,
+        332935,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_08199_",
+      "bbox_dbu": [
+        417365,
+        2653274,
+        417475,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -17280,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        416865,
+        2652774,
+        417975,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_24753_",
+      "bbox_dbu": [
+        663465,
+        2653274,
+        663615,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -60960,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        662965,
+        2652774,
+        664115,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_20968_",
+      "bbox_dbu": [
+        836510,
+        2273325,
+        836635,
+        2273335
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -81128,
+        -93370,
+        13800
+      ],
+      "context_box_dbu": [
+        836010,
+        2272825,
+        837135,
+        2273835
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_25153_",
+      "bbox_dbu": [
+        948205,
+        2653274,
+        948315,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -66040,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        947705,
+        2652774,
+        948815,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net5628",
+      "bbox_dbu": [
+        990530,
+        93385,
+        990695,
+        93415
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -23688,
+        -51500,
+        13800
+      ],
+      "context_box_dbu": [
+        990030,
+        92885,
+        991195,
+        93915
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_25101_",
+      "bbox_dbu": [
+        1170405,
+        2653225,
+        1170555,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -37020,
+        -3250,
+        13800
+      ],
+      "context_box_dbu": [
+        1169905,
+        2652725,
+        1171055,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_25171_",
+      "bbox_dbu": [
+        1223305,
+        2653225,
+        1223455,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -80720,
+        -3250,
+        13800
+      ],
+      "context_box_dbu": [
+        1222805,
+        2652725,
+        1223955,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_20845_",
+      "bbox_dbu": [
+        1647905,
+        2273325,
+        1648035,
+        2273335
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -42530,
+        -93370,
+        13800
+      ],
+      "context_box_dbu": [
+        1647405,
+        2272825,
+        1648535,
+        2273835
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net8826",
+      "bbox_dbu": [
+        1746310,
+        93385,
+        1746475,
+        93415
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -40708,
+        -51500,
+        13800
+      ],
+      "context_box_dbu": [
+        1745810,
+        92885,
+        1746975,
+        93915
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6189",
+      "bbox_dbu": [
+        1776210,
+        2653274,
+        1776375,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -10808,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1775710,
+        2652774,
+        1776875,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6853",
+      "bbox_dbu": [
+        1801045,
+        2653274,
+        1801155,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -82600,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1800545,
+        2652774,
+        1801655,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net7676",
+      "bbox_dbu": [
+        1808405,
+        2653274,
+        1808515,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -75240,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1807905,
+        2652774,
+        1809015,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net7655",
+      "bbox_dbu": [
+        1821745,
+        2653274,
+        1821855,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -61900,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1821245,
+        2652774,
+        1822355,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net8825",
+      "bbox_dbu": [
+        1942270,
+        93385,
+        1942435,
+        93415
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -37948,
+        -51500,
+        13800
+      ],
+      "context_box_dbu": [
+        1941770,
+        92885,
+        1942935,
+        93915
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6966",
+      "bbox_dbu": [
+        2082105,
+        2653274,
+        2082215,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -91340,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        2081605,
+        2652774,
+        2082715,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net6807",
+      "bbox_dbu": [
+        2088085,
+        2653274,
+        2088195,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -85360,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        2087585,
+        2652774,
+        2088695,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_16745_",
+      "bbox_dbu": [
+        2221510,
+        2653274,
+        2221655,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -48518,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        2221010,
+        2652774,
+        2222155,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:_16509_",
+      "bbox_dbu": [
+        2305205,
+        2653274,
+        2305230,
+        2653276
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -61483,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        2304705,
+        2652774,
+        2305730,
+        2653776
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net7702",
+      "bbox_dbu": [
+        2386170,
+        1500505,
+        2386335,
+        1500535
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -77048,
+        -93380,
+        13800
+      ],
+      "context_box_dbu": [
+        2385670,
+        1500005,
+        2386835,
+        1501035
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "NS Metal",
+      "srcs": "net:net4808",
+      "bbox_dbu": [
+        2385705,
+        3142704,
+        2385825,
+        3142706
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -77535,
+        -93395,
+        13800
+      ],
+      "context_box_dbu": [
+        2385205,
+        3142204,
+        2386325,
+        3143206
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_04046_",
+      "bbox_dbu": [
+        219460,
+        2653275,
+        219565,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -21988,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        218960,
+        2652775,
+        220065,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_08235_",
+      "bbox_dbu": [
+        384140,
+        2653275,
+        384245,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -50508,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        383640,
+        2652775,
+        384745,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_22933_",
+      "bbox_dbu": [
+        818195,
+        2653275,
+        818210,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -2898,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        817695,
+        2652775,
+        818710,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_20719_",
+      "bbox_dbu": [
+        864025,
+        2273305,
+        864195,
+        2273325
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -53590,
+        -93385,
+        13800
+      ],
+      "context_box_dbu": [
+        863525,
+        2272805,
+        864695,
+        2273825
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_25103_",
+      "bbox_dbu": [
+        1209195,
+        2653275,
+        1209210,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -94898,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1208695,
+        2652775,
+        1209710,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_25169_",
+      "bbox_dbu": [
+        1203215,
+        2653275,
+        1203230,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -4278,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1202715,
+        2652775,
+        1203730,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_25436_",
+      "bbox_dbu": [
+        1215635,
+        2653275,
+        1215650,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -88458,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1215135,
+        2652775,
+        1216150,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_22828_",
+      "bbox_dbu": [
+        1588880,
+        2653275,
+        1588985,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -4968,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1588380,
+        2652775,
+        1589485,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_13332_",
+      "bbox_dbu": [
+        1842340,
+        2653275,
+        1842445,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -41308,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1841840,
+        2652775,
+        1842945,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:net4013",
+      "bbox_dbu": [
+        1900115,
+        2653275,
+        1900170,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -80158,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1899615,
+        2652775,
+        1900670,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_12778_",
+      "bbox_dbu": [
+        1930475,
+        2653275,
+        1930490,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -49818,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        1929975,
+        2652775,
+        1930990,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    },
+    {
+      "type": "Metal Spacing",
+      "srcs": "net:_16527_",
+      "bbox_dbu": [
+        2282835,
+        2653275,
+        2282850,
+        2653275
+      ],
+      "layer": "li1",
+      "centered_grid_dbu": [
+        -83858,
+        -3225,
+        13800
+      ],
+      "context_box_dbu": [
+        2282335,
+        2652775,
+        2283350,
+        2653775
+      ],
+      "context_markers": [],
+      "confirmed_partition_artifact": true
+    }
+  ],
+  "odb_sha256": "196e8c9b7d74a0000d8b0869b9b6d2cc9ad7a73b7b44b6a3f389ce25d758cc16",
+  "physical_geometry_unchanged": true,
+  "scope": "Full-chip native report followed by centered native recheck of every marker. Only same-net li1 NS/spacing markers that disappear with complete context are classified as partition artifacts. All other markers remain unresolved. No technology rule, design geometry or input file changed."
+}

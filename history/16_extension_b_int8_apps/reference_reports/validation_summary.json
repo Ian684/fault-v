@@ -1,0 +1,69 @@
+{
+  "test_markers": {
+    "tb_custom_exec": "ALL 201576 CUSTOM UNIT RESULTS PASSED; 26 RESET CANCELLATIONS; requests=201602 responses=201576",
+    "tb_custom_cpu": "ALL 3822 CUSTOM CPU CASE RUNS PASSED",
+    "tb_custom_reset": "ALL 52 CUSTOM CPU RESET STAGES PASSED",
+    "tb_custom_program": "ALL 4 CUSTOM PROGRAM RUNS AND 4 FAULT INJECTIONS PASSED",
+    "tb_verification_suite": "ALL 1372 ISA AND PROGRAM RUNS PASSED",
+    "tb_fault_v_io": "ALL 16 IO TRANSACTIONS PASSED",
+    "tb_io_faults": "ALL 8 CPU IO FAULT CASES PASSED",
+    "tb_stress": "ALL 4 STRESS PROGRAM RUNS PASSED; 4096 UART BYTES PASSED; 4 MID-EXECUTION RESETS PASSED",
+    "tb_payload": "ALL 3 PAYLOAD RUNS PASSED; 24 UART BYTES",
+    "tb_benchmark": "ALL 112 BENCHMARK RUNS PASSED",
+    "tb_unit_comparison": "ALL 16398 SHARED/PARALLEL UNIT COMPARISONS PASSED"
+  },
+  "unit_vectors": 201550,
+  "unit_results": 201576,
+  "cpu_runs": 3822,
+  "cpu_reset_stages": 52,
+  "benchmark_runs": 112,
+  "fpga": {
+    "lut": 3402,
+    "ff": 2811,
+    "dsp": 4,
+    "bram": 8
+  },
+  "timing": {
+    "clock_mhz": 50,
+    "wns": 3.738,
+    "whs": 0.03,
+    "wpws": 9.02
+  },
+  "board": {
+    "clock_mhz": 50.0,
+    "runs": [
+      {
+        "run": 1,
+        "uart_hex": "445350204f4b0d0a",
+        "uart_errors": 0,
+        "debug": 4613,
+        "status": 1,
+        "halt_cause": 9
+      },
+      {
+        "run": 2,
+        "uart_hex": "445350204f4b0d0a",
+        "uart_errors": 0,
+        "debug": 4613,
+        "status": 1,
+        "halt_cause": 9
+      },
+      {
+        "run": 3,
+        "uart_hex": "445350204f4b0d0a",
+        "uart_errors": 0,
+        "debug": 4613,
+        "status": 1,
+        "halt_cause": 9
+      }
+    ],
+    "image_sha256": {
+      "fault_v_extension_a.bit": "d384a2c6392fbe165353a7db704dcdfeb26d652df4798cab0ce663e2284c8180",
+      "fault_v_extension_a.hwh": "6450de172220a91eeea58807a440cf6997fd21804cb192a7d14792c7e9dae0e4"
+    },
+    "physical_led_observation": "user_confirmed",
+    "physical_btn0_observation": "user_confirmed",
+    "physical_benchmark_run": false,
+    "observation_description": "User confirmed LD0/LD2 on, LD1/LD3 off; holding BTN0 turns all off; release restores LD0/LD2."
+  }
+}

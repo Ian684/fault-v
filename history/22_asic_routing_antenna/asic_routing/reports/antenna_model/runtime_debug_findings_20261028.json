@@ -1,0 +1,71 @@
+{
+  "accepted": false,
+  "observed_utc": "2026-10-28T03:04:25.226287+00:00",
+  "native_run": "routed_antenna_residual_20261027_133836",
+  "evidence": "reports/antenna_model/runtime_20261028_025930/diagnostic.json",
+  "antenna_evidence": "reports/antenna_model/runtime_20261028_025753/current_antenna.json",
+  "source_odb_sha256": "ab7e31495e98eff631af1fc9d4b68c3897b4952c2f3a704a33de6696d511ea6e",
+  "checkpoint_native_DRC": 140,
+  "checkpoint_native_antenna_nets": 3,
+  "unchanged_markers_across_three_reports": 116,
+  "hotspot_box_um": [
+    1575,
+    530,
+    1665,
+    650
+  ],
+  "markers_in_hotspot": 130,
+  "nearby_macro_corner": {
+    "instance": "u_soc.u_imem.banks[4].u_sram",
+    "corner_um": [
+      1583.1,
+      640.0
+    ]
+  },
+  "slow_unchanged_cycles": [
+    {
+      "repair_cycle": 2,
+      "native_iteration": 60,
+      "native_DRC": 31,
+      "elapsed_sec": 3885
+    },
+    {
+      "repair_cycle": 2,
+      "native_iteration": 62,
+      "native_DRC": 31,
+      "elapsed_sec": 3812
+    }
+  ],
+  "remaining_antenna_details": [
+    {
+      "net": "net5653",
+      "pin": "wire5652/A",
+      "layer": "met3",
+      "partial_side_ratio": 1620.72,
+      "required_ratio": 400.0
+    },
+    {
+      "net": "net6148",
+      "pin": "_37821_/B_N",
+      "layer": "met3",
+      "partial_side_ratio": 4497.84,
+      "required_ratio": 2956.4
+    },
+    {
+      "net": "net8604",
+      "pin": "wire8603/A",
+      "layer": "met2",
+      "partial_side_ratio": 927.2,
+      "required_ratio": 400.0
+    }
+  ],
+  "next_candidate": "antenna_bounded_active.json at project root",
+  "change": "Native diode repair of remaining antenna violations followed by a short six-iteration connection pass; require antenna zero before bounded wider NEARDRC/DRC optimization. Original candidate retained and automatically resumed on trial failure. Final routing/antenna/physical/RC/TT gates unchanged.",
+  "validation_before_launch": [
+    "Python syntax",
+    "Bash syntax",
+    "native Tcl completeness",
+    "actual premature-acceptance rejection leaves accepted summary and handoff unchanged"
+  ],
+  "scope": "Diagnosis and candidate launch; no Week24 completion or physical signoff claimed."
+}

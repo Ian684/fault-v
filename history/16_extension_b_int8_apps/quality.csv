@@ -1,0 +1,17 @@
+﻿app,case,max_abs_error_lsb,saturation_count
+FIR8_Q15,impulse,0.0,0
+FIR8_Q15,step,0.0,0
+FIR8_Q15,random,0.90625,0
+FIR8_Q15,positive_saturation,0,32
+FIR8_Q15,negative_saturation,0,32
+IIR1_Q15,impulse,2.219530497897523,0
+IIR1_Q15,step,1.9954757427949517,0
+IIR1_Q15,alternating,2.3500693675596267,0
+IIR1_Q15,random,1.9619525030120712,0
+FFT16_Q15,zeros,0.0,0
+FFT16_Q15,impulse,0.0,0
+FFT16_Q15,dc,4.0,0
+FFT16_Q15,real_tone,1.9861337175533436,0
+FFT16_Q15,complex_tone,1.000000000003142,0
+FFT16_Q15,random,1.5625,0
+FFT16_Q15,fullscale_saturation,8416.336702058441,3

@@ -1,0 +1,72 @@
+{
+  "preferred_AP_missing": 0,
+  "AP_layers": {
+    "li1": 7251
+  },
+  "examples": [
+    {
+      "instance": "ANTENNA_1",
+      "point": [
+        596850,
+        1077630
+      ],
+      "layer": "li1",
+      "pin_boxes": [
+        [
+          "li1",
+          [
+            596705,
+            1077375,
+            597455,
+            1079585
+          ]
+        ]
+      ]
+    },
+    {
+      "instance": "ANTENNA_10",
+      "point": [
+        825010,
+        1961630
+      ],
+      "layer": "li1",
+      "pin_boxes": [
+        [
+          "li1",
+          [
+            824865,
+            1961375,
+            825615,
+            1963585
+          ]
+        ]
+      ]
+    },
+    {
+      "instance": "ANTENNA_100",
+      "point": [
+        825010,
+        2317950
+      ],
+      "layer": "li1",
+      "pin_boxes": [
+        [
+          "li1",
+          [
+            824865,
+            2317695,
+            825615,
+            2319905
+          ]
+        ]
+      ]
+    }
+  ],
+  "nets_without_met2_target": [],
+  "distance_um": {
+    "max": 458.72,
+    "mean": 16.755403392635497,
+    "over_50um": 425
+  },
+  "diodes_with_target": 7251
+}

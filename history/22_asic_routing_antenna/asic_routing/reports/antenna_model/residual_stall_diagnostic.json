@@ -1,0 +1,21 @@
+{
+  "accepted": false,
+  "source_checkpoint": "runs/routed_antenna_resume_20261026_2218/1-openroad-detailedrouting/drt_iter63.odb",
+  "frozen_checkpoint": "inputs/antenna_residual_source63.odb",
+  "source_sha256": "e29be567607f4f6407e5b0b2fa77e066db088c2dc87e45d442938beab3b00400",
+  "frozen_DRC_report": "reports/antenna_model/residual_source63.rpt",
+  "frozen_DRC_report_sha256": "68c0b1a0018a9546b3eab06e39af957cb7e044631bea148e5d4e1f3c93872458",
+  "markers_in_iterations_62_and_63": 7,
+  "exact_unchanged_markers": 6,
+  "seventh_same_net_pair_moved": [
+    "net4362",
+    "_09161_"
+  ],
+  "region_um": [
+    1582.48,
+    615.5,
+    1626.77,
+    641.14
+  ],
+  "reason_for_new_trial": "Repeated local router repair keeps the same six marker locations and moves the seventh collision along the same net pair. Trial will clear five complete nets covering all conflicts and preserve all other wires. Does not establish insufficient routing capacity or signoff."
+}

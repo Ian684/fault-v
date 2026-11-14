@@ -1,0 +1,182 @@
+{
+  "DESIGN_NAME": "fault_v_asic_top",
+  "PDK": "sky130A",
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 40,
+  "DEFAULT_CORNER": "nom_tt_025C_1v80",
+  "STA_CORNERS": [
+    "nom_tt_025C_1v80"
+  ],
+  "PNR_CORNERS": [
+    "nom_tt_025C_1v80"
+  ],
+  "PNR_SDC_FILE": "dir::constraints.sdc",
+  "SIGNOFF_SDC_FILE": "dir::constraints.sdc",
+  "MACROS": {
+    "sky130_sram_2kbyte_1rw1r_32x512_8": {
+      "instances": {
+        "u_soc.u_imem.banks[0].u_sram": {
+          "location": [
+            120,
+            120
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[1].u_sram": {
+          "location": [
+            900,
+            120
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[2].u_sram": {
+          "location": [
+            1680,
+            120
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[3].u_sram": {
+          "location": [
+            120,
+            640
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[4].u_sram": {
+          "location": [
+            900,
+            640
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[5].u_sram": {
+          "location": [
+            1680,
+            640
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[6].u_sram": {
+          "location": [
+            120,
+            1160
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_imem.banks[7].u_sram": {
+          "location": [
+            900,
+            1160
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[0].u_sram": {
+          "location": [
+            1680,
+            1160
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[1].u_sram": {
+          "location": [
+            120,
+            1680
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[2].u_sram": {
+          "location": [
+            900,
+            1680
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[3].u_sram": {
+          "location": [
+            1680,
+            1680
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[4].u_sram": {
+          "location": [
+            120,
+            2200
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[5].u_sram": {
+          "location": [
+            900,
+            2200
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[6].u_sram": {
+          "location": [
+            1680,
+            2200
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_dmem.banks[7].u_sram": {
+          "location": [
+            120,
+            2720
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_scratch.banks[0].u_sram": {
+          "location": [
+            900,
+            2720
+          ],
+          "orientation": "N"
+        },
+        "u_soc.u_scratch.banks[1].u_sram": {
+          "location": [
+            1680,
+            2720
+          ],
+          "orientation": "N"
+        }
+      },
+      "lef": [
+        "dir::macros/sky130_sram_2kbyte_1rw1r_32x512_8.lef"
+      ],
+      "lib": {
+        "*_tt_025C_1v80": [
+          "dir::macros/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib"
+        ]
+      },
+      "gds": [
+        "dir::macros/sky130_sram_2kbyte_1rw1r_32x512_8.gds"
+      ]
+    }
+  },
+  "VDD_NETS": [
+    "VPWR"
+  ],
+  "GND_NETS": [
+    "VGND"
+  ],
+  "PDN_MACRO_CONNECTIONS": [
+    "u_soc.*u_sram VPWR VGND vccd1 vssd1"
+  ],
+  "RSZ_DONT_TOUCH_RX": "eco_sram_(n[0-9]+_.*|b[0-9]+_(first|last))|sram_out_iso_.*",
+  "meta": {
+    "version": 2,
+    "flow": [
+      "OpenROAD.RepairDesignPostGRT"
+    ]
+  },
+  "GRT_ALLOW_CONGESTION": false,
+  "GRT_ADJUSTMENT": 0.0,
+  "GRT_OVERFLOW_ITERS": 30,
+  "GRT_DESIGN_REPAIR_MAX_WIRE_LENGTH": 500,
+  "GRT_DESIGN_REPAIR_MAX_SLEW_PCT": 15,
+  "GRT_DESIGN_REPAIR_MAX_CAP_PCT": 15,
+  "PL_OPTIMIZE_MIRRORING": false
+}

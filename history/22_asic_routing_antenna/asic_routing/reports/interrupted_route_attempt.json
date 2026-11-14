@@ -1,0 +1,37 @@
+{
+  "accepted": false,
+  "interrupted_run": "routed_buffered",
+  "source_global": "global_buffered",
+  "last_complete_iteration": 10,
+  "last_complete_iteration_drc": 2261,
+  "last_partial_iteration": 11,
+  "last_partial_progress_drc": 1716,
+  "final_routed_odb_produced": false,
+  "outer_wait_timeout_seconds": 7200,
+  "observed_wsl_boot_local": "2026-10-19 21:54:04",
+  "native_exit_status": "unavailable after container removal and WSL restart",
+  "old_log_sha256": "511067419b6f2b25c54ccd0798cf31ab1be9e4f06a6a0b8f2db2bd4dccf84dbb",
+  "replacement_run": "routed_final",
+  "replacement_execution": "Independent hidden Windows wsl.exe host process (PID 11580), no foreground tool timeout; completion exit status written to logs/routed_final.exit",
+  "unselected_guide_diagnostic": {
+    "run": "global_m1_reserve",
+    "accepted": false,
+    "met1_capacity_reduction": 0.5,
+    "extra_iterations": 30,
+    "global_overflow": 29142,
+    "error": "GRT-0116"
+  },
+  "second_interrupted_run": {
+    "tag": "routed_checkpointed",
+    "accepted": false,
+    "last_log": "../logs/routed_checkpointed.log",
+    "last_observed_stage": "Third optimization iteration 60%; 33174 native violations",
+    "snapshots": [
+      "drt_iter0.odb",
+      "drt_iter1.odb",
+      "drt_iter2.odb"
+    ],
+    "final_routed_odb": false,
+    "cause": "Observed stopped after interrupted conversation; no native exit status retained"
+  }
+}

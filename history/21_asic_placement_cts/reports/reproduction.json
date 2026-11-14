@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "candidate": "placement_candidate",
+  "fresh_release": "placement_release",
+  "source_floorplan_sha256": "3430a9a8648c1471810b46018db5eb1bebd9cd4bd72cf28f224f1aa4373a7613",
+  "fresh_pipeline": "anchor_inputs -> GlobalPlacement through STAMidPNR-2 -> post-CTS electrical repair -> corrected STA -> physical/connectivity checks -> guarded acceptance",
+  "frozen_input_count": 33,
+  "candidate_netlist_sha256": "dac50b5e33a72d3d561c81a31eecd99feb5f4910d3af0824d80c28ecc738063f",
+  "release_netlist_sha256": "dac50b5e33a72d3d561c81a31eecd99feb5f4910d3af0824d80c28ecc738063f",
+  "netlist_byte_identical": true,
+  "scope": "Both runs must independently pass; identical PnR bytes are not an acceptance requirement."
+}

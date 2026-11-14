@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "stopped_at": "2026-10-21T07:11:08.612585",
+  "run": "routed_residual_rc",
+  "container_id": "ab734495174edc064c9c5d0ec8485d616c95590581c35ebcba4b4ac5881d60da",
+  "source": "reports/residual_geometry26_source.odb",
+  "source_sha256": "fc748ae797cffc8e786019c824537c86451a0a604d3a2789945153626a36fc5c",
+  "source_snapshot_iteration": 26,
+  "source_drc": "reports/residual_geometry26.drc.rpt",
+  "source_drc_sha256": "45ff072803dafb3d688e090647eed5b6c182b82b4a343c4d505eef4db1236529",
+  "unresolved_native_markers": 5,
+  "reason": "Five actual polygon overlaps persisted through many complete rounds. All five metal intersections were independently decoded and visualized in the saved source; 56 neighboring active signal nets were identified, with no clock/protected SRAM chain nets. The complete-neighborhood reroute input was prepared and byte/graph/cell-verified before stopping. Native64 limit NOT reached; no acceptance.",
+  "replacement_input": "inputs/neighborhood_rc_partial.odb",
+  "replacement_input_sha256": "04dc42e107412a6b8b0f8187ebb4622124c510957cf7e1e438779d7220056dd5"
+}

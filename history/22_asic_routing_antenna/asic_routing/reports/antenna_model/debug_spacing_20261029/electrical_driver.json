@@ -1,0 +1,214 @@
+{
+  "instance": "_44992_",
+  "master": "sky130_fd_sc_hd__o21ai_2",
+  "location": [
+    2384640,
+    2265760
+  ],
+  "orient": "MX",
+  "bbox": [
+    2384640,
+    2265760,
+    2387860,
+    2268480
+  ],
+  "variants": [
+    {
+      "master": "sky130_fd_sc_hd__o21ai_1",
+      "width_dbu": 1840,
+      "height_dbu": 2720
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ai_2",
+      "width_dbu": 3220,
+      "height_dbu": 2720
+    },
+    {
+      "master": "sky130_fd_sc_hd__o21ai_4",
+      "width_dbu": 5980,
+      "height_dbu": 2720
+    }
+  ],
+  "row_neighbors": [
+    {
+      "instance": "_44992_",
+      "master": "sky130_fd_sc_hd__o21ai_2",
+      "bbox": [
+        2384640,
+        2265760,
+        2387860,
+        2268480
+      ]
+    },
+    {
+      "instance": "PHY_EDGE_ROW_803_4_Left_7064",
+      "master": "sky130_fd_sc_hd__decap_3",
+      "bbox": [
+        2383260,
+        2265760,
+        2384640,
+        2268480
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "pin": "A1",
+      "net": "_16274_",
+      "type": "INPUT",
+      "pins": [
+        [
+          "_45137_",
+          "A1"
+        ],
+        [
+          "_45118_",
+          "S"
+        ],
+        [
+          "_45114_",
+          "S"
+        ],
+        [
+          "_45110_",
+          "S"
+        ],
+        [
+          "_45090_",
+          "A1"
+        ],
+        [
+          "_45076_",
+          "S0"
+        ],
+        [
+          "_45073_",
+          "A1"
+        ],
+        [
+          "_44996_",
+          "A"
+        ],
+        [
+          "_44992_",
+          "A1"
+        ],
+        [
+          "_44956_",
+          "A"
+        ],
+        [
+          "_44955_",
+          "X"
+        ]
+      ],
+      "wire_length_dbu": 410110
+    },
+    {
+      "pin": "A2",
+      "net": "_16304_",
+      "type": "INPUT",
+      "pins": [
+        [
+          "_45148_",
+          "A0"
+        ],
+        [
+          "_44992_",
+          "A2"
+        ],
+        [
+          "_44985_",
+          "X"
+        ]
+      ],
+      "wire_length_dbu": 118040
+    },
+    {
+      "pin": "B1",
+      "net": "_16310_",
+      "type": "INPUT",
+      "pins": [
+        [
+          "_44992_",
+          "B1"
+        ],
+        [
+          "_44991_",
+          "X"
+        ]
+      ],
+      "wire_length_dbu": 8740
+    },
+    {
+      "pin": "VGND",
+      "net": "VGND",
+      "type": "INOUT",
+      "pins": [],
+      "wire_length_dbu": null
+    },
+    {
+      "pin": "VNB",
+      "net": "VGND",
+      "type": "INOUT",
+      "pins": [],
+      "wire_length_dbu": null
+    },
+    {
+      "pin": "VPB",
+      "net": "VPWR",
+      "type": "INOUT",
+      "pins": [],
+      "wire_length_dbu": null
+    },
+    {
+      "pin": "VPWR",
+      "net": "VPWR",
+      "type": "INOUT",
+      "pins": [],
+      "wire_length_dbu": null
+    },
+    {
+      "pin": "Y",
+      "net": "_16311_",
+      "type": "OUTPUT",
+      "pins": [
+        [
+          "_45200_",
+          "B"
+        ],
+        [
+          "_45170_",
+          "A1"
+        ],
+        [
+          "_45119_",
+          "A0"
+        ],
+        [
+          "_45016_",
+          "A0"
+        ],
+        [
+          "_44992_",
+          "Y"
+        ]
+      ],
+      "wire_length_dbu": 722405
+    }
+  ],
+  "in_memory_size4_test": {
+    "new_bbox": [
+      2384640,
+      2265760,
+      2390620,
+      2268480
+    ],
+    "new_pin_connectivity": {
+      "_16274_": false,
+      "_16304_": false,
+      "_16310_": false,
+      "_16311_": false
+    }
+  }
+}

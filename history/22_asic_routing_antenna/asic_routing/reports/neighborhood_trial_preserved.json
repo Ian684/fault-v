@@ -1,0 +1,51 @@
+{
+  "accepted": false,
+  "container_id": "16c3c432f97f586de9a21d97ef33b4639dadc228d50fbd2dac31ed2673f74ea3",
+  "owned_router_command": "PID                 COMMAND\n1009                /nix/store/7zqpr7slgvjfjcqfabb2fmlpvc8k23ax-python3-3.13.9-env/bin/python3 scripts/corner_reguide_cli.py --pdk-root /work/pdk --with-initial-state /work/routing/neighborhood_routed_state.json --run-tag routed_neighborhood_rc config_corner_reguide.json\n1060                /nix/store/2y36a4sr078y15ick388dncqjdzmlxga-openroad-2026-02-17/bin/openroad -exit -no_splash -metrics /work/routing/runs/routed_neighborhood_rc/1-openroad-detailedrouting/or_metrics_out.json /work/routing/scripts/drt_corner_reguide.tcl\n",
+  "last_saved_checkpoints": [
+    {
+      "iteration": 13,
+      "odb": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt_iter13.odb",
+      "odb_sha256": "b3090b0b015815b067617069ab807926172dddd6ca4fb87317b0341be29a3fd6",
+      "report": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-13.rpt",
+      "report_sha256": "fd93d12f2be735b01886ec2545a8bada839541a66dd1ad55c9b11755c568a016",
+      "native_markers": 280
+    },
+    {
+      "iteration": 14,
+      "odb": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt_iter14.odb",
+      "odb_sha256": "6bae0c888cd6924fdf5298466dd9e1ac7865f07ba4b714a9b72ef7e171997f61",
+      "report": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-14.rpt",
+      "report_sha256": "83111a0ea1718415e57c8fb88d0c51f3c118f20c618e931b173910eb47bc9a7c",
+      "native_markers": 279
+    },
+    {
+      "iteration": 15,
+      "odb": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt_iter15.odb",
+      "odb_sha256": "27e7c9ccbbf08587fc3d8f0f8657cf28459a4cab058ebec2210c323df1a45936",
+      "report": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-15.rpt",
+      "report_sha256": "83111a0ea1718415e57c8fb88d0c51f3c118f20c618e931b173910eb47bc9a7c",
+      "native_markers": 279
+    },
+    {
+      "iteration": 16,
+      "odb": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt_iter16.odb",
+      "odb_sha256": "d5aaf30df0674d448af58b9dcbb20a6e7f5b90def3682b01495c332de47e14f3",
+      "report": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-16.rpt",
+      "report_sha256": "663f9b62e4399596b2b23edb86ed1196e2015b882b7f9c5c49149df31f335f2f",
+      "native_markers": 270
+    },
+    {
+      "iteration": 17,
+      "odb": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt_iter17.odb",
+      "odb_sha256": "9cda2d7565ea0b7af4f376602d4dc90178068b02b7da2e3cab32c50ed1f58cd1",
+      "report": "runs/routed_neighborhood_rc/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-17.rpt",
+      "report_sha256": "464cfad14f91d48d4e0c833c39e69af48c078aa5eb7886fa80dff4a1549c1d5a",
+      "native_markers": 617
+    }
+  ],
+  "reason": "Whole 56-net rebuild created collateral conflicts along long trunks; preserve all source data and switch serially to native local repair of the unchanged complete five-short source26. This interrupted attempt did not complete 64 native iterations and is not accepted.",
+  "source_for_next": "inputs/cached_local_source26.odb",
+  "source_sha256": "fc748ae797cffc8e786019c824537c86451a0a604d3a2789945153626a36fc5c",
+  "observed": "2026-10-21T08:40:27.126730"
+}

@@ -1,0 +1,12 @@
+{
+  "accepted": false,
+  "source": "reports/residual_geometry26_source.odb",
+  "source_sha256": "fc748ae797cffc8e786019c824537c86451a0a604d3a2789945153626a36fc5c",
+  "input": "inputs/cached_local_source26.odb",
+  "input_sha256": "fc748ae797cffc8e786019c824537c86451a0a604d3a2789945153626a36fc5c",
+  "native_source_markers": 5,
+  "geometry": "Byte-identical full source; no wire, cell, guide, pin, graph or PG change at preparation.",
+  "ap_point_check": "reports/source26_ap_shift_geometry.json",
+  "method": "Reuse native access data on unchanged cells; one INCR initialization, then 12 DRC/NEARDRC native local passes with shifted worker boundaries. No early ALL mode, no whole-net clearing. step_end commits geometry before real checks.",
+  "gates": "Existing native DRC0, independent DRC0, hold/MRC0, 40ns, SRAM40ps unchanged."
+}

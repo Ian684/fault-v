@@ -1,0 +1,65 @@
+{
+  "source_route_sha256": "6e98b1bcb56b4455e97a7ac5d54a902ec7607878912ca2d2e70dc9b8bd584125",
+  "filled_ODB_sha256": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2",
+  "full_geometry_core_GDS_sha256": "67bcff916921d52cba6ca20ff2eccf32a37f3c867a88d764063f11c513a678d5",
+  "fresh_netlist_sha256": "cdbbfc46696534b7a5729c5c5f20a8de82b5923597f93cb53ec67f3f5f0e4175",
+  "fresh_SPEF_sha256": {
+    "nom_*": "d7a88a3b260bf9dfff7a687894e6eb06534385b3b04a84657f0f5908baeabfb4",
+    "min_*": "c8ae9c411912a17bb567df569f88154b13be53fe0b5861fbc2f205f86eb84454",
+    "max_*": "5c98914bfc9c7f15c337f0dfc4e07ddef64a0a88f6e4a3bda48e9a43ab9e3627"
+  },
+  "open_core_DRC": 0,
+  "top_level_antenna_nets": 0,
+  "top_level_antenna_pins": 0,
+  "all_three_RC_electrical_and_timing_violation_counts_zero": true,
+  "timing_slacks_ns": {
+    "nom_tt_025C_1v80": {
+      "setup": 6.67424889802035,
+      "hold": 0.19776447705885036
+    },
+    "min_tt_025C_1v80": {
+      "setup": 8.431026782021803,
+      "hold": 0.19728241820792458
+    },
+    "max_tt_025C_1v80": {
+      "setup": 5.6934902848266145,
+      "hold": 0.15227020075830455
+    }
+  },
+  "violation_counts": {
+    "design__max_slew_violation__count__corner:nom_tt_025C_1v80": 0,
+    "design__max_fanout_violation__count__corner:nom_tt_025C_1v80": 0,
+    "design__max_cap_violation__count__corner:nom_tt_025C_1v80": 0,
+    "timing__hold_vio__count__corner:nom_tt_025C_1v80": 0,
+    "timing__hold_r2r_vio__count__corner:nom_tt_025C_1v80": 0,
+    "timing__setup_vio__count__corner:nom_tt_025C_1v80": 0,
+    "timing__setup_r2r_vio__count__corner:nom_tt_025C_1v80": 0,
+    "design__max_slew_violation__count__corner:min_tt_025C_1v80": 0,
+    "design__max_fanout_violation__count__corner:min_tt_025C_1v80": 0,
+    "design__max_cap_violation__count__corner:min_tt_025C_1v80": 0,
+    "timing__hold_vio__count__corner:min_tt_025C_1v80": 0,
+    "timing__hold_r2r_vio__count__corner:min_tt_025C_1v80": 0,
+    "timing__setup_vio__count__corner:min_tt_025C_1v80": 0,
+    "timing__setup_r2r_vio__count__corner:min_tt_025C_1v80": 0,
+    "design__max_slew_violation__count__corner:max_tt_025C_1v80": 0,
+    "design__max_fanout_violation__count__corner:max_tt_025C_1v80": 0,
+    "design__max_cap_violation__count__corner:max_tt_025C_1v80": 0,
+    "timing__hold_vio__count__corner:max_tt_025C_1v80": 0,
+    "timing__hold_r2r_vio__count__corner:max_tt_025C_1v80": 0,
+    "timing__setup_vio__count__corner:max_tt_025C_1v80": 0,
+    "timing__setup_r2r_vio__count__corner:max_tt_025C_1v80": 0,
+    "design__max_slew_violation__count": 0,
+    "design__max_fanout_violation__count": 0,
+    "design__max_cap_violation__count": 0,
+    "timing__hold_vio__count": 0,
+    "timing__hold_r2r_vio__count": 0,
+    "timing__setup_vio__count": 0,
+    "timing__setup_r2r_vio__count": 0
+  },
+  "fresh_archived_files_verified": {
+    "focus_post_b": 79,
+    "focus_post_sta_b": 76
+  },
+  "all_W25_gates_complete": false,
+  "scope": "Exact common-candidate full-geometry core open-rule DRC, top-level antenna and fresh min/nom/max-RC TT timing/electrical screens. SRAM internal/foundry rule coverage and qualified multi-PVT/post-fill extraction are not inferred; final LVS/stream/connectivity/activity/IR/fill gates are separate."
+}

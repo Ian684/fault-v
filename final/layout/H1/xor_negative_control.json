@@ -1,0 +1,20 @@
+{
+  "rc": 0,
+  "layers": 1,
+  "items": 1,
+  "categories_with_items": [
+    "xor 68/20"
+  ],
+  "report_sha256": "c9cbaaab5b32f8e16ffcbbb3f3412f196bad474e07319f5d4053f87813c0ba66",
+  "method": "KLayout DRC flat XOR, 500 um tiles, every polygon layer present in either layout (w26/scripts/xor_layouts.drc)",
+  "removed_shape": {
+    "removed": "path (1159200,1129990;1293750,1129990) w=140 bx=70 ex=70 r=false",
+    "bbox_dbu": [
+      1159130,
+      1129920,
+      1293820,
+      1130060
+    ]
+  },
+  "detected": true
+}

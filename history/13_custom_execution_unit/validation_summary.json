@@ -1,0 +1,61 @@
+{
+  "rtl_simulation": {
+    "markers": {
+      "tb_custom_exec.log": "ALL 16409 CUSTOM UNIT RESULTS PASSED; 11 RESET CANCELLATIONS",
+      "tb_custom_cpu.log": "ALL 2638 CUSTOM CPU CASE RUNS PASSED",
+      "tb_custom_reset.log": "ALL 7 CUSTOM CPU RESET STAGES PASSED",
+      "tb_custom_program.log": "ALL 4 CUSTOM PROGRAM RUNS AND 4 FAULT INJECTIONS PASSED",
+      "tb_verification_suite.log": "ALL 1372 ISA AND PROGRAM RUNS PASSED",
+      "tb_fault_v_io.log": "ALL 16 IO TRANSACTIONS PASSED",
+      "tb_io_faults.log": "ALL 8 CPU IO FAULT CASES PASSED",
+      "tb_stress.log": "ALL 4 STRESS PROGRAM RUNS PASSED",
+      "tb_payload.log": "ALL 3 PAYLOAD RUNS PASSED; 24 UART BYTES"
+    },
+    "all_passed": true
+  },
+  "fpga": {
+    "clock_mhz": 50,
+    "wns_ns": 7.756,
+    "whs_ns": 0.064,
+    "wpws_ns": 9.02,
+    "lut": 2760,
+    "registers": 2697,
+    "bram_tiles": 8.0,
+    "dsp": 1,
+    "drc_violations": 4,
+    "drc_errors_or_critical_warnings": 0,
+    "drc_warning_counts": {
+      "DPIP-1": 2,
+      "DPOP-1": 1,
+      "DPOP-2": 1
+    },
+    "methodology_violations": 0
+  },
+  "physical_board_test": "passed_three_uart_and_status_runs",
+  "software_vs_custom_benchmark": "not_performed",
+  "board_verification": {
+    "date": "2026-10-14",
+    "board": "PYNQ-Z2",
+    "pynq_version": "2.5",
+    "clock_mhz": 50.0,
+    "runs": 3,
+    "bytes_per_run": 8,
+    "expected_text": "DSP OK\r\n",
+    "uart_error_flags": 0,
+    "status": 1,
+    "halted": true,
+    "halt_cause": 9,
+    "remote_directory": "/home/xilinx/jupyter_notebooks/fault_v_custom_20261014_194525",
+    "bit_sha256": "8c905499d397415d7cce6825a7e8936bc67e7a59fe9576c7aa9c1b96ab0bdbf8",
+    "hwh_sha256": "b8aae20902ac1fe6044b2e89a143480c759db01ef6c93029770c8236df4d0d14",
+    "program_sha256": "6a69cd1e97767347e80d56596155fd063e8131cfb9923dd057cd3811f53338c9",
+    "led_button_observation": {
+      "source": "user_confirmation",
+      "date": "2026-10-14",
+      "running_led": "LD0 and LD2 on; LD1 and LD3 off",
+      "button_held": "all four off",
+      "button_released": "LD0 and LD2 on again",
+      "result": "all_confirmed"
+    }
+  }
+}

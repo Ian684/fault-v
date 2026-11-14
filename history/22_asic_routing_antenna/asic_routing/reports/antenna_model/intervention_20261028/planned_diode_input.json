@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/antenna_full10_preparation_20261028/1-openroad-detailedrouting/corridor_native_prepared.odb",
+  "source_sha256": "1be8bffa72bc69294caa7cb861897d818723215ed61af2acb89a10f3b1b55a13",
+  "template": "runs/antenna_full_preparation_20261028/1-openroad-detailedrouting/corridor_native_prepared.odb",
+  "template_sha256": "5e1f2114ebd4fe296309dc472a862e7b85f6dbddcd0ebe75196d56d77bc8bcce",
+  "derived": "inputs/antenna_full10_planned.odb",
+  "derived_sha256": "8c23591a302cf7c79578e65280240a68ec3139f1c55b9164a953309371297f35",
+  "planned_diodes": 1,
+  "planned_diode": "ANTENNA_7550",
+  "net": "net3312",
+  "location_dbu": [
+    1611380,
+    777920
+  ],
+  "scope": "One planned passive load at the exact site native repair used for the same net on the corrected25 checkpoint. Native placement, new native pin access, whole-net rerouting, real connectivity and all final gates are still required. No route geometry imported."
+}

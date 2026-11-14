@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "run": "global_antenna_drive_20261029_171855",
+  "resources": 3257449,
+  "demand": 868840,
+  "usage_pct": 26.67,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "fddd67e9c66b18f458053b830e20b2edcf8c252bd4272872b2cdeaff101cecfe"
+}

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Oct 16 15:28:04 2026
+# Process ID: 21984
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/sim_priority
+# Command line: xsim.exe -log tb_loader_priority.log -mode tcl -source {xsim.dir/tb_loader_priority/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/sim_priority/tb_loader_priority.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/sim_priority\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_loader_priority/xsim_script.tcl
+# xsim {tb_loader_priority} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Fatal: PRIORITY framing error overrides final fill start running=1 error=1
+Time: 52596 ns  Iteration: 0  Process: /tb_loader_priority/must  Scope: tb_loader_priority.must  File: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/verify/tb_loader_priority.sv Line: 12
+$finish called at time : 52596 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 16 15:28:07 2026...

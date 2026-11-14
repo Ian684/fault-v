@@ -1,0 +1,108 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_opposite_final_10.odb",
+  "source_sha256": "b4e761b16742fa820524e08df312da2ca0a8f670dd030e1de87449ef06c61040",
+  "source_native_DRC": 10,
+  "source_antenna_nets": 1,
+  "derived": "inputs/antenna_final10_partial.odb",
+  "derived_sha256": "488f3c0681bcde28925788e69d0909bcd21bc65f678793f6efb7c90a4a8a13ac",
+  "cleared_whole_nets": [
+    "net3312",
+    "net4319",
+    "net6035",
+    "net6038"
+  ],
+  "minimum_cover_objective": [
+    4,
+    0,
+    2221.8799999999997,
+    [
+      "net3312",
+      "net4319",
+      "net6035",
+      "net6038"
+    ]
+  ],
+  "conflict_edges": [
+    [
+      "net3116",
+      "net6038"
+    ],
+    [
+      "net3185",
+      "net6035"
+    ],
+    [
+      "net3312",
+      "net4959"
+    ],
+    [
+      "net6035",
+      "net6038"
+    ],
+    [
+      "net6035",
+      "net6881"
+    ]
+  ],
+  "mandatory_nets": [
+    "net4319",
+    "net6038"
+  ],
+  "net_statistics": {
+    "net6035": {
+      "type": "SIGNAL",
+      "iterms": 9,
+      "missing_AP": [],
+      "length_um": 609.93
+    },
+    "net3185": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 289.46
+    },
+    "net3312": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 523.06
+    },
+    "net4959": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 557.62
+    },
+    "net3116": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 434.71999999999997
+    },
+    "net6038": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "missing_AP": [],
+      "length_um": 403.04
+    },
+    "net6881": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "missing_AP": [],
+      "length_um": 367.46
+    },
+    "net4319": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "missing_AP": [],
+      "length_um": 495.84999999999997
+    }
+  },
+  "retained_wire_count": 41333,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_graph_PG_guides_obstructions_unchanged": true,
+  "cleared_signal_iterms_with_verified_AP": 19,
+  "scope": "Minimum whole-net conflict cover; ordinary ROUTED geometry. All 10 source markers involve a cleared net; all other wire bytes, guides, cells, PG and models preserved. No acceptance until fresh final gates pass."
+}

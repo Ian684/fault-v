@@ -1,0 +1,108 @@
+{
+  "source": "runs/routed_final/1-openroad-detailedrouting/drt_iter52.odb",
+  "source_sha256": "d76e62334708948ae6ef721082b11bf4f929c410084d83032dae5e828cf155a7",
+  "derived": "inputs/route_pin_spread.odb",
+  "derived_sha256": "968c23d4292d6eeed0775b4df95d30ff0bcb94ffb03ba3e5a5c6f9915083a716",
+  "moves": [
+    {
+      "instance": "_30188_",
+      "master": "sky130_fd_sc_hd__a22o_2",
+      "orientation": "MX",
+      "old_bbox_dbu": [
+        1615520,
+        573920,
+        1619200,
+        576640
+      ],
+      "new_bbox_dbu": [
+        1615520,
+        617440,
+        1619200,
+        620160
+      ],
+      "manhattan_move_dbu": 43520
+    },
+    {
+      "instance": "_37463_",
+      "master": "sky130_fd_sc_hd__a221o_2",
+      "orientation": "R0",
+      "old_bbox_dbu": [
+        1622420,
+        598400,
+        1626560,
+        601120
+      ],
+      "new_bbox_dbu": [
+        1576420,
+        598400,
+        1580560,
+        601120
+      ],
+      "manhattan_move_dbu": 46000
+    }
+  ],
+  "row_and_nonoverlap_pass": true,
+  "other_cells_unchanged": true,
+  "ripped_nets": [
+    {
+      "net": "_00228_",
+      "wire_length_dbu": 6685
+    },
+    {
+      "net": "_03552_",
+      "wire_length_dbu": 415620
+    },
+    {
+      "net": "_03553_",
+      "wire_length_dbu": 334415
+    },
+    {
+      "net": "_09195_",
+      "wire_length_dbu": 751660
+    },
+    {
+      "net": "_09208_",
+      "wire_length_dbu": 7200
+    },
+    {
+      "net": "_09210_",
+      "wire_length_dbu": 11975
+    },
+    {
+      "net": "_09213_",
+      "wire_length_dbu": 126860
+    },
+    {
+      "net": "_09214_",
+      "wire_length_dbu": 10860
+    },
+    {
+      "net": "_10639_",
+      "wire_length_dbu": 678070
+    },
+    {
+      "net": "_10901_",
+      "wire_length_dbu": 689350
+    },
+    {
+      "net": "net2689",
+      "wire_length_dbu": 513490
+    },
+    {
+      "net": "net6369",
+      "wire_length_dbu": 603370
+    },
+    {
+      "net": "net9536",
+      "wire_length_dbu": 9380
+    }
+  ],
+  "retained_other_wires": 41301,
+  "local_guide_box_dbu": [
+    1500000,
+    530000,
+    1680000,
+    690000
+  ],
+  "scope": "Two actual congestion-site combinational cells legally spread; only their signal nets plus the offending trunk/M2 blocker ripped. Function, masters, orientation, fixed SRAM/clock/PG unchanged. Fresh PA, native routing and all extracted acceptance checks required."
+}

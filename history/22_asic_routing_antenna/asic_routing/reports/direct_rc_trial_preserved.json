@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "tag": "routed_direct_rc",
+  "snapshot": "runs/routed_direct_rc/1-openroad-detailedrouting/drt_iter8.odb",
+  "snapshot_sha256": "e7eb0e902d91b19665fb369fbb7817120b3811b2350a1122000a0aefd5a38f95",
+  "report": "runs/routed_direct_rc/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-8.rpt",
+  "report_sha256": "9abcbdd6e780456ece3b555be2cafe9fa69a361e6e1b564e150e9be22e017722",
+  "native_markers": 1159,
+  "reason": "DRC-driven ECO scope correction: remaining actual conflicts involve275 originally retained nets, predominantly dirty-to-retained net shorts. Preserve this trial; invalidate complete implicated neighboring wires on the untouched baseline partial database instead of local-only search. No placement, timing or gate relaxation.",
+  "observed_utc": "2026-10-20T16:27:40.169445+00:00"
+}

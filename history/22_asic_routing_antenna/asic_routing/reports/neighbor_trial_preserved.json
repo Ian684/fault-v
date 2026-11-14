@@ -1,0 +1,10 @@
+{
+  "accepted": false,
+  "snapshot": "runs/routed_direct_neighbors/1-openroad-detailedrouting/drt_iter14.odb",
+  "snapshot_sha256": "648c60a61f5a56e82742cbf9a67db525846b8b4eb6d118b069a2cb42c75821a8",
+  "report": "runs/routed_direct_neighbors/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-14.rpt",
+  "report_sha256": "da739be319cd3aef5ee7667d37738387819c75105450ed0c96330db16b761a38",
+  "native_markers": 564,
+  "reason": "Read-only OpenSTA3.1 electrical proposal demonstrates105 BUF4 can be BUF2 with worst driver slew.915ns and0MRC/hold violations on old RC. Preserve current coherent routed checkpoint; shrink footprints only, no new placement, then reroute/re-extract with unchanged gates.",
+  "observed_utc": "2026-10-20T18:26:32.001598+00:00"
+}

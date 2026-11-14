@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 10 19:11:29 2026
+# Process ID: 20952
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/sim
+# Command line: xsim.exe -log endpoint_results.log -mode tcl -source {xsim.dir/fault_v_memory_behav/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/sim/endpoint_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/fault_v_memory_behav/xsim_script.tcl
+# xsim {fault_v_memory_behav} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS memory 1 addr=10000000 wr=1 error=0
+PASS memory 2 addr=10000000 wr=0 error=0
+PASS memory 3 addr=10000000 wr=1 error=0
+PASS memory 4 addr=10000000 wr=0 error=0
+PASS memory 5 addr=10003ffc wr=1 error=0
+PASS memory 6 addr=10003ffc wr=0 error=0
+PASS memory 7 addr=10004000 wr=1 error=1
+PASS memory 8 addr=10000001 wr=0 error=1
+PASS memory 9 addr=20000000 wr=1 error=0
+PASS memory 10 addr=20000000 wr=0 error=0
+PASS memory 11 addr=20000000 wr=1 error=1
+PASS memory 12 addr=20000000 wr=0 error=0
+PASS memory 13 addr=20000004 wr=0 error=1
+PASS memory 14 addr=10000004 wr=0 error=0
+PASS memory 15 addr=10003ffc wr=0 error=0
+PASS memory 16 addr=20000000 wr=0 error=0
+ALL 16 MEMORY ENDPOINT TRANSACTIONS PASSED
+$finish called at time : 1490 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/verify/tb_fault_v_memory.sv" Line 61
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 10 19:11:31 2026...

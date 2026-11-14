@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "run": "repro_prepare_repair",
+  "resources": 3257474,
+  "demand": 861039,
+  "usage_pct": 26.43,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "a73f47f9bfb928b53fff0d0365548b1e765f52fa101dfa43bb0dbfb67a031a43"
+}

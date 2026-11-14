@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "source": "runs/routed_antenna_drive_finish_20261029_173136/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "33646a000d824d8c734146d25f67dcfac4d80cc91450d7b75e8bb4f63622ba52",
+  "input": "inputs/global_antenna_final_20261029_173136.odb",
+  "input_sha256": "b604c40623cb623f2fe2032a0889210e14acd4cc217c0760d7d418704a5b2298",
+  "identical_final_cells_graph_PG_obstructions": true,
+  "scope": "Remove only detailed wires in a clone; actual accepted-candidate routing is unchanged. This global proof uses all final protection diodes and the resized driver."
+}

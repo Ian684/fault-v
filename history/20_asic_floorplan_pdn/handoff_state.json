@@ -1,0 +1,13 @@
+{
+  "nl": "/work/floorplan/runs/floorplan_accepted/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/floorplan/runs/floorplan_accepted/final/pnl/fault_v_asic_top.pnl.v",
+  "odb": "/work/floorplan/runs/floorplan_accepted/final/odb/fault_v_asic_top.odb",
+  "def": "/work/floorplan/runs/floorplan_accepted/final/def/fault_v_asic_top.def",
+  "sdc": "/work/floorplan/runs/floorplan_accepted/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/floorplan/runs/floorplan_accepted/final/json_h/top.h.json",
+  "metrics": {
+    "design__power_grid_violation__count": 0,
+    "design__power_grid_violation__count__net:VPWR": 0,
+    "design__power_grid_violation__count__net:VGND": 0
+  }
+}

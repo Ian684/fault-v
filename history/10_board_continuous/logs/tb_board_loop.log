@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Oct 11 20:06:38 2026
+# Process ID: 29076
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/board_continuous/sim
+# Command line: xsim.exe -log tb_board_loop.log -mode tcl -source {xsim.dir/tb_board_loop/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/board_continuous/sim/tb_board_loop.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/board_continuous/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_board_loop/xsim_script.tcl
+# xsim {tb_board_loop} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS BOARD LOOP sweep=1 LED=5 RAM_words=4096
+PASS BOARD LOOP sweep=2 LED=a RAM_words=4096
+PASS BOARD LOOP sweep=1 LED=5 RAM_words=4096
+PASS BOARD LOOP injected read corruption LED=f status=2
+ALL BOARD LOOP CHECKS PASSED; 3 FULL RAM SWEEPS; RESET RESTART; INJECTED FAILURE
+$finish called at time : 66516465 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/board_continuous/verify/tb_board_loop.sv" Line 45
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 239.133 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 12884 KB (Peak: 12884 KB), Simulation CPU Usage: 10390 ms
+INFO: [Common 17-206] Exiting xsim at Sun Oct 11 20:06:51 2026...

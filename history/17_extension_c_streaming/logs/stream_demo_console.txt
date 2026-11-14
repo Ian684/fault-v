@@ -1,0 +1,114 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/a_stream_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/alu.sv" into library work
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/branch_compare.sv" into library work
+INFO: [VRFC 10-311] analyzing module branch_compare
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/control_fsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module control_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/custom_exec.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec
+INFO: [VRFC 10-311] analyzing module fault_v_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_accelerator.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_accelerator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_dma.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dma
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_dot_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_dot_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_io.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_io
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_job_regs.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_job_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_memory.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_mem_arbiter.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_mem_arbiter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/fault_v_soc.sv" into library work
+INFO: [VRFC 10-311] analyzing module fault_v_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/imm_gen.sv" into library work
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/load_extract.sv" into library work
+INFO: [VRFC 10-311] analyzing module load_extract
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/pc_reg.sv" into library work
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/regfile.sv" into library work
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/store_align.sv" into library work
+INFO: [VRFC 10-311] analyzing module store_align
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/rtl/uart_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/verify/tb_stream_demo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_stream_demo
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_stream_demo -s tb_stream_demo --debug typical --mt off 
+Turned off multi-threading.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.fault_v_pkg
+Compiling package work.fault_v_stream_pkg
+Compiling module work.fault_v_mem_arbiter
+Compiling module work.fault_v_job_regs
+Compiling module work.fault_v_dma
+Compiling module work.fault_v_job_regs(BASE=32'b010000...
+Compiling module work.fault_v_mul16
+Compiling module work.fault_v_dot_pipeline_default
+Compiling module work.fault_v_accelerator
+Compiling module work.decoder
+Compiling module work.control_fsm
+Compiling module work.custom_exec_default
+Compiling module work.regfile
+Compiling module work.imm_gen
+Compiling module work.alu
+Compiling module work.pc_reg
+Compiling module work.branch_compare
+Compiling module work.load_extract
+Compiling module work.store_align
+Compiling module work.fault_v_cpu
+Compiling module work.fault_v_memory(BASE_ADDR=32'b0,R...
+Compiling module work.fault_v_memory(WITH_STATUS=1'b1)
+Compiling module work.fault_v_memory(BASE_ADDR=32'b010...
+Compiling module work.uart_tx(CLKS_PER_BIT=8)
+Compiling module work.fault_v_io(UART_CLKS_PER_BIT=8)
+Compiling module work.fault_v_soc(IMEM_FILE="../progra...
+Compiling module work.fault_v_soc(IMEM_FILE="../progra...
+Compiling module work.tb_stream_demo
+Built simulation snapshot tb_stream_demo
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_stream_demo/xsim_script.tcl
+# xsim {tb_stream_demo} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS STREAM DEMO mode=0 run=0 checks=137 UART=6
+PASS STREAM DEMO mode=1 run=0 checks=137 UART=6
+PASS STREAM DEMO mode=0 run=1 checks=137 UART=6
+DEMO FAILURE DEBUG mode=0 late=0 cause=9 status=2 gpio=f bytes=0 check=65 result=deadbeef
+PASS STREAM DEMO injected failure mode=0 check=65
+PASS STREAM DEMO mode=1 run=1 checks=137 UART=6
+DEMO FAILURE DEBUG mode=0 late=1 cause=9 status=1 gpio=5 bytes=6 check=65 result=fffef598
+Fatal: DEMO mode=0: self-check failure reports error
+Time: 615236 ns  Iteration: 0  Process: /tb_stream_demo/modes[0].must  Scope: tb_stream_demo.\modes[0].must   File: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/verify/tb_stream_demo.sv Line: 11
+$finish called at time : 615236 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 22:32:19 2026...
+Stream demo failed
+At <HOME>\Documents\Codex\2026-09-28\https-chatgpt-com-share-6aba66e3-8910\outputs\extension_c\run_stream_demo.ps1
+:17 char:135
++ ...  4 INJECTED SELF-CHECK FAILURES PASSED')){throw 'Stream demo failed'}
++                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Stream demo failed:String) [], RuntimeException
+    + FullyQualifiedErrorId : Stream demo failed
+ 

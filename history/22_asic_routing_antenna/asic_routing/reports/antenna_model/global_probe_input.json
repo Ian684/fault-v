@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "source": "runs/routed_antenna_20261026_190111/1-openroad-detailedrouting/antenna_inserted_1.odb",
+  "source_sha256": "c2ecdfb465d9cad3f25c28fb2d891e27687223f6c4d2252daff0cf317e63b957",
+  "derived": "inputs/antenna_global_probe.odb",
+  "derived_sha256": "6193beafe78eabbbae602e48659b76d280ad03703a1d79a726ef4e30f47bddf3",
+  "original_wires_stripped_for_global_diagnostic": 38560,
+  "cells_graph_PG_obstructions_unchanged": true,
+  "diodes": 7251,
+  "scope": "Global guide diagnostic only, not routing/timing/antenna acceptance. Reserve half coarse routing capacity on met1-met3 in three DRC hot regions; no physical geometry or technology-rule change."
+}

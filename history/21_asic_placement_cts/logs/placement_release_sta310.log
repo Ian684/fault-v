@@ -1,0 +1,35 @@
+[10:26:48] INFO     Loading the design configuration file has      config.py:740
+                    generated the following warnings:                           
+[10:26:48] WARNING  Key 'SIGNOFF_SDC_FILE' provided is unused by   config.py:744
+                    the current flow.                                           
+[10:26:48] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag                                     
+                    'placement_release_sta310'.                                 
+[10:26:48] INFO     Starting…                                  sequential.py:339
+─────────────────────── Static Timing Analysis (Pre-PnR) ───────────────────────
+[10:26:49] VERBOSE  Running 'OpenROAD.STAPrePNR' at                 step.py:1138
+                    'runs/placement_release_sta310/1-openroad-stapr             
+                    epnr'…                                                      
+[10:26:49] INFO     Starting STA for the nom_tt_025C_1v80 timing openroad.py:749
+                    corner…                                                     
+[10:26:49] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/placement_release_sta310/1-openroad-stapr             
+                    epnr/nom_tt_025C_1v80/sta.log'…                             
+[10:27:03] INFO     Finished STA for the nom_tt_025C_1v80 timing openroad.py:764
+                    corner.                                                     
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━┳━━━━┳━━━━┳━━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┳━━━━┳━━━┓
+┃                      ┃    ┃    ┃    ┃    ┃ of ┃   ┃    ┃   ┃    ┃ … ┃    ┃   ┃
+┃                      ┃    ┃ R… ┃    ┃    ┃ w… ┃   ┃ R… ┃   ┃    ┃ … ┃    ┃   ┃
+┃                      ┃ H… ┃ to ┃    ┃ H… ┃ r… ┃ … ┃ to ┃   ┃ S… ┃ … ┃ M… ┃ … ┃
+┃                      ┃ W… ┃ R… ┃ H… ┃ V… ┃ to ┃ … ┃ R… ┃ … ┃ V… ┃ … ┃ C… ┃ … ┃
+┃ Corner/Group         ┃ S… ┃ P… ┃ T… ┃ C… ┃ r… ┃ … ┃ P… ┃ … ┃ C… ┃ … ┃ V… ┃ … ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━╇━━━━╇━━━━╇━━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━╇━━━━╇━━━┩
+│ Overall              │ 0… │ 0… │ 0… │ 0  │ 0  │ … │ 1… │ … │ 0  │ 0 │ 0  │ 0 │
+│ nom_tt_025C_1v80     │ 0… │ 0… │ 0… │ 0  │ 0  │ … │ 1… │ … │ 0  │ 0 │ 0  │ 0 │
+└──────────────────────┴────┴────┴────┴────┴────┴───┴────┴───┴────┴───┴────┴───┘
+[10:27:03] INFO     Saving views to                                 state.py:209
+                    '/work/placement_cts/runs/placement_release_sta             
+                    310/final'…                                                 
+[10:27:04] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 1 - STA (Pre-PnR) ━━━━━━━━━━━━━━━━━━━ 1/1 0:00:15
+

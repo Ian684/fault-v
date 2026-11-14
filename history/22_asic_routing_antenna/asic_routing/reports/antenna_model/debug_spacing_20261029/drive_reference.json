@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "source": "inputs/antenna_model_validated.odb",
+  "source_sha256": "e31f514d80664156b627f54d81d885aba7b9745cdda5e3ef6d36535f614bd9b3",
+  "derived": "inputs/antenna_drive_reference.odb",
+  "derived_sha256": "fbb14c6bfba6e0d6d1ecfbecdaae21d1a6219b058be61539e0767e457ccbff98",
+  "allowed_resizes": {
+    "_44992_": {
+      "from": "sky130_fd_sc_hd__o21ai_2",
+      "to": "sky130_fd_sc_hd__o21ai_4",
+      "location": [
+        2384640,
+        2265760
+      ],
+      "orientation": "MX"
+    }
+  },
+  "Liberty_sha256": "8e78e14442062dba34d414fca6490b2f6b96038d4510d1438ca44fee31487135",
+  "same_Liberty_function_and_pin_contract": true,
+  "different_logic_negative_control_detected": true,
+  "all_other_cells_graph_PG_unchanged": true
+}

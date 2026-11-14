@@ -1,0 +1,10 @@
+{
+  "engine": "OpenSTA",
+  "version": "3.1.0",
+  "source_commit": "0f2529d18218b87aa0e82de444395a830d5058a1",
+  "unmodified_upstream_source": true,
+  "binary_sha256": "332de807ea5225fb13689ef8175379a96bba30d5779896b07eba62233f5be9b9",
+  "tcl_runtime_sha256": "58eb8a4455dc92fdc151e50da61b381a89cc3fd667e9e1237e0a4e291733ba8d",
+  "runtime_image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302",
+  "note": "ELF and Tcl runtime are bundled. Wrapper requires the pinned image's Nix loader and shared libraries. Source build recipe is retained for provenance."
+}

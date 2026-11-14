@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source_receipt": "reports/antenna_model/debug_spacing_20261029/drive_input.json",
+  "source": "inputs/antenna_drive_partial.odb",
+  "source_sha256": "e057f4599842270bfe09f46dddf337ef4b145ecdf630c61e24ca5a34e2f20b22",
+  "derived": "inputs/antenna_drive_native.odb",
+  "derived_sha256": "e057f4599842270bfe09f46dddf337ef4b145ecdf630c61e24ca5a34e2f20b22",
+  "global_run": "global_antenna_drive_20261029_171855",
+  "global_source_sha256": "fddd67e9c66b18f458053b830e20b2edcf8c252bd4272872b2cdeaff101cecfe",
+  "global_overflow": 0,
+  "retained_exact_wires": 41333,
+  "all_guides_match_actual_zero_overflow_source": true,
+  "cleared_whole_nets": [
+    "_16274_",
+    "_16304_",
+    "_16310_",
+    "_16311_"
+  ],
+  "global_macro_extension_gcells": 0,
+  "scope": "One equivalent driver resize, four complete incident nets cleared, all other wires exact; guides from the matching resized circuit and original physical restrictions. Fresh native pin access and all final checks required."
+}

@@ -1,0 +1,83 @@
+{
+  "source": "/work/w26/delivery/Fault-V_W26/H0/layout/fault_v_asic_top_filled.gds.gz",
+  "source_sha256": "84ffab595850075e55e8ad6def4ae5d36bea79e6fd2d865da4ee84dfb7c151bd",
+  "source_bytes": 221418231,
+  "oasis": "/work/w26/delivery/Fault-V_W26/H0/layout/fault_v_asic_top_filled.oas",
+  "oasis_sha256": "fe0dfdc41785cacda47eb56623c9f0efbd15398ec06257973bae1ef611052a44",
+  "oasis_bytes": 14110698,
+  "klayout_python_version": "0.30.7",
+  "oasis_options": {
+    "compression_level": 10,
+    "strict_mode": true,
+    "cblocks": true,
+    "cell_bboxes": true,
+    "std_properties": 1
+  },
+  "cells": 354,
+  "instances": 704985,
+  "layers": 60,
+  "shapes_gds": 16826117,
+  "shapes_oasis": 16823612,
+  "exact_duplicate_shapes_in_gds": 2795,
+  "exact_duplicate_shapes_in_oasis": 290,
+  "duplicates_by_cell_top10": [
+    [
+      "sky130_sram_2kbyte_1rw1r_32x512_8",
+      2026
+    ],
+    [
+      "fault_v_asic_top",
+      286
+    ],
+    [
+      "sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array",
+      57
+    ],
+    [
+      "sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array_0",
+      57
+    ],
+    [
+      "sky130_fd_bd_sram__openram_dp_cell",
+      37
+    ],
+    [
+      "sky130_fd_bd_sram__openram_dp_cell_replica",
+      37
+    ],
+    [
+      "sky130_fd_bd_sram__openram_dp_cell_dummy",
+      37
+    ],
+    [
+      "sky130_sram_2kbyte_1rw1r_32x512_8_delay_chain",
+      32
+    ],
+    [
+      "sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_rw",
+      18
+    ],
+    [
+      "sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4_0",
+      15
+    ]
+  ],
+  "distinct_shape_sets_identical_per_cell_layer": true,
+  "mismatched_cell_layers": [],
+  "count_difference_equals_duplicates": true,
+  "structure_identical": true,
+  "text_presentation_gds": {
+    "texts": 60702,
+    "rotated_or_mirrored": 203,
+    "nonzero_size": 1870,
+    "aligned": 1721
+  },
+  "text_presentation_oasis": {
+    "texts": 60596
+  },
+  "text_note": "OASIS stores text string + position only; GDS text orientation/size/alignment (display attributes) are not representable. GDSII remains the primary deliverable.",
+  "layoutdiff_flags": "BoxesAsPolygons|PathsAsPolygons|IgnoreDuplicates|NoTextOrientation|NoTextDetails",
+  "layoutdiff_ignore_duplicates_identical": true,
+  "equivalent": true,
+  "elapsed_s": 185.9
+}

@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "source": "Original accepted placement/CTS inputs, regenerated standard clock rules",
+  "global_run": "repro_prepare_global",
+  "repair_run": "repro_prepare_repair",
+  "setup_ws_ns": 15.691228316372271,
+  "hold_ws_ns": 0.2932771886132415,
+  "scope": "Fresh preparation pipeline through global RC/electrical/connectivity validation; no second detailed routing."
+}

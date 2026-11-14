@@ -1,0 +1,42 @@
+OpenROAD dcf36133a369abc8f3c5e5738cd4d82e4903c0e0 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING ORD-0039] .openroad ignored with -python
+ALL PLACEMENT LEGALITY / POWER CONNECTION / POLARITY-AWARE CONNECTIVITY CHECKS PASSED
+{
+  "flip_flops": 2925,
+  "active_clock_buffer_count": 443,
+  "negative_inversion_fault_detected": true,
+  "clock_buffer_depth_range": [
+    6,
+    9
+  ],
+  "clock_sink_pins": 2961,
+  "pdn_geometry_unchanged": true,
+  "pass": true,
+  "run": "placement_release",
+  "instances": 59712,
+  "placement_status": {
+    "PLACED": 30523,
+    "FIRM": 1296,
+    "LOCKED": 27893
+  },
+  "fixed_macros": 18,
+  "signal_pins": 108,
+  "connected_pg_iterms": 199794,
+  "base_unary_buffer_inverter_cells": 3468,
+  "final_unary_buffer_inverter_cells": 5506,
+  "verified_unused_cts_dummy_loads": 315,
+  "base_constant_cells": 206,
+  "final_constant_cells": 206,
+  "nonbuffer_instances": 25792,
+  "nonbuffer_endpoints": 102291,
+  "connected_components": 26932,
+  "resized_nonbuffer_cells": 118,
+  "clock_named_or_clock_master_instances": 1108,
+  "stdcell_area_um2": 388187.30240000016,
+  "macro_area_um2": 5121692.531999999,
+  "netlist_sha256": "dac50b5e33a72d3d561c81a31eecd99feb5f4910d3af0824d80c28ecc738063f",
+  "proof_scope": "Exact signal connectivity with verified BUF/INV functions and relative-polarity union-find, with constants canonicalized; drive variants require identical Liberty signal/FF signatures. New CTS clkload cells must be combinational with no connected output load and are excluded from functional endpoints. Not RTL formal equivalence."
+}

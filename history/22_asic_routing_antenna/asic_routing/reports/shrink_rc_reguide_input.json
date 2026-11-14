@@ -1,0 +1,15 @@
+{
+  "accepted": false,
+  "source": "inputs/shrink_rc_partial.odb",
+  "source_sha256": "4e67fbf526baa33e60df0a2120b30e114aaf5076b710c90bc4b363e45df986f4",
+  "global_source": "runs/global_shrink_rc/final/odb/fault_v_asic_top.odb",
+  "global_source_sha256": "2be81120cc9e3aca18637d7f374d2e1b8893753b6d732319bd51f460710146cd",
+  "derived": "inputs/shrink_rc_reguide.odb",
+  "derived_sha256": "9048b15ae85d479cb4b9e6a297290c6d00be0ca8c75daaf4209249ea262f3d76",
+  "guides_copied": 373396,
+  "retained_wire_count": 40573,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_and_logical_graph_unchanged": true,
+  "guides_match_actual_zero_overflow_global": true,
+  "scope": "Only native guides copied from a verified same-cell/same-graph route-free copy. All retained original native wires unchanged exactly. Fresh pin access and native detailed routing still required; no route solution splicing."
+}

@@ -1,0 +1,104 @@
+{
+  "export_native_vias.py": {
+    "source": "week25_closure/scripts/export_native_vias.py",
+    "source_sha256": "d2fce82ef198fb0c87ca82feb3ba3b6b3a5c5bd3ea0f83d64b2547a4cd3c1879",
+    "copy_sha256": "d2fce82ef198fb0c87ca82feb3ba3b6b3a5c5bd3ea0f83d64b2547a4cd3c1879",
+    "path_patches": []
+  },
+  "export_pg_contact_geometry.py": {
+    "source": "week25_closure/scripts/export_pg_contact_geometry.py",
+    "source_sha256": "b26ab2da682152f769e45e09c8ba3f0c41f37a5ea4fee94ae370c7c853c81645",
+    "copy_sha256": "b26ab2da682152f769e45e09c8ba3f0c41f37a5ea4fee94ae370c7c853c81645",
+    "path_patches": []
+  },
+  "audit_pg_contacts.py": {
+    "source": "week25_closure/scripts/audit_pg_contacts.py",
+    "source_sha256": "0e842fd79c225e13a5717a2e4a93b3ecb5c07f4dbc962740b2f9069f9c42e9ea",
+    "copy_sha256": "0e842fd79c225e13a5717a2e4a93b3ecb5c07f4dbc962740b2f9069f9c42e9ea",
+    "path_patches": []
+  },
+  "run_native_fill.py": {
+    "source": "week25_closure/scripts/run_native_fill.py",
+    "source_sha256": "e555288cb21cf8dc85d8a66524b7a18f07eac6c3efae2027bf825f09d914f593",
+    "copy_sha256": "e555288cb21cf8dc85d8a66524b7a18f07eac6c3efae2027bf825f09d914f593",
+    "path_patches": []
+  },
+  "repair_fom_fill.py": {
+    "source": "week25_closure/scripts/repair_fom_fill.py",
+    "source_sha256": "05d8b44194a2ef3f32ccb29b9b9aeada6969abb78f9568689fdbbbdbf5b51ae6",
+    "copy_sha256": "05d8b44194a2ef3f32ccb29b9b9aeada6969abb78f9568689fdbbbdbf5b51ae6",
+    "path_patches": []
+  },
+  "repair_li_fill.py": {
+    "source": "week25_closure/scripts/repair_li_fill.py",
+    "source_sha256": "4b9f1f9a7b93e508d55fbf7bd825e6d47c5eb5ccf1e721fd6f694d74562a6f5e",
+    "copy_sha256": "4b9f1f9a7b93e508d55fbf7bd825e6d47c5eb5ccf1e721fd6f694d74562a6f5e",
+    "path_patches": []
+  },
+  "check_sliding_density.py": {
+    "source": "week25_closure/scripts/check_sliding_density.py",
+    "source_sha256": "c07b7855392e6600fc5562173c26644874cb2c60d0728b4ab9bc917d5103b7f7",
+    "copy_sha256": "c07b7855392e6600fc5562173c26644874cb2c60d0728b4ab9bc917d5103b7f7",
+    "path_patches": []
+  },
+  "canonicalize_fill.py": {
+    "source": "week25_closure/scripts/canonicalize_fill.py",
+    "source_sha256": "fdb6dfe21febb9377d990b9e0c618b9b0042070be78af582dbf86a555674f3c7",
+    "copy_sha256": "fdb6dfe21febb9377d990b9e0c618b9b0042070be78af582dbf86a555674f3c7",
+    "path_patches": []
+  },
+  "compose_fill.py": {
+    "source": "week25_closure/scripts/compose_fill.py",
+    "source_sha256": "041590311167dde627f8b93c409bf77aea2a3aee9f7d183453b222f19ae8980c",
+    "copy_sha256": "041590311167dde627f8b93c409bf77aea2a3aee9f7d183453b222f19ae8980c",
+    "path_patches": []
+  },
+  "check_full_fom.py": {
+    "source": "week25_closure/scripts/check_full_fom.py",
+    "source_sha256": "50b15851572f606db83093e226780f77d8152bb2168752aaebbbb99988ebcc6b",
+    "copy_sha256": "50b15851572f606db83093e226780f77d8152bb2168752aaebbbb99988ebcc6b",
+    "path_patches": []
+  },
+  "audit_stream_macro.py": {
+    "source": "week25_closure/scripts/audit_stream_macro.py",
+    "source_sha256": "11bcc6700424aab71fae7642a169446849571a3b13ae75096dda079227c01c4c",
+    "copy_sha256": "c63f71748b4da2e4cfa68a6c6a504e934883bce1ac90ae8ac0cd0f709d911a7a",
+    "path_patches": [
+      "C=Path('/work/ppa/h1/cand_gap90x95/closure_c')"
+    ]
+  },
+  "audit_final_stdcell_stream.py": {
+    "source": "week25_closure/scripts/audit_final_stdcell_stream.py",
+    "source_sha256": "4e2c3d5d00907353729a494e2efdb4525ce197dc055d19758615311f5b91a0b3",
+    "copy_sha256": "4dd11ce7d95af0b90404f10085503847dc0dade316b55872860fccab7a45f55b",
+    "path_patches": [
+      "C=Path('/work/ppa/h1/cand_gap90x95/closure_c');library=Path('/work')/'pdk"
+    ]
+  },
+  "audit_all_signal_connectivity.py": {
+    "source": "week25_closure/scripts/audit_all_signal_connectivity.py",
+    "source_sha256": "d7bdc394979501f153a3264e0612f588efc0cdc3ef3c14ef61cef68e48abb1bb",
+    "copy_sha256": "27c6492bbc2cdfcdd5e0664f6a580be02caf6175bed216dfac1d9990126abb56",
+    "path_patches": [
+      "C=Path('/work/ppa/h1/cand_gap90x95/closure_c');R=Path('/work/routing')"
+    ]
+  },
+  "check_dummy_grid.py": {
+    "source": "week25_closure/scripts/check_dummy_grid.py",
+    "source_sha256": "3b0ffa926697415b23c6500e2f4a9241c8def5da9f1abca8b8403b8b47c27285",
+    "copy_sha256": "69eb5fa688543cfed8d1ca34a460afe59cffa0ecffab8be76019e3afc02d477a",
+    "path_patches": [
+      "C=Path('/work/ppa/h1/cand_gap90x95/closure_c')",
+      "tlef=Path('/work')/'pdk"
+    ]
+  },
+  "audit_pg_em.py": {
+    "source": "week25_closure/scripts/audit_pg_em.py",
+    "source_sha256": "00df5499fd8ae4513a2ffd9d5dc32c7205c1ed92b27bace35f6acbba0bdf9f06",
+    "copy_sha256": "8a58218002f6136782acd59537e1a923a2a96c024d46aacd1bd0e609cadd3f92",
+    "path_patches": [
+      "tlef=Path('/work')/'pdk",
+      "total_resistors>200000"
+    ]
+  }
+}

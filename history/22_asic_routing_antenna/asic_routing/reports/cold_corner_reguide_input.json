@@ -1,0 +1,18 @@
+{
+  "accepted": false,
+  "source": "inputs/cold_corner_keepout_partial.odb",
+  "source_sha256": "88ae1c711c22b09611c1aab64091466b911926da3cc055cbd350846453e1985e",
+  "global_source": "runs/global_cold_corner_keepout/final/odb/fault_v_asic_top.odb",
+  "global_source_sha256": "18cc6d37dded6275782c74e0cd0cb665b7d15ff8930048478a74454811dec7e1",
+  "derived": "inputs/cold_corner_keepout_reguide.odb",
+  "derived_sha256": "93ffbc6a8844dfa6a5e301dd0ca834dc9b43c8f71814e784badaf92b4bbac928",
+  "guides_copied": 375735,
+  "retained_wire_count": 41298,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_and_logical_graph_unchanged": true,
+  "guides_match_actual_zero_overflow_global": true,
+  "cached_access_terminals": 118,
+  "cached_access_points": 118,
+  "routing_obstructions_match": true,
+  "scope": "Copy only real zero-overflow guides onto the coherent partially cleared checkpoint. All retained native wire opcodes/data, cells and graph unchanged; stricter routing keepouts match the guide source. Every cached preferred AP on all cleared-net terminals is present and lies in the actual oriented pin geometry. Native routing uses these existing access points; final routing/extraction/actual timing/calibrated independent DRC remain mandatory, no acceptance or wire grafts."
+}

@@ -1,0 +1,7 @@
+{
+  "source": "runs/routed_antenna_residual_20261027_133836/1-openroad-detailedrouting/drt_iter42.odb",
+  "source_sha256": "1f3f1b127c5e725852f60983180b9a96821ad55dd8513760d3af062aef2f1cf9",
+  "frozen": "inputs/antenna_intervention_parent42_20261028.odb",
+  "native_DRC": 41,
+  "accepted": false
+}

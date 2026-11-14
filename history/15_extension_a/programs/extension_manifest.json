@@ -1,0 +1,27 @@
+{
+  "unit_vectors": 201550,
+  "unit_reset_cancellations": 26,
+  "unit_completed": 201576,
+  "ops": [
+    "DOT4",
+    "MUL16",
+    "ADDSAT",
+    "QNT8",
+    "DOT4ACC",
+    "MAC16",
+    "ADD8SAT",
+    "SUB8SAT",
+    "RQNT8",
+    "DOT2SAT",
+    "DOT8",
+    "DOT4SU"
+  ],
+  "cpu_cases_per_mode": 1911,
+  "custom_demo_words": 2828,
+  "self_checks": 159,
+  "stored_outputs": 159,
+  "custom_instructions": 302,
+  "success_text": "DSP OK\r\n",
+  "success_status": 1,
+  "success_halt_cause": 9
+}

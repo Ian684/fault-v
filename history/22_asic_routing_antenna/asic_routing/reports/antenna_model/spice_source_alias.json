@@ -1,0 +1,6 @@
+{
+  "original_source": "E:\\Codex\\Fault_V_W24_Transfer\\work\\fault-v-asic\\design\\macros\\vendor\\sky130_sram_2kbyte_1rw1r_32x512_8.sp",
+  "delivered_alias": "macros/sky130_sram_2kbyte_1rw1r_32x512_8.source.sp",
+  "sha256": "5d1de14e203f07b4a16470819d9d5ba28e5d7f79283cef23eec5462a12285e76",
+  "scope": "Exact unmodified SPICE used for all 59 independent gate-area comparisons."
+}

@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_native6_zero.odb",
+  "source_sha256": "e5a155efe5e19c8276968063c47a6b918cce2c58058006255a2ee665fbe21426",
+  "reference_native_DRC": 6,
+  "reference_antenna_nets": 0,
+  "source_physical_connectivity_pass": true,
+  "source_passive_diodes": 7551,
+  "source_incomplete": true,
+  "derived": "inputs/antenna_residual3.odb",
+  "derived_sha256": "181ecc2be207e3677e94bd283288b8b2a7fc0f0cf7cef540ad1389003a400587",
+  "global_run": "global_antenna_4319_control_20261028_184048",
+  "global_source_sha256": "6c08c0e7482e04597a9f7a1c60ee3f1faa338a2325c02d2d356e2e119a30bba6",
+  "global_macro_extension_gcells": 0,
+  "cleared_whole_nets": [
+    "net3317",
+    "net4749",
+    "net4947"
+  ],
+  "minimum_vertex_cover_size": 3,
+  "pending_source_markers_covered": 6,
+  "retained_exact_wires": 41334,
+  "all_cached_preferences_unchanged": true,
+  "cached_access_points_checked": 9,
+  "cells_graph_PG_obstructions_unchanged": true,
+  "guides_match_actual_zero_overflow_global": true,
+  "planned_diodes": 1,
+  "planned_diodes_scope": "Earlier net3312 planned diode retained; no diode or other cell added here.",
+  "scope": "Native6/antenna0 complete source has all7551 diode terminals physically connected. Clear only a proven minimum three-net cover, retaining the legal net3116 corner path and all other41334 exact wire encodings. No PA regeneration, new cells or manual route shapes. All actual final DRC/antenna/physical/RC/TT gates still required."
+}

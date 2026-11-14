@@ -1,0 +1,10 @@
+{
+  "cpu_cases_per_mode": 1319,
+  "custom_demo_words": 2469,
+  "self_checks": 127,
+  "stored_outputs": 127,
+  "custom_instructions": 270,
+  "success_text": "DSP OK\r\n",
+  "success_status": 1,
+  "success_halt_cause": 9
+}

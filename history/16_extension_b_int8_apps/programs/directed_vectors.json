@@ -1,0 +1,278 @@
+[
+  {
+    "op": "DOT4",
+    "a": "0x4030201",
+    "b": "0x8070605",
+    "expected": "0x46"
+  },
+  {
+    "op": "DOT4",
+    "a": "0x80808080",
+    "b": "0x80808080",
+    "expected": "0x10000"
+  },
+  {
+    "op": "DOT4",
+    "a": "0x80808080",
+    "b": "0x7f7f7f7f",
+    "expected": "0xffff0200"
+  },
+  {
+    "op": "MUL16",
+    "a": "0xffff8000",
+    "b": "0x12348000",
+    "expected": "0x40000000"
+  },
+  {
+    "op": "MUL16",
+    "a": "0xabcdffff",
+    "b": "0x2",
+    "expected": "0xfffffffe"
+  },
+  {
+    "op": "ADDSAT",
+    "a": "0x7fffffff",
+    "b": "0x1",
+    "expected": "0x7fffffff"
+  },
+  {
+    "op": "ADDSAT",
+    "a": "0x80000000",
+    "b": "0xffffffff",
+    "expected": "0x80000000"
+  },
+  {
+    "op": "ADDSAT",
+    "a": "0xffffffff",
+    "b": "0x1",
+    "expected": "0x0"
+  },
+  {
+    "op": "QNT8",
+    "a": "0xfffffffd",
+    "b": "0x1",
+    "expected": "0xfffffffe"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x7fffffff",
+    "b": "0x0",
+    "expected": "0x7f"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x80000000",
+    "b": "0x0",
+    "expected": "0xffffff80"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x80000000",
+    "b": "0x1f",
+    "expected": "0xffffffff"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x100",
+    "b": "0x21",
+    "expected": "0x7f"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x1",
+    "b": "0x20",
+    "expected": "0x1"
+  },
+  {
+    "op": "DOT4ACC",
+    "a": "80808080",
+    "b": "80808080",
+    "expected": "00010000"
+  },
+  {
+    "op": "DOT4ACC",
+    "a": "04030201",
+    "b": "08070605",
+    "expected": "00000046"
+  },
+  {
+    "op": "DOT4ACC",
+    "a": "ffffffff",
+    "b": "01010101",
+    "expected": "fffffffc"
+  },
+  {
+    "op": "DOT4ACC",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  },
+  {
+    "op": "MAC16",
+    "a": "00008000",
+    "b": "00008000",
+    "expected": "40000000"
+  },
+  {
+    "op": "MAC16",
+    "a": "0000ffff",
+    "b": "00007fff",
+    "expected": "ffff8001"
+  },
+  {
+    "op": "MAC16",
+    "a": "1234ffff",
+    "b": "9876ffff",
+    "expected": "00000001"
+  },
+  {
+    "op": "MAC16",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  },
+  {
+    "op": "ADD8SAT",
+    "a": "7f7f7f7f",
+    "b": "01010101",
+    "expected": "7f7f7f7f"
+  },
+  {
+    "op": "ADD8SAT",
+    "a": "80808080",
+    "b": "ffffffff",
+    "expected": "80808080"
+  },
+  {
+    "op": "ADD8SAT",
+    "a": "7f8001ff",
+    "b": "01807f01",
+    "expected": "7f807f00"
+  },
+  {
+    "op": "ADD8SAT",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  },
+  {
+    "op": "SUB8SAT",
+    "a": "7f7f7f7f",
+    "b": "ffffffff",
+    "expected": "7f7f7f7f"
+  },
+  {
+    "op": "SUB8SAT",
+    "a": "80808080",
+    "b": "01010101",
+    "expected": "80808080"
+  },
+  {
+    "op": "SUB8SAT",
+    "a": "7f8001ff",
+    "b": "807f0180",
+    "expected": "7f80007f"
+  },
+  {
+    "op": "SUB8SAT",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  },
+  {
+    "op": "RQNT8",
+    "a": "80000000",
+    "b": "00007fff",
+    "expected": "ffffff80"
+  },
+  {
+    "op": "RQNT8",
+    "a": "7fffffff",
+    "b": "00008000",
+    "expected": "ffffff80"
+  },
+  {
+    "op": "RQNT8",
+    "a": "fffffffd",
+    "b": "00010001",
+    "expected": "fffffffe"
+  },
+  {
+    "op": "RQNT8",
+    "a": "00000003",
+    "b": "1f810001",
+    "expected": "fffffffe"
+  },
+  {
+    "op": "DOT2SAT",
+    "a": "80008000",
+    "b": "80008000",
+    "expected": "7fffffff"
+  },
+  {
+    "op": "DOT2SAT",
+    "a": "7fff7fff",
+    "b": "7fff7fff",
+    "expected": "7ffe0002"
+  },
+  {
+    "op": "DOT2SAT",
+    "a": "80008000",
+    "b": "7fff7fff",
+    "expected": "80010000"
+  },
+  {
+    "op": "DOT2SAT",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  },
+  {
+    "op": "DOT8",
+    "a": "88888888",
+    "b": "88888888",
+    "expected": "00000200"
+  },
+  {
+    "op": "DOT8",
+    "a": "88888888",
+    "b": "77777777",
+    "expected": "fffffe40"
+  },
+  {
+    "op": "DOT8",
+    "a": "fedcba98",
+    "b": "01234567",
+    "expected": "ffffff58"
+  },
+  {
+    "op": "DOT8",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  },
+  {
+    "op": "DOT4SU",
+    "a": "80808080",
+    "b": "ffffffff",
+    "expected": "fffe0200"
+  },
+  {
+    "op": "DOT4SU",
+    "a": "7f7f7f7f",
+    "b": "ffffffff",
+    "expected": "0001fa04"
+  },
+  {
+    "op": "DOT4SU",
+    "a": "ff01807f",
+    "b": "ffff8080",
+    "expected": "ffffff80"
+  },
+  {
+    "op": "DOT4SU",
+    "a": "00000000",
+    "b": "00000000",
+    "expected": "00000000"
+  }
+]

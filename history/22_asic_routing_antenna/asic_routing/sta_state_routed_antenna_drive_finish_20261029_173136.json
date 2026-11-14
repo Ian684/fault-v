@@ -1,0 +1,7 @@
+{
+  "nl": "/work/routing/runs/routed_antenna_drive_finish_20261029_173136/final/nl/fault_v_asic_top.nl.v",
+  "spef": {
+    "nom_tt_025C_1v80": "/work/routing/runs/routed_antenna_drive_finish_20261029_173136/final/spef/nom/fault_v_asic_top.nom.spef"
+  },
+  "metrics": {}
+}

@@ -1,0 +1,37 @@
+{
+  "clock_mhz": 50.0,
+  "runs": [
+    {
+      "run": 1,
+      "uart_hex": "43204f4b0d0a",
+      "uart_errors": 0,
+      "debug": 4613,
+      "status": 1,
+      "halt_cause": 9
+    },
+    {
+      "run": 2,
+      "uart_hex": "43204f4b0d0a",
+      "uart_errors": 0,
+      "debug": 4613,
+      "status": 1,
+      "halt_cause": 9
+    },
+    {
+      "run": 3,
+      "uart_hex": "43204f4b0d0a",
+      "uart_errors": 0,
+      "debug": 4613,
+      "status": 1,
+      "halt_cause": 9
+    }
+  ],
+  "image_sha256": {
+    "fault_v_extension_c.bit": "b679ec3559f439127eb340853d49ad254937ebb6982480471faf836dcd537642",
+    "fault_v_extension_c.hwh": "a86cff8481d0866b7228fd9785ecac1d7c8acdc9a7b3bdb53c55ae19871dc218"
+  },
+  "physical_led_observation": true,
+  "physical_btn0_observation": true,
+  "physical_benchmark_run": false,
+  "physical_observation_source": "User confirmed LD0/LD2 on; BTN0 held all LEDs off; release restores LD0/LD2."
+}

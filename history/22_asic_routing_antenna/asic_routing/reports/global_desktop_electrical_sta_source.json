@@ -1,0 +1,5 @@
+{
+  "scope": "global",
+  "spef": "runs/global_desktop_electrical/2-openroad-stamidpnr/estimated_global.spef",
+  "source_netlist": "runs/global_desktop_electrical/final/nl/fault_v_asic_top.nl.v"
+}

@@ -1,0 +1,57 @@
+{
+  "accepted_physical_run": "routed_desktop_residual_four_20261026_174504",
+  "prepared_utc": "2026-10-26T09:53:42.622573+00:00",
+  "scope": "Deliberate post-acceptance delivery/replay updates. Original 280-file identity and archive retained; actual native CLI/Tcl/config/state remain equal to launch hashes. Final render visual QA and package verification still required.",
+  "original_frozen_count": 280,
+  "frozen_count": 287,
+  "updates": {
+    "scripts/package_delivery.py": {
+      "old_sha256": "7856e19805b4e4fbe93fa0bfa760c70acba989a61301af9c9644d99379c7fca9",
+      "new_sha256": "3258c9c0072707719713547a59185bc2830522494c946a420e8bb170dcc79ecc"
+    },
+    "scripts/render_routing.py": {
+      "old_sha256": "6f115dabcf82a2f11d2aee99d27bd3c4f7c8570c26edc9783d9d0ad38b50df7b",
+      "new_sha256": "d629e61075230035f67b1036495889326de6e493776d09e44198e6fb2c3f0ca0"
+    },
+    "scripts/run_selected.sh": {
+      "old_sha256": "29ded75afc0cddfaaf5fa4e4e1229e60e869fa12fcf6ad8bb339155ff6e3792b",
+      "new_sha256": "97673bbb5b30903d72eb7748082ea4e3efa78640af58ce2d6dda0bdf80eb21df"
+    },
+    "scripts/write_report.py": {
+      "old_sha256": "779f26d70030fca376cac10ae8bacfe7a23adf0548b020a86bd67831f9c5ec0e",
+      "new_sha256": "8071ee74571596d997389852c9107337c0e1bc2810d8acabd0389427f60734c4"
+    },
+    "scripts/cold_corner_keepout_cli.py": {
+      "old_sha256": "4e0523d7930e953c7564d533236b72a624edc3fef13bb5a572cbfd573b6349d9",
+      "new_sha256": "4e0523d7930e953c7564d533236b72a624edc3fef13bb5a572cbfd573b6349d9"
+    },
+    "config_routed_desktop_residual_four_20261026_174504.json": {
+      "old_sha256": null,
+      "new_sha256": "da19af0d3ea206b99e541e644fc29b75705df2d870568d1fd51674d183a46478"
+    },
+    "desktop_residual_four_native_state.json": {
+      "old_sha256": null,
+      "new_sha256": "9a0ef35b5ca0fdc9766a51bba284dcac5130e47265228e616de033c15f7ca202"
+    },
+    "scripts/drt_cold_corner_keepout.tcl": {
+      "old_sha256": "e1a2e06f7fa575638946ed8fee0af317bf547d85aa83048548a67f8085e24f51",
+      "new_sha256": "e1a2e06f7fa575638946ed8fee0af317bf547d85aa83048548a67f8085e24f51"
+    },
+    "reports/desktop_residual_four_cleared_pin_access.json": {
+      "old_sha256": null,
+      "new_sha256": "cb3632b9730a9801f779726b748d3de7f267fab50252dd3fb169ee20cfc2c47c"
+    },
+    "scripts/check_desktop_residual_four_cleared_pin_access.py": {
+      "old_sha256": null,
+      "new_sha256": "11b39f52928d2015adde6ae2613dbcf01ba5f49c5c36c2ababf7ae311f8e870b"
+    },
+    "inputs/desktop_residual_four_native.odb": {
+      "old_sha256": null,
+      "new_sha256": "bc8c094214bebc8063c8afadce3169648846bcd6ca12f52385fe0512e434e306"
+    },
+    "config_desktop_joint_corner_global.json": {
+      "old_sha256": null,
+      "new_sha256": "aea3ed929da6c865e716e999553627a1d9aa41e67341aa8d97bab65f8b1d32e3"
+    }
+  }
+}

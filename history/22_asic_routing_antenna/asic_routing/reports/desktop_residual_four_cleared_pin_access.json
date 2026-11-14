@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/desktop_residual_four_native.odb",
+  "source_sha256": "bc8c094214bebc8063c8afadce3169648846bcd6ca12f52385fe0512e434e306",
+  "active_nets": 41337,
+  "validated_iterms": 131678,
+  "cleared_net_iterms_requiring_cached_AP": 13,
+  "retained_routed_iterms_without_preferred_AP": 1638,
+  "preferred_access_points": 130040,
+  "error_count": 0,
+  "first_errors": [],
+  "negative_mismatch_control_detected": true,
+  "mapping": "Preferred access point coordinates plus the unchanged instance location, checked against actual transformed ITerm metal shapes.",
+  "scope": "All existing preferred APs must lie in actual unchanged pin metal. Every terminal of each cleared net additionally requires a preferred AP. Retained fully native-routed nets may lack preferred AP metadata; their wires remain unchanged. This is preparation only; native physical/RC/STA/phase/PG and independent DRC gates remain mandatory."
+}

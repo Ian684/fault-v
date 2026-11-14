@@ -1,0 +1,152 @@
+{
+  "source_unchanged": true,
+  "comparison": [
+    {
+      "stage": "inserted",
+      "source": "runs/routed_antenna_final10_20261028_163837/1-openroad-detailedrouting/single_antenna_inserted.odb",
+      "source_sha256": "bd54313227606c32cff2a47bc2caf4a57f89e4fa570889ee7a3528639fa63ba5",
+      "old_preferred_AP_geometry_changed": 0,
+      "first_changed_APs": [],
+      "old_inst_access_indices_changed": 0,
+      "original_wire_count": 41333,
+      "wire_count": 41335,
+      "removed_complete_wire_nets": [
+        "_11011_",
+        "net3317"
+      ],
+      "newly_created_wire_nets": [
+        "net3312",
+        "net4319",
+        "net6035",
+        "net6038"
+      ],
+      "new_wire_opcode_counts_and_lengths": {
+        "net3312": [
+          442,
+          505040
+        ],
+        "net4319": [
+          446,
+          475446
+        ],
+        "net6035": [
+          591,
+          579514
+        ],
+        "net6038": [
+          387,
+          402282
+        ]
+      },
+      "other_wire_length_or_opcode_count_changes": [],
+      "new_diodes": [
+        {
+          "instance": "ANTENNA_7548",
+          "master": "sky130_fd_sc_hd__diode_2",
+          "orientation": "R0",
+          "pin_access_index": -1,
+          "preferred_AP": [],
+          "methods": {
+            "clearPrefAccessPoints": null,
+            "getAccessPoints": null,
+            "getPrefAccessPoints": null,
+            "setAccessPoint": null
+          }
+        },
+        {
+          "instance": "ANTENNA_7549",
+          "master": "sky130_fd_sc_hd__diode_2",
+          "orientation": "R0",
+          "pin_access_index": -1,
+          "preferred_AP": [],
+          "methods": {
+            "clearPrefAccessPoints": null,
+            "getAccessPoints": null,
+            "getPrefAccessPoints": null,
+            "setAccessPoint": null
+          }
+        }
+      ]
+    },
+    {
+      "stage": "regenerated",
+      "source": "runs/routed_antenna_final10_20261028_163837/1-openroad-detailedrouting/single_antenna_prepared.odb",
+      "source_sha256": "cb891ae82d8814f4e61c83fecc1b9aef447c9aa81a8ced6750ef36e91132e264",
+      "old_preferred_AP_geometry_changed": 0,
+      "first_changed_APs": [],
+      "old_inst_access_indices_changed": 0,
+      "original_wire_count": 41333,
+      "wire_count": 41335,
+      "removed_complete_wire_nets": [
+        "_11011_",
+        "net3317"
+      ],
+      "newly_created_wire_nets": [
+        "net3312",
+        "net4319",
+        "net6035",
+        "net6038"
+      ],
+      "new_wire_opcode_counts_and_lengths": {
+        "net3312": [
+          442,
+          505040
+        ],
+        "net4319": [
+          446,
+          475446
+        ],
+        "net6035": [
+          591,
+          579514
+        ],
+        "net6038": [
+          387,
+          402282
+        ]
+      },
+      "other_wire_length_or_opcode_count_changes": [],
+      "new_diodes": [
+        {
+          "instance": "ANTENNA_7548",
+          "master": "sky130_fd_sc_hd__diode_2",
+          "orientation": "R0",
+          "pin_access_index": 0,
+          "preferred_AP": [
+            [
+              "li1",
+              230,
+              510
+            ]
+          ],
+          "methods": {
+            "clearPrefAccessPoints": null,
+            "getAccessPoints": null,
+            "getPrefAccessPoints": null,
+            "setAccessPoint": null
+          }
+        },
+        {
+          "instance": "ANTENNA_7549",
+          "master": "sky130_fd_sc_hd__diode_2",
+          "orientation": "R0",
+          "pin_access_index": 0,
+          "preferred_AP": [
+            [
+              "li1",
+              230,
+              510
+            ]
+          ],
+          "methods": {
+            "clearPrefAccessPoints": null,
+            "getAccessPoints": null,
+            "getPrefAccessPoints": null,
+            "setAccessPoint": null
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Read-only comparison. Wire length/opcode counts are diagnostic here; byte-level equality remains a separate required input guard."
+}

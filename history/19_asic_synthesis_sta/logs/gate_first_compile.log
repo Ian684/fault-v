@@ -1,0 +1,29 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v" into library work
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'SET' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:45]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'SET' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:45]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'RESET' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:46]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'RESET' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:46]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'CLK_N' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:47]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'CLK_N' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:47]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'D' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:48]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'D' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:48]
+ERROR: [VRFC 10-8530] primitive 'sky130_fd_sc_hd__udp_dff$NSR' is ignored due to previous errors [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:36]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'SET' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:123]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'SET' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:123]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'RESET' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:124]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'RESET' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:124]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'CLK_N' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:125]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'CLK_N' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:125]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'D' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:126]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'D' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:126]
+ERROR: [VRFC 10-1103] net type must be explicitly specified for 'NOTIFIER' when default_nettype is none [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:127]
+ERROR: [VRFC 10-9035] illegal data type for UDP port 'NOTIFIER' [<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/asic_synthesis/macros/primitives.v:127]
+INFO: [#UNDEF] Sorry, too many errors..
+Gate compile failed
+At <HOME>\Documents\Codex\2026-09-28\https-chatgpt-com-share-6aba66e3-8910\outputs\asic_synthesis\run_gate.ps1:9 c
+har:27
++   if($LASTEXITCODE -ne 0){throw 'Gate compile failed'}
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Gate compile failed:String) [], RuntimeException
+    + FullyQualifiedErrorId : Gate compile failed
+ 

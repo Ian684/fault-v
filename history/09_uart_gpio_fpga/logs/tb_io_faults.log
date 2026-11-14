@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Oct 11 19:40:32 2026
+# Process ID: 6488
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim
+# Command line: xsim.exe -log tb_io_faults.log -mode tcl -source {xsim.dir/tb_io_faults/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim/tb_io_faults.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_io_faults/xsim_script.tcl
+# xsim {tb_io_faults} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS CPU IO fault 4 cause=7 addr=20000100 requests=0
+PASS CPU IO fault 5 cause=4 addr=20000101 requests=0
+PASS CPU IO fault 6 cause=6 addr=20000204 requests=0
+PASS CPU IO fault 7 cause=5 addr=20000205 requests=0
+PASS CPU IO fault 0 cause=6 addr=20000100 requests=1
+PASS CPU IO fault 1 cause=7 addr=20000104 requests=1
+PASS CPU IO fault 2 cause=7 addr=20000204 requests=1
+PASS CPU IO fault 3 cause=6 addr=20000108 requests=1
+ALL 8 CPU IO FAULT CASES PASSED
+$finish called at time : 275 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/verify/tb_io_faults.sv" Line 40
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Oct 11 19:40:34 2026...

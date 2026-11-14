@@ -1,0 +1,68 @@
+{
+  "test_markers": {
+    "tb_custom_exec": "ALL 201576 CUSTOM UNIT RESULTS PASSED; 26 RESET CANCELLATIONS",
+    "tb_verification_suite": "ALL 1372 ISA AND PROGRAM RUNS PASSED",
+    "tb_fault_v_io": "ALL 16 IO TRANSACTIONS PASSED",
+    "tb_io_faults": "ALL 8 CPU IO FAULT CASES PASSED",
+    "tb_stress": "ALL 4 STRESS PROGRAM RUNS PASSED; 4096 UART BYTES PASSED; 4 MID-EXECUTION RESETS PASSED",
+    "tb_applications": "ALL 408 APPLICATION RUNS PASSED; 136 MID-EXECUTION RESETS",
+    "tb_application_demo": "ALL 4 APPLICATION DEMO RUNS AND 4 FAULT INJECTIONS PASSED",
+    "tb_payload": "ALL 3 PAYLOAD RUNS PASSED; 24 UART BYTES"
+  },
+  "application_images": 68,
+  "application_datasets": 34,
+  "rtl_runs": 408,
+  "mid_execution_resets": 136,
+  "rom_words": 2359,
+  "board_checks": 132,
+  "resources": {
+    "lut": 3402,
+    "ff": 2811,
+    "dsp": 4,
+    "bram": 8
+  },
+  "timing": {
+    "clock_mhz": 50,
+    "wns": 3.738,
+    "whs": 0.03,
+    "wpws": 9.02
+  },
+  "board": {
+    "clock_mhz": 50.0,
+    "runs": [
+      {
+        "run": 1,
+        "uart_hex": "415050204f4b0d0a",
+        "uart_errors": 0,
+        "debug": 4613,
+        "status": 1,
+        "halt_cause": 9
+      },
+      {
+        "run": 2,
+        "uart_hex": "415050204f4b0d0a",
+        "uart_errors": 0,
+        "debug": 4613,
+        "status": 1,
+        "halt_cause": 9
+      },
+      {
+        "run": 3,
+        "uart_hex": "415050204f4b0d0a",
+        "uart_errors": 0,
+        "debug": 4613,
+        "status": 1,
+        "halt_cause": 9
+      }
+    ],
+    "image_sha256": {
+      "fault_v_extension_b.bit": "8d2ab86f7d3993d9adff199d742fde7a7e1ae68129fe09d6e2dae24e23584902",
+      "fault_v_extension_b.hwh": "962319150185f0fe3baf8e0a90d2a73276284e621fdf4bd7489a1d0437f851a6"
+    },
+    "physical_led_observation": "user_confirmed",
+    "physical_btn0_observation": "user_confirmed",
+    "physical_benchmark_run": false,
+    "observation_description": "User confirmed LD0/LD2 on, LD1/LD3 off; holding BTN0 turns all off; release restores LD0/LD2."
+  },
+  "rtl_changed": false
+}

@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "positive_checkpoint_hash_control": true,
+  "wrong_checkpoint_hash_rejected": true,
+  "joint_counter_comparison_control": true,
+  "actual_premature_acceptance_rejected": true,
+  "selected_handoff_unchanged_by_negative_test": true,
+  "native_Tcl_completeness_passed": true,
+  "python_and_bash_syntax_passed": true,
+  "source_files_sha256": {
+    "antenna_guarded_cli.py": "5641abb13e0710c47e7d05457147f3c2dda82f03a8beff7dcf286775ec728a73",
+    "drt_antenna_guarded.tcl": "2b3a9fe800256914adb6d9150b2c3af95e095374b492227f93d6859ecc40945e",
+    "run_antenna_guarded.sh": "0b6bb3b5b78cb63afaa4b352dd3154e8cb5bc450ec3c609b63962347f3160c62",
+    "antenna_checkpoint_pairs.py": "0426ea4f426818459dece0a5f237c3d30f5e4b8d98e39fc890ad5663c3842c1a",
+    "test_antenna_checkpoint_pairs.py": "7f954584f9273904e1c11b2b232fe40d223906a3f59d6f99cbc4f0b1e404c626",
+    "accept_antenna_guarded_phase.py": "d1cfc3841e79adce14977fa26ce046d56bea215055fa57845d3a676a21b6eb55",
+    "check_antenna_progress.py": "72014d8cecd322a06e280813e1afb69d7d9505f2937f455e8aa0e03ca606bc9a"
+  }
+}

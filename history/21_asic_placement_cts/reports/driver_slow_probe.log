@@ -1,0 +1,136 @@
+OpenSTA 3.1.0 0f2529d182 Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning 465: driver_slow_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_slow_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_slow_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 465: driver_slow_probe.tcl line 1, -wire_load not allowed for net objects.
+Warning 503: driver_slow_probe.tcl line 1, report_checks -group_count is deprecated. Use -group_path_count instead.
+Startpoint: a (input port clocked by clk)
+Endpoint: s0 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.608860731    0.608860731 v g0_0/X (sky130_fd_sc_hd__buf_4)
+   0.083174080    0.692034841 ^ g0_1/Y (sky130_fd_sc_hd__inv_16)
+   0.029700965    0.721735775 v g0_2/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.721735775 v s0/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.721735775   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s0/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.721735775   data arrival time
+-----------------------------------------------------------------------
+                 39.175262451   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s2 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.561522722    0.561522722 v g2_0/X (sky130_fd_sc_hd__buf_16)
+   0.073430099    0.634952843 ^ g2_1/Y (sky130_fd_sc_hd__inv_16)
+   0.028881399    0.663834214 v g2_2/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.663834214 v s2/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.663834214   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s2/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.663834214   data arrival time
+-----------------------------------------------------------------------
+                 39.233165741   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s1 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.547597647    0.547597647 v g1_0/X (sky130_fd_sc_hd__buf_8)
+   0.074188210    0.621785879 ^ g1_1/Y (sky130_fd_sc_hd__inv_16)
+   0.028945126    0.650730968 v g1_2/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.650730968 v s1/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.650730968   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s1/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.650730968   data arrival time
+-----------------------------------------------------------------------
+                 39.246273041   slack (MET)
+
+
+Startpoint: a (input port clocked by clk)
+Endpoint: s3 (falling edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+         Delay           Time   Description
+-----------------------------------------------------------------------
+   0.000000000    0.000000000   clock clk (rise edge)
+   0.000000000    0.000000000   clock network delay (ideal)
+   0.000000000    0.000000000 v input external delay
+   0.000000000    0.000000000 v a (in)
+   0.353354514    0.353354514 ^ g3_0/Y (sky130_fd_sc_hd__inv_2)
+   0.073291205    0.426645726 v g3_1/Y (sky130_fd_sc_hd__inv_4)
+   0.080999263    0.507645011 ^ g3_2/Y (sky130_fd_sc_hd__inv_8)
+   0.030979665    0.538624644 v g3_3/Y (sky130_fd_sc_hd__inv_16)
+   0.000000000    0.538624644 v s3/wmask0[0] (sky130_sram_2kbyte_1rw1r_32x512_8)
+                  0.538624644   data arrival time
+
+  40.000000000   40.000000000   clock clk (rise edge)
+   0.000000000   40.000000000   clock network delay (ideal)
+   0.000000000   40.000000000   clock reconvergence pessimism
+                 40.000000000 ^ s3/clk0 (sky130_sram_2kbyte_1rw1r_32x512_8)
+  -0.103000000   39.896999359   library setup time
+                 39.896999359   data required time
+-----------------------------------------------------------------------
+                 39.896999359   data required time
+                 -0.538624644   data arrival time
+-----------------------------------------------------------------------
+                 39.358375549   slack (MET)
+
+
+SLOW_CHAIN cells=buf_4+inv_16+inv_16 rise=0.035425 fall=0.022714
+SLOW_CHAIN cells=buf_8+inv_16+inv_16 rise=0.034733 fall=0.021905
+SLOW_CHAIN cells=buf_16+inv_16+inv_16 rise=0.034531 fall=0.021837
+SLOW_CHAIN cells=inv_2+inv_4+inv_8+inv_16 rise=0.035094 fall=0.025111

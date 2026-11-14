@@ -1,0 +1,30 @@
+{
+  "final_ODB_sha256": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2",
+  "final_netlist_sha256": "cdbbfc46696534b7a5729c5c5f20a8de82b5923597f93cb53ec67f3f5f0e4175",
+  "mixed_VCD_sha256": "adcb7f12a99da0f3a3d87a9bd4d6383e1587b3080df00d781f99d0bb7cdb2db3",
+  "nominal_SPEF_sha256": "d7a88a3b260bf9dfff7a687894e6eb06534385b3b04a84657f0f5908baeabfb4",
+  "acceptance_criteria_sha256": "c1af7078a075f5aea23bb958ce06e2284fd9d34b782cf20189ddea939c423ec6",
+  "fresh_archived_files_verified": 60,
+  "cases": {
+    "0p014": {
+      "worst_rail_drop_V": {
+        "VPWR": 0.01571,
+        "VGND": 0.0144713
+      },
+      "conservative_combined_drop_V": 0.030181299999999998,
+      "max_average_EM_utilization": 0.46572958500669337,
+      "all_native_EM_branches_pass": true
+    },
+    "0p028": {
+      "worst_rail_drop_V": {
+        "VPWR": 0.029652,
+        "VGND": 0.0272998
+      },
+      "conservative_combined_drop_V": 0.0569518,
+      "max_average_EM_utilization": 0.8848728246318608,
+      "all_native_EM_branches_pass": true
+    }
+  },
+  "research_static_IR_and_average_EM_screen_pass": true,
+  "scope": "Actual common-candidate static average screen under explicit macro loads, ideal core boundary sources, nominal RC and retained four-state activity limitations. The chosen 90mV combined research budget does not qualify nominal Liberty at droop. No package/transient/thermal/crowding/SRAM-interior or complete SPICE sink-load qualification."
+}

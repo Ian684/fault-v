@@ -1,0 +1,222 @@
+{
+  "accepted": false,
+  "reason": "User requested moving to a faster Windows computer using a disk; stop the owned current router after preserving its last complete native checkpoint. Not a completed DetailedRouting result.",
+  "container": "4933ed60c8b2f8b5df836db9c263e0774c19625f3335fa22655034b9d9b014dd",
+  "owner_top": "PID                 COMMAND\n1022                /nix/store/7zqpr7slgvjfjcqfabb2fmlpvc8k23ax-python3-3.13.9-env/bin/python3 scripts/corner_reguide_cli.py --pdk-root /work/pdk --with-initial-state /work/routing/followup_cold_state.json --run-tag routed_followup_cold config_corner_reguide.json\n1076                /nix/store/2y36a4sr078y15ick388dncqjdzmlxga-openroad-2026-02-17/bin/openroad -exit -no_splash -metrics /work/routing/runs/routed_followup_cold/1-openroad-detailedrouting/or_metrics_out.json /work/routing/scripts/drt_corner_reguide.tcl\n",
+  "before_stop_state": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 1022,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-10-21T02:00:10.131704305Z",
+    "FinishedAt": "0001-01-01T00:00:00Z"
+  },
+  "completed_iterations": [
+    {
+      "iteration": 0,
+      "drc": 84031
+    },
+    {
+      "iteration": 1,
+      "drc": 47808
+    },
+    {
+      "iteration": 2,
+      "drc": 45060
+    },
+    {
+      "iteration": 3,
+      "drc": 18500
+    },
+    {
+      "iteration": 4,
+      "drc": 10406
+    },
+    {
+      "iteration": 5,
+      "drc": 7818
+    },
+    {
+      "iteration": 6,
+      "drc": 6686
+    },
+    {
+      "iteration": 7,
+      "drc": 6141
+    },
+    {
+      "iteration": 8,
+      "drc": 5846
+    },
+    {
+      "iteration": 9,
+      "drc": 5205
+    },
+    {
+      "iteration": 10,
+      "drc": 2416
+    },
+    {
+      "iteration": 11,
+      "drc": 1350
+    },
+    {
+      "iteration": 12,
+      "drc": 1056
+    },
+    {
+      "iteration": 13,
+      "drc": 712
+    },
+    {
+      "iteration": 14,
+      "drc": 505
+    },
+    {
+      "iteration": 15,
+      "drc": 504
+    },
+    {
+      "iteration": 16,
+      "drc": 434
+    },
+    {
+      "iteration": 17,
+      "drc": 438
+    },
+    {
+      "iteration": 18,
+      "drc": 201
+    },
+    {
+      "iteration": 19,
+      "drc": 153
+    },
+    {
+      "iteration": 20,
+      "drc": 130
+    },
+    {
+      "iteration": 21,
+      "drc": 88
+    },
+    {
+      "iteration": 22,
+      "drc": 84
+    },
+    {
+      "iteration": 23,
+      "drc": 82
+    },
+    {
+      "iteration": 24,
+      "drc": 79
+    },
+    {
+      "iteration": 25,
+      "drc": 79
+    },
+    {
+      "iteration": 26,
+      "drc": 79
+    },
+    {
+      "iteration": 27,
+      "drc": 44
+    },
+    {
+      "iteration": 28,
+      "drc": 44
+    },
+    {
+      "iteration": 29,
+      "drc": 33
+    },
+    {
+      "iteration": 30,
+      "drc": 33
+    },
+    {
+      "iteration": 31,
+      "drc": 32
+    },
+    {
+      "iteration": 32,
+      "drc": 32
+    },
+    {
+      "iteration": 33,
+      "drc": 32
+    },
+    {
+      "iteration": 34,
+      "drc": 32
+    },
+    {
+      "iteration": 35,
+      "drc": 23
+    },
+    {
+      "iteration": 36,
+      "drc": 23
+    },
+    {
+      "iteration": 37,
+      "drc": 23
+    },
+    {
+      "iteration": 38,
+      "drc": 23
+    },
+    {
+      "iteration": 39,
+      "drc": 17
+    },
+    {
+      "iteration": 40,
+      "drc": 17
+    },
+    {
+      "iteration": 41,
+      "drc": 17
+    },
+    {
+      "iteration": 42,
+      "drc": 17
+    },
+    {
+      "iteration": 43,
+      "drc": 15
+    },
+    {
+      "iteration": 44,
+      "drc": 15
+    },
+    {
+      "iteration": 45,
+      "drc": 15
+    }
+  ],
+  "last_complete": {
+    "iteration": 45,
+    "drc": 15
+  },
+  "checkpoint": "inputs/transfer_cold_checkpoint45.odb",
+  "checkpoint_sha256": "cb92070079283ec40585d11d334e3914b6840325fe33936da825eb2a95520048",
+  "original_checkpoint": "runs/routed_followup_cold/1-openroad-detailedrouting/drt_iter45.odb",
+  "before_stop_log_sha256": "7edb09baf6724ce1041c0f4b979c87cf2bc4caa14a4b760ede4bfb85327bdb80",
+  "start_stop_unix": 1792570046.201342,
+  "resume_candidate": "inputs/cold_corner_keepout_reguide.odb",
+  "stop_command_exit": 0,
+  "stop_output": "Flag --time has been deprecated, use --timeout instead\n4933ed60c8b2f8b5df836db9c263e0774c19625f3335fa22655034b9d9b014dd\n",
+  "stopped_unix": 1792570079.441634,
+  "main_container_absent": true,
+  "remaining_containers": "e6878e43e89b4caeabadacceaf3064b512538d317cb026646dca7cefb389459f downloads-redis-1 Exited (255) 5 weeks ago\n226916ff242303f8e15fb9d51fa2e124e5739865c2c3a8077aa39390a9113eec downloads-web-1 Exited (255) 5 weeks ago\n98002bbdbd4396bce946416d43bb52590254f5b33f5a24c08a6d35370a85c0c3 cve-2026-23993-lab Exited (255) 6 weeks ago\nd96c44f83541b1688c6dfcd4ee5798bf28902eb25f85db2099285911a7c0f891 dirty-oauth-client Exited (0) 2 months ago\n487ff4443d4c5c678366ff8c0a70bed438956e16f47f1d1162d31cf7818bacce dirty-oauth-analytics Exited (0) 2 months ago\n56b31cadb26778b1e30bd65f23526e455461d868d467f1af0cd2bf9678a8f3b6 dirty-oauth-provider Exited (0) 2 months ago\n7487cc15326e1e73c6fe8cbc53153439bf13b0a57682b42dda7099a317691866 2-afl-fuzzer-lab-fuzz-1 Exited (255) 2 months ago\n984ab2a5706e994499f49fa000230a43adbdfebb8b548182d6169ae22aa92ac6 acme-lab-waf-1 Exited (0) 3 months ago\nb65bcbb5a099467b1a553933ef8c39fdd1af1940238c593f7fefe1e265dc54ea acme-lab-web-1 Exited (2) 3 months ago\n5b99de6d7e92734e80d6fe9ec8d309365284c713aece78896074dc3fdeac18ee acme-lab-blue-dashboard-1 Exited (2) 3 months ago\nde895a8ac1fa61ab66de61ccc48cd485a91fac742466a75bf04121454b0d13f1 acme-lab-acme-idp-1 Exited (2) 3 months ago\nfc26c6b5b978aafafdf4f52343f461fa9d56c10513b32f570ce2c98460376a2d acme-lab-db-1 Exited (0) 3 months ago\n332fdf87f86f736abb940f7abf2707b085f40564d1269aeecbaa87d5b44f1c2b acme-lab-acme-cloud-1 Exited (2) 3 months ago\n8cfdb7679560e5b87417308ba816af85fced361595ea685131b525c2f7e333b7 peaceful_varahamihira Exited (100) 4 months ago\n",
+  "final_log_sha256": "7edb09baf6724ce1041c0f4b979c87cf2bc4caa14a4b760ede4bfb85327bdb80",
+  "launcher_exit": "137"
+}

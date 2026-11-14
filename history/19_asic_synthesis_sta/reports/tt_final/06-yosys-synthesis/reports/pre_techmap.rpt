@@ -1,0 +1,59 @@
+155. Printing statistics.
+
+=== fault_v_asic_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+    35579 wires
+    40153 wire bits
+      221 public wires
+     4458 public wire bits
+       11 ports
+      108 port bits
+    39162 cells
+    11183   $_ANDNOT_
+      867   $_AND_
+        3   $_DFF_PN1_
+       33   $_DFF_P_
+     5451   $_MUX_
+     1889   $_NAND_
+     2553   $_NOR_
+     2420   $_NOT_
+     1338   $_ORNOT_
+     5011   $_OR_
+     1088   $_SDFFCE_PN0P_
+     1114   $_SDFFE_PN0P_
+       10   $_SDFFE_PN1P_
+       21   $_SDFFE_PP0N_
+      319   $_SDFFE_PP0P_
+       32   $_SDFFE_PP1P_
+      284   $_SDFF_PN0_
+       19   $_SDFF_PP0_
+        2   $_SDFF_PP1_
+     1814   $_XNOR_
+     3693   $_XOR_
+       18   sky130_sram_2kbyte_1rw1r_32x512_8
+
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_DFF_PN1_ is unknown!
+   Area for cell type $_DFF_P_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_SDFFCE_PN0P_ is unknown!
+   Area for cell type $_SDFFE_PN0P_ is unknown!
+   Area for cell type $_SDFFE_PN1P_ is unknown!
+   Area for cell type $_SDFFE_PP0N_ is unknown!
+   Area for cell type $_SDFFE_PP0P_ is unknown!
+   Area for cell type $_SDFFE_PP1P_ is unknown!
+   Area for cell type $_SDFF_PN0_ is unknown!
+   Area for cell type $_SDFF_PP0_ is unknown!
+   Area for cell type $_SDFF_PP1_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type \sky130_sram_2kbyte_1rw1r_32x512_8 is unknown!
+

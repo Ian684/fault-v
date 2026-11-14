@@ -1,0 +1,86 @@
+[
+  {
+    "op": "DOT4",
+    "a": "0x4030201",
+    "b": "0x8070605",
+    "expected": "0x46"
+  },
+  {
+    "op": "DOT4",
+    "a": "0x80808080",
+    "b": "0x80808080",
+    "expected": "0x10000"
+  },
+  {
+    "op": "DOT4",
+    "a": "0x80808080",
+    "b": "0x7f7f7f7f",
+    "expected": "0xffff0200"
+  },
+  {
+    "op": "MUL16",
+    "a": "0xffff8000",
+    "b": "0x12348000",
+    "expected": "0x40000000"
+  },
+  {
+    "op": "MUL16",
+    "a": "0xabcdffff",
+    "b": "0x2",
+    "expected": "0xfffffffe"
+  },
+  {
+    "op": "ADDSAT",
+    "a": "0x7fffffff",
+    "b": "0x1",
+    "expected": "0x7fffffff"
+  },
+  {
+    "op": "ADDSAT",
+    "a": "0x80000000",
+    "b": "0xffffffff",
+    "expected": "0x80000000"
+  },
+  {
+    "op": "ADDSAT",
+    "a": "0xffffffff",
+    "b": "0x1",
+    "expected": "0x0"
+  },
+  {
+    "op": "QNT8",
+    "a": "0xfffffffd",
+    "b": "0x1",
+    "expected": "0xfffffffe"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x7fffffff",
+    "b": "0x0",
+    "expected": "0x7f"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x80000000",
+    "b": "0x0",
+    "expected": "0xffffff80"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x80000000",
+    "b": "0x1f",
+    "expected": "0xffffffff"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x100",
+    "b": "0x21",
+    "expected": "0x7f"
+  },
+  {
+    "op": "QNT8",
+    "a": "0x1",
+    "b": "0x20",
+    "expected": "0x1"
+  }
+]

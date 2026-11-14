@@ -1,0 +1,10 @@
+{
+  "run": "routed_antenna_corner_guard_20261028_202534",
+  "accepted": false,
+  "intentional_stop": true,
+  "reason": "At least iterations16 through20 repeat25 DRC including5 unchanged added-obstruction conflicts. Worse than preserved coherent native6/antenna0; switch to prepared eight-net both-endpoints reroute without added obstruction.",
+  "source_best_preserved_sha256": "e5a155efe5e19c8276968063c47a6b918cce2c58058006255a2ee665fbe21426",
+  "replacement_input_sha256": "3631c642c578f090c359e23d1585b19ea1aa0a4040ab7bf0798844118c92e711",
+  "time_Taipei": "2026-10-28T20:53:47.089438+08:00",
+  "not_an_OOM_diagnosis": true
+}

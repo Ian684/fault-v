@@ -1,0 +1,92 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_residual_source63.odb",
+  "source_sha256": "e29be567607f4f6407e5b0b2fa77e066db088c2dc87e45d442938beab3b00400",
+  "source_DRC_report_sha256": "68c0b1a0018a9546b3eab06e39af957cb7e044631bea148e5d4e1f3c93872458",
+  "source_native_DRC": 7,
+  "derived": "inputs/antenna_residual_five.odb",
+  "derived_sha256": "d686af21ceebbe828990802b0c39bf6fa0714d1503bd8d2fd0980bf27f7ac945",
+  "cleared_whole_nets": [
+    "_09161_",
+    "_09290_",
+    "net3185",
+    "net5465",
+    "net6503"
+  ],
+  "conflict_net_choices": {
+    "_09161_": {
+      "type": "SIGNAL",
+      "iterms": 11,
+      "wire_length_um": 180.13,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "_09290_": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "wire_length_um": 154.06,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "net3185": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "wire_length_um": 264.46,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "net4362": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "wire_length_um": 324.14,
+      "diodes": 0,
+      "missing_preferred_AP": [
+        "u_soc.u_imem.banks\\[5\\].u_sram/din0[18]"
+      ]
+    },
+    "net4932": {
+      "type": "SIGNAL",
+      "iterms": 3,
+      "wire_length_um": 511.22,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "net5465": {
+      "type": "SIGNAL",
+      "iterms": 4,
+      "wire_length_um": 539.99,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "net6503": {
+      "type": "SIGNAL",
+      "iterms": 5,
+      "wire_length_um": 490.38,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "net8263": {
+      "type": "SIGNAL",
+      "iterms": 2,
+      "wire_length_um": 388.44,
+      "diodes": 0,
+      "missing_preferred_AP": []
+    },
+    "net8680": {
+      "type": "SIGNAL",
+      "iterms": 9,
+      "wire_length_um": 565.96,
+      "diodes": 7,
+      "missing_preferred_AP": []
+    }
+  },
+  "retained_wire_count": 41332,
+  "retained_wires_exact_opcode_data_match": true,
+  "cells_graph_PG_guides_obstructions_unchanged": true,
+  "validated_iterms": 138929,
+  "validated_preferred_APs": 137291,
+  "cleared_iterms_with_preferred_AP": 24,
+  "negative_mismatch_control_detected": true,
+  "scope": "Clear only five complete conflicting nets in one coherent checkpoint. Other 41332 wires retained byte-for-byte. No cell, PG, model, technology rule or guide edits. All fresh final antenna/physical/extracted-RC/TT/DRC gates required."
+}

@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/routed_antenna_spacing_20261029_1700/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "d113d8ebb2c911b719dcac65cfb361bc927086af99998b82ad251866ce433b5d",
+  "partial": "inputs/antenna_drive_partial.odb",
+  "partial_sha256": "e057f4599842270bfe09f46dddf337ef4b145ecdf630c61e24ca5a34e2f20b22",
+  "global_input": "inputs/antenna_drive_global.odb",
+  "global_input_sha256": "9ca34b90ecfa7cf88c420fcf5484349393159fa67f04dc2b4828a4fac54ddf5d",
+  "resized_instance": "_44992_",
+  "old_master": "sky130_fd_sc_hd__o21ai_2",
+  "new_master": "sky130_fd_sc_hd__o21ai_4",
+  "location": [
+    2384640,
+    2265760
+  ],
+  "orientation": "MX",
+  "cleared_whole_nets": [
+    "_16274_",
+    "_16304_",
+    "_16310_",
+    "_16311_"
+  ],
+  "retained_exact_wires": 41333,
+  "Liberty_sha256": "8e78e14442062dba34d414fca6490b2f6b96038d4510d1438ca44fee31487135",
+  "same_Liberty_function_and_pin_contract": true,
+  "placement_overlap_negative_control_detected": true,
+  "all_other_cells_graph_PG_obstructions_unchanged": true,
+  "reference_receipt": "reports/antenna_model/debug_spacing_20261029/drive_reference.json",
+  "scope": "Exactly one equivalent drive-size change at unchanged location/orientation, with legal footprint. Four incident signal nets require native pin access, matching new zero-overflow guides, rerouting, antenna, independent DRC and extracted-RC/TT validation. Constraints unchanged."
+}

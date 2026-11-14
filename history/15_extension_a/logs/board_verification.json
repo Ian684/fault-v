@@ -1,0 +1,37 @@
+{
+  "clock_mhz": 50.0,
+  "runs": [
+    {
+      "run": 1,
+      "uart_hex": "445350204f4b0d0a",
+      "uart_errors": 0,
+      "debug": 4613,
+      "status": 1,
+      "halt_cause": 9
+    },
+    {
+      "run": 2,
+      "uart_hex": "445350204f4b0d0a",
+      "uart_errors": 0,
+      "debug": 4613,
+      "status": 1,
+      "halt_cause": 9
+    },
+    {
+      "run": 3,
+      "uart_hex": "445350204f4b0d0a",
+      "uart_errors": 0,
+      "debug": 4613,
+      "status": 1,
+      "halt_cause": 9
+    }
+  ],
+  "image_sha256": {
+    "fault_v_extension_a.bit": "d384a2c6392fbe165353a7db704dcdfeb26d652df4798cab0ce663e2284c8180",
+    "fault_v_extension_a.hwh": "6450de172220a91eeea58807a440cf6997fd21804cb192a7d14792c7e9dae0e4"
+  },
+  "physical_led_observation": "user_confirmed",
+  "physical_btn0_observation": "user_confirmed",
+  "physical_benchmark_run": false,
+  "observation_description": "User confirmed LD0/LD2 on, LD1/LD3 off; holding BTN0 turns all off; release restores LD0/LD2."
+}

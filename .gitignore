@@ -1,0 +1,21 @@
+# simulation / build outputs
+xsim.dir/
+.Xil/
+*.wdb
+*.jou
+*.pb
+*.backup.*
+sim/
+build/
+runs/
+__pycache__/
+*.pyc
+# large physical-design intermediates (published in GitHub Releases instead)
+*.odb
+*.def
+*.spef
+*.gds
+*.gds.gz
+*.vcd
+# personal documents
+*同意書*

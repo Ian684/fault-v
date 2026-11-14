@@ -1,0 +1,37 @@
+ALL PLACEMENT LEGALITY / POWER CONNECTION / POLARITY-AWARE CONNECTIVITY CHECKS PASSED
+{
+  "flip_flops": 2925,
+  "active_clock_buffer_count": 445,
+  "negative_inversion_fault_detected": true,
+  "clock_buffer_depth_range": [
+    6,
+    9
+  ],
+  "clock_sink_pins": 2961,
+  "pdn_geometry_unchanged": true,
+  "pass": true,
+  "run": "routed_antenna_drive_finish_20261029_173136",
+  "instances": 76535,
+  "placement_status": {
+    "PLACED": 47395,
+    "FIRM": 1247,
+    "LOCKED": 27893
+  },
+  "fixed_macros": 18,
+  "signal_pins": 108,
+  "connected_pg_iterms": 267086,
+  "base_unary_buffer_inverter_cells": 3468,
+  "final_unary_buffer_inverter_cells": 14776,
+  "verified_unused_cts_dummy_loads": 315,
+  "base_constant_cells": 206,
+  "final_constant_cells": 206,
+  "nonbuffer_instances": 25792,
+  "nonbuffer_endpoints": 102291,
+  "connected_components": 26932,
+  "resized_nonbuffer_cells": 381,
+  "clock_named_or_clock_master_instances": 4944,
+  "stdcell_area_um2": 482820.5631999997,
+  "macro_area_um2": 5121692.531999999,
+  "netlist_sha256": "e29ef3b5abaff7ba76daa611ed942adb92031152ce001142cd28082f9a8be330",
+  "proof_scope": "Exact signal connectivity with verified BUF/INV functions and relative-polarity union-find, with constants canonicalized; drive variants require identical Liberty signal/FF signatures. New CTS clkload cells must be combinational with no connected output load and are excluded from functional endpoints. Not RTL formal equivalence."
+}

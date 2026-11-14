@@ -1,0 +1,61 @@
+[09:30:14] INFO     Loading the design configuration file has      config.py:740
+                    generated the following warnings:                           
+[09:30:14] WARNING  Key 'DRT_ANTENNA_REPAIR_ITERS' provided is     config.py:744
+                    unused by the current flow.                                 
+[09:30:14] WARNING  Key 'DRT_SAVE_DRC_REPORT_ITERS' provided is    config.py:744
+                    unused by the current flow.                                 
+[09:30:14] WARNING  Key 'DRT_SAVE_SNAPSHOTS' provided is unused by config.py:744
+                    the current flow.                                           
+[09:30:14] WARNING  Key 'DRT_THREADS' provided is unused by the    config.py:744
+                    current flow.                                               
+[09:30:14] WARNING  Key 'ERROR_ON_TR_DRC' provided is unused by    config.py:744
+                    the current flow.                                           
+[09:30:14] WARNING  Key 'GRT_ADJUSTMENT' provided is unused by the config.py:744
+                    current flow.                                               
+[09:30:14] WARNING  Key 'GRT_ALLOW_CONGESTION' provided is unused  config.py:744
+                    by the current flow.                                        
+[09:30:14] WARNING  Key 'GRT_OVERFLOW_ITERS' provided is unused by config.py:744
+                    the current flow.                                           
+[09:30:14] WARNING  Key 'RSZ_DONT_TOUCH_RX' provided is unused by  config.py:744
+                    the current flow.                                           
+[09:30:14] WARNING  Key 'RT_CLOCK_MAX_LAYER' provided is unused by config.py:744
+                    the current flow.                                           
+[09:30:14] WARNING  Key 'RT_CLOCK_MIN_LAYER' provided is unused by config.py:744
+                    the current flow.                                           
+[09:30:14] WARNING  Key 'SIGNOFF_SDC_FILE' provided is unused by   config.py:744
+                    the current flow.                                           
+[09:30:15] INFO     Starting a new run of the 'Custom Sequential     flow.py:654
+                    Flow' flow with the tag                                     
+                    'diagnostic_desktop_iter45_rc_v2'.                          
+[09:30:15] INFO     Starting…                                  sequential.py:339
+───────────────── Parasitic Resistance/Capacitance Extraction ──────────────────
+[09:30:15] VERBOSE  Running 'OpenROAD.RCX' at                       step.py:1138
+                    'runs/diagnostic_desktop_iter45_rc_v2/1-openroa             
+                    d-rcx'…                                                     
+[09:30:15] INFO     Running RCX for corners matching nom_*      openroad.py:2147
+                    (/work/routing/runs/diagnostic_desktop_iter                 
+                    45_rc_v2/1-openroad-rcx/nom/rcx.log)…                       
+[09:30:15] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/diagnostic_desktop_iter45_rc_v2/1-openroa             
+                    d-rcx/nom/rcx.log'…                                         
+[09:30:28] INFO     Finished RCX for corners matching nom_*.    openroad.py:2156
+[09:30:28] INFO     Running RCX for corners matching min_*      openroad.py:2147
+                    (/work/routing/runs/diagnostic_desktop_iter                 
+                    45_rc_v2/1-openroad-rcx/min/rcx.log)…                       
+[09:30:28] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/diagnostic_desktop_iter45_rc_v2/1-openroa             
+                    d-rcx/min/rcx.log'…                                         
+[09:30:44] INFO     Finished RCX for corners matching min_*.    openroad.py:2156
+[09:30:44] INFO     Running RCX for corners matching max_*      openroad.py:2147
+                    (/work/routing/runs/diagnostic_desktop_iter                 
+                    45_rc_v2/1-openroad-rcx/max/rcx.log)…                       
+[09:30:44] VERBOSE  Logging subprocess to                           step.py:1338
+                    'runs/diagnostic_desktop_iter45_rc_v2/1-openroa             
+                    d-rcx/max/rcx.log'…                                         
+[09:30:59] INFO     Finished RCX for corners matching max_*.    openroad.py:2156
+[09:30:59] INFO     Saving views to                                 state.py:209
+                    '/work/routing/runs/diagnostic_desktop_iter45_r             
+                    c_v2/final'…                                                
+[09:31:09] INFO     Flow complete.                             sequential.py:413
+Custom Sequential Flow - Stage 1 - Parasitics (RC) Extraction ━━━━━━ 1/1 0:00:43
+

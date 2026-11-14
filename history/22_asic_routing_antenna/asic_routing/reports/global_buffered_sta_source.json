@@ -1,0 +1,5 @@
+{
+  "scope": "global",
+  "spef": "runs/global_buffered/3-openroad-stamidpnr/estimated_global.spef",
+  "source_netlist": "runs/global_buffered/final/nl/fault_v_asic_top.nl.v"
+}

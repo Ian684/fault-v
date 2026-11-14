@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/routed_desktop_residual_four_20261026_174504/final/odb/fault_v_asic_top.odb",
+  "source_sha256": "196e8c9b7d74a0000d8b0869b9b6d2cc9ad7a73b7b44b6a3f389ce25d758cc16",
+  "derived": "inputs/antenna_model_validated.odb",
+  "derived_sha256": "e31f514d80664156b627f54d81d885aba7b9745cdda5e3ef6d36535f614bd9b3",
+  "routing_cells_graph_PG_guides_obstructions_unchanged": true,
+  "routed_nets": 41337,
+  "model_receipt": "reports/antenna_model/sram_antenna_model.json"
+}

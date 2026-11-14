@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Oct  2 19:28:51 2026
+# Process ID: 17316
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/sim
+# Command line: xsim.exe -log tb_imm_gen_results.log -mode tcl -source {xsim.dir/tb_imm_gen_verified/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/sim/tb_imm_gen_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_imm_gen_verified/xsim_script.tcl
+# xsim {tb_imm_gen_verified} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS 1: sel=0 inst=00000000 imm=00000000
+PASS 2: sel=0 inst=ffffffff imm=00000000
+PASS 3: sel=1 inst=00000000 imm=00000000
+PASS 4: sel=1 inst=00500000 imm=00000005
+PASS 5: sel=1 inst=ffc00000 imm=fffffffc
+PASS 6: sel=1 inst=7ff00000 imm=000007ff
+PASS 7: sel=1 inst=80000000 imm=fffff800
+PASS 8: sel=2 inst=00000000 imm=00000000
+PASS 9: sel=2 inst=fe000e00 imm=fffffffc
+PASS 10: sel=2 inst=7e000f80 imm=000007ff
+PASS 11: sel=2 inst=80000000 imm=fffff800
+PASS 12: sel=3 inst=00000100 imm=00000002
+PASS 13: sel=3 inst=fe000e80 imm=fffffffc
+PASS 14: sel=3 inst=7e000f80 imm=00000ffe
+PASS 15: sel=3 inst=80000000 imm=fffff000
+PASS 16: sel=4 inst=12345abc imm=12345000
+PASS 17: sel=4 inst=fffffabc imm=fffff000
+PASS 18: sel=5 inst=00200000 imm=00000002
+PASS 19: sel=5 inst=ffdff000 imm=fffffffc
+PASS 20: sel=5 inst=7ffff000 imm=000ffffe
+PASS 21: sel=5 inst=80000000 imm=fff00000
+ALL 21 IMM TESTS PASSED
+$finish called at time : 210 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/week5/verify/tb_imm_gen.sv" Line 80
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct  2 19:28:53 2026...

@@ -1,0 +1,30 @@
+{
+  "accepted": false,
+  "source": "runs/routed_final/1-openroad-detailedrouting/drt_iter52.odb",
+  "source_sha256": "d76e62334708948ae6ef721082b11bf4f929c410084d83032dae5e828cf155a7",
+  "derived": "inputs/three_net_reroute.odb",
+  "derived_sha256": "01c6b59ef0feadde9799b97f0c0c55669bab0381f5c6812a90161f9b6a4e13d0",
+  "removed_nets": [
+    {
+      "net": "_03553_",
+      "wire_length_dbu": 334415,
+      "guides": 41
+    },
+    {
+      "net": "_10901_",
+      "wire_length_dbu": 689350,
+      "guides": 45
+    },
+    {
+      "net": "net2689",
+      "wire_length_dbu": 513490,
+      "guides": 28
+    }
+  ],
+  "retained_wires": 41311,
+  "cells_and_logical_graph_sha256": "b6a0b5cfae6fedb6dfecda082d1ee61c2912569970068df3245cc508e86fbbec",
+  "cells_and_logical_graph_unchanged": true,
+  "other_wire_lengths_unchanged": true,
+  "original_guides_retained": true,
+  "scope": "Only the three signal nets identified by two calibrated true shorts are removed in a new ODB. No cell, master, pin, guide, routing rule, PG or calibration changes. Native fresh pin-access and normal main routing, then all original acceptance gates required."
+}

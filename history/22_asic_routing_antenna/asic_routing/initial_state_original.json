@@ -1,0 +1,10 @@
+{
+  "metrics": {},
+  "odb": "/work/routing/inputs/fault_v_asic_top.odb",
+  "def": "/work/routing/inputs/fault_v_asic_top.def",
+  "nl": "/work/routing/inputs/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/inputs/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/inputs/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/inputs/top.h.json",
+  "vh": "/work/routing/inputs/fault_v_asic_top.vh"
+}

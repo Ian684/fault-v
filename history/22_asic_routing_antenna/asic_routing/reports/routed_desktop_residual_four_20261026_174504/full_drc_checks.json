@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "run": "routed_desktop_residual_four_20261026_174504",
+  "independent_full_chip_drc": 0,
+  "raw_marker_count": 34,
+  "confirmed_partition_artifacts": 34,
+  "negative_control_known_shorts": 2,
+  "odb_sha256": "196e8c9b7d74a0000d8b0869b9b6d2cc9ad7a73b7b44b6a3f389ce25d758cc16",
+  "calibration_odb_sha256": "d76e62334708948ae6ef721082b11bf4f929c410084d83032dae5e828cf155a7",
+  "image": "ghcr.io/librelane/librelane@sha256:02d50f259d483979e126ef188a50f5b61e1d285b9d538312f280b087439b0302",
+  "scope": "Fresh native full-chip DRC with centered-context checks of every marker; calibration reused only with matching source/checker/evidence SHA-256. No technology waiver. Not foundry DRC/LVS."
+}

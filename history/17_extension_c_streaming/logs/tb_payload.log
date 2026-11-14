@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Oct 14 22:35:12 2026
+# Process ID: 24812
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/sim
+# Command line: xsim.exe -log tb_payload.log -mode tcl -source {xsim.dir/tb_payload/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/sim/tb_payload.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_payload/xsim_script.tcl
+# xsim {tb_payload} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS PAYLOAD run=1 bytes=6 debug=00001205 LED=5
+PASS PAYLOAD run=2 bytes=12 debug=00001205 LED=5
+PASS PAYLOAD run=3 bytes=18 debug=00001205 LED=5
+ALL 3 PAYLOAD RUNS PASSED; 18 UART BYTES; ARM CONTROL AND BUTTON RESET
+$finish called at time : 18763611 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_c/verify/tb_payload.sv" Line 41
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 271.559 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 14 22:35:19 2026...

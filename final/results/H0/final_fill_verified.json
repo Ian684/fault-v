@@ -1,0 +1,15 @@
+{
+  "source_final_core_GDS_sha256": "67bcff916921d52cba6ca20ff2eccf32a37f3c867a88d764063f11c513a678d5",
+  "final_filled_GDS_sha256": "84ffab595850075e55e8ad6def4ae5d36bea79e6fd2d865da4ee84dfb7c151bd",
+  "all_numeric_density_checks_pass": true,
+  "numeric_layers": 7,
+  "windows_each": 1053,
+  "all_eight_dummy_layers_on_5nm_grid": true,
+  "FOM_geometry_pass": true,
+  "full_BEOL_fill_interaction_markers": 0,
+  "calibrated_six_layer_negative_controls_pass": true,
+  "deck_sha256": "b2d3bd5cdca7b7fe3c715f1dd6b9624d7f5b90c06958b17907bfe38557e1719a",
+  "BEOL_report_sha256": "ce34e398b1613bc62d5f02ee936d816b2ac40fc2ca8b129da5ce84bb8903d246",
+  "manufacturing_artifact": "final_fill/filled.gds.gz",
+  "scope": "Final common-candidate fill geometry and open-rule sliding-density screens. RCX is demonstrably insensitive to dbFill; qualified fill-aware PEX and full foundry rule/SRAM/package signoff remain uncovered."
+}

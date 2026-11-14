@@ -1,0 +1,11 @@
+{
+  "Custom_ISA_Notion.md": "b430684551604bc651ccba2c138f5153136fccadaf283f940d2bc273a07b20c5",
+  "Specification_Verification.md": "964cc77933c745f33b8f39013a8ad3ad981ef27bf0d377cbbc8587b353d615c1",
+  "README.md": "57f124315b19c26eef4f1e01fe26aa74dd739db6f41900ae0329f4a358544ba2",
+  "reference.py": "92d24ffc61860cc5ccd5b2010eb5a40125dc9b30c446f018bd086360722121fb",
+  "verify_spec.py": "1644315368e27793361bcb308fdffc5a0fb5ec484ac93d48bb3e6014991ea0a1",
+  "spec_verification.log": "33334299328e7abbd63e8589422faa470d87da1e17f84b5338ff460d46e0b4e8",
+  "directed_vectors.json": "cee1d87fdeb09821495511d11db7c84dd5a2d51c1b7886256ca9c0fee33a5899",
+  "encoding.json": "382a74f00bc31bb0dd1625703889c7b687de5f51f75d6e6673a7d6dc3a61728a",
+  "benchmark_vectors.json": "2b087bed3c77dfc8e485bd61b186e95d669bd9c38887df672d6a531f7324b7c8"
+}

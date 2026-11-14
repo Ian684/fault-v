@@ -1,0 +1,53 @@
+{
+  "accepted": false,
+  "source_sha256": "4572b42676c79eb1c601f8cf08a50ddc2c796181a9fc6ba04e4cd4e19f2b21c7",
+  "plans": [
+    {
+      "name": "corner_lower_layers",
+      "layers": [
+        "met1",
+        "met2"
+      ],
+      "box": [
+        1582950,
+        636100,
+        1587600,
+        640400
+      ],
+      "signal_pin_projection_conflicts": [],
+      "nearby_power_pin_shapes": 0,
+      "clearance_dbu": 300
+    },
+    {
+      "name": "corner_met4",
+      "layers": [
+        "met4"
+      ],
+      "box": [
+        1581500,
+        637050,
+        1582400,
+        637950
+      ],
+      "signal_pin_projection_conflicts": [],
+      "nearby_power_pin_shapes": 0,
+      "clearance_dbu": 300
+    },
+    {
+      "name": "east_cross",
+      "layers": [
+        "met1"
+      ],
+      "box": [
+        1601270,
+        638810,
+        1601710,
+        639250
+      ],
+      "signal_pin_projection_conflicts": [],
+      "nearby_power_pin_shapes": 0,
+      "clearance_dbu": 300
+    }
+  ],
+  "scope": "Read-only feasibility only: project all signal-pin layers into candidate region plus300nm margin. No obstructions, placements or wires have been modified; no routing/DRC/timing acceptance."
+}

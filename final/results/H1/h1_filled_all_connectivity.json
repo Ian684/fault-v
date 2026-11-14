@@ -1,0 +1,9 @@
+{
+  "source_sha256": "9c06b1b07f69b63056734f85a25a71c4a828835595241be6db64b9c8c79dc402",
+  "checked_multi_terminal_signal_clock_nets": 40850,
+  "diode_terminals": 5317,
+  "missing_wires": [],
+  "bad_nets": [],
+  "all_signal_geometry_connected": true,
+  "scope": "Actual S/R/via and transformed terminal geometry; requires all signal wire shapes and pins to belong to one component on every multi-terminal SIGNAL/CLOCK net. Independent full LVS is still required."
+}

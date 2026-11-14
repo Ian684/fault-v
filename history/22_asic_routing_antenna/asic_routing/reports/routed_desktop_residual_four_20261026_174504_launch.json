@@ -1,0 +1,21 @@
+{
+  "accepted": true,
+  "run": "routed_desktop_residual_four_20261026_174504",
+  "global_run": "global_desktop_joint_corner",
+  "cli": "scripts/cold_corner_keepout_cli.py",
+  "config": "config_routed_desktop_residual_four_20261026_174504.json",
+  "state": "desktop_residual_four_native_state.json",
+  "threads": 16,
+  "memory_mb": 6500,
+  "started_utc": "2026-10-26T09:45:19.921072+00:00",
+  "sha256": {
+    "scripts/cold_corner_keepout_cli.py": "4e0523d7930e953c7564d533236b72a624edc3fef13bb5a572cbfd573b6349d9",
+    "scripts/drt_cold_corner_keepout.tcl": "e1a2e06f7fa575638946ed8fee0af317bf547d85aa83048548a67f8085e24f51",
+    "config_routed_desktop_residual_four_20261026_174504.json": "da19af0d3ea206b99e541e644fc29b75705df2d870568d1fd51674d183a46478",
+    "desktop_residual_four_native_state.json": "9a0ef35b5ca0fdc9766a51bba284dcac5130e47265228e616de033c15f7ca202",
+    "reports/desktop_residual_four_cleared_pin_access.json": "cb3632b9730a9801f779726b748d3de7f267fab50252dd3fb169ee20cfc2c47c",
+    "scripts/check_desktop_residual_four_cleared_pin_access.py": "11b39f52928d2015adde6ae2613dbcf01ba5f49c5c36c2ababf7ae311f8e870b"
+  },
+  "pipeline_exit": 0,
+  "finished_utc": "2026-10-26T09:52:57.059472+00:00"
+}

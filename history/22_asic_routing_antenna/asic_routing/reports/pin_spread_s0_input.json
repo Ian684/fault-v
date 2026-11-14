@@ -1,0 +1,64 @@
+{
+  "source": "inputs/route_pin_spread_access.odb",
+  "source_sha256": "16dd829f7f1a8e4742cec54d8d8454367f342b97091e23987a5c882c8618face",
+  "derived": "inputs/route_pin_spread_s0.odb",
+  "derived_sha256": "d8799769249172e02815e8cb4e6226fa6679155802c59c78f91f0fd4e882814d",
+  "instance": "_37409_",
+  "master": "sky130_fd_sc_hd__mux4_2",
+  "old_bbox_dbu": [
+    1604480,
+    571200,
+    1612760,
+    573920
+  ],
+  "new_bbox_dbu": [
+    1597120,
+    582080,
+    1605400,
+    584800
+  ],
+  "manhattan_move_dbu": 18240,
+  "same_orientation_and_track_phase": true,
+  "translated_preferred_AP_inside_actual_pin": {
+    "A0": 1,
+    "A1": 1,
+    "A2": 1,
+    "A3": 1,
+    "S0": 1,
+    "S1": 1,
+    "X": 1
+  },
+  "row_and_nonoverlap_pass": true,
+  "ripped_nets": [
+    {
+      "net": "_09162_",
+      "wire_length_dbu": 25680
+    },
+    {
+      "net": "net6171",
+      "wire_length_dbu": 591160
+    },
+    {
+      "net": "net6555",
+      "wire_length_dbu": 543620
+    },
+    {
+      "net": "u_soc.u_cpu.u_regfile.regs\\[4\\]\\[10\\]",
+      "wire_length_dbu": 14980
+    },
+    {
+      "net": "u_soc.u_cpu.u_regfile.regs\\[5\\]\\[10\\]",
+      "wire_length_dbu": 25255
+    },
+    {
+      "net": "u_soc.u_cpu.u_regfile.regs\\[6\\]\\[10\\]",
+      "wire_length_dbu": 21120
+    },
+    {
+      "net": "u_soc.u_cpu.u_regfile.regs\\[7\\]\\[10\\]",
+      "wire_length_dbu": 19810
+    }
+  ],
+  "retained_other_wires": 41294,
+  "scope": "Additional mux move avoids repeatedly observed worker-box AP failure. Retain existing valid relative PA data through same-orientation, track-aligned translation; verify every transformed preferred AP inside actual pin geometry. Full native routing/connectivity/DRC/extracted timing still mandatory."
+}

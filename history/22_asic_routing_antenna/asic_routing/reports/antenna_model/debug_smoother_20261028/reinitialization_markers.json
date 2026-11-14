@@ -1,0 +1,9 @@
+{
+  "first_stage_total": 110,
+  "first_stage_unique": 110,
+  "second_initialization_total": 220,
+  "second_initialization_unique": 110,
+  "exact_same_marker_keys": true,
+  "every_marker_multiplicity_exactly_doubled": true,
+  "scope": "Evidence of cached markers during repeated detailed_route initialization; requires a fresh-process control before concluding geometry/regression cause."
+}

@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_corner_tight_20261028_180156",
+  "iteration": 11,
+  "native_DRC": 17,
+  "source": "reports/antenna_model/intervention_20261028/corner_tight_iter11.odb",
+  "source_sha256": "4d5988a0892ae2e0ef2bdff9f04d27ad0445f8ac750e72e833885ccb31fb0b8d"
+}

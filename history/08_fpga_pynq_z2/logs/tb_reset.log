@@ -1,0 +1,80 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 10 19:15:58 2026
+# Process ID: 6392
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/sim
+# Command line: xsim.exe -log tb_reset.log -mode tcl -source {xsim.dir/tb_reset/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/sim/tb_reset.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_reset/xsim_script.tcl
+# xsim {tb_reset} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS reset 1: initial reset
+PASS reset 2: release held
+PASS reset 3: release held
+PASS reset 4: release held
+PASS reset 5: release held
+PASS reset 6: release held
+PASS reset 7: release held
+PASS reset 8: release held
+PASS reset 9: release held
+PASS reset 10: release held
+PASS reset 11: release held
+PASS reset 12: release held
+PASS reset 13: release held
+PASS reset 14: release held
+PASS reset 15: release held
+PASS reset 16: release held
+PASS reset 17: release held
+PASS reset 18: release held
+PASS reset 19: release after 3 sync + 15 count + 1 output edges
+PASS reset 20: button synchronous core reset
+PASS reset 21: delay during release
+PASS reset 22: bounce assertion
+PASS reset 23: release held
+PASS reset 24: release held
+PASS reset 25: release held
+PASS reset 26: release held
+PASS reset 27: release held
+PASS reset 28: release held
+PASS reset 29: release held
+PASS reset 30: release held
+PASS reset 31: release held
+PASS reset 32: release held
+PASS reset 33: release held
+PASS reset 34: release held
+PASS reset 35: release held
+PASS reset 36: release held
+PASS reset 37: release held
+PASS reset 38: release held
+PASS reset 39: release held
+PASS reset 40: release after 3 sync + 15 count + 1 output edges
+PASS reset 41: lock loss resets at next available edge
+PASS reset 42: lock absent holds reset
+PASS reset 43: release held
+PASS reset 44: release held
+PASS reset 45: release held
+PASS reset 46: release held
+PASS reset 47: release held
+PASS reset 48: release held
+PASS reset 49: release held
+PASS reset 50: release held
+PASS reset 51: release held
+PASS reset 52: release held
+PASS reset 53: release held
+PASS reset 54: release held
+PASS reset 55: release held
+PASS reset 56: release held
+PASS reset 57: release held
+PASS reset 58: release held
+PASS reset 59: release held
+PASS reset 60: release after 3 sync + 15 count + 1 output edges
+ALL 60 RESET CHECKS PASSED
+$finish called at time : 2781 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/fpga_z2/verify/tb_reset.sv" Line 35
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 10 19:16:00 2026...

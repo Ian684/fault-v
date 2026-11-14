@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "checker_sha256": "9e3e1ff2c1130bdf0aad8c9e26c39ff1c38b061af1da971a9061fbc642f23087",
+  "controls": {
+    "positive": {
+      "exit_code": 0,
+      "source_sha256": "d7f7afc7da79d0655065190de3a6e6ebf1b1c1cf2bda647550dc50ba8d88dc4a",
+      "unconnected_diode_terminals": 0,
+      "source": "inputs/antenna_signal_positive_control.odb"
+    },
+    "negative": {
+      "exit_code": 1,
+      "source_sha256": "d819bf4bd9662faed674710704637b697384555fbf3b503440d03e446c329b91",
+      "unconnected_diode_terminals": 7251,
+      "source": "runs/routed_antenna_keep_20261026_201444/final/odb/fault_v_asic_top.odb"
+    }
+  },
+  "scope": "Calibrate metal connectivity only. Positive routed snapshot still has DRC and is not accepted. Negative router-DRC-zero snapshot has all 7251 diodes physically disconnected and must fail."
+}

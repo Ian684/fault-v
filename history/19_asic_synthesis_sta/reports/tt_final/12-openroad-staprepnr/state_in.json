@@ -1,0 +1,14 @@
+{
+    "json_h": "/work/design/runs/tt_final/05-yosys-jsonheader/fault_v_asic_top.h.json",
+    "nl": "/work/design/runs/tt_final/06-yosys-synthesis/fault_v_asic_top.nl.v",
+    "metrics": {
+        "design__lint_error__count": 0,
+        "design__lint_timing_construct__count": 0,
+        "design__lint_warning__count": 481,
+        "design__inferred_latch__count": 0,
+        "design__instance__count": 26499,
+        "design__instance__area": 281969.1808,
+        "design__instance_unmapped__count": 0,
+        "synthesis__check_error__count": 0
+    }
+}

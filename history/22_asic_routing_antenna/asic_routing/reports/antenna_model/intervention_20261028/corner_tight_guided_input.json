@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "inputs/antenna_corner_tight_partial.odb",
+  "source_sha256": "9df87cb410c36dd8fad69dc9d03441710ac8f844e499f3af88f07360c468cbda",
+  "source_receipt": "reports/antenna_model/intervention_20261028/corner_tight_input.json",
+  "global_run": "global_antenna_corner_tight_20261028_180022",
+  "global_source": "runs/global_antenna_corner_tight_20261028_180022/final/odb/fault_v_asic_top.odb",
+  "global_source_sha256": "8660c47cde3d3d42de3b34d3cf135ec60927330c4548a35cd977248787c3f813",
+  "derived": "inputs/antenna_corner_tight_guided.odb",
+  "derived_sha256": "7ff51c60a3daf737d17133f1de7293653f6e3d2efd6840283c927f24f807b618",
+  "retained_exact_wires": 41331,
+  "guides_copied": 384056,
+  "cells_graph_PG_obstructions_unchanged": true,
+  "missing_nets": [
+    "_11011_",
+    "net3312",
+    "net3317",
+    "net4319",
+    "net6035",
+    "net6038"
+  ],
+  "scope": "Only actual native zero-overflow guides copied; no coarse route wires imported. Final detailed-route, antenna and physical/TT/electrical gates remain mandatory."
+}

@@ -1,0 +1,39 @@
+{
+  "updated_utc": "2026-11-01T11:08:42.272478+00:00",
+  "W25_complete": true,
+  "scope": "W25 research core specified checks; DFT/pad/ESD review and requirements only",
+  "foundry_signoff_complete": false,
+  "formal_PPA_comparison_complete": false,
+  "W26_complete": false,
+  "source_route_sha256": "6e98b1bcb56b4455e97a7ac5d54a902ec7607878912ca2d2e70dc9b8bd584125",
+  "filled_ODB_sha256": "2a17870d03436f8f8839b88324f93d6410f98509937557296da2af5cb964e7c2",
+  "core_GDS_sha256": "67bcff916921d52cba6ca20ff2eccf32a37f3c867a88d764063f11c513a678d5",
+  "dummy_filled_GDS_sha256": "84ffab595850075e55e8ad6def4ae5d36bea79e6fd2d865da4ee84dfb7c151bd",
+  "fresh_netlist_sha256": "cdbbfc46696534b7a5729c5c5f20a8de82b5923597f93cb53ec67f3f5f0e4175",
+  "all_requested_research_core_gates_pass": true,
+  "DFT_pad_ESD_review_and_requirements_complete": true,
+  "qualified_release_blockers": [
+    "Foundry/full SRAM interior DRC/LVS/antenna and unsupported LEF58 rules",
+    "Qualified SRAM SS/FF/multi-PVT timing and power",
+    "Fill-aware PEX and post-fill electrical signoff",
+    "Analog reset recovery/removal, CDC MTBF and independent CDC/RDC signoff",
+    "Transient/package/thermal/current-crowding and SRAM interior IR/EM",
+    "Scan/MBIST/pad-ring/ESD hardware, manufacturing coverage and ESD ratings",
+    "Physical fabrication, packaging and silicon measurement"
+  ],
+  "gate_report_sha256": {
+    "final_post_verified": "07223c0cdeee3b93ea1a98d117826d92a7a5911956135e379409204610f8206f",
+    "final_core_verified": "d66a9bbdaa8adb735a843d057f5d51afb0c1185c8e5ea208f16f034b4cb23019",
+    "final_ir_verified": "4cb99cf227acafa968238d1678e252756363b29483e0f85d0db6190be2cbb006",
+    "final_fill_verified": "ebed20b9eb716aeb3294bc0101374c90e8ff3f7295c1e34dfe29dec8717afc93"
+  },
+  "frozen_review_sha256": {
+    "week25_signoff/Reset_CDC_DFT_Review.md": "350f69422bac6a6eedc303e2b26b57951a8cf269c66fc5bc533a3360b79d07e3",
+    "week25_signoff/Pad_ESD_Package_Review.md": "e97fd35bce8648f11c0cce6bb348b7ae202d985dd9a6e788054c756d14621571",
+    "week25_signoff/Rule_Model_Coverage.md": "3e9dd883d86b8f3fbad14cef0bbbac236e7b7c24cce301c278c7bf919e7c9cf1",
+    "week25_signoff/constraints_reviewed.sdc": "979a8d3f988f18efcc3d17a61201caff54c2af681eb10316aa6fd8c965d06203",
+    "week25_signoff/reports/review_inventory.json": "58a45c3a0f9d05c7a5de108689ac281e329bf3e985cec176972ec93b69c0e5b3"
+  },
+  "notion_delivery_deferred_until_W25_and_formal_PPA_complete": true,
+  "report_sha256": "aedd84adf12cd262748235a75bda28ede139ab40e6e96b58b08626caab3eb3ff"
+}

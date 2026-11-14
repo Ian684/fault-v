@@ -1,0 +1,14 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_zero_20261028_122158",
+  "iteration": 11,
+  "source": "runs/routed_antenna_zero_20261028_122158/1-openroad-detailedrouting/drt_iter11.odb",
+  "source_odb_sha256": "d294fd7304673a6146f1c5bc3c9f1023ec8f6e819f938d20b21676e8aec2252c",
+  "native_DRC": 27,
+  "antenna_violating_nets": 2,
+  "DRC_report": "runs/routed_antenna_zero_20261028_122158/1-openroad-detailedrouting/drt-run-0/fault_v_asic_top.drc-11.rpt",
+  "DRC_report_sha256": "05e40c929a0398c2c4363f5d06d2ddd5a77fdebd2a47051e794d78f60c99814d",
+  "antenna_report": "reports/antenna_model/debug_review_20261028_0352/zero_checkpoint27_1336.json",
+  "antenna_report_sha256": "8eddb7f3639f9a90e8c1d4b7c3b9bad4e45bbb83df10e33e2892eb8b4623a35a",
+  "scope": "Both counts verified against one saved ODB; nonzero DRC and antenna remain. No final physical/RC/TT/independent-DRC acceptance."
+}

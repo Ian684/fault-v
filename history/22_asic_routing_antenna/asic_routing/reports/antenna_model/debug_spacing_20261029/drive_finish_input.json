@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "accepted": false,
+  "source": "runs/routed_antenna_drive_20261029_171855/1-openroad-detailedrouting/intervention_final.odb",
+  "source_sha256": "4ee109b70cf46419e228db7fd1641b3be5aed8460da1796eb5348dac294affc0",
+  "derived": "inputs/antenna_drive_finish_source.odb",
+  "derived_sha256": "4ee109b70cf46419e228db7fd1641b3be5aed8460da1796eb5348dac294affc0",
+  "source_native_DRC": 0,
+  "source_antenna_nets": 2,
+  "source_receipt": "reports/antenna_model/debug_spacing_20261029/drive_input.json",
+  "continuation_stage": "two_antenna_nets_after_driver_reroute",
+  "source_passive_diodes": 7551,
+  "scope": "Exact coherent DRC-zero source after one equivalent driver resize. Repair only actual antenna violators using unchanged native rules, then reroute/extract and require every original physical/electrical gate."
+}

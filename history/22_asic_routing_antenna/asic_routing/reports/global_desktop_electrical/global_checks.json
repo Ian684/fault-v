@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "run": "global_desktop_electrical",
+  "resources": 3257448,
+  "demand": 865104,
+  "usage_pct": 26.56,
+  "horizontal_overflow": 0,
+  "vertical_overflow": 0,
+  "total_overflow": 0,
+  "odb_sha256": "687d98ca7900eebd5321fddc75e5ea8e2376693f7c6c42ad78cef9bf512e236d"
+}

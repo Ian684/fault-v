@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "failed_run": "rc_followup",
+  "exit": 1,
+  "failure": "Native targeted repair_net_cmd crashed in buffer insertion; no final physical proposal accepted.",
+  "source_unchanged": true,
+  "replacement": "Explicit supported insert_buffer API: two noninverting clkbuf16 buffers for only leaf8/9, seeded in SRAM-row corridors; data12 BUF1->BUF2 retained. Needs legalization, phase/PG validation, new routes/RC/timing."
+}

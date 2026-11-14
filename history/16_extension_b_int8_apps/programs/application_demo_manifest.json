@@ -1,0 +1,25 @@
+{
+  "words": 2359,
+  "checks": 132,
+  "custom_instructions": 548,
+  "applications": [
+    {
+      "app": "CHAIN_INT8",
+      "case": "alternating_extremes"
+    },
+    {
+      "app": "FIR8_Q15",
+      "case": "random"
+    },
+    {
+      "app": "IIR1_Q15",
+      "case": "alternating"
+    },
+    {
+      "app": "FFT16_Q15",
+      "case": "complex_tone"
+    }
+  ],
+  "success_text": "APP OK\r\n",
+  "physical_benchmark_run": false
+}

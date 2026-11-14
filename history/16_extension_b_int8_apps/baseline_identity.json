@@ -1,0 +1,21 @@
+{
+  "rtl": {
+    "alu.sv": "4a30df8a7a8d3d08fe6f056fbc436c0e30b551b2e43ec7be7fb27baaba9a8215",
+    "branch_compare.sv": "4b8412982e0af35eafa0d7effcacf0b8ba37bc9538e3e17d88543164935c0eef",
+    "control_fsm.sv": "311f645880de90797e7404d7af778edefb41b8f3bd6e7dfe3526dcef5c1310b9",
+    "custom_exec.sv": "3f3db3a16e52f54fff68422bd072c7f479623787b573ace16586ca7791e0c06a",
+    "decoder.sv": "b21d4821816614b24bf9d18ccdd1ab645a71404f6127b14570dbb05eaad2cb23",
+    "fault_v_cpu.sv": "868813aac02c59b8ac8d52ed6881232a8edddbf264be158cd0842fbf7f02374f",
+    "fault_v_io.sv": "b20d76f181ed3b15266bbbb529b929590634bd28958178e7faa368a7f2f72700",
+    "fault_v_memory.sv": "e7c1c07e05c550fb6759e6e774f8ae21e2cf20d24e28f64a7fe9b42c00170599",
+    "fault_v_pkg.sv": "5fbe434b82e99eae2364958e25ad68e47a641042911ae0f483f20258fc9debc8",
+    "fault_v_soc.sv": "1f4bdf956823ad3c2d9f35ead04ccb610577e15499d1b4d956eaab7e8b7095f7",
+    "imm_gen.sv": "43a53e3e78666a4a8a86d2507f07c383fd5a49509a1793b69ca06fb5274309d6",
+    "load_extract.sv": "589cece3fab85bd7e5428349054a9c46fc6992a84d624add0cfb347f3141539e",
+    "pc_reg.sv": "064722ed9b68651f439c253ac851a1b27a63c9f2da32ff41d46b2eba7389c5fa",
+    "regfile.sv": "3370e26757d0ccd07e612b197734b5e42c8053bd0914589e23384802868e58a6",
+    "store_align.sv": "d4fa0f3521b1d6b952cc79c13fc967d7c977ac222d74367231fd763b523b3d64",
+    "uart_tx.sv": "e62571d15abc9174c8322e533562d750bf2ae6fd299ed07dc11708e12e40d6c4"
+  },
+  "baseline": "XFaultVDSP v1.1 extension_a"
+}

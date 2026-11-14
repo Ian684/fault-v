@@ -1,0 +1,59 @@
+{
+  "accepted": false,
+  "pass": false,
+  "source_sha256": "e5a155efe5e19c8276968063c47a6b918cce2c58058006255a2ee665fbe21426",
+  "known_source_shorts_detected": 2,
+  "candidate": null,
+  "trials": [
+    {
+      "shift": 0,
+      "y": 0,
+      "connected": true,
+      "local_markers": 11,
+      "new_markers": 7
+    },
+    {
+      "shift": 460,
+      "y": 0,
+      "connected": true,
+      "local_markers": 13,
+      "new_markers": 9
+    },
+    {
+      "shift": -460,
+      "y": 0,
+      "connected": true,
+      "local_markers": 12,
+      "new_markers": 8
+    },
+    {
+      "shift": 920,
+      "y": 0,
+      "connected": true,
+      "local_markers": 19,
+      "new_markers": 15
+    },
+    {
+      "shift": -920,
+      "y": 0,
+      "connected": true,
+      "local_markers": 15,
+      "new_markers": 11
+    },
+    {
+      "shift": 1380,
+      "y": 0,
+      "connected": true,
+      "local_markers": 11,
+      "new_markers": 7
+    },
+    {
+      "shift": -1380,
+      "y": 0,
+      "connected": true,
+      "local_markers": 15,
+      "new_markers": 11
+    }
+  ],
+  "scope": "Bounded manual local layer detour on net4947 only. Existing codec asserts preserve every other primitive, net, cell, graph, PG, guide and obstruction. The two targeted original shorts are required negative controls; candidate must remove exactly those without adding any local marker and preserve actual target-net metal connectivity. Native antenna and full-chip physical/RC/TT/DRC gates remain mandatory; no Week24 acceptance."
+}

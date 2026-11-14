@@ -1,0 +1,14 @@
+{
+  "scripts/drt_antenna_guarded.tcl": {
+    "archived_source": "reports/antenna_model/debug_smoother_20261028/source_before_reset/drt_antenna_guarded.tcl",
+    "actual_trial_sha256": "2b3a9fe800256914adb6d9150b2c3af95e095374b492227f93d6859ecc40945e"
+  },
+  "scripts/run_antenna_guarded.sh": {
+    "archived_source": "reports/antenna_model/debug_smoother_20261028/source_before_reset/run_antenna_guarded.sh",
+    "actual_trial_sha256": "0b6bb3b5b78cb63afaa4b352dd3154e8cb5bc450ec3c609b63962347f3160c62"
+  },
+  "scripts/antenna_checkpoint_pairs.py": {
+    "archived_source": "reports/antenna_model/debug_smoother_20261028/source_before_reset/antenna_checkpoint_pairs.py",
+    "actual_trial_sha256": "0426ea4f426818459dece0a5f237c3d30f5e4b8d98e39fc890ad5663c3842c1a"
+  }
+}

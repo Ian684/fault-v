@@ -1,0 +1,12 @@
+{
+  "run": "global_antenna_upper_20261028_210320",
+  "accepted": false,
+  "native_exit": 137,
+  "zero_overflow_not_proven": true,
+  "bounded_control_timeout_seconds": 600,
+  "orphan_container_observed_after_cli_exit": true,
+  "OOMKilled_before_cleanup": false,
+  "manual_cleanup_intentional": true,
+  "reason": "600-second control ended without a final zero-overflow proof; container remained running after CLI exit and was intentionally stopped to release CPU. Do not reuse this runner without container cleanup. No detailed-route candidate or guide transfer selected.",
+  "time_Taipei": "2026-10-28T21:14:36.163535+08:00"
+}

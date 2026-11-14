@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/rtl/fault_v_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/comparison/shared_unit.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec_shared
+INFO: [VRFC 10-311] analyzing module shared_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/comparison/parallel_unit.sv" into library work
+INFO: [VRFC 10-311] analyzing module custom_exec_parallel
+INFO: [VRFC 10-311] analyzing module parallel_mul16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/extension_a/verify/tb_unit_comparison.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_unit_comparison

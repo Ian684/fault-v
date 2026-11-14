@@ -1,0 +1,9 @@
+{
+  "metrics": {},
+  "odb": "/work/routing/runs/routed_pin_spread_reguide/1-openroad-detailedrouting/drt_iter3.odb",
+  "nl": "/work/routing/runs/global_pin_spread/final/nl/fault_v_asic_top.nl.v",
+  "pnl": "/work/routing/runs/global_pin_spread/final/pnl/fault_v_asic_top.pnl.v",
+  "sdc": "/work/routing/runs/global_pin_spread/final/sdc/fault_v_asic_top.sdc",
+  "json_h": "/work/routing/runs/global_pin_spread/final/json_h/top.h.json",
+  "vh": "/work/routing/runs/global_pin_spread/final/vh/fault_v_asic_top.vh"
+}

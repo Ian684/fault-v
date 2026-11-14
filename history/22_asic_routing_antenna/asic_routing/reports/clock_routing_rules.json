@@ -1,0 +1,61 @@
+{
+  "clock_network_nets": 444,
+  "cleared_clock_ndrs": 13,
+  "changes": [
+    {
+      "net": "clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clk",
+      "old_rule": "CTS_NDR_0"
+    },
+    {
+      "net": "clknet_0_clk",
+      "old_rule": "CTS_NDR_0"
+    },
+    {
+      "net": "clknet_0_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clknet_1_0_1_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clknet_1_1_1_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clknet_2_0_0_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clknet_2_1_0_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clknet_2_2_0_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "clknet_2_3_0_clk_regs",
+      "old_rule": "CTS_NDR_1"
+    },
+    {
+      "net": "delaynet_0_core_clk",
+      "old_rule": "CTS_NDR_0"
+    },
+    {
+      "net": "delaynet_1_core_clk",
+      "old_rule": "CTS_NDR_0"
+    },
+    {
+      "net": "delaynet_2_core_clk",
+      "old_rule": "CTS_NDR_0"
+    }
+  ],
+  "source_sha256": "a005cbdd879bb2e57f9e2f769108f9de95de436434d54f3a87d86ebf2f805ba9",
+  "derived_sha256": "02817336b471d875a05b2bd87028d30fcfceaaecc357e016335e925d084932a9",
+  "scope": "Only net non-default routing-rule assignments removed; no cells, pins, logical connections or SDC changed."
+}

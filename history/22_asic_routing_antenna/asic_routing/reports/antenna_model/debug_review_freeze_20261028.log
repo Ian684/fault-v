@@ -1,0 +1,218 @@
+{
+  "accepted": false,
+  "run": "routed_antenna_residual_20261027_133836",
+  "observed_utc": "2026-10-28T03:51:12.710228+00:00",
+  "current_cycle": 3,
+  "cycle_summary": [
+    {
+      "cycle": 0,
+      "complete_iterations": 60,
+      "first_DRC": 337,
+      "best_DRC": 17,
+      "last_DRC": 17,
+      "elapsed_sec_logged": 26076,
+      "cpu_sec_logged": 116702,
+      "average_used_cores": 4.475456358337168,
+      "elapsed_sec_without_new_best": 9298,
+      "longest_iterations": [
+        {
+          "cycle": 0,
+          "iteration": 63,
+          "phase": "stubborn tiles iteration",
+          "DRC": 17,
+          "cpu_sec": 42303,
+          "elapsed_sec": 7133
+        },
+        {
+          "cycle": 0,
+          "iteration": 60,
+          "phase": "stubborn tiles iteration",
+          "DRC": 21,
+          "cpu_sec": 38128,
+          "elapsed_sec": 6964
+        },
+        {
+          "cycle": 0,
+          "iteration": 53,
+          "phase": "stubborn tiles iteration",
+          "DRC": 22,
+          "cpu_sec": 15089,
+          "elapsed_sec": 2845
+        }
+      ]
+    },
+    {
+      "cycle": 1,
+      "complete_iterations": 65,
+      "first_DRC": 6899,
+      "best_DRC": 26,
+      "last_DRC": 26,
+      "elapsed_sec_logged": 31566,
+      "cpu_sec_logged": 104155,
+      "average_used_cores": 3.2995945004118354,
+      "elapsed_sec_without_new_best": 11450,
+      "longest_iterations": [
+        {
+          "cycle": 1,
+          "iteration": 64,
+          "phase": "stubborn tiles iteration",
+          "DRC": 26,
+          "cpu_sec": 24360,
+          "elapsed_sec": 3705
+        },
+        {
+          "cycle": 1,
+          "iteration": 62,
+          "phase": "stubborn tiles iteration",
+          "DRC": 29,
+          "cpu_sec": 19738,
+          "elapsed_sec": 3547
+        },
+        {
+          "cycle": 1,
+          "iteration": 60,
+          "phase": "stubborn tiles iteration",
+          "DRC": 32,
+          "cpu_sec": 19776,
+          "elapsed_sec": 3544
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "complete_iterations": 62,
+      "first_DRC": 2612,
+      "best_DRC": 31,
+      "last_DRC": 31,
+      "elapsed_sec_logged": 16968,
+      "cpu_sec_logged": 80520,
+      "average_used_cores": 4.745403111739745,
+      "elapsed_sec_without_new_best": 9116,
+      "longest_iterations": [
+        {
+          "cycle": 2,
+          "iteration": 60,
+          "phase": "stubborn tiles iteration",
+          "DRC": 31,
+          "cpu_sec": 24277,
+          "elapsed_sec": 3885
+        },
+        {
+          "cycle": 2,
+          "iteration": 62,
+          "phase": "stubborn tiles iteration",
+          "DRC": 31,
+          "cpu_sec": 23924,
+          "elapsed_sec": 3812
+        },
+        {
+          "cycle": 2,
+          "iteration": 55,
+          "phase": "stubborn tiles iteration",
+          "DRC": 34,
+          "cpu_sec": 8999,
+          "elapsed_sec": 1416
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "complete_iterations": 34,
+      "first_DRC": 1259,
+      "best_DRC": 36,
+      "last_DRC": 36,
+      "elapsed_sec_logged": 4250,
+      "cpu_sec_logged": 7630,
+      "average_used_cores": 1.795294117647059,
+      "elapsed_sec_without_new_best": 1135,
+      "longest_iterations": [
+        {
+          "cycle": 3,
+          "iteration": 13,
+          "phase": "guides tiles iteration",
+          "DRC": 80,
+          "cpu_sec": 114,
+          "elapsed_sec": 1730
+        },
+        {
+          "cycle": 3,
+          "iteration": 11,
+          "phase": "optimization iteration",
+          "DRC": 140,
+          "cpu_sec": 396,
+          "elapsed_sec": 365
+        },
+        {
+          "cycle": 3,
+          "iteration": 16,
+          "phase": "stubborn tiles iteration",
+          "DRC": 39,
+          "cpu_sec": 2288,
+          "elapsed_sec": 319
+        }
+      ]
+    }
+  ],
+  "frozen_checkpoint": "reports/antenna_model/runtime_20261028_035111/checkpoint.odb",
+  "frozen_checkpoint_sha256": "8a63d7e982f322bcaa5700cf3c5b6a6c46386aa395868c2036ebd6327c922baa",
+  "frozen_checkpoint_native_DRC": 36,
+  "frozen_checkpoint_iteration": 35,
+  "frozen_report_sha256": "073e4eb0a180082a2852573ce24b6f5efbb920a2c299a1c37e0cbad19ebc2c60",
+  "DRC_by_type": {
+    "Short": 23,
+    "Metal Spacing": 13
+  },
+  "DRC_by_layer": {
+    "met1": 15,
+    "met2": 20,
+    "met4": 1
+  },
+  "top_10um_tiles": [
+    {
+      "origin_um": [
+        1580,
+        640
+      ],
+      "DRC": 18
+    },
+    {
+      "origin_um": [
+        1580,
+        630
+      ],
+      "DRC": 13
+    },
+    {
+      "origin_um": [
+        1620,
+        620
+      ],
+      "DRC": 2
+    },
+    {
+      "origin_um": [
+        1600,
+        630
+      ],
+      "DRC": 1
+    },
+    {
+      "origin_um": [
+        1570,
+        620
+      ],
+      "DRC": 1
+    },
+    {
+      "origin_um": [
+        1610,
+        630
+      ],
+      "DRC": 1
+    }
+  ],
+  "same_exact_markers_across_last_reports": 31,
+  "compared_reports": 3,
+  "scope": "Native log/report diagnostic only, not independent DRC or acceptance. Reports are matched to their actual repair cycle to avoid stale overwritten snapshot labels."
+}
+DIAGNOSTIC_DIRECTORY E:\Codex\Fault_V_W24_Transfer\work\fault-v-asic\routing\reports\antenna_model\runtime_20261028_035111

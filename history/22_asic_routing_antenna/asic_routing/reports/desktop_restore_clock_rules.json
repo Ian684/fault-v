@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "source": "inputs/fault_v_asic_top.odb",
+  "source_sha256": "a005cbdd879bb2e57f9e2f769108f9de95de436434d54f3a87d86ebf2f805ba9",
+  "restored": "inputs/standard_clock_rules.odb",
+  "restored_sha256": "02817336b471d875a05b2bd87028d30fcfceaaecc357e016335e925d084932a9",
+  "original_expected_sha256": "02817336b471d875a05b2bd87028d30fcfceaaecc357e016335e925d084932a9",
+  "generator": "scripts/prepare_clock_rules.py",
+  "generator_sha256": "c6c341bab28f88d906edeb45b952bdaccb39c99a119202365be03df174a1c20f",
+  "restored_utc": "2026-10-26T10:00:13.213999+00:00",
+  "scope": "Recover the missing historical standard-clock routing input with the frozen original generator. Restored ODB matches its original recorded SHA-256 exactly. Original source, clock-rules receipt and initial_state.json are unchanged. Final accepted design is untouched."
+}

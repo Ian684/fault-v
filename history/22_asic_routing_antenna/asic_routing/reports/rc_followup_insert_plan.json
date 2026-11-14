@@ -1,0 +1,82 @@
+{
+  "accepted": false,
+  "source": "inputs/rc_followup_source.odb",
+  "source_sha256": "4a9dfbb50af31a996039877eed2354af17f700fee4bb2b4502a4f70667465736",
+  "resize": [
+    [
+      "_28435_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_30256_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_30378_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_30704_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_30744_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_30964_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_32730_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_35653_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_37410_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_38580_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_40253_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ],
+    [
+      "_43160_",
+      "sky130_fd_sc_hd__buf_1",
+      "sky130_fd_sc_hd__buf_2"
+    ]
+  ],
+  "new_buffers": [
+    [
+      "eco_clock_remote_a",
+      "sky130_fd_sc_hd__clkbuf_16"
+    ],
+    [
+      "eco_clock_remote_b",
+      "sky130_fd_sc_hd__clkbuf_16"
+    ]
+  ],
+  "clock_sinks": [
+    "clkbuf_leaf_8_clk/A",
+    "clkbuf_leaf_9_clk/A"
+  ],
+  "method": "Two noninverting clock repeaters for only these two remote leaves; new actual route/RC is mandatory. The prior hidden repair_net_cmd trial crashed, rejected."
+}

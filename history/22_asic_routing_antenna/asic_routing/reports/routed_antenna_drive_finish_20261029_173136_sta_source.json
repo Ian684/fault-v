@@ -1,0 +1,5 @@
+{
+  "scope": "routed",
+  "spef": "runs/routed_antenna_drive_finish_20261029_173136/final/spef/nom/fault_v_asic_top.nom.spef",
+  "source_netlist": "runs/routed_antenna_drive_finish_20261029_173136/final/nl/fault_v_asic_top.nl.v"
+}

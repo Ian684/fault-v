@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 10 19:31:57 2026
+# Process ID: 29800
+# Current directory: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim
+# Command line: xsim.exe -log verification_results.log -mode tcl -source {xsim.dir/verification_suite_behav/xsim_script.tcl}
+# Log file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim/verification_results.log
+# Journal file: <HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/sim\xsim.jou
+# Running On: <host>, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 12, Host memory: 16636 MB
+#-----------------------------------------------------------
+source xsim.dir/verification_suite_behav/xsim_script.tcl
+# xsim {verification_suite_behav} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS mode=0 case=0 repeat=0 commits=4 data=0 status=00000000
+PASS mode=1 case=0 repeat=0 commits=4 data=0 status=00000000
+PASS mode=0 case=50 repeat=0 commits=4 data=0 status=00000000
+PASS mode=1 case=50 repeat=0 commits=4 data=0 status=00000000
+PASS mode=0 case=100 repeat=0 commits=6 data=0 status=00000000
+PASS mode=1 case=100 repeat=0 commits=6 data=0 status=00000000
+PASS mode=0 case=150 repeat=0 commits=5 data=0 status=00000000
+PASS mode=0 case=200 repeat=0 commits=5 data=0 status=00000000
+PASS mode=1 case=150 repeat=0 commits=5 data=0 status=00000000
+PASS mode=0 case=250 repeat=0 commits=3 data=0 status=00000000
+PASS mode=0 case=300 repeat=0 commits=3 data=0 status=00000000
+PASS mode=1 case=200 repeat=0 commits=5 data=0 status=00000000
+PASS mode=0 case=350 repeat=0 commits=4 data=0 status=00000000
+PASS mode=1 case=250 repeat=0 commits=3 data=0 status=00000000
+PASS mode=0 case=400 repeat=0 commits=3 data=0 status=00000000
+PASS mode=0 case=450 repeat=0 commits=4 data=0 status=00000000
+PASS mode=1 case=300 repeat=0 commits=3 data=0 status=00000000
+PASS mode=0 case=500 repeat=0 commits=5 data=0 status=00000000
+PASS mode=1 case=350 repeat=0 commits=4 data=0 status=00000000
+PASS mode=0 case=550 repeat=0 commits=6 data=2 status=00000000
+PASS mode=1 case=400 repeat=0 commits=3 data=0 status=00000000
+PASS mode=0 case=600 repeat=0 commits=7 data=2 status=00000000
+PASS mode=1 case=450 repeat=0 commits=4 data=0 status=00000000
+PASS mode=0 case=650 repeat=0 commits=2 data=0 status=00000000
+PASS mode=1 case=500 repeat=0 commits=5 data=0 status=00000000
+PASS mode=0 case=674 repeat=0 commits=95 data=13 status=00000001
+PASS mode=0 case=674 repeat=1 commits=95 data=13 status=00000001
+PASS mode=1 case=550 repeat=0 commits=6 data=2 status=00000000
+PASS mode=0 case=675 repeat=0 commits=311 data=2 status=00000001
+PASS mode=0 case=675 repeat=1 commits=311 data=2 status=00000001
+PASS mode=0 case=676 repeat=0 commits=27 data=2 status=00000001
+PASS mode=0 case=676 repeat=1 commits=27 data=2 status=00000001
+PASS mode=0 case=677 repeat=0 commits=22 data=4 status=00000001
+PASS mode=0 case=677 repeat=1 commits=22 data=4 status=00000001
+PASS mode=1 case=600 repeat=0 commits=7 data=2 status=00000000
+PASS mode=0 case=678 repeat=0 commits=719 data=193 status=00000001
+PASS mode=1 case=650 repeat=0 commits=2 data=0 status=00000000
+PASS mode=1 case=674 repeat=0 commits=95 data=13 status=00000001
+PASS mode=1 case=674 repeat=1 commits=95 data=13 status=00000001
+PASS mode=0 case=678 repeat=1 commits=719 data=193 status=00000001
+PASS mode=0 case=679 repeat=0 commits=19 data=9 status=00000001
+PASS mode=0 case=679 repeat=1 commits=19 data=9 status=00000001
+COVERAGE mode=0 names=40/40 bitmap=ffffffffff runs=686
+PASS mode=1 case=675 repeat=0 commits=311 data=2 status=00000001
+PASS mode=1 case=675 repeat=1 commits=311 data=2 status=00000001
+PASS mode=1 case=676 repeat=0 commits=27 data=2 status=00000001
+PASS mode=1 case=676 repeat=1 commits=27 data=2 status=00000001
+PASS mode=1 case=677 repeat=0 commits=22 data=4 status=00000001
+PASS mode=1 case=677 repeat=1 commits=22 data=4 status=00000001
+PASS mode=1 case=678 repeat=0 commits=719 data=193 status=00000001
+PASS mode=1 case=678 repeat=1 commits=719 data=193 status=00000001
+PASS mode=1 case=679 repeat=0 commits=19 data=9 status=00000001
+PASS mode=1 case=679 repeat=1 commits=19 data=9 status=00000001
+COVERAGE mode=1 names=40/40 bitmap=ffffffffff runs=686
+ALL 1372 ISA AND PROGRAM RUNS PASSED
+$finish called at time : 618327 ns : File "<HOME>/Documents/Codex/2026-09-28/https-chatgpt-com-share-6aba66e3-8910/outputs/peripheral_z2/verify/tb_verification_suite.sv" Line 127
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Oct 10 19:32:04 2026...

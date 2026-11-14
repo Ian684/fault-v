@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "routed_run": "routed_antenna_drive_finish_20261029_173136",
+  "accepted_odb_sha256": "33646a000d824d8c734146d25f67dcfac4d80cc91450d7b75e8bb4f63622ba52",
+  "checked_utc": "2026-10-29T09:44:54.952445+00:00",
+  "visual_inspection": "Actual newly rendered PNG opened with view_image. Both signal/clock and CTS-clock panels, all18 SRAM labels, axes, titles and six-layer legend are legible and unclipped. Plot uses the final accepted routed centerlines; PG geometry, pin shapes and via polygons are omitted as documented.",
+  "png_sha256": "08cb7021c90a71fa9e3c6f18ec3a926681829809acfe5fb258ac27fff3ca4f88",
+  "svg_sha256": "33d670b5149fca3d09505ecaea8070faeb2b90245a59e106225319f3469b6fdb",
+  "png_dimensions": [
+    2423,
+    1741
+  ],
+  "wire_segments_sha256": "b09baaf438bc61d791c461c21fee447d594f7b5aa5e1827b9eb50f6fd82d857f"
+}

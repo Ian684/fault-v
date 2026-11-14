@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "old_engine": "OpenROAD embedded STA 2.7.0",
+  "new_engine": "OpenSTA 3.1.0",
+  "loads": 32,
+  "old_slew_ns_range": [
+    0.468540937,
+    3498.222900391
+  ],
+  "new_slew_ns_range": [
+    0.468540996,
+    0.468540996
+  ],
+  "scope": "Tool regression, not a chip timing pass"
+}

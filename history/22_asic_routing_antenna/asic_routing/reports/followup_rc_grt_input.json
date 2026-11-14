@@ -1,0 +1,9 @@
+{
+  "accepted": false,
+  "source": "inputs/followup_rc_partial.odb",
+  "source_sha256": "2e741dba9c3f988a351e9fbe6222de6932c807d2ee82f6e5494de3d9c5825bc0",
+  "derived": "inputs/followup_rc_grt.odb",
+  "derived_sha256": "cb0067968a0e56abe9ae2359a0fc266d63d2503d4c15405da3fd8c2b8319ebcf",
+  "removed_signal_clock_wires": 41295,
+  "scope": "Separate route-free GRT copy only; original partial-route database remains intact. After GRT, copy verified guides only back to the partial database."
+}

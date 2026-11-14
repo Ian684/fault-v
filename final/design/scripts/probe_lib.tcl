@@ -1,0 +1,6 @@
+read_liberty /work/design/macros/vendor/sky130_sram_2kbyte_1rw1r_32x512_8_TT_1p8V_25C.lib
+help report_lib_cell
+help get_property
+help get_lib_pins
+report_lib_cell sky130_sram_2kbyte_1rw1r_32x512_8
+exit
